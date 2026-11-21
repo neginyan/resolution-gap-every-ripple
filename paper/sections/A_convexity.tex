@@ -1,0 +1,23 @@
+\section{The chord lemma: inventory and checks}
+\label{app:A}
+
+\emph{The proof} of Lemma~\ref{lem:chord} is in Sec.~\ref{sec:sandwich}; here we record what it is applied to.
+
+\emph{The inventory.}
+Table~\ref{tab:inventory} lists, for each line of~\cite{I}, the basic functions of $\eta$ that it contains.
+Each loss and target line is a sum of products of the six functions of Lemma~\ref{lem:chord} (and of $1+\eta$) with non-negative $\eta$-free coefficients; each gain is $\eta$-free or carries the sandwich factor fl (and, for P2z, its remainder ringf).
+The table is not written by hand: a parser reads the source of the lines and types every sub-expression by the grammar of Sec.~\ref{sec:sandwich}, and the table is its output \status{computer-assisted}.
+\begin{itemize}
+\item The types: $\eta$-free and non-negative (numbers and the state quantities $r,B,\kappa,P,\mu,b,k_E,g_s$, which do not involve $\eta$); \emph{convex} (non-negative, non-decreasing, convex in $\eta$): $\eta$, sums and products of convex and $\eta$-free terms, powers $\ge1$, division by $\eta$-free positive quantities or by powers of $1-\eta$, and $\sqrt{\mathrm{CZ}/c}$; the sandwich factor $\mathrm{fl}=1/(1+\eta)$; $\mathrm{ringf}=1-(\text{convex})$; anything else is rejected ($1-\eta$ in a numerator, a convex term in a denominator, the square root of another convex term).
+\item The checks: every loss and target line is convex, every gain is $\eta$-free, $\mathrm{fl}\times$($\eta$-free) or $\mathrm{ringf}\cdot\mathrm{fl}\times$($\eta$-free); the list agrees with a hand-written one. The first hand-written list had three wrong rows (N4G does not contain $\eta$ itself; B2s and uB2s contain $\sqrt{\mathrm{CZ}}$ and not $\eta^2/(1-\eta)^2$); they were corrected.
+\item Power: a loss line multiplied by $1-\eta$ (N2), $1+\eta$ replaced by $1/(1+\eta)$ (A1w), and $\sqrt\eta$ in d3, are rejected.
+\item Numbers: the $83$ products of up to three of the six functions, on $201$ points of $\lambda\in[\tfrac45,1]$, lie under their chords (smallest difference $-9\times10^{-16}$, rounding); the loss lines of~\cite{I} at $60$ random states for each of $\ell=55.26$, $960.8$, $10^6$ and five values of $\lambda$ ($27\,105$ comparisons) lie under their chords (smallest relative difference $-7\times10^{-64}$, rounding of the decimal arithmetic).
+\end{itemize}
+
+\input{sections/A_inventory_table}
+
+\emph{The split where the sandwich meets a remainder.}
+P2z is $\mathrm{ringf}\cdot\mathrm{fl}\cdot G/(\mu(2+r)4r)$ with $\mathrm{ringf}=1-q$, $q=K^2(1+\eta)/(8(1-\eta)B)$.
+With fl replaced by $\lambda$: $\lambda(1-q)\ge\lambda-q$, and $q$ is a remainder of the chord lemma (it contains $(1+\eta)/(1-\eta)$).
+The same split is used in $\theta_0=\sqrt{(1-q/\lambda)(1-z_2/2)}$ of step (m1), which is the ratio of the gain $\lambda-q$ to the target $\lambda$.
+d1 and d3 are split as in Sec.~\ref{sec:sandwich}.

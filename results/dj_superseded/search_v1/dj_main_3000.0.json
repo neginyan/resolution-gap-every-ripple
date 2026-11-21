@@ -1,0 +1,63 @@
+{
+ "ell": 3000.0,
+ "smallest log F_full": 0.004604866657018647,
+ "smallest (F_full^2 - 1) ell": 27.75682020568061,
+ "log F needed by the claim (c = 10)": 0.0016638950463373347,
+ "below the claim": false,
+ "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+  6.611212791758896,
+  -1501.256930492433,
+  3002.9980726143804,
+  -7.610876562034874,
+  0.0
+ ],
+ "mu": 743.3840422693719,
+ "ell/4 - mu": 6.615957730628111,
+ "log r + ell/2": -1.2569304924329572,
+ "log b + ell": 2.998072614380362,
+ "log kappa": -7.610876562034874,
+ "log(r sqrt(mu)/(ell^2 sigma))": 1486.035940768146,
+ "log(B/2.5e10)": 2979.0559309525656,
+ "log(kappa sigma/b)": -10.60894917641508,
+ "at the minimiser": {
+  "option-branch": "XB1",
+  "log a": -1497.9516607460419,
+  "log(a/sigma)": 1502.0483392539581,
+  "log P": -735.3865351164924,
+  "log f of each option-branch there": {
+   "Fz": -0.6883741379754156,
+   "XB2": -Infinity,
+   "XB1": 0.004604866657018647
+  },
+  "the ten largest lines / target (gamma_1)": {
+   "hFz": 0.502054303731383,
+   "P2z": 0.5017163848554616,
+   "P1": 0.0005068799344345354,
+   "P4z": 0.0001689610586696547,
+   "cKz": 0.0001689557687006708,
+   "P3z": 0.0,
+   "N1": -0.0,
+   "N2": -0.0,
+   "N3": -0.0,
+   "N4": -0.0
+  }
+ },
+ "smallest log F per family (before refinement)": {
+  "F1 corner": 0.005163254574881648,
+  "F2 global": 0.9530383790020096,
+  "E1 small r, b at the lower end": 186.08796161920026,
+  "E2 b at the lower end": 18.742299996581544,
+  "E3 large b": 4.362690267233488,
+  "E4 tails of mu": 2.5167451073896245,
+  "E5 tails of kappa": 0.006460763384211532,
+  "N1 narrow": 3.4728251459123016,
+  "N2 low mu": 7.145321122024597,
+  "N3 DF region": 11.183152698514066,
+  "N4 on the line": 2.522158578032207,
+  "N5 large kappa": 1.25028213391397,
+  "F4 seeds": 0.004604866657018647
+ },
+ "states evaluated": 49471,
+ "nan": 0,
+ "seconds": 100.1
+}

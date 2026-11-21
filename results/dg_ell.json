@@ -1,0 +1,583 @@
+{
+ "plan": "DG_\u63a2\u7d22\u8a08\u753b.md",
+ "ells": {
+  "55.26": {
+   "states evaluated (point margin search)": 20380,
+   "min point margin by family (before refinement)": {
+    "F4 random": 0.18509691962045763,
+    "F1-F3 seeds": 0.7560868940836554
+   },
+   "min point margin of the table (refined; all stages)": 0.04574269346113339,
+   "negative point margins": 0,
+   "states evaluated (f* search, mu >= 1e-3)": 20210,
+   "f*_min": 1.095004668944458,
+   "lowest states (by f*)": [
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      2.4813,
+      -29.9298,
+      51.91,
+      -7.7143
+     ],
+     "f* (room, units of the target)": 1.095004668944458,
+     "point margin of the table": 0.04564073643901948,
+     "log(r/sigma)": 25.33016264037843,
+     "log b": -58.61000114737975,
+     "mu / ell": 0.2163761825322871,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0946388763585335,
+      "remainders / target": 9.335942915381235,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        9.33594291356729
+       ],
+       [
+        "hneg1",
+        1.4108665752898326e-09
+       ],
+       [
+        "N1",
+        4.027362433499967e-10
+       ],
+       [
+        "N3",
+        3.1538385248813446e-13
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.03512232072583368,
+       "P2z": 0.49981784809547375,
+       "P3z": 7.884596312197506e-14,
+       "P4z": 0.011017403396644554,
+       "hFz": 0.5372813994679008,
+       "cKz": 0.01139990467260184
+      },
+      "target lines (share)": {
+       "d1": 9.925772793131115e-16,
+       "d2": 0.9999999999999989,
+       "d3": 2.3677904441763444e-27,
+       "d4": 3.4937494181464616e-26
+      },
+      "log A*": -55.441777226712304
+     }
+    },
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      2.4807,
+      -29.9029,
+      51.9386,
+      -7.7132
+     ],
+     "f* (room, units of the target)": 1.0950690900551383,
+     "point margin of the table": 0.04564672342413568,
+     "log(r/sigma)": 25.357091608299463,
+     "log b": -58.581364464791186,
+     "mu / ell": 0.21624923004158605,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0946725807384872,
+      "remainders / target": 9.335942915382939,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        9.33594291356729
+       ],
+       [
+        "hneg1",
+        1.4042316843982292e-09
+       ],
+       [
+        "N1",
+        4.1108060697281304e-10
+       ],
+       [
+        "N3",
+        3.0917407847109245e-13
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.0353705593424113,
+       "P2z": 0.5001112739758858,
+       "P3z": 7.729351961771462e-14,
+       "P4z": 0.01081893529406456,
+       "hFz": 0.5372813994679504,
+       "cKz": 0.011090412658097782
+      },
+      "target lines (share)": {
+       "d1": 1.0013011257525273e-15,
+       "d2": 0.9999999999999989,
+       "d3": 2.384525586532501e-27,
+       "d4": 3.4958004783533756e-26
+      },
+      "log A*": -55.441777226712304
+     }
+    },
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      2.4846,
+      -29.9115,
+      51.865,
+      -7.7218
+     ],
+     "f* (room, units of the target)": 1.0950742401988047,
+     "point margin of the table": 0.045686959299640346,
+     "log(r/sigma)": 25.348459026550138,
+     "log b": -58.65495734884945,
+     "mu / ell": 0.21709571425347146,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0946929218920285,
+      "remainders / target": 9.335942915367589,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        9.335942913567292
+       ],
+       [
+        "hneg1",
+        1.374312056318969e-09
+       ],
+       [
+        "N1",
+        4.256340815786047e-10
+       ],
+       [
+        "N3",
+        3.2429190322472475e-13
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.03678119843168561,
+       "P2z": 0.49816127556591117,
+       "P3z": 8.107297580612328e-14,
+       "P4z": 0.010634220302418401,
+       "hFz": 0.5372813994679354,
+       "cKz": 0.011834828123996886
+      },
+      "target lines (share)": {
+       "d1": 9.757459366537614e-16,
+       "d2": 0.9999999999999991,
+       "d3": 2.479624591464394e-27,
+       "d4": 3.482169901061678e-26
+      },
+      "log A*": -55.441777226712304
+     }
+    },
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      2.4808,
+      -29.878,
+      51.9962,
+      -7.712
+     ],
+     "f* (room, units of the target)": 1.095116527074915,
+     "point margin of the table": 0.0456387543505806,
+     "log(r/sigma)": 25.381960065779214,
+     "log b": -58.52384038057327,
+     "mu / ell": 0.21625556523957323,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0947110175957246,
+      "remainders / target": 9.335942915439805,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        9.33594291356729
+       ],
+       [
+        "hneg1",
+        1.4507712955690066e-09
+       ],
+       [
+        "N1",
+        4.21410401240927e-10
+       ],
+       [
+        "N3",
+        3.0533809081595003e-13
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.035811298807082934,
+       "P2z": 0.5000966232364535,
+       "P3z": 7.633452270392972e-14,
+       "P4z": 0.01103937770323054,
+       "hFz": 0.5372813994679848,
+       "cKz": 0.010482318380896367
+      },
+      "target lines (share)": {
+       "d1": 1.0474299983118887e-15,
+       "d2": 0.9999999999999989,
+       "d3": 2.414238278739277e-27,
+       "d4": 3.4956980690205814e-26
+      },
+      "log A*": -55.441777226712304
+     }
+    },
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      2.4684,
+      -29.6097,
+      52.4748,
+      -7.6806
+     ],
+     "f* (room, units of the target)": 1.0971622510229446,
+     "point margin of the table": 0.04630598894915796,
+     "log(r/sigma)": 25.650336477794095,
+     "log b": -58.04521374257882,
+     "mu / ell": 0.21360509125437546,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0964722540886294,
+      "remainders / target": 9.335942915613094,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        9.335942913567289
+       ],
+       [
+        "hneg1",
+        1.5640429089757075e-09
+       ],
+       [
+        "N1",
+        4.815028276708119e-10
+       ],
+       [
+        "N3",
+        2.3326145743051123e-13
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.035779681160877076,
+       "P2z": 0.5063019673234681,
+       "P3z": 5.831536435756875e-14,
+       "P4z": 0.010406797516111163,
+       "hFz": 0.5372813994683321,
+       "cKz": 0.0067024086197825135
+      },
+      "target lines (share)": {
+       "d1": 1.291373644851416e-15,
+       "d2": 0.9999999999999987,
+       "d3": 2.4121067619185525e-27,
+       "d4": 3.5390737055169883e-26
+      },
+      "log A*": -55.441777226712304
+     }
+    }
+   ],
+   "power: planted dips found (3 of 3 needed)": [
+    true,
+    true,
+    true
+   ],
+   "seconds": 1413
+  },
+  "100.0": {
+   "states evaluated (point margin search)": 20380,
+   "min point margin by family (before refinement)": {
+    "F4 random": 0.18434166815303216,
+    "F1-F3 seeds": 0.3625173162620508
+   },
+   "min point margin of the table (refined; all stages)": 2.8066313130980687e-05,
+   "negative point margins": 0,
+   "states evaluated (f* search, mu >= 1e-3)": 20326,
+   "f*_min": 1.0574775598092934,
+   "lowest states (by f*)": [
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      3.1304,
+      -53.088,
+      96.0505,
+      -9.3968
+     ],
+     "f* (room, units of the target)": 1.0574775598092934,
+     "point margin of the table": 0.027337512862516743,
+     "log(r/sigma)": 46.911974853252715,
+     "log b": -103.94950794585112,
+     "mu / ell": 0.22882298592090522,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.056127796212868,
+      "remainders / target": 16.791143582510884,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        16.791143582510873
+       ],
+       [
+        "hneg1",
+        8.673969354205346e-15
+       ],
+       [
+        "N1",
+        1.1250613880002267e-15
+       ],
+       [
+        "N3",
+        4.985472125337662e-23
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.01896987252592252,
+       "P2z": 0.5170269507769334,
+       "P3z": 1.246368031334411e-23,
+       "P4z": 0.007538836872261847,
+       "hFz": 0.507315005901045,
+       "cKz": 0.005277130136705137
+      },
+      "target lines (share)": {
+       "d1": 6.404335666607973e-26,
+       "d2": 1.0,
+       "d3": 3.529350469681499e-47,
+       "d4": 9.813631248785256e-46
+      },
+      "log A*": -99.81163110979566
+     }
+    },
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      3.1308,
+      -53.3097,
+      95.7898,
+      -9.4017
+     ],
+     "f* (room, units of the target)": 1.0578127253171057,
+     "point margin of the table": 0.027468556412585242,
+     "log(r/sigma)": 46.69025667213498,
+     "log b": -104.2101531062123,
+     "mu / ell": 0.2289214904201734,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0562661359200631,
+      "remainders / target": 16.791143582510642,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        16.79114358251063
+       ],
+       [
+        "hneg1",
+        8.42649715998598e-15
+       ],
+       [
+        "N1",
+        9.103747527474122e-16
+       ],
+       [
+        "N3",
+        5.62583189997147e-23
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.017149595809821814,
+       "P2z": 0.5168044750242125,
+       "P3z": 1.4064579749929024e-23,
+       "P4z": 0.008182368466305002,
+       "hFz": 0.5073150059010233,
+       "cKz": 0.0068146907187006285
+      },
+      "target lines (share)": {
+       "d1": 5.568750883593471e-26,
+       "d2": 1.0,
+       "d3": 3.1906874410215516e-47,
+       "d4": 9.80940846118035e-46
+      },
+      "log A*": -99.81163110979566
+     }
+    },
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      3.1321,
+      -53.3438,
+      95.6913,
+      -9.4021
+     ],
+     "f* (room, units of the target)": 1.057899475138505,
+     "point margin of the table": 0.027520319722820073,
+     "log(r/sigma)": 46.656214408886534,
+     "log b": -104.30866275173531,
+     "mu / ell": 0.2292303985791895,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0563292344246151,
+      "remainders / target": 16.79114358251088,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        16.79114358251087
+       ],
+       [
+        "hneg1",
+        8.132721172028586e-15
+       ],
+       [
+        "N1",
+        9.057794648517042e-16
+       ],
+       [
+        "N3",
+        5.890681847503876e-23
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.017355947902087644,
+       "P2z": 0.51610803545974,
+       "P3z": 1.4726704618759634e-23,
+       "P4z": 0.00803267175310021,
+       "hFz": 0.5073150059010377,
+       "cKz": 0.007517573408649544
+      },
+      "target lines (share)": {
+       "d1": 5.2838978231526e-26,
+       "d2": 1.0,
+       "d3": 3.229079309641896e-47,
+       "d4": 9.79618941899622e-46
+      },
+      "log A*": -99.81163110979566
+     }
+    },
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      3.1345,
+      -53.3477,
+      95.6718,
+      -9.4077
+     ],
+     "f* (room, units of the target)": 1.0580388843913844,
+     "point margin of the table": 0.027572369014442905,
+     "log(r/sigma)": 46.65233004307221,
+     "log b": -104.32824996974749,
+     "mu / ell": 0.22976339498450862,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0564218323042511,
+      "remainders / target": 16.79114358251088,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        16.79114358251087
+       ],
+       [
+        "hneg1",
+        8.426932362286468e-15
+       ],
+       [
+        "N1",
+        9.497051632028558e-16
+       ],
+       [
+        "N3",
+        6.212441811590313e-23
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.018233000580276517,
+       "P2z": 0.514910787622787,
+       "P3z": 1.5531104528976163e-23,
+       "P4z": 0.008339444540901714,
+       "hFz": 0.5073150059010377,
+       "cKz": 0.0076235936592481636
+      },
+      "target lines (share)": {
+       "d1": 5.464426097447865e-26,
+       "d2": 1.0,
+       "d3": 3.392255223316138e-47,
+       "d4": 9.773464590497916e-46
+      },
+      "log A*": -99.81163110979566
+     }
+    },
+    {
+     "state (log mu, log r, log beta, log kappa)": [
+      3.1179,
+      -52.5752,
+      97.2504,
+      -9.3507
+     ],
+     "f* (room, units of the target)": 1.0610324043778785,
+     "point margin of the table": 0.02903551582926701,
+     "log(r/sigma)": 47.42478192750229,
+     "log b": -102.74960468710918,
+     "mu / ell": 0.22598240764638775,
+     "decomposition (best z-option, binding end, B2)": {
+      "option, end": [
+       "Tz",
+       "c"
+      ],
+      "rho_main (gains / target)": 1.0600288138432479,
+      "remainders / target": 16.791143582510884,
+      "largest remainders (share of target)": [
+       [
+        "B2c",
+        16.79114358251087
+       ],
+       [
+        "hneg1",
+        1.3142464014347628e-14
+       ],
+       [
+        "N1",
+        1.431997745674401e-15
+       ],
+       [
+        "N3",
+        2.940414005866148e-23
+       ]
+      ],
+      "gains (share of target)": {
+       "P1": 0.01868425928706741,
+       "P2z": 0.5235259324410946,
+       "P3z": 7.351035014665342e-24,
+       "P4z": 0.008839111612480315,
+       "hFz": 0.5073150059010233,
+       "cKz": 0.0016645046015824057
+      },
+      "target lines (share)": {
+       "d1": 1.2539714267823244e-25,
+       "d2": 1.0,
+       "d3": 3.476212040979772e-47,
+       "d4": 9.93698769944775e-46
+      },
+      "log A*": -99.81163110979566
+     }
+    }
+   ],
+   "power: planted dips found (3 of 3 needed)": [
+    true,
+    true,
+    true
+   ],
+   "seconds": 4031
+  }
+ }
+}

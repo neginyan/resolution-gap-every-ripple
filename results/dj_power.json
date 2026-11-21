@@ -1,0 +1,927 @@
+{
+ "line dropped: P1, ell = 55.26": {
+  "smallest log F": -Infinity,
+  "smallest (F^2 - 1) ell": -55.26,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   2.6773283104825776,
+   -54.83179696012891,
+   35.02407417366456,
+   -21.30056318254794,
+   -54.213964555582685
+  ],
+  "mu": 14.546178462335579,
+  "ell/4 - mu": -0.7311784623355795,
+  "log r + ell/2": -27.201796960128913,
+  "log b + ell": -20.23592582633544,
+  "log kappa": -21.30056318254794,
+  "log(r sqrt(mu)/(ell^2 sigma))": -6.257231443878162,
+  "log(B/2.5e10)": 11.081932511849946,
+  "log(kappa sigma/b)": -1.0646373562125007,
+  "states evaluated": 24302,
+  "nan": 0,
+  "seconds": 50.7,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "line dropped: P2z, ell = 55.26": {
+  "smallest log F": -4.903729191629354,
+  "smallest (F^2 - 1) ell": -55.25695851398953,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   1.4294639997462217,
+   -30.950733591593423,
+   60.999972319576884,
+   -1.0000534542354198,
+   0.0
+  ],
+  "mu": 4.17646000825103,
+  "ell/4 - mu": 9.63853999174897,
+  "log r + ell/2": -3.3207335915934237,
+  "log b + ell": 5.739972319576886,
+  "log kappa": -1.0000534542354198,
+  "log(r sqrt(mu)/(ell^2 sigma))": 16.999899769289144,
+  "log(B/2.5e10)": 37.05783065776227,
+  "log(kappa sigma/b)": -6.740025773812306,
+  "states evaluated": 37892,
+  "nan": 0,
+  "seconds": 85.3,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "line dropped: hFz, ell = 55.26": {
+  "smallest log F": -21.55242408291069,
+  "smallest (F^2 - 1) ell": -55.26,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   1.6104689623814383,
+   -1.3862943611198906,
+   23.942141661814613,
+   -35.76360189704541,
+   0.0
+  ],
+  "mu": 5.005157908310303,
+  "ell/4 - mu": 8.809842091689696,
+  "log r + ell/2": 26.243705638880108,
+  "log b + ell": -31.317858338185385,
+  "log kappa": -35.76360189704541,
+  "log(r sqrt(mu)/(ell^2 sigma))": 46.65484148108028,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": -4.445743558860023,
+  "states evaluated": 37742,
+  "nan": 0,
+  "seconds": 75.5,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "line dropped: P4z, ell = 55.26": {
+  "smallest log F": -Infinity,
+  "smallest (F^2 - 1) ell": -55.26,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   4.365136236349324,
+   -16.052195526064626,
+   82.20904607417415,
+   -32.7695494350597,
+   -37.56990255137346
+  ],
+  "mu": 78.66011557881455,
+  "ell/4 - mu": -64.84511557881456,
+  "log r + ell/2": 11.577804473935373,
+  "log b + ell": 26.949046074174156,
+  "log kappa": -32.7695494350597,
+  "log(r sqrt(mu)/(ell^2 sigma))": 33.36627395311949,
+  "log(B/2.5e10)": 58.26690441235954,
+  "log(kappa sigma/b)": -59.71859550923386,
+  "states evaluated": 23102,
+  "nan": 0,
+  "seconds": 46.4,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "line dropped: cKz, ell = 55.26": {
+  "smallest log F": -1.4352241232781813,
+  "smallest (F^2 - 1) ell": -52.12822144082538,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   1.4294906903431654,
+   -53.796694251916506,
+   23.942141661814613,
+   -0.8268127670606966,
+   0.0
+  ],
+  "mu": 4.176571481949405,
+  "ell/4 - mu": 9.638428518050596,
+  "log r + ell/2": -26.166694251916507,
+  "log b + ell": -31.317858338185385,
+  "log kappa": -0.8268127670606966,
+  "log(r sqrt(mu)/(ell^2 sigma))": -5.846047545735466,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": 30.491045571124687,
+  "states evaluated": 37642,
+  "nan": 0,
+  "seconds": 73.3,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "ceiling without (J) (the corollary of DH-1), ell = 55.26": {
+  "smallest log F": -1.4352205187154956,
+  "smallest (F^2 - 1) ell": -52.12819886335973,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   1.4294906907481097,
+   -53.79670146185176,
+   23.942141661814613,
+   -53.96019401007387,
+   0.0
+  ],
+  "mu": 4.176571483640683,
+  "ell/4 - mu": 9.638428516359316,
+  "log r + ell/2": -26.166701461851762,
+  "log b + ell": -31.317858338185385,
+  "log kappa": -53.96019401007387,
+  "log(r sqrt(mu)/(ell^2 sigma))": -5.846054755468252,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": -22.642335671888482,
+  "states evaluated": 37622,
+  "nan": 0,
+  "seconds": 41.6,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "one option-branch only: Fz, ell = 55.26": {
+  "smallest log F": -38.94837712350526,
+  "smallest (F^2 - 1) ell": -55.26,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   1.4294906709992292,
+   -1.3862943611198906,
+   23.942141661814613,
+   3.303369609329595,
+   0.0
+  ],
+  "mu": 4.176571401158073,
+  "ell/4 - mu": 9.638428598841926,
+  "log r + ell/2": 26.243705638880108,
+  "log b + ell": -31.317858338185385,
+  "log kappa": 3.303369609329595,
+  "log(r sqrt(mu)/(ell^2 sigma))": 46.56435233538918,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": 34.62122794751498,
+  "states evaluated": 37682,
+  "nan": 0,
+  "seconds": 42.4,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "one option-branch only: XB2, ell = 55.26": {
+  "smallest log F": -Infinity,
+  "smallest (F^2 - 1) ell": -55.26,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   0.0,
+   -29.513794300480587,
+   46.70281655697634,
+   -12.052078342030612,
+   -1.611792012444924
+  ],
+  "mu": 1.0,
+  "ell/4 - mu": 12.815,
+  "log r + ell/2": -1.883794300480588,
+  "log b + ell": -8.55718344302366,
+  "log kappa": -12.052078342030612,
+  "log(r sqrt(mu)/(ell^2 sigma))": 17.72210706052887,
+  "log(B/2.5e10)": 22.760674895161724,
+  "log(kappa sigma/b)": -3.494894899006951,
+  "states evaluated": 29042,
+  "nan": 0,
+  "seconds": 32.6,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "ceiling without the pairs lam ~ 1, ell = 55.26": {
+  "smallest log F": 0.13793421684971083,
+  "smallest (F^2 - 1) ell": 17.554692376217524,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   2.397891350707075,
+   -27.844789268929404,
+   56.08031142975382,
+   -3.386555179970835,
+   0.0
+  ],
+  "mu": 10.999956857080354,
+  "ell/4 - mu": 2.815043142919645,
+  "log r + ell/2": -0.21478926892940464,
+  "log b + ell": 0.8203114297538221,
+  "log kappa": -3.386555179970835,
+  "log(r sqrt(mu)/(ell^2 sigma))": 20.590057767433592,
+  "log(B/2.5e10)": 32.1381697679392,
+  "log(kappa sigma/b)": -4.206866609724656,
+  "states evaluated": 67122,
+  "nan": 0,
+  "seconds": 91.2
+ },
+ "one option-branch only: XB1, ell = 55.26": {
+  "smallest log F": 0.13793422975027855,
+  "smallest (F^2 - 1) ell": 17.554694254919287,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   2.3978568374433307,
+   -27.844624324400222,
+   56.08062090656942,
+   -3.3865220162561207,
+   0.0
+  ],
+  "mu": 10.999577219219479,
+  "ell/4 - mu": 2.815422780780521,
+  "log r + ell/2": -0.21462432440022283,
+  "log b + ell": 0.8206209065694239,
+  "log kappa": -3.3865220162561207,
+  "log(r sqrt(mu)/(ell^2 sigma))": 20.590205455330896,
+  "log(B/2.5e10)": 32.138479244754805,
+  "log(kappa sigma/b)": -4.207142922825547,
+  "states evaluated": 62002,
+  "nan": 0,
+  "seconds": 46.2
+ },
+ "lower end of b removed (B >= 1e4), ell = 55.26": {
+  "smallest log F": 0.13793420724045577,
+  "smallest (F^2 - 1) ell": 17.554690976827633,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   2.3979647274391933,
+   -27.84513980778179,
+   56.0796532723443,
+   -3.3866256868447735,
+   0.0
+  ],
+  "mu": 11.000764027581374,
+  "ell/4 - mu": 2.8142359724186257,
+  "log r + ell/2": -0.2151398077817923,
+  "log b + ell": 0.8196532723443042,
+  "log kappa": -3.3866256868447735,
+  "log(r sqrt(mu)/(ell^2 sigma))": 20.589743916947263,
+  "log(B/2.5e10)": 32.137511610529685,
+  "log(kappa sigma/b)": -4.206278959189078,
+  "states evaluated": 63182,
+  "nan": 0,
+  "seconds": 134.3
+ },
+ "lower end of the a-range removed (a down to 4 sigma^6), ell = 55.26": {
+  "smallest log F": 0.13793422975027855,
+  "smallest (F^2 - 1) ell": 17.554694254919287,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   2.3978568374433307,
+   -27.844624324400222,
+   56.08062090656942,
+   -3.3865220162561207,
+   0.0
+  ],
+  "mu": 10.999577219219479,
+  "ell/4 - mu": 2.815422780780521,
+  "log r + ell/2": -0.21462432440022283,
+  "log b + ell": 0.8206209065694239,
+  "log kappa": -3.3865220162561207,
+  "log(r sqrt(mu)/(ell^2 sigma))": 20.590205455330896,
+  "log(B/2.5e10)": 32.138479244754805,
+  "log(kappa sigma/b)": -4.207142922825547,
+  "states evaluated": 62002,
+  "nan": 0,
+  "seconds": 92.0
+ },
+ "upper end of the a-range removed (a up to 4 r/sigma^4), ell = 55.26": {
+  "smallest log F": 0.1379342139698164,
+  "smallest (F^2 - 1) ell": 17.55469195682027,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   2.397902010079481,
+   -27.844840041354896,
+   56.080215713398076,
+   -3.3865654238071228,
+   0.0
+  ],
+  "mu": 11.000074110341865,
+  "ell/4 - mu": 2.8149258896581344,
+  "log r + ell/2": -0.21484004135489698,
+  "log b + ell": 0.8202157133980776,
+  "log kappa": -3.3865654238071228,
+  "log(r sqrt(mu)/(ell^2 sigma))": 20.590012324694307,
+  "log(B/2.5e10)": 32.13807405158346,
+  "log(kappa sigma/b)": -4.206781137205198,
+  "states evaluated": 62602,
+  "nan": 0,
+  "seconds": 93.9
+ },
+ "line dropped: P1, ell = 955.8": {
+  "smallest log F": -Infinity,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   4.080435384187943,
+   -944.1151203198058,
+   49.75788346458239,
+   -950.7874627169824,
+   -1.2499098600028393
+  ],
+  "mu": 59.17122645884665,
+  "ell/4 - mu": 179.77877354115333,
+  "log r + ell/2": -466.2151203198058,
+  "log b + ell": -906.0421165354176,
+  "log kappa": -950.7874627169824,
+  "log(r sqrt(mu)/(ell^2 sigma))": 0.0,
+  "log(B/2.5e10)": 25.81574180276778,
+  "log(kappa sigma/b)": -44.745346181564855,
+  "states evaluated": 25503,
+  "nan": 0,
+  "seconds": 62.8,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "line dropped: P2z, ell = 955.8": {
+  "smallest log F": -127.82899677026137,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   -13.528139076209968,
+   -558.3706476417779,
+   1056.0093875452221,
+   -30.915259618934286,
+   0.0
+  ],
+  "mu": 1.332919276707764e-06,
+  "ell/4 - mu": 238.9499986670807,
+  "log r + ell/2": -80.47064764177787,
+  "log b + ell": 100.20938754522217,
+  "log kappa": -30.915259618934286,
+  "log(r sqrt(mu)/(ell^2 sigma))": 376.940185447829,
+  "log(B/2.5e10)": 1032.0672458834076,
+  "log(kappa sigma/b)": -131.12464716415639,
+  "states evaluated": 40583,
+  "nan": 0,
+  "seconds": 237.0,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "line dropped: hFz, ell = 955.8": {
+  "smallest log F": -471.0523068057737,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   -21.571912500104908,
+   -1.3862943611198906,
+   23.942141661814613,
+   -934.926631117994,
+   0.0
+  ],
+  "mu": 4.2799375990899864e-10,
+  "ell/4 - mu": 238.949999999572,
+  "log r + ell/2": 476.5137056388801,
+  "log b + ell": -931.8578583381853,
+  "log kappa": -934.926631117994,
+  "log(r sqrt(mu)/(ell^2 sigma))": 929.9026520165395,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": -3.0687727798086826,
+  "states evaluated": 38203,
+  "nan": 0,
+  "seconds": 120.4,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "line dropped: P4z, ell = 955.8": {
+  "smallest log F": -Infinity,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   4.533016886184832,
+   -1388.3215989426137,
+   1904.0472616200075,
+   12.636180844822551,
+   0.0
+  ],
+  "mu": 93.03882565415165,
+  "ell/4 - mu": 145.91117434584834,
+  "log r + ell/2": -910.4215989426137,
+  "log b + ell": 948.2472616200075,
+  "log kappa": 12.636180844822551,
+  "log(r sqrt(mu)/(ell^2 sigma))": -443.98018787180945,
+  "log(B/2.5e10)": 1880.105119958193,
+  "log(kappa sigma/b)": -935.611080775185,
+  "states evaluated": 24303,
+  "nan": 0,
+  "seconds": 64.0,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "line dropped: cKz, ell = 955.8": {
+  "smallest log F": -451.04546236491325,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   1.4294907140600746,
+   -952.7712880082596,
+   23.942141661814613,
+   2.4449630517710332,
+   0.0
+  ],
+  "mu": 4.176571581004772,
+  "ell/4 - mu": 234.77342841899522,
+  "log r + ell/2": -474.8712880082596,
+  "log b + ell": -931.8578583381853,
+  "log kappa": 2.4449630517710332,
+  "log(r sqrt(mu)/(ell^2 sigma))": -9.981640023517798,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": 934.3028213899564,
+  "states evaluated": 37763,
+  "nan": 0,
+  "seconds": 100.5,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "ceiling without (J) (the corollary of DH-1), ell = 955.8": {
+  "smallest log F": -451.0454622277285,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   1.4294907136181783,
+   -952.7712882817453,
+   23.942141661814613,
+   -956.1938705441544,
+   0.0
+  ],
+  "mu": 4.176571579159161,
+  "ell/4 - mu": 234.77342842084082,
+  "log r + ell/2": -474.87128828174536,
+  "log b + ell": -931.8578583381853,
+  "log kappa": -956.1938705441544,
+  "log(r sqrt(mu)/(ell^2 sigma))": -9.98164029722443,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": -24.33601220596904,
+  "states evaluated": 37753,
+  "nan": 0,
+  "seconds": 61.3,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "ceiling without the pairs lam ~ 1, ell = 955.8": {
+  "smallest log F": -442.5545016108741,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   -7.061469869679633,
+   -952.7712883488584,
+   23.942141661814613,
+   -1176.0784571171089,
+   0.0
+  ],
+  "mu": 0.0008575167293403862,
+  "ell/4 - mu": 238.94914248327063,
+  "log r + ell/2": -474.87128834885846,
+  "log b + ell": -931.8578583381853,
+  "log kappa": -1176.0784571171089,
+  "log(r sqrt(mu)/(ell^2 sigma))": -14.227120655986482,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": -244.22059877892343,
+  "states evaluated": 37653,
+  "nan": 0,
+  "seconds": 72.8,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "one option-branch only: Fz, ell = 955.8": {
+  "smallest log F": -938.0298473240073,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   1.429490715152459,
+   -1.3862943611198906,
+   23.942141661814613,
+   6.127825676184364,
+   0.0
+  ],
+  "mu": 4.176571585567194,
+  "ell/4 - mu": 234.7734284144328,
+  "log r + ell/2": 476.5137056388801,
+  "log b + ell": -931.8578583381853,
+  "log kappa": 6.127825676184364,
+  "log(r sqrt(mu)/(ell^2 sigma))": 941.4033536241682,
+  "log(B/2.5e10)": 0.0,
+  "log(kappa sigma/b)": 937.9856840143697,
+  "states evaluated": 37753,
+  "nan": 0,
+  "seconds": 54.9,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "one option-branch only: XB2, ell = 955.8": {
+  "smallest log F": -Infinity,
+  "smallest (F^2 - 1) ell": -955.8,
+  "below the claim": true,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   5.357192827056514,
+   -473.9037873840361,
+   946.9783230112611,
+   -35.00008041057042,
+   0.0
+  ],
+  "mu": 212.12862811141466,
+  "ell/4 - mu": 26.821371888585332,
+  "log r + ell/2": 3.996212615963884,
+  "log b + ell": -8.821676988738886,
+  "log kappa": -35.00008041057042,
+  "log(r sqrt(mu)/(ell^2 sigma))": 470.849711657204,
+  "log(B/2.5e10)": 923.0361813494465,
+  "log(kappa sigma/b)": -26.17840342183149,
+  "states evaluated": 27843,
+  "nan": 0,
+  "seconds": 49.9,
+  "search version": "first version of the search (only the lowest walkers were polished); the wrong version is already broken by it"
+ },
+ "one option-branch only: XB1, ell = 955.8": {
+  "smallest log F": 0.012448752030650212,
+  "smallest (F^2 - 1) ell": 24.0957517150665,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   5.452545872317469,
+   -478.8678294101292,
+   958.2161254122736,
+   -6.451475292710729,
+   0.0
+  ],
+  "mu": 233.35149342649456,
+  "ell/4 - mu": 5.598506573505432,
+  "log r + ell/2": -0.9678294101292408,
+  "log b + ell": 2.4161254122736864,
+  "log kappa": -6.451475292710729,
+  "log(r sqrt(mu)/(ell^2 sigma))": 465.93334615374135,
+  "log(B/2.5e10)": 934.273983750459,
+  "log(kappa sigma/b)": -8.867600704984397,
+  "states evaluated": 137703,
+  "nan": 0,
+  "seconds": 163.6
+ },
+ "lower end of b removed (B >= 1e4), ell = 955.8": {
+  "smallest log F": 0.012448752059640356,
+  "smallest (F^2 - 1) ell": 24.095751771881137,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   5.452546411575553,
+   -478.8678713193346,
+   958.2160436192495,
+   -6.451475832643393,
+   0.0
+  ],
+  "mu": 233.35161926320782,
+  "ell/4 - mu": 5.598380736792166,
+  "log r + ell/2": -0.9678713193346198,
+  "log b + ell": 2.4160436192495354,
+  "log kappa": -6.451475832643393,
+  "log(r sqrt(mu)/(ell^2 sigma))": 465.933304514165,
+  "log(B/2.5e10)": 934.2739019574349,
+  "log(kappa sigma/b)": -8.867519451892917,
+  "states evaluated": 127753,
+  "nan": 0,
+  "seconds": 307.8
+ },
+ "lower end of the a-range removed (a down to 4 sigma^6), ell = 955.8": {
+  "smallest log F": 0.012448752030650212,
+  "smallest (F^2 - 1) ell": 24.0957517150665,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   5.452545872317469,
+   -478.8678294101292,
+   958.2161254122736,
+   -6.451475292710729,
+   0.0
+  ],
+  "mu": 233.35149342649456,
+  "ell/4 - mu": 5.598506573505432,
+  "log r + ell/2": -0.9678294101292408,
+  "log b + ell": 2.4161254122736864,
+  "log kappa": -6.451475292710729,
+  "log(r sqrt(mu)/(ell^2 sigma))": 465.93334615374135,
+  "log(B/2.5e10)": 934.273983750459,
+  "log(kappa sigma/b)": -8.867600704984397,
+  "states evaluated": 137703,
+  "nan": 0,
+  "seconds": 305.0
+ },
+ "upper end of the a-range removed (a up to 4 r/sigma^4), ell = 955.8": {
+  "smallest log F": 0.012448752059640356,
+  "smallest (F^2 - 1) ell": 24.095751771881137,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   5.452546411575553,
+   -478.8678713193346,
+   958.2160436192495,
+   -6.451475832643393,
+   0.0
+  ],
+  "mu": 233.35161926320782,
+  "ell/4 - mu": 5.598380736792166,
+  "log r + ell/2": -0.9678713193346198,
+  "log b + ell": 2.4160436192495354,
+  "log kappa": -6.451475832643393,
+  "log(r sqrt(mu)/(ell^2 sigma))": 465.933304514165,
+  "log(B/2.5e10)": 934.2739019574349,
+  "log(kappa sigma/b)": -8.867519451892917,
+  "states evaluated": 124513,
+  "nan": 0,
+  "seconds": 285.6
+ },
+ "planted dip: corner, ell = 165.78": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   0.3,
+   3.0,
+   3.0,
+   3.0,
+   1.0
+  ],
+  "found": 5.000000000000207,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   9.276372262926696e-09,
+   2.537703380767198e-09,
+   1.612625055713579e-08,
+   4.1351848760011e-08,
+   2.0301715863979553e-09
+  ],
+  "family of the lowest walker": "E4 tails of mu",
+  "states evaluated": 85290,
+  "seconds": 172.4
+ },
+ "planted dip: corner, widths * 3, ell = 165.78": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   0.8999999999999999,
+   9.0,
+   9.0,
+   9.0,
+   3.0
+  ],
+  "found": 5.000000000000061,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   2.442757107701255e-09,
+   -4.774409805779417e-09,
+   -2.4172322810045443e-08,
+   -1.0462248351612087e-09,
+   -1.254347810804764e-09
+  ],
+  "family of the lowest walker": "F1 corner",
+  "states evaluated": 87730,
+  "seconds": 186.4
+ },
+ "planted dip: narrow (below the line, b near the lower end), ell = 165.78": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   0.5,
+   3.0,
+   3.0,
+   3.0,
+   1.0
+  ],
+  "found": 5.0000000000000195,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   3.0373881187983898e-09,
+   -1.0806748681109942e-08,
+   8.040707655254664e-09,
+   -1.4219191749968256e-09,
+   0.0
+  ],
+  "family of the lowest walker": "E2 b at the lower end",
+  "states evaluated": 53520,
+  "seconds": 76.1
+ },
+ "planted dip: narrow (below the line, b near the lower end), widths * 3, ell = 165.78": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   1.5,
+   9.0,
+   9.0,
+   9.0,
+   3.0
+  ],
+  "found": 5.000000000000003,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   2.314866076602584e-09,
+   -3.4953776169762327e-09,
+   -2.173147587806549e-09,
+   2.8244263224526853e-09,
+   0.0
+  ],
+  "family of the lowest walker": "E2 b at the lower end",
+  "states evaluated": 50410,
+  "seconds": 72.5
+ },
+ "planted dip: low mu, ell = 165.78": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   8.289,
+   8.289,
+   8.289,
+   8.289,
+   2.0
+  ],
+  "found": 5.000000000000005,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   5.799810009608799e-09,
+   4.172830014931458e-09,
+   9.219036976021757e-10,
+   9.164826911346322e-10,
+   2.060608572662659e-09
+  ],
+  "family of the lowest walker": "N1 narrow",
+  "states evaluated": 89710,
+  "seconds": 186.7
+ },
+ "planted dip: low mu, widths * 3, ell = 165.78": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   24.866999999999997,
+   24.866999999999997,
+   24.866999999999997,
+   24.866999999999997,
+   6.0
+  ],
+  "found": 5.000000000000001,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   -4.0693722838159767e-10,
+   1.3787983636690948e-09,
+   -1.6874759923740451e-09,
+   4.551336676028946e-11,
+   2.6070459864987092e-09
+  ],
+  "family of the lowest walker": "E1 small r, b at the lower end",
+  "states evaluated": 62570,
+  "seconds": 128.3
+ },
+ "fresh search (no seeds, another seed), ell = 165.78": {
+  "smallest log F": 0.05534037973426109,
+  "smallest (F^2 - 1) ell": 19.40260042914877,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   3.6235918976630503,
+   -83.40344426044338,
+   167.26437853133976,
+   -4.616949830006948,
+   0.0
+  ],
+  "mu": 37.47192169288527,
+  "ell/4 - mu": 3.973078307114733,
+  "log r + ell/2": -0.5134442604433787,
+  "log b + ell": 1.4843785313397575,
+  "log kappa": -4.616949830006948,
+  "log(r sqrt(mu)/(ell^2 sigma))": 73.96702847206139,
+  "log(B/2.5e10)": 143.32223686952514,
+  "log(kappa sigma/b)": -6.101328361346702,
+  "states evaluated": 118520,
+  "nan": 0,
+  "seconds": 223.2
+ },
+ "planted dip: corner, ell = 100000.0": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   0.3,
+   3.0,
+   3.0,
+   3.0,
+   1.0
+  ],
+  "found": 5.000000000000291,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   -1.9270511112760386e-10,
+   2.2725240948299566e-09,
+   4.268561800320943e-10,
+   5.006759451475773e-08,
+   2.007805666170981e-08
+  ],
+  "family of the lowest walker": "F1 corner",
+  "states evaluated": 110830,
+  "seconds": 223.6
+ },
+ "planted dip: corner, widths * 3, ell = 100000.0": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   0.8999999999999999,
+   9.0,
+   9.0,
+   9.0,
+   3.0
+  ],
+  "found": 5.000000000000021,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   -1.5437172527931076e-09,
+   -2.162576290882296e-09,
+   -1.3489625416696072e-08,
+   4.34609661839305e-09,
+   -2.8350585582851786e-09
+  ],
+  "family of the lowest walker": "F1 corner",
+  "states evaluated": 102990,
+  "seconds": 235.0
+ },
+ "planted dip: narrow (below the line, b near the lower end), ell = 100000.0": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   0.5,
+   3.0,
+   3.0,
+   3.0,
+   1.0
+  ],
+  "found": 5.000000000000013,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   -5.358244958841851e-09,
+   -9.468446175257364e-09,
+   -1.6560832705181383e-09,
+   -3.3760443329811096e-09,
+   0.0
+  ],
+  "family of the lowest walker": "N2 low mu",
+  "states evaluated": 70070,
+  "seconds": 167.1
+ },
+ "planted dip: narrow (below the line, b near the lower end), widths * 3, ell = 100000.0": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   1.5,
+   9.0,
+   9.0,
+   9.0,
+   3.0
+  ],
+  "found": 5.00000000000002,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   6.122315987511229e-09,
+   3.2660965290334487e-10,
+   9.616266696512968e-09,
+   8.364117497371303e-09,
+   0.0
+  ],
+  "family of the lowest walker": "N1 narrow",
+  "states evaluated": 70970,
+  "seconds": 172.6
+ },
+ "planted dip: low mu, ell = 100000.0": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   5000.0,
+   5000.0,
+   5000.0,
+   5000.0,
+   2.0
+  ],
+  "found": 5.0,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   4.283443558961153e-10,
+   5.090900231152773e-10,
+   9.337672963738442e-11,
+   1.9185376004315913e-09,
+   -9.853318161390234e-11
+  ],
+  "family of the lowest walker": "F2 global",
+  "states evaluated": 59500,
+  "seconds": 105.8
+ },
+ "planted dip: low mu, widths * 3, ell = 100000.0": {
+  "planted depth": 5.0,
+  "widths (log mu, log r, log B, log kappa, q)": [
+   15000.0,
+   15000.0,
+   15000.0,
+   15000.0,
+   6.0
+  ],
+  "found": 5.0,
+  "dip found (< 5.5)": true,
+  "distance of the found state from the centre / widths": [
+   1.7711829665737847e-09,
+   2.0805455278605222e-10,
+   -3.220445554082592e-10,
+   4.519698753332098e-10,
+   -7.932835129527879e-10
+  ],
+  "family of the lowest walker": "E1 small r, b at the lower end",
+  "states evaluated": 58970,
+  "seconds": 91.7
+ },
+ "fresh search (no seeds, another seed), ell = 100000.0": {
+  "smallest log F": 0.0001989003358175978,
+  "smallest (F^2 - 1) ell": 39.78798048151018,
+  "below the claim": false,
+  "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+   10.12624331275299,
+   -50002.13495377308,
+   100004.75689020002,
+   -11.12623327547945,
+   0.0
+  ],
+  "mu": 24990.30710209754,
+  "ell/4 - mu": 9.692897902459663,
+  "log r + ell/2": -2.1349537730784505,
+  "log b + ell": 4.75689020002028,
+  "log kappa": -11.12623327547945,
+  "log(r sqrt(mu)/(ell^2 sigma))": 49979.90231695336,
+  "log(B/2.5e10)": 99980.8147485382,
+  "log(kappa sigma/b)": -15.883123475505272,
+  "states evaluated": 137210,
+  "nan": 0,
+  "seconds": 250.2
+ }
+}

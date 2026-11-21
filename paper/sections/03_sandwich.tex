@@ -1,0 +1,99 @@
+\section{The sandwich, the two ends, and the chord}
+\label{sec:sandwich}
+
+\subsection{The target scaled by the sandwich ratio}
+In Paper~I the target of the narrow and wide rooms is $\Gamma_\ell\sigma\,\mathrm{den}$, and the 37 lines of App.~B of~\cite{I} are lower bounds of $\mathrm{Num}-\gamma\sigma\,\mathrm{den}$ with $\gamma=\Gamma_\ell$, written for a general $\eta\le\tfrac14$ and evaluated at $\eta=1/\ell$.
+Here the target is $(\lambda/\Upsilon)\Gamma_\ell\sigma\,\mathrm{den}$.
+The lines split into three kinds:
+\begin{itemize}
+\item \emph{gains of the sandwich} (P2z, hFz, cKz): they carry $\mathrm{fl}=1/(1+\eta)=\lambda$;
+\item \emph{the target} (d1--d4): d2 and d4 come from the part $S_2$ of the denominator and carry $1/(1-\eta)=\Upsilon$; d1 and d3 come from the background part and do not;
+\item \emph{remainders} (the other 28 lines, and the remainder parts of P2z, d1 and d3): functions of $\eta$ that vanish or stay bounded as $\eta\to0$.
+\end{itemize}
+Multiplying the target by $\lambda/\Upsilon$ turns d2 and d4 into $\lambda\gamma G/2$ and $\lambda\gamma G_\mu/(2(2+r)4r)$: the factor $\Upsilon$ cancels.
+d1 and d3 are multiplied by $\lambda/\Upsilon=2\lambda-1$, Eq.~\eqref{eq:sandwich}.
+
+\emph{This is special to the ripple sandwich.}
+Paper~H's scaling step (\Hsec{IV}) uses only $\Upsilon\ge1$ for the background part, $(\lambda/\Upsilon)d_{\rm bg}\le\lambda d_{\rm bg}$, so that it holds for any pair of sandwich factors (also those of Lemmas S and S$'$).
+That weaker form does not close the proof here: at $\eta=\tfrac14$, $\ell=55.26$ it lowers the margin of Case~I (option Fz) from $+0.0034$ to about $-0.019$ (App.~\ref{app:D}).
+We use the identity $\lambda/\Upsilon=2\lambda-1$, which holds because $\lambda$ and $\Upsilon$ come from the same $\eta$.
+The theorem is therefore stated for the ripple sandwich only.
+
+\subsection{The chord}
+After the scaling, every line is a function of $\lambda$ and of $\eta$.
+For a window, $\eta=1/\lambda-1$.
+The next lemma makes every line affine in $\lambda$, so that the proof at the two ends covers every ripple.
+
+\begin{lemma}[the chord] \proofst
+\label{lem:chord}
+Let $f_1,\dots,f_m$ be non-negative, non-decreasing and convex on $[0,\tfrac14]$, and let $R$ be a sum of products of the $f_i$ with non-negative coefficients.
+Then $R(\eta(\lambda))$, $\eta(\lambda)=1/\lambda-1$, is convex in $\lambda$ on $[\tfrac45,1]$, and
+\begin{equation}
+R(\eta(\lambda))\le R(0)+\bigl(R(\tfrac14)-R(0)\bigr)\,5(1-\lambda)
+\label{eq:chord}
+\end{equation}
+for $\tfrac45\le\lambda\le1$.
+The six functions
+\begin{gather}
+\eta,\quad \eta^2,\quad \frac1{1-\eta},\quad \frac1{(1-\eta)^2},\\ \sqrt{\mathrm{CZ}}=\frac{\eta}{\sqrt e\,(1-\eta)},\quad \frac{1+\eta}{1-\eta},
+\end{gather}
+and the affine $1+\eta$, are of this kind.
+\end{lemma}
+
+\begin{proof}
+For two such functions, $(fg)'=f'g+fg'\ge0$ and $(fg)''=f''g+2f'g'+fg''\ge0$; induction gives products, and sums are immediate.
+$\eta(\lambda)$ is decreasing and convex: $\eta'=-1/\lambda^2$, $\eta''=2/\lambda^3$.
+So $(R\circ\eta)''=R''(\eta)\eta'^2+R'(\eta)\eta''\ge0$.
+A convex function lies under its chord; $\eta(1)=0$ and $\eta(\tfrac45)=\tfrac14$.
+For the six functions, each derivative up to the second is a non-negative rational function of $\eta$ on $[0,\tfrac14]$.
+\end{proof}
+
+\emph{The remainders are of this kind.}
+App.~\ref{app:A} lists, for each of the 37 lines, the basic functions it contains (Table~\ref{tab:inventory}).
+The list was read from the code of the lines by a parser that types every sub-expression: $\eta$-free and non-negative; non-negative, non-decreasing and convex (sums and products of such, division by $\eta$-free positive quantities and by powers of $1-\eta$, and the square root of CZ only); the sandwich factor $\mathrm{fl}$; and $\mathrm{ringf}=1-q$.
+Every loss and target line is in the convex class; every gain is $\eta$-free, or $\mathrm{fl}$ times an $\eta$-free quantity, or $\mathrm{ringf}\cdot\mathrm{fl}$ times one \status{computer-assisted: App.~\ref{app:A}}.
+Three wrong versions, a loss line multiplied by $1-\eta$, a factor $1+\eta$ replaced by $1/(1+\eta)$, and $\sqrt\eta$ in a line, are rejected by the parser.
+
+\emph{Where a remainder multiplies the sandwich.}
+Three places mix the two; they are split first, with $\lambda\le1$ and $2\lambda-1\le1$:
+\begin{gather}
+\lambda\,(1-q)\ \ge\ \lambda-q \qquad(\text{P2z and }\theta_0,\ q\ge0),\\
+(2\lambda-1)\,k_1(\eta)\ \le\ (2\lambda-1)(1+0.184k_E)+\eta k_E\qquad(\text{d1}),\\
+(2\lambda-1)(1+2\eta k_E)\ \le\ (2\lambda-1)+2\eta k_E\qquad(\text{d3}),
+\end{gather}
+with $k_1(\eta)=1+(\eta+0.184)k_E$.
+After the split, each line is $c_0+c_1\lambda+R(\eta)$ with $\eta$-free $c_0,c_1$ and a remainder $R$ of Lemma~\ref{lem:chord} (with a sign), and Eq.~\eqref{eq:chord} replaces it by an affine function of $\lambda$.
+
+\subsection{The two ends}
+Write $\Lambda_k(a;\lambda)$ for the sum of the lines of option $k$ after these replacements.
+It is affine in $\lambda$ and is a lower bound of $\mathrm{Num}-(\lambda/\Upsilon)\gamma\sigma\,\mathrm{den}$ for every window with $\eta=1/\lambda-1$.
+At $\lambda=1$ it is the sum of the lines with $\eta=0$ in every remainder; at $\lambda=\tfrac45$ it is the sum with $\eta=\tfrac14$, gains at $\tfrac45$ and target $\tfrac35\gamma$ on d1, d3 and $\tfrac45\gamma$ on d2, d4.
+We call these the ends A and B.
+
+\emph{The rule does not depend on $\lambda$.}
+The proof of Paper~I chooses, for each state and each $a$, one option $k$ by a rule (\Isec{IV~A}): Case~I if $G\le c_1\sqrt b/\Gamma_2$, Case~II otherwise, with thresholds $c_T$, $c_{\rm ch}$ and $a_s=4c_m^2\ell^6\sigma^3/r$.
+In this paper the rule uses fixed numbers:
+\begin{gather}
+c_1=0.77,\qquad c_T=6.5,\qquad \Gamma_2:=\Gamma_\ell/2,\\
+c_{\rm ch}=1.5\ \ (\ell<960.8),\qquad c_{\rm ch}=2.0\ \ (\ell\ge960.8),
+\end{gather}
+and $c_m$ at its largest value over the range, $c_m=2X_{1,B1}(\tfrac14)\sqrt{2+r}/(\tfrac34\cdot\tfrac45(1-z_2/2)\sqrt{2\pi})$.
+The rule may depend on $\ell$ and on the state, but not on $\lambda$; so the option chosen at a state does not depend on $\lambda$.
+Since the target part of d2 is $\lambda\Gamma_\ell G/2\le\Gamma_2G$, the inequality that defines Case~I bounds the target for every $\lambda$; inside Case~I the option Fz needs $c_{1F}-K_F/\sqrt b-\lambda c_1\ge0$ (App.~\ref{app:D}).
+
+\begin{proposition}[two ends suffice] \proofst
+\label{prop:ends}
+If, for every state of a room and every $a$, the option $k$ chosen by the rule has $\Lambda_k(a;1)\ge0$ and $\Lambda_k(a;\tfrac45)\ge0$, then $\Lambda_k(a;\lambda)\ge0$ for every $\lambda\in[\tfrac45,1]$, and every window of the class satisfies $(a)+(a')\ge(\lambda/\Upsilon)\Gamma_\ell$ in that room.
+\end{proposition}
+
+\begin{proof}
+$\Lambda_k(a;\cdot)$ is affine and $k$ does not depend on $\lambda$.
+For a window with ripple $\eta\le\tfrac14$, $\lambda=1/(1+\eta)\in[\tfrac45,1]$, and $\Lambda_k(a;\lambda)\le\mathrm{Num}-(\lambda/\Upsilon)\Gamma_\ell\sigma\,\mathrm{den}$ at that $a$; $\Lambda_k(a;\lambda)\ge0$ for every $a$ in the range of the room gives the bound as in~\cite{I}.
+\end{proof}
+
+The interval proofs of App.~\ref{app:D} check the hypothesis of Proposition~\ref{prop:ends} at the two ends.
+Each end is the proof of Paper~I with other numbers: the case analysis inside the proof ((m1)--(m4), (b.1)--(b.6)) may differ between the ends, since only the rule must be common.
+
+\emph{In the observer's words.}
+As far as each entry of the bookkeeping is concerned, a ripple of any strength between zero and $\tfrac14$ behaves like a mixture of the two extremes, no ripple and the strongest one.
+Its true cost is never above that mixture, because the costs bend upwards; so checking the two extremes with one and the same rule of focus is enough for every ripple in between.

@@ -1,0 +1,42 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "M4(y): upper bounds (interval arithmetic, pieces of width 0.005 on [0, 20] and 0.05 on [20, 60])": {
+  "0": {
+   "upper bound of sup over u in [0, 60]": 2.047229764024931,
+   "at the piece starting at u =": 2.41
+  },
+  "1e-6": {
+   "upper bound of sup over u in [0, 60]": 2.0472316181484067,
+   "at the piece starting at u =": 2.41
+  },
+  "6.5e-5": {
+   "upper bound of sup over u in [0, 60]": 2.0473502836031208,
+   "at the piece starting at u =": 2.41
+  },
+  "1e-4": {
+   "upper bound of sup over u in [0, 60]": 2.0474151800666225,
+   "at the piece starting at u =": 2.41
+  }
+ },
+ "tail u >= 60 (y <= 1e-4): g(60) upper bound, sqrt(y u) <= 0.0013 u, d/du ln g < 0": [
+  1.8832308201937147e-10,
+  true,
+  true
+ ],
+ "M4(1e-4) <= (both parts)": 2.0474151800666225,
+ "the upper bounds increase with y (as Lemma DQ-M1 (ii) says; information)": true,
+ "d_y >= 1.5 y - (5/8) y^2 on y in (0, 1e-4]: smallest (d_y - 1.5 y + 0.625 y^2)/y^2 (lower end; the series gives 7 y/48 > 0)": 7.291666608072905e-09,
+ "POWER": {
+  "M4(1e-4) <= 2.04 fails (largest lower bound of f on a grid)": [
+   2.0423007755286107,
+   true
+  ],
+  "M4(1) <= 2.07 fails": [
+   6.574512335698826,
+   true
+  ],
+  "d_y >= 1.5 y fails somewhere in (0, 1e-4]": true
+ },
+ "ok": true,
+ "seconds": 2.5509300231933594
+}

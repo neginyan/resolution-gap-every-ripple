@@ -1,0 +1,89 @@
+{
+ "(C1), (C2)": {
+  "55.26": {
+   "R1 |N1/P1 - eps1| (max)": "3.000000000000e-66",
+   "R2 |hneg1/P4z - eps_h| (max)": "5.000000000000e-65",
+   "R6 (B2c + B2s)/(c_B2 G) at a = 4r/sigma: |. - 1| (max)": "1.000000000000e-63",
+   "R6 (B2c + B2s)/(c_B2 G) below the end (max, must be <= 1)": "9.999989455711e-1",
+   "C2 summary: min of the slack / scale (must be >= 0)": "1.619380782143e-14",
+   "states": 300,
+   "states in regime 3 (II rest)": 43,
+   "summary points": 215,
+   "ok": true
+  },
+  "165.78": {
+   "R1 |N1/P1 - eps1| (max)": "2.000000000000e-68",
+   "R2 |hneg1/P4z - eps_h| (max)": "1.000000000000e-66",
+   "R6 (B2c + B2s)/(c_B2 G) at a = 4r/sigma: |. - 1| (max)": "2.000000000000e-65",
+   "R6 (B2c + B2s)/(c_B2 G) below the end (max, must be <= 1)": "9.999978257588e-1",
+   "C2 summary: min of the slack / scale (must be >= 0)": "3.571415424573e-39",
+   "states": 300,
+   "states in regime 3 (II rest)": 62,
+   "summary points": 310,
+   "ok": true
+  },
+  "955.8": {
+   "R1 |N1/P1 - eps1| (max)": "1.000000000000e-69",
+   "R2 |hneg1/P4z - eps_h| (max)": "1.000000000000e-66",
+   "R6 (B2c + B2s)/(c_B2 G) at a = 4r/sigma: |. - 1| (max)": "1.000000000000e-65",
+   "R6 (B2c + B2s)/(c_B2 G) below the end (max, must be <= 1)": "9.999979390724e-1",
+   "C2 summary: min of the slack / scale (must be >= 0)": "0",
+   "states": 300,
+   "states in regime 3 (II rest)": 87,
+   "summary points": 435,
+   "ok": true
+  },
+  "10000.0": {
+   "R1 |N1/P1 - eps1| (max)": "1.000000000000e-72",
+   "R2 |hneg1/P4z - eps_h| (max)": "1.000000000000e-195",
+   "R6 (B2c + B2s)/(c_B2 G) at a = 4r/sigma: |. - 1| (max)": "1.000000000000e-67",
+   "R6 (B2c + B2s)/(c_B2 G) below the end (max, must be <= 1)": "9.999999669924e-1",
+   "C2 summary: min of the slack / scale (must be >= 0)": "0",
+   "states": 300,
+   "states in regime 3 (II rest)": 91,
+   "summary points": 455,
+   "ok": true
+  },
+  "1000000.0": {
+   "R1 |N1/P1 - eps1| (max)": "3.000000000000e-78",
+   "R2 |hneg1/P4z - eps_h| (max)": "1.000000000000e-72",
+   "R6 (B2c + B2s)/(c_B2 G) at a = 4r/sigma: |. - 1| (max)": "4.600000000000e-70",
+   "R6 (B2c + B2s)/(c_B2 G) below the end (max, must be <= 1)": "9.999999987134e-1",
+   "C2 summary: min of the slack / scale (must be >= 0)": "0",
+   "states": 300,
+   "states in regime 3 (II rest)": 61,
+   "summary points": 305,
+   "ok": true
+  },
+  "100000000.0": {
+   "R1 |N1/P1 - eps1| (max)": "1.000000000000e-84",
+   "R2 |hneg1/P4z - eps_h| (max)": "3.000000000000e-76",
+   "R6 (B2c + B2s)/(c_B2 G) at a = 4r/sigma: |. - 1| (max)": "1.800000000000e-73",
+   "R6 (B2c + B2s)/(c_B2 G) below the end (max, must be <= 1)": "9.999999999987e-1",
+   "C2 summary: min of the slack / scale (must be >= 0)": "0",
+   "states": 300,
+   "states in regime 3 (II rest)": 77,
+   "summary points": 385,
+   "ok": true
+  }
+ },
+ "(D) far side": {
+  "lower bound of d/dx log(left/right) over ell >= 55.26, x >= m_F": 3.565689467969598,
+  "ok": true
+ },
+ "(G3) E_J >= E_CM": {
+  "pieces of mu in [0, 80]": 8000,
+  "smallest lower bound of E_J - E_CM on [0, 80]": 0.0005838074556641414,
+  "lower bound on [80, inf)": 0.0005838074556641039,
+  "ok": true
+ },
+ "(G2) (b.5) kappa_b mu < 1": {
+  "upper bound of kappa_b mu (first)": 1.904464064560571e-160,
+  "upper bound of kappa_b mu (second)": 3.356339287271801e-159,
+  "E_J(mu) for mu >= 6: upper bound": 1.4910712394919172,
+  "log of the lower bound of u where kappa_b = 16 b e^mu/mu (ell >= 397.6, mu >= 0.1531 ell)": 220.2643335122112,
+  "ok": true
+ },
+ "ok": true,
+ "seconds": 30.54992437362671
+}

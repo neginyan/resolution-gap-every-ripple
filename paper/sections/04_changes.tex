@@ -1,0 +1,51 @@
+\section{What changes against Paper~I}
+\label{sec:changes}
+
+Paper~I's proofs of the narrow and wide rooms (Secs.~IV and~VI of~\cite{I}) are used here step by step.
+We read every lemma behind them again, those of~\cite{I} and those it borrows from~\cite{F,H}, for the way it uses $\eta$; the result is Table~\ref{tab:lemmas} (App.~\ref{app:lemmas}) \proofst.
+Every lemma uses $\eta$ only through $\eta=\sup|R|$ and $h\ge1-\eta$, that is, through $\eta<1$, or not at all; its statement carries the class bound $\eta\le1/\ell$ only through the evaluation $\eta=1/\ell$ of the coefficients of the lines.
+Exactly one written step needs $\eta\le1/\ell$ as an inequality, the first step of the group FrB1 (App.~B of~\cite{I}); it is repaired below.
+Besides the lemmas, the proofs of the rooms use $\eta\le1/\ell$ only through numbers: values quoted at $\eta=1/\ell$, and the tail $[10^6,\infty)$, where $(1-\eta)/(1+\eta)\ge1-2/\ell$ was used.
+Both are replaced by new constants below; no step needs a new idea.
+The reading was also checked numerically, by evaluating at $\eta=\tfrac14$ every lemma piece against its line on the states of the audit of~\cite{I}, and every elementary step of the 30 groups of formulas (App.~B of~\cite{I}) \numst: only the step below breaks (Sec.~\ref{sec:break}).
+
+\subsection{The step of FrB1}
+In the group FrB1 (the lines B1m, B1c, B1l, uB2c, uB2s), App.~B of~\cite{I} bounds $\hat c_0=U_1/(\sqrt2(1-\eta))+\sqrt{\mathrm{CZ}/2}\sqrt A$ by $X_1/\sqrt2$, $X_1=\tfrac43U_1$, using $U_1(\tfrac43-1/(1-\eta))\ge\sqrt{\mathrm{CZ}}$.
+For $\eta=1/\ell$ the left side is at least $0.83$; for $\eta=\tfrac14$ it is zero, and the step fails (at $\ell=55.26$ on $1676$ of $1726$ audit points).
+The repair is a larger factor in the one line B1m, a function of $\eta$:
+\begin{equation}
+X_{1,\rm B1}(\eta)=\frac{U_1}{1-\eta}+\sqrt{\mathrm{CZ}(\eta)}
+\end{equation}
+(at the end A, $\eta=0$: $X_{1,\rm B1}=U_1$; at the end B, $\eta=\tfrac14$: $X_{1,\rm B1}=\tfrac43U_1+\sqrt{\mathrm{CZ}(\tfrac14)}$).
+Then $\hat c_0\le X_{1,\rm B1}(\eta)/\sqrt2$ holds at every $\eta$, from $A\le1$ alone.
+$X_{1,\rm B1}$ is a sum of two basic functions of Lemma~\ref{lem:chord}, $1/(1-\eta)$ and $\sqrt{\mathrm{CZ}}$, so the line B1m stays in the class of that lemma; the parser reads B1m with $X_{1,\rm B1}(\eta)$ in it (Table~\ref{tab:inventory}, \code{ea\_convex.py}), and the interval proofs evaluate it at each end.
+The constant $c_m$ of the rule, which must not depend on $\lambda$, takes its largest value, at $\eta=\tfrac14$ (Sec.~\ref{sec:sandwich}).
+The other step of the chain, $\hat c_0^2\le X_1^2+\mathrm{CZ}$, follows from $(p+q)^2\le2p^2+2q^2$ and $1/(1-\eta)\le\tfrac43$, also at $\eta=\tfrac14$; so B1c and the other lines of the group are unchanged.
+At $\ell=55.26$ and the end B the factor $X_{1,\rm B1}/X_1$ is $1.057$, inside the slack of the group (smallest ratio $1.29$ in~\cite{I}).
+No new lemma is needed.
+
+\subsection{The rule and the proof constants}
+The rule constants are $c_1=0.77$, $c_T=6.5$, $c_{\rm ch}=1.5$ for $\ell<960.8$ and $2.0$ for $\ell\ge960.8$ (Paper~I: $0.78$, $3.5$, $2.9$), with $\Gamma_2=\Gamma_\ell/2$ and $c_m$ fixed (Sec.~\ref{sec:sandwich}).
+They were chosen on a grid ($c_1\in[0.60,0.79]$, $c_{\rm ch}\in[1.2,2.4]$, $c_T\in\{5,6.5,8\}$) for the largest smallest margin over the two ends at $\ell=55.26$ and $960.8$ \numst.
+The binding pair is the end A, where Case~I (option Fz) needs $c_1\le c_{1F}-K_F\approx0.80$, against the end B, where the chirp step (II-ch) and the rest step (II-s) need $c_1$ large.
+The wide room ($\ell\ge960.8$, $B\ge8\ell+100$) has a looser bound on the chirp, $z_2\le\tfrac12$ instead of $0.01$, and at the end B it needs $c_{\rm ch}\approx2$ to balance (II-ch) against (II-s); since the rule may depend on $\ell$ but not on $\lambda$, we take $c_{\rm ch}=2.0$ for every $\ell\ge960.8$, in both rooms.
+With the remainders at $\bar\eta$ at both ends (instead of the chord) the end A would need $c_1\le0.575$, and no rule closes at $\ell=55.26$ (best margin $-0.025$) \numst; the chord removes this conflict.
+
+Inside the proof, three numbers depend on the end:
+\begin{itemize}
+\item the coefficient of $A2k/cKz\le A_{2C}\,b^2$ in Case~II ((R7), (m3), (m4)): $A_{2C}=2.1$ at A and $3.5$ at B, from $2/((1-\eta)\lambda k_f)$ (the wide room, with $k_f\ge0.958$, needs $3.479$ at B);
+\item the allocation of the remainder budget $\mathrm{es}=10^{-11}$: (R1) $\le0.9\,\mathrm{es}\,$P1 and (R3) $\le0.1\,\mathrm{es}$ (Paper~I: $0.52$ and $0.48$). At the end B, $\mathrm{N2}/\mathrm{P1}=Q_2/(8B)$ alone is $0.601\,\mathrm{es}$, while (R3) needs $0.04\,\mathrm{es}$. The total charged to P1 is still at most es, so (R4), $e_0$, $m_1$, $m_4$ and everything after are as in~\cite{I};
+\item $e_0=2\times10^{-5}$ in place of $1.26\times10^{-5}$: the absorption (R4) of the constant lines needs $e_0\ge1.637\times10^{-5}$ at the end B. $e_0$ enters $m_1=1-\varepsilon_1-e_0$ and $m_4=1-\varepsilon_h-e_0$; the condition ``$e_0$ needed $\le e_0$'' is checked on every piece, and every later step uses $m_1$, $m_4$ only through the interval values. The lower end of $b$ (the bound $b_0$ and $K_F$ of (R5)) does not involve $e_0$. In the wide room, where $B\ge B_m=8\ell_a+100$ on a piece, $e_0=2.7/\sqrt{B_m}+\mathrm{es}$ (Paper~I: $2/\sqrt{B_m}+\mathrm{es}$); there $e_0$ needed is at most $0.967\,e_0$.
+\end{itemize}
+
+\subsection{The quoted bounds}
+The proof of~\cite{I} quotes $48$ numbers as valid for every $\ell$ (App.~C there).
+At both ends $30$ of them still hold; $18$ take new values, each the largest (or smallest) interval value over the two ends, all pieces and the tail, rounded outward to four digits.
+They are listed in Table~\ref{tab:quoted} (App.~\ref{app:B}) and checked on every piece by the second run of App.~\ref{app:D}.
+The largest changes come from the remainders at $\eta=\tfrac14$: $\varepsilon_1\le0.2013$ (was $0.01457$), $\varepsilon_h\le0.3882$ (was $0.1808$), $\theta_{\rm bg}\ge0.699$ (was $0.8985$), $c_{1F}\ge0.6203$ (was $0.7857$).
+
+\subsection{The tail}
+On $[10^6,\infty)$ Paper~I replaced two exact quantities by tail-safe bounds that used $\eta=1/\ell$: the line $A=(1-\eta)/((1+\eta)\Gamma_\ell\sqrt\ell)\ge1-7/\ell$.
+With $\eta$ and $1/\ell$ separated, $A\ge1-a_1/\ell$ with $a_1=5+\ell(1-\theta_A)$, where $\theta_A$ is the ratio of gain to target in $A$ (App.~\ref{app:C}).
+In Paper~I $\theta_A=(1-\eta)/(1+\eta)$ with $\eta=1/\ell$, so $a_1=7$; here the ratio is one and $a_1=5$.
+With $a_1=7$ the general formulas reproduce the tail of~\cite{I} exactly (every one of the $101$ interval values on $[10^6,\infty)$ is the same).

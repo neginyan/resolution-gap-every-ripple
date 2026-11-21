@@ -1,0 +1,42 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "(T0) the trap set before importing the interval modules": {
+  "stdout": "{'cm_const': 'no Inexact', 'dl_interval': 'no Inexact', 'dl_consts': 'no Inexact', 'dl_review': 'no Inexact', 'dm_appendix': 'no Inexact', 'dn_ivtest': 'no Inexact'}",
+  "stderr": "",
+  "returncode": 0
+ },
+ "(T3) power: dl_review before and after the DO fix": {
+  "pre-DO ej_ge_ecm": "Inexact raised",
+  "fixed ej_ge_ecm": "no Inexact",
+  "old t - 1/55.26 (80 digits; >= 0: the old interval [0, t] still enclosed 1/ell)": "3.043792978646398841838581252262034020991675714802751E-30",
+  "old record valid": true
+ },
+ "(T1) fixed implementation, Inexact trapped in the default context": {
+  "[55.26, 55.31526]": "no Inexact",
+  "[99900, 100000]": "no Inexact",
+  "[999000, 1000000]": "no Inexact",
+  "[1000000, Infinity]": "no Inexact"
+ },
+ "(T2) power: the pre-DO implementation, Inexact trapped": {
+  "stdout": "['Inexact raised', 'Inexact raised']",
+  "stderr": "",
+  "returncode": 0
+ },
+ "(R1) dl_consts.run ok": true,
+ "(R1) dl_consts.power ok": true,
+ "(R2) dl_review ok": true,
+ "(R3) dm_appendix ok": true,
+ "(R4) dE_J/dmu < 0 on [0, 80]": {
+  "pieces of [0, 80]": 8000,
+  "largest upper bound of dE_J/dmu (must be < 0)": -1.882020935094174e-17,
+  "ok": true
+ },
+ "(R5) largest relative difference of the worst values, fixed vs DN (defective) arithmetic": 0.0,
+ "(R5) dl_review interval parts equal to DN at the printed digits": {
+  "(D) far side": true,
+  "(G3) E_J >= E_CM": true,
+  "(G2) (b.5) kappa_b mu < 1": true
+ },
+ "ok": true,
+ "seconds": 302.6521291732788
+}

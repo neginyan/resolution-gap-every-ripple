@@ -1,0 +1,13 @@
+An observer looks at a periodic ripple through a lens of finite resolution $\sigma$ and chooses freely where and how sharply to focus.
+Paper~I~\cite{I} proved that no choice of focus beats the logarithmic law of the resolution gap, $g\sqrt\ell\ge1-\bar\varepsilon$ with $\ell=\ln(1/\sigma)$, for windows whose ripple is weak, $\eta=\sup|R|\le1/\ell$.
+Here we remove that assumption.
+For every window of the class, whose ripple may be as strong as $\eta=1/4$, and for every state and every $\ell\ge55.26$, we prove
+$g\sqrt\ell\ge(1-\bar\varepsilon)\,(1-\eta)/(1+\eta)$; for $\ell\ge960.8$ the bound carries the factor $\sqrt{1+10/\ell}$.
+The coefficient $(1-\eta)/(1+\eta)=\lambda/\Upsilon$ is the ratio of the two factors of the ripple sandwich of Paper~H~\cite{H}; it is at least $3/5$, and in the lower bounds of this proof it cannot be replaced by one \numst.
+The true quantity does not show it: on windows with $\eta=1/4$ the smallest $((a)+(a'))\sqrt\ell$ we found at $\ell=55.26$ is $3.40$ (so $g\sqrt\ell\ge(1-\bar\varepsilon)\,3.40$ there), and at those states the factors of the sandwich move it by a few per cent \numst; we conjecture that the coefficient one of Paper~I holds for every ripple of the class.
+Where the focus sits at the resolution the coefficient stays one: $(a)+(a')\ge0.49$ whenever the ripple reaches the focus ($G>0$), and $\ge0.1995$ otherwise; both are above $\Gamma_\ell\le0.1462$ \proofst.
+Three things make the extension work.
+The remainders of the local expansion are written as functions of $\eta$, and each is a product of six non-negative, increasing, convex functions; so, as functions of the gain factor $\lambda=1/(1+\eta)$, they lie under their chord, and two interval-arithmetic computations, at $\eta=0$ and at $\eta=1/4$, cover every ripple in between \status{proof, computer-assisted}.
+Every lemma behind the proof was read again for its use of $\eta$; one step of Paper~I that held only for a weak ripple is repaired by a larger constant, with no new lemma.
+And the target is scaled with the sandwich ratio itself, $\lambda/\Upsilon=2\lambda-1$, which is special to the ripple sandwich.
+We state what is proved, what is computer-assisted and what is numerical, and what remains outside: the class constant $\bar\varepsilon$, the upper side, and the general sandwich factors of Paper~H.

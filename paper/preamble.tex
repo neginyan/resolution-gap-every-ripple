@@ -1,0 +1,46 @@
+% preamble.tex — paper J draft (revtex4-2, aps, pre, twocolumn); same macros as papers F, H and I
+\usepackage{amsmath,amssymb,amsthm,bm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+
+% theorem environments (one counter)
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% status labels (the spine of the paper)
+\newcommand{\status}[1]{\textsf{[#1]}}
+\newcommand{\proofst}{\status{proof}}
+\newcommand{\caproofst}[1]{\status{proof, computer-assisted: #1}}
+\newcommand{\derivst}{\status{derivation}}
+\newcommand{\numst}{\status{numerical}}
+\newcommand{\conjst}{\status{conjecture}}
+
+% notation
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Jvv}{J_{vv}}
+\newcommand{\Jww}{J_{ww}}
+\newcommand{\keff}{k_{\mathrm{eff}}}
+\newcommand{\Qb}{\bar Q}
+\newcommand{\ls}{\ell_\sigma}
+\newcommand{\code}[1]{\texttt{#1}}
+% section numbers and DOIs of papers H v1.3 and I v1.0
+\newcommand{\Hsec}[1]{Sec.~#1}
+\newcommand{\Hsecs}[1]{Secs.~#1}
+\newcommand{\Hdoi}{10.5281/zenodo.24369012}
+\newcommand{\Idoi}{10.5281/zenodo.24371173}
+\newcommand{\Isec}[1]{Sec.~#1 of~\cite{I}}
+\newcommand{\Ups}{\Upsilon}
+\newcommand{\etar}{\eta_{\rm r}}
+% DOIs filled in at publication (code and this paper)
+\newcommand{\Jcodedoi}{\textit{[code DOI at publication]}}
+\newcommand{\Jdoi}{\textit{[DOI at publication]}}
+\newcommand{\Jrepourl}{https://github.com/neginyan/resolution-gap-every-ripple}
+\newcommand{\Icodedoi}{10.5281/zenodo.24370921}

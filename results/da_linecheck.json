@@ -1,0 +1,277 @@
+{
+ "audit (lemma gamma-tilde with 1/(1-eta) on x N2 E)": {
+  "bad": 0,
+  "first_bad": [],
+  "ratios": {
+   "gain P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 180
+   },
+   "gain P2": {
+    "min ratio": 0.999999999999761,
+    "max ratio": 1.0000000000000566,
+    "comparisons": 180
+   },
+   "gain P3": {
+    "min ratio": 0.7741448595984062,
+    "max ratio": 1.0000000000000386,
+    "comparisons": 180
+   },
+   "gain hF": {
+    "min ratio": 0.0,
+    "max ratio": 1.0000000000000226,
+    "comparisons": 180
+   },
+   "gain chirp": {
+    "min ratio": -3.2976828551502186,
+    "max ratio": 1.0000000000000129,
+    "comparisons": 156
+   },
+   "loss N1": {
+    "min ratio": 0.999999999999976,
+    "max ratio": 1.000000000000056,
+    "comparisons": 180
+   },
+   "loss N2": {
+    "min ratio": 0.9999999999999376,
+    "max ratio": 3.194167165020665,
+    "comparisons": 180
+   },
+   "loss N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 180
+   },
+   "loss N4": {
+    "min ratio": 1.000000001867101,
+    "max ratio": 1.3596422850034737,
+    "comparisons": 180
+   },
+   "loss N6+N15": {
+    "min ratio": 0.9999999999999893,
+    "max ratio": 355.57440000002225,
+    "comparisons": 180
+   },
+   "loss N7": {
+    "min ratio": 0.9999999999999676,
+    "max ratio": 1.0012702123710446,
+    "comparisons": 180
+   },
+   "loss N9": {
+    "min ratio": 0.9999999999998177,
+    "max ratio": 13.101036695120497,
+    "comparisons": 104
+   },
+   "loss N10": {
+    "min ratio": 0.9999999999999222,
+    "max ratio": 10.20270387809615,
+    "comparisons": 60
+   },
+   "loss N11": {
+    "min ratio": 0.999999999999837,
+    "max ratio": 1.7872233114584926,
+    "comparisons": 180
+   },
+   "loss N12": {
+    "min ratio": 0.9999999999999085,
+    "max ratio": 1.7872233114584937,
+    "comparisons": 180
+   },
+   "loss N13": {
+    "min ratio": 0.9999999999999959,
+    "max ratio": Infinity,
+    "comparisons": 180
+   },
+   "loss N14": {
+    "min ratio": 0.9999999999999766,
+    "max ratio": 1.0003159000424675,
+    "comparisons": 180
+   },
+   "loss N16": {
+    "min ratio": 1.0958474379970466,
+    "max ratio": 3.50030927593713,
+    "comparisons": 180
+   },
+   "loss B1": {
+    "min ratio": 0.9999999999998173,
+    "max ratio": 1.7450798339457705,
+    "comparisons": 120
+   },
+   "loss B2": {
+    "min ratio": 0.9999999999998369,
+    "max ratio": 1.000000000000094,
+    "comparisons": 120
+   },
+   "den d1": {
+    "min ratio": 0.9999999999999677,
+    "max ratio": 1.0000000000000386,
+    "comparisons": 180
+   },
+   "den d2": {
+    "min ratio": 0.999999999999837,
+    "max ratio": 1.000000000000094,
+    "comparisons": 180
+   },
+   "den d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0115003201349086,
+    "comparisons": 180
+   },
+   "den d4": {
+    "min ratio": 0.9999999999997611,
+    "max ratio": 1.0000000000000566,
+    "comparisons": 180
+   }
+  }
+ },
+ "audit (catalogue line of gamma-tilde, without it)": {
+  "bad": 0,
+  "first_bad": [],
+  "ratios": {
+   "gain P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 180
+   },
+   "gain P2": {
+    "min ratio": 0.999999999999761,
+    "max ratio": 1.0000000000000566,
+    "comparisons": 180
+   },
+   "gain P3": {
+    "min ratio": 0.7741448595984062,
+    "max ratio": 1.0000000000000386,
+    "comparisons": 180
+   },
+   "gain hF": {
+    "min ratio": 0.0,
+    "max ratio": 1.0000000000000226,
+    "comparisons": 180
+   },
+   "gain chirp": {
+    "min ratio": -3.2976828551502186,
+    "max ratio": 1.0000000000000129,
+    "comparisons": 156
+   },
+   "loss N1": {
+    "min ratio": 0.999999999999976,
+    "max ratio": 1.000000000000056,
+    "comparisons": 180
+   },
+   "loss N2": {
+    "min ratio": 0.9999999999999376,
+    "max ratio": 3.194167165020665,
+    "comparisons": 180
+   },
+   "loss N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 180
+   },
+   "loss N4": {
+    "min ratio": 1.000000001867101,
+    "max ratio": 1.3596422850034737,
+    "comparisons": 180
+   },
+   "loss N6+N15": {
+    "min ratio": 0.9999999999999893,
+    "max ratio": 355.57440000002225,
+    "comparisons": 180
+   },
+   "loss N7": {
+    "min ratio": 0.9999999999999676,
+    "max ratio": 1.0012702123710446,
+    "comparisons": 180
+   },
+   "loss N9": {
+    "min ratio": 0.9999999999998177,
+    "max ratio": 13.101036695120497,
+    "comparisons": 104
+   },
+   "loss N10": {
+    "min ratio": 0.9999999999999222,
+    "max ratio": 10.20270387809615,
+    "comparisons": 60
+   },
+   "loss N11": {
+    "min ratio": 0.999999999999837,
+    "max ratio": 1.7872233114584926,
+    "comparisons": 180
+   },
+   "loss N12": {
+    "min ratio": 0.9999999999999085,
+    "max ratio": 1.7872233114584937,
+    "comparisons": 180
+   },
+   "loss N13": {
+    "min ratio": 1.0008850936032765,
+    "max ratio": Infinity,
+    "comparisons": 180
+   },
+   "loss N14": {
+    "min ratio": 1.0008818473205225,
+    "max ratio": 1.2520971244491212,
+    "comparisons": 180
+   },
+   "loss N16": {
+    "min ratio": 1.0958474379970466,
+    "max ratio": 3.50030927593713,
+    "comparisons": 180
+   },
+   "loss B1": {
+    "min ratio": 0.9999999999998173,
+    "max ratio": 1.7450798339457705,
+    "comparisons": 120
+   },
+   "loss B2": {
+    "min ratio": 0.9999999999998369,
+    "max ratio": 1.000000000000094,
+    "comparisons": 120
+   },
+   "den d1": {
+    "min ratio": 0.9999999999999677,
+    "max ratio": 1.0000000000000386,
+    "comparisons": 180
+   },
+   "den d2": {
+    "min ratio": 0.999999999999837,
+    "max ratio": 1.000000000000094,
+    "comparisons": 180
+   },
+   "den d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0115003201349086,
+    "comparisons": 180
+   },
+   "den d4": {
+    "min ratio": 0.9999999999997611,
+    "max ratio": 1.0000000000000566,
+    "comparisons": 180
+   }
+  }
+ },
+ "power (wrong copies: violations found)": {
+  "N1 x 0.99": 90,
+  "N3 x 0.99": 90,
+  "N7 xi x 0.99": 90,
+  "N11 W x 0.99": 63,
+  "N16 x 0.85 (its slack is 9.6 %)": 69,
+  "N9 x 0.99": 22,
+  "P1 x 1.01": 90,
+  "hF x 1.01": 8,
+  "d1 x 0.99": 90,
+  "B1c x 0.5": 26,
+  "N6 y-part x 0.99": 3,
+  "N14 g2t dropped": 90,
+  "hfc2 (low-side constant doubled)": 14
+ },
+ "audit of the low side of the a-split (DA 2.3)": {
+  "bad": 0,
+  "first_bad": [],
+  "gain hF (low side) ratio min": 0.2211992169285915,
+  "max": 0.9816843611113617,
+  "comparisons": 36
+ },
+ "lines_classified": 32
+}

@@ -1,0 +1,50 @@
+\section{The interval proofs at the two ends}
+\label{app:D}
+
+\emph{The arithmetic} is that of App.~C of~\cite{I}: decimal intervals with outward rounding, special functions with one proved monotonicity each, and every evaluation run with the inexact operation trapped, so that no rounding escapes the outward rounding.
+The code of~\cite{I} is used through asserted text replacements of its source (each replacement must match exactly once), so that every formula not listed in App.~\ref{app:B} is the formula of~\cite{I}.
+With the replacements off and $\eta=1/\ell$, the code reproduces the published records of~\cite{I} (App.~\ref{app:E}).
+
+\emph{The runs.}
+\begin{itemize}
+\item \emph{Theorem~\ref{thm:Jnarrow}}: the partition of~\cite{I} of $[55.26,10^6]$ (ratio $1.001$, with $960.8$ as an edge because $c_{\rm ch}$ changes there; $9\,810$ pieces, split on failure up to depth 12; no split was needed) and the tail $[10^6,\infty)$, at each end: every condition of the proof and every one of the 48 quoted bounds (Table~\ref{tab:quoted}).
+  First run: the conditions, and the extreme value of every quoted quantity; second run: the conditions again, and the quoted bounds as conditions. The second run is the proof.
+\item \emph{Theorem~\ref{thm:Jwide}}: the room of~\cite{I} with $B_1(\ell)=8\ell+100$ on $6\,952$ pieces of $[960.8,10^6]$ and the tail, at each end, with its own checks of the numbers written into the formulas ($A_{2C}$, $(\mathrm{A2k}+\mathrm{B2a})/\mathrm{cKz}\le10^{-3}$, $a_s\le10^{-9}\sigma$, the tiny bound of (R7), (b.2), (b.5), $e_0$ needed $\le e_0$).
+\item \emph{(R1), (R3)} and the tiny bounds: $[55.26,\infty)$ as one piece, at each end's $\eta_{\rm r}$, with the sandwich ratio $1/\lambda$ on $(\mathrm{d4}+\mathrm{N4G})/\mathrm{P2z}$, $\mathrm{B1l}/\mathrm{P2z}$ and $\mathrm{B1c}/(\Gamma_2G)$.
+\end{itemize}
+
+\emph{Smallest margins} (value of the condition, which must be $\ge0$; at $\ell=55.26$ for the narrow room and $960.8$ for the wide room unless noted):
+\begin{center}
+\footnotesize
+\begin{tabular}{p{0.5\columnwidth}cc}
+condition & end A & end B\\ \hline
+\multicolumn{3}{l}{\emph{narrow room} (Theorem~\ref{thm:Jnarrow})}\\
+Case I, Fz: $c_{1F}-K_F/\sqrt b-\lambda c_1$ & $0.0312$ & $0.00344$\\
+Case I, Tz-B2 & $0.0868$ & $0.0119$\\
+(II-ch) slack & $0.0972$ ($960.8$) & $0.0314$ ($960.8$)\\
+(II-s) slack & $0.0683$ & $0.00151$\\
+(m1) slack 1 & $0.0731$ & $0.0584$\\
+(b.1) second pass & $0.00117$ & $0.00115$\\
+$e_0-e_0$ needed & $7.9\times10^{-6}$ & $3.6\times10^{-6}$\\
+(N0), divided by $t$ (tail) & $2.500$ & $2.500$\\
+\multicolumn{3}{l}{\emph{wide room} (Theorem~\ref{thm:Jwide})}\\
+Case I, Fz & $0.0817$ & $0.0279$\\
+Case I, Tz-B2 & $0.0768$ & $0.0107$\\
+(II-ch) slack & $0.0898$ & $0.0254$\\
+(II-s) slack & $0.0820$ & $0.0192$\\
+$A_{2C}$ needed (must be $\le$ its value) & $2.087\le2.1$ & $3.479\le3.5$\\
+$e_0$ needed$/e_0$ (must be $\le1$) & $0.713$ & $0.967$\\
+\end{tabular}
+\end{center}
+(R1) is $0.500$ es at the end A and $0.602$ es at B, (R3) at most $0.040$ es; all tiny bounds are below $0.02\,\mathrm{es}_\sigma$.
+The thinnest places are the end B at $\ell=55.26$ (II-s, $0.0015$; Fz, $0.0034$) and the coefficient $A_{2C}$ of the wide room at the end B ($3.479$ against $3.5$).
+Every condition of~\cite{I} that does not appear in the table holds with at least the margin of the table.
+
+\emph{Power.}
+Deliberately wrong versions, on the first 30 pieces, the last 5 below $10^6$ and the tail of the narrow room: a quoted bound moved $10^{-4}$ past its extreme value ($c_{1F}$, $\varepsilon_1'\ell^2$, $e_0$ needed): $2$, $1$ and $36$ failing pieces at each end; the rule constant $c_1=0.805$ (end A) and $0.776$ (end B): $30$; $e_0=1.26\times10^{-5}$ at the end B: $36$.
+The wide room: the four wrong versions of~\cite{I} ($e_0:=\mathrm{es}$, $c_B=0.3$, $c_1=0.95$, $B_m=100$) fail on every one of their four pieces at both ends.
+(R1): $B\ge1.3\times10^{10}$ in place of $2.5\times10^{10}$ fails at both ends; the allocation $0.52$ of~\cite{I} fails at the end B.
+
+\emph{How the remedy of the rule was found.}
+With one value $c_{\rm ch}=1.5$ for all $\ell$, the narrow room closes at both ends, but the wide room fails at the end B on every piece ((II-s) $-0.014$ at $\ell=960.8$; $A_{2C}$ needed $3.479>3.4$; $e_0$ needed $1.30\,e_0$).
+The rule may depend on $\ell$ (not on $\lambda$), so we took $c_{\rm ch}=2.0$ for $\ell\ge960.8$; $A_{2C}=3.5$ (end B) and $e_0=2.7/\sqrt{B_m}+\mathrm{es}$ (both ends) are constants of the proof, not of the rule.

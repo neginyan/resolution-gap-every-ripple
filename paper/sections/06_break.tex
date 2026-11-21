@@ -1,0 +1,103 @@
+\section{Trying to break it}
+\label{sec:break}
+
+Before the interval proofs we tried to break the claim and the lines it rests on.
+For every search we report the families, planted adversaries, and deliberately wrong versions that the same search does break.
+Everything in this section is \numst.
+
+\subsection{The lines against the lemmas at a strong ripple}
+The audit of~\cite{I} (Sec.~VIII and App.~B there) compares every lemma piece with its line on families of states: uniform, edges, corners, several edges at once, large $b$, with the brightness at its ceiling for the corner family, and a grid of $a$ with its end points.
+We ran it with the lemma at the ripple $\eta\in\{1/\ell,0.05,0.15,0.25\}$, the target $\gamma(1-\eta)/(1+\eta)$, and the lines of this paper at $\lambda=1/(1+\eta)$, in both forms (remainders at $\bar\eta$, and the chord), for $\ell\in\{55.26,960.8,10^4,10^6,10^{12}\}$: $94\,512$ points, no group and no option total violated (tolerance $10^{-30}$ relative).
+Wrong versions, each at $\eta=\tfrac14$ and $\ell\in\{55.26,960.8\}$: the remainders at $1/\ell$ (``$\eta$ forgotten''), $5\,554$--$7\,200$ violations; the target not scaled, $1\,886$--$2\,137$; P2z$\times1.01$, $485$--$646$; N1$\times0.99$, $511$--$687$; B2c$\times0.99$, $470$--$474$; the five lines of FrB1$\times0.70$, $416$--$441$.
+The old constant $X_1$ in B1m is \emph{not} seen by this audit, because the group FrB1 has slack; it breaks the written step of the chain, which the next audit checks.
+
+The 30 groups of formulas of~\cite{I} (lemma piece, closed form, elementary steps, line) were evaluated at $\eta=\tfrac14$ for $\ell\in\{55.26,955.8,10^6,10^{12}\}$.
+With the steps of~\cite{I}, only FrB1 breaks, in its first step; with $X_{1,\rm B1}$ no group breaks.
+Wrong versions: the new line with the old step ($449$ and $229$ failing points), and the new step at $\eta=0.3>\tfrac14$ (FrB1 and FrB2 break).
+
+At $\eta=1/\ell$ the published audits of~\cite{I} are reproduced exactly by the code of this paper, in which $\eta$ and $1/\ell$ are separate arguments (App.~\ref{app:E}).
+
+\subsection{The conclusion}
+We searched for states where the lines of this paper give $(F^2-1)\ell<10$, with $F=\min_a\max_k$ of the ratio of the best option to the target (the quantity of Sec.~VIII of~\cite{I}), at the ends A and B in both forms and, for the form with the remainders at $\bar\eta$, at $\lambda=0.9$.
+The families are the twelve of~\cite{I} (corner, global, five edge families, five narrow families) and the minimisers of the searches of~\cite{I} as seeds; $n=800$ walkers per family, shrinking random walks and pattern search.
+\begin{center}
+\small
+\begin{tabular}{lccccc}
+$\ell$ & A & mid & B & A (chord) & B (chord)\\ \hline
+$55.26$ & $22.89$ & $23.66$ & $24.54$ & $22.89$ & $24.54$\\
+$960.8$ & $28.22$ & $28.66$ & $29.16$ & $28.22$ & $29.16$\\
+$10^4$ & $35.83$ & $36.25$ & $36.73$ & $35.83$ & $36.73$\\
+$10^6$ & $51.83$ & $52.26$ & $52.73$ & $51.83$ & $52.73$\\
+\end{tabular}
+\end{center}
+The smallest value, $22.89$, is more than twice what the claim needs.
+The forms agree at the minimisers because there $k_E\approx\sqrt r$ is small and the remainders hardly act; the minimum moves from Paper~I's $17.56$ to $22.89$ because the end A has gains at factor one instead of $1/(1+1/\ell)$.
+Before the interval proofs, the corner family at $\ell=55.26$ was searched once more with $n=1500$ at both ends: $22.89$ and $24.54$.
+
+Power: dropping a main gain line (P2z, or hFz) makes the margin negative at both ends and both $\ell$ (8 versions); the three planted dips of~\cite{I} (corner, narrow, low $\mu$; depth 5) were found, $11$ of $12$ at once and the last one (corner, end A, $\ell=55.26$) with $n=1500$ or with the widths tripled; the corner dip was found again by the $n=1500$ search at both ends.
+A first design of the planted dip (width $0.5$ next to the minimiser) was too narrow to be felt by the walkers at $\ell=55.26$; we replaced it by the design of~\cite{I} and report it here.
+
+\emph{In the lines of this proof, the coefficient cannot be one.}
+With the target not scaled ($\gamma$ in place of $(\lambda/\Upsilon)\gamma$) at $\eta=\tfrac14$, the smallest $(F^2-1)\ell$ of the lines is $-26.5$ at $\ell=55.26$ and $-604$ at $\ell=960.8$: $F$ falls to about $3/5$, the sandwich ratio.
+This is a statement about the lower bounds of this proof, not about $g$.
+The sandwich puts the worst gain factor $\lambda$ and the worst cost factor $\Upsilon$ at the same time; in one window the two need not occur together.
+The next subsection asks what the true quantity does.
+
+\subsection{The true quantity at a strong ripple}
+\label{sec:truth}
+We computed the true quantity $Q=(a)+(a')$, which bounds $g$ through Eq.~\eqref{eq:ga}, on windows with $\eta=\tfrac14$, $0.1$ and $1/\ell$, and searched for small $Q\sqrt\ell$ \numst.
+
+\emph{The method.}
+The quantity of \code{dp\_truth.py} of~\cite{I} is a two-dimensional quadrature in $(v,w)$ and works only for moderate $\sigma$.
+We write it in the variables of the local lemmas of~\cite{I}.
+The integrand is split into a sum of terms (a function of the ripple phase $t$) $\times\,\hat s^k\times\{1,\,1-\cos(\sqrt y\hat s),\,\sin(\sqrt y\hat s)\}$, $k\le2$; the nonlinearity in the ripple, $1/h$ included, stays inside the functions of $t$.
+These are sampled on $M$ points and replaced by their discrete Fourier coefficients up to a cut $n_{\rm cut}$; the Gaussian averages $E[\hat s^kU_j(\hat s)e^{in\sqrt\tau\hat s}]$ are then taken in closed form.
+For a narrow focus the $\hat s$-average is done instead by $128$-point Gauss--Hermite quadrature; the $w$-average by Gauss--Legendre panels at the two scales $s$ and $L$ (for $L>3$, the part without ripple in the closed form of Lemma~11 of~\cite{I}).
+$1-\cos$ is written without cancellation, and everything is in extended precision, so that $\sigma=e^{-960.8}$ is representable.
+No term is expanded or dropped; the only errors are those of the quadratures and of the Fourier truncation and aliasing.
+Checks: against the quadrature of~\cite{I} at $\ell=8$ ($44$ comparisons, relative difference at most $1.1\times10^{-5}$, the error of that quadrature), against the closed form of Lemma~11 of~\cite{I} at $\ell=8$, $55.26$, $960.8$ ($27$ states, $2\times10^{-15}$), and the grids doubled ($5\times10^{-12}$); every value reported is computed on the finer of the two $t$-grids of the code.
+
+\emph{The windows and states.}
+Windows are built from a non-negative unblurred profile with (P2) and (P3), aligned so that $\sup|R|=\eta$ exactly: one harmonic; two harmonics ($m=3,21,61$); a spike (all harmonics up to the blur); a packet of fine harmonics at the trough of the fundamental, where $h=1-\eta$ (the shape that brings the worst cost and the worst gain of the sandwich closest together), and the same packet at the crest.
+States: the narrow room (Theorem~\ref{thm:Jnarrow}), the focus at the resolution (Theorem~\ref{thm:Jres}) and the band $8\ell+100\le B<\ell^4$ of Theorem~\ref{thm:Jwide}, all states, and separately the ripple-dominated states (the ripple carries at least half of the denominator).
+Search: $400$ points of the unit cube of the parameters, then Nelder--Mead from the best six, for each of the $126$ combinations at $\ell=55.26$; the minimisers re-evaluated on finer grids; the best combinations again at $\ell=200$ and $960.8$.
+
+\emph{The result.}
+\begin{center}
+\small
+\begin{tabular}{lccc}
+smallest $Q\sqrt\ell$ found & $\eta=\tfrac14$ & $\eta=0.1$ & $\eta=1/\ell$\\ \hline
+$\ell=55.26$ & $3.40$ & $3.49$ & $5.20$\\
+$\ell=200$ & $10.3$ & $20.0^*$ & $8.84$\\
+$\ell=960.8$ & $22.1$ & $17.1$ & $29.3$\\
+\end{tabular}
+\end{center}
+At $\ell=200$ and $960.8$ only the best combinations of $\ell=55.26$ were searched, with a smaller budget, so these are upper estimates of the minimum (${}^*$: the search ended at a dark ripple).
+The smallest values sit in the narrow room, at packets of fine harmonics whose local fineness is $\mu\approx1.2$; there $Q\approx1/(2\sqrt\mu)$, far above $\Gamma_\ell$.
+At the resolution the minimum is that of a dark ripple ($7.43$ at $\ell=55.26$, the same for every $\eta$), and in the band of Theorem~\ref{thm:Jwide} every search ends at $Q\sqrt\ell=\sqrt\ell/(8\sigma\ell^4)$, about $10^{17}$ at $\ell=55.26$ and $e^{934.7}$ at $\ell=960.8$ \derivst: there $y=1/(2B)$ is not small, a ripple that carries the denominator pays $(a)+(a')\gtrsim y/(4\sigma)=1/(8\sigma B)$ through the spread of its phase over the focus (the chirp line cKz), and a dark ripple pays the background $C_0/\sqrt b$.
+The minima grow roughly like $\sqrt\ell$, since in this class the local fineness $\mu$ of a bright ripple stays near one.
+At $\ell=55.26$ a strong ripple gives \emph{smaller} minima than a weak one, because it can be brighter; at $\ell=200$ and $960.8$ the values are upper estimates from a smaller budget, and their order can change with it. The comparison that does not depend on the budget is at the same window shape and the same state: there $Q$ with $\eta=1/\ell$ is $1.4$ to $3.4$ times larger than with $\eta=\tfrac14$.
+
+\emph{Does the sandwich act in the true quantity?}
+At each minimiser we also computed $Q_{h1}$, the same window and state with the factors $1/h$ of the scores replaced by one: these factors are what the ripple sandwich bounds by $\lambda$ and $\Upsilon$.
+At the ripple-dominated minimisers with $\eta=\tfrac14$, $Q/Q_{h1}$ lies between $0.93$ and $1.04$ (against $(1-\eta)/(1+\eta)=0.6$).
+A search that minimises $Q/Q_{h1}$ itself finds $0.71$ at $\eta=\tfrac14$ and $0.87$ at $\eta=0.1$ (against $0.6$ and $0.82$), both for the packet at the trough, as designed; but there $Q\sqrt\ell$ is $257$ and $766$.
+So the factors of the sandwich do act in the true quantity, up to most of their bound, but only at states where the information is plentiful; at the states where it is scarce they move $Q$ by a few per cent.
+
+\emph{Power.}
+At the overall minimiser and at the ripple-dominated one: leaving out the term (III) of the numerator lowers $Q$ by $43$--$50\,\%$ and the search finds values near zero; the scores computed with $1-ER$ in place of $h$ change $Q$ by up to $15\,\%$ over the minimisers; a planted bowl at a random point, with its bottom at $0.3$ times the minimum, is found by the same search (bottom $1.05$, found $1.06$; and $1.02$, found $1.03$); and an artificial worst sandwich (the brightness in the denominator times $1/(1-\eta)^2$, in the numerator times $1/(1+\eta)^2$) gives $2.11$ and $2.20$ against the true $6.68$ and $3.40$ of the same family: within these families, the search would have found a lowering by the sandwich ratio; it found none.
+
+\emph{What this shows and what it does not.}
+No window found has $((a)+(a'))\sqrt\ell$ near one, let alone near $(1-\eta)/(1+\eta)$ (and $g\sqrt\ell\ge(1-\bar\varepsilon)((a)+(a'))\sqrt\ell$).
+But in the regime of the class ($x\le0.003$, the fundamental the largest harmonic) the true quantity is far above $\Gamma_\ell$ for weak ripples too.
+The states where the law is nearly tight are those of the comb of~\cite{F}, whose period is at the scale of the blur ($x\approx\ell/4$ for its own fundamental); there $(a)+(a')$ is $1.24/\sqrt\ell$ at $\ell=55.26$ and tends to $1/\sqrt\ell$ (\code{dh\_true.py} in the repository of~\cite{I}), and they are outside the class of Theorem~\ref{thm:J}.
+So the searches do not test the factor near tightness; they show that, where they look, a strong ripple does not take a fraction of the information away.
+\begin{conjecture}[coefficient one for every ripple] \conjst
+\label{conj:one}
+For every admissible window ($\eta\le\tfrac14$), every state and every $\ell\ge55.26$, $g\sqrt\ell\ge1-\bar\varepsilon$.
+\end{conjecture}
+
+\subsection{The convexity inventory}
+The parser of Lemma~\ref{lem:chord} was itself tested with three wrong versions of the lines (a loss multiplied by $1-\eta$, $1+\eta$ replaced by $1/(1+\eta)$, $\sqrt\eta$ in d3): all three are rejected.
+Our first hand-written inventory had three wrong rows (N4G, B2s, uB2s listed basic functions they do not contain); the parser found them, and Table~\ref{tab:inventory} is the corrected one.
+Numerically, every product of up to three of the six functions, and every loss line of~\cite{I} at random states, lies under its chord on a grid of $\lambda$ (smallest difference $\ge-10^{-15}$ relative, rounding).

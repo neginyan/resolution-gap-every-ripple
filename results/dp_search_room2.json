@@ -1,0 +1,293 @@
+{
+ "model": "Claude Fable 5.2 (claude-fable-5-2)",
+ "needed": "DP-2a: (F^2 - 1) ell >= 10;  DP-2b: gamma* = F/sqrt(ell) >= 0.6",
+ "55.26": {
+  "log F": 1.7018294638999352,
+  "(F^2 - 1) ell": 1606.6257777893238,
+  "state (log mu, log r, log B, log kappa, q)": [
+   1.9547966664746637,
+   -1.3862943611198906,
+   110.52,
+   -16.760183168351283,
+   0.0
+  ],
+  "mu": 7.062482838160713,
+  "B": 9.959238663625615e+47,
+  "kappa": 5.26192840036358e-08,
+  "log r + ell/2": 26.243705638880108,
+  "tau >= 5e11/B": 5.020464082522321e-37,
+  "evaluations": 23690,
+  "nan": 0,
+  "family minima before refinement (log F)": {
+   "F1 corner": 2.3739266571407027,
+   "F2 global": 1.9320989801018,
+   "E1 small r, b at the lower end": 2.0060246586641277,
+   "E2 b at the lower end": 1.813304318572836,
+   "E3 large b": 2.1598758529990705,
+   "E4 tails of mu": 2.3518607980190347,
+   "E5 tails of kappa": 2.3518715429522863,
+   "N1 narrow": 2.006024659688493,
+   "N2 low mu": 1.8124716919737967,
+   "N3 DF region": 2.0060246597470766,
+   "N4 on the line": 2.0060246596030384,
+   "N5 large kappa": 1.8370250197627773,
+   "F4 seeds": 1.7202041451733814
+  },
+  "gamma* = F/sqrt(ell)": 0.7377168531291382,
+  "b": 1.0,
+  "rule: states per regime at the ceiling (I/Fz, I/Tz-B2, II chirp, II rest)": [
+   7800,
+   0,
+   0,
+   0
+  ],
+  "largest G Gam2/(c1 sqrt(b)) at the ceiling (Case II needs > 1)": 0.031500258216938685
+ },
+ "82.89": {
+  "log F": 1.9132371494877853,
+  "(F^2 - 1) ell": 3721.7959341199103,
+  "state (log mu, log r, log B, log kappa, q)": [
+   1.9547968197220313,
+   -1.3862943611198906,
+   165.78,
+   -4.865446227815592,
+   0.0
+  ],
+  "mu": 7.062483920467701,
+  "B": 9.938920343576446e+71,
+  "kappa": 0.00770838772688736,
+  "log r + ell/2": 40.05870563888011,
+  "tau >= 5e11/B": 5.030727510791969e-61,
+  "evaluations": 23330,
+  "nan": 0,
+  "family minima before refinement (log F)": {
+   "F1 corner": 3.9971645897227006,
+   "F2 global": 2.204024775253718,
+   "E1 small r, b at the lower end": 2.208757213801702,
+   "E2 b at the lower end": 2.018297743908355,
+   "E3 large b": 2.400135936082354,
+   "E4 tails of mu": 2.5553301841933718,
+   "E5 tails of kappa": 2.5553300848944014,
+   "N1 narrow": 2.208757213801703,
+   "N2 low mu": 2.0234211050922735,
+   "N3 DF region": 2.208757213801703,
+   "N4 on the line": 2.208757213801703,
+   "N5 large kappa": 2.034756784393318,
+   "F4 seeds": 1.9322283639164706
+  },
+  "gamma* = F/sqrt(ell)": 0.7441444838247927,
+  "b": 1.0,
+  "rule: states per regime at the ceiling (I/Fz, I/Tz-B2, II chirp, II rest)": [
+   7800,
+   0,
+   0,
+   0
+  ],
+  "largest G Gam2/(c1 sqrt(b)) at the ceiling (Case II needs > 1)": 0.02490141228728105
+ },
+ "331.56": {
+  "log F": 2.61933564399432,
+  "(F^2 - 1) ell": 62140.836159288665,
+  "state (log mu, log r, log B, log kappa, q)": [
+   1.9547967669028283,
+   -1.3862943611198906,
+   663.12,
+   3.9919296910488615,
+   0.0
+  ],
+  "mu": 7.062483547432938,
+  "B": 9.75791070802673e+287,
+  "kappa": 54.15929930654528,
+  "log r + ell/2": 164.3937056388801,
+  "tau >= 5e11/B": 5.124047708170834e-277,
+  "evaluations": 23590,
+  "nan": 0,
+  "family minima before refinement (log F)": {
+   "F1 corner": 34.97765026998087,
+   "F2 global": 2.8396004229212273,
+   "E1 small r, b at the lower end": 2.90190439436165,
+   "E2 b at the lower end": 2.741413336697669,
+   "E3 large b": 3.0297010313602013,
+   "E4 tails of mu": 3.248477984641595,
+   "E5 tails of kappa": 3.248477984641595,
+   "N1 narrow": 2.90190439436165,
+   "N2 low mu": 2.7288425691252374,
+   "N3 DF region": 2.90190439436165,
+   "N4 on the line": 2.90190439436165,
+   "N5 large kappa": 2.8607426001216245,
+   "F4 seeds": 2.634572376799099
+  },
+  "gamma* = F/sqrt(ell)": 0.7538448130698958,
+  "b": 1.0,
+  "rule: states per regime at the ceiling (I/Fz, I/Tz-B2, II chirp, II rest)": [
+   7800,
+   0,
+   0,
+   0
+  ],
+  "largest G Gam2/(c1 sqrt(b)) at the ceiling (Case II needs > 1)": 0.011829150877895026
+ },
+ "955.8": {
+  "log F": 3.151515520995296,
+  "(F^2 - 1) ell": 521126.0880052346,
+  "state (log mu, log r, log B, log kappa, q)": [
+   1.9547967486444981,
+   -1.3862943611198906,
+   1911.6,
+   3.5634087693490417,
+   0.0
+  ],
+  "mu": 7.062483418483783,
+  "B": 1.0142320547350045e+304,
+  "kappa": 35.28326489912635,
+  "log r + ell/2": 476.5137056388801,
+  "tau >= 5e11/B": 4.929838271879885e-293,
+  "evaluations": 23220,
+  "nan": 0,
+  "family minima before refinement (log F)": {
+   "F1 corner": 112.91750098473709,
+   "F2 global": 3.432039317964864,
+   "E1 small r, b at the lower end": 70.05972838298715,
+   "E2 b at the lower end": 3.3728339734026966,
+   "E3 large b": 3.7743109213129915,
+   "E4 tails of mu": 3.777847933352091,
+   "E5 tails of kappa": 3.777847933352091,
+   "N1 narrow": 3.431274343072146,
+   "N2 low mu": 3.2608766658834174,
+   "N3 DF region": 3.431274343072146,
+   "N4 on the line": 3.431274343072146,
+   "N5 large kappa": 3.4302372242871497,
+   "F4 seeds": 3.1524406333063255
+  },
+  "gamma* = F/sqrt(ell)": 0.7559660417914534,
+  "b": 1.0,
+  "rule: states per regime at the ceiling (I/Fz, I/Tz-B2, II chirp, II rest)": [
+   7800,
+   0,
+   0,
+   0
+  ],
+  "largest G Gam2/(c1 sqrt(b)) at the ceiling (Case II needs > 1)": 0.0068865476801499605
+ },
+ "10000.0": {
+  "log F": 4.326759977063867,
+  "(F^2 - 1) ell": 57292816.04440165,
+  "state (log mu, log r, log B, log kappa, q)": [
+   1.9547967275254639,
+   -1.3862943611198906,
+   20000.0,
+   -7.833354343719969,
+   0.0
+  ],
+  "mu": 7.062483269330955,
+  "B": 1.0142320547350045e+304,
+  "kappa": 0.0003962939422234886,
+  "log r + ell/2": 4998.61370563888,
+  "tau >= 5e11/B": 4.929838271879885e-293,
+  "evaluations": 23280,
+  "nan": 0,
+  "family minima before refinement (log F)": {
+   "F1 corner": 1243.6211944919264,
+   "F2 global": 4.606019838508387,
+   "E1 small r, b at the lower end": 72.03251331512365,
+   "E2 b at the lower end": 4.605170185987759,
+   "E3 large b": 4.9502463883142465,
+   "E4 tails of mu": 4.951743776266908,
+   "E5 tails of kappa": 4.951743776266908,
+   "N1 narrow": 4.605170185987759,
+   "N2 low mu": 4.436051294030107,
+   "N3 DF region": 4.605170185987759,
+   "N4 on the line": 4.605170185987759,
+   "N5 large kappa": 4.605170185986013,
+   "F4 seeds": 4.351287078689015
+  },
+  "gamma* = F/sqrt(ell)": 0.7569862353068361,
+  "b": 1.0,
+  "rule: states per regime at the ceiling (I/Fz, I/Tz-B2, II chirp, II rest)": [
+   7800,
+   0,
+   0,
+   0
+  ],
+  "largest G Gam2/(c1 sqrt(b)) at the ceiling (Case II needs > 1)": 0.002117048653102809
+ },
+ "1000000.0": {
+  "log F": 6.629486119039897,
+  "(F^2 - 1) ell": 573188833324.0973,
+  "state (log mu, log r, log B, log kappa, q)": [
+   1.9547967530548003,
+   -1.3862943611198906,
+   2000000.0,
+   2.8071400708072227,
+   0.0
+  ],
+  "mu": 7.062483449631469,
+  "B": 1.0142320547350045e+304,
+  "kappa": 16.562482891953035,
+  "log r + ell/2": 499998.61370563885,
+  "tau >= 5e11/B": 4.929838271879885e-293,
+  "evaluations": 23610,
+  "nan": 0,
+  "family minima before refinement (log F)": {
+   "F1 corner": 124993.54091561679,
+   "F2 global": 6.910696117419234,
+   "E1 small r, b at the lower end": 7684.102850841475,
+   "E2 b at the lower end": 6.9077552789612175,
+   "E3 large b": 7.254328869262195,
+   "E4 tails of mu": 7.254328869262195,
+   "E5 tails of kappa": 7.254328869262195,
+   "N1 narrow": 6.9077552789612175,
+   "N2 low mu": 6.7387701412204235,
+   "N3 DF region": 6.9077552789612175,
+   "N4 on the line": 6.9077552789612175,
+   "N5 large kappa": 6.9077552789612175,
+   "F4 seeds": 6.653672761861789
+  },
+  "gamma* = F/sqrt(ell)": 0.7570930149751068,
+  "b": 1.0,
+  "rule: states per regime at the ceiling (I/Fz, I/Tz-B2, II chirp, II rest)": [
+   7800,
+   0,
+   0,
+   0
+  ],
+  "largest G Gam2/(c1 sqrt(b)) at the ceiling (Case II needs > 1)": 0.0002115792017624673
+ },
+ "planted dip (depth 5; b = 0.75, mu = 3, r = 1e-3; ell = 55.26)": {
+  "found minimum of (F^2 - 1) ell": 5.000000000000207,
+  "found": true
+ },
+ "wrong versions (ell = 55.26)": {
+  "line P4z dropped": {
+   "smallest gamma*": 0.0,
+   "(F^2 - 1) ell": -55.26,
+   "DP-2a broken (< 10)": true,
+   "DP-2b broken (gamma* < 0.6)": true
+  },
+  "line P1 dropped": {
+   "smallest gamma*": 0.0,
+   "(F^2 - 1) ell": -55.26,
+   "DP-2a broken (< 10)": true,
+   "DP-2b broken (gamma* < 0.6)": true
+  },
+  "line hneg1 dropped (not a wrong version: it must RAISE gamma*)": {
+   "smallest gamma*": 0.8150499796488776,
+   "(F^2 - 1) ell": 1973.3111418500882,
+   "DP-2a broken (< 10)": false,
+   "DP-2b broken (gamma* < 0.6)": false
+  },
+  "(CM) removed from (H') (P up to mu/8)": {
+   "smallest gamma*": 0.055665146591025595,
+   "(F^2 - 1) ell": -45.797879481049236,
+   "DP-2a broken (< 10)": true,
+   "DP-2b broken (gamma* < 0.6)": true
+  }
+ },
+ "smallest gamma* found": 0.7377168531291382,
+ "wrong version: a claim gamma* >= 0.8 would be broken": true,
+ "DP-2a holds on the searched states": true,
+ "DP-2b holds on the searched states": true,
+ "no state of Case II found": true,
+ "ok": true,
+ "seconds": 46.20696496963501
+}

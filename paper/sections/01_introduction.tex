@@ -1,0 +1,57 @@
+\section{Introduction}
+\label{sec:intro}
+
+\emph{The claim.}
+Paper~I~\cite{I} showed that an observer who looks at a periodic ripple through a lens of resolution $\sigma$ cannot beat a fixed exchange rate, wherever she puts her focus:
+$g\sqrt\ell\ge1-\bar\varepsilon$, $\ell=\ln(1/\sigma)$.
+It did so for windows whose ripple is weak in the sup norm, $\eta=\sup|R|\le1/\ell$.
+The window class of Papers~F and~H~\cite{F,H} allows much stronger ripples: condition (P3), $\sum_nq0_n\le\Qb=\tfrac14$, gives only $\eta\le\tfrac14$.
+This paper removes the assumption $\eta\le1/\ell$.
+\begin{quote}
+\emph{Wherever the observer focuses, whatever the strength of the ripple, the information that reaches her obeys $g\sqrt\ell\ge(1-\bar\varepsilon)(1-\eta)/(1+\eta)$.}
+\end{quote}
+The statement holds for every admissible window, every state and every $\ell\ge55.26$ (Theorem~\ref{thm:J}).
+The factor $(1-\eta)/(1+\eta)$ is at least $3/5$, and it is one when the ripple vanishes.
+It is what the ripple sandwich costs in this proof; whether the true quantity pays it is a separate question, which Sec.~\ref{sec:truth} answers numerically in the negative for the windows we could reach.
+
+\emph{Where the factor comes from.}
+A ripple of strength $\eta$ multiplies the window by a factor between $1-\eta$ and $1+\eta$.
+Paper~H~\cite{H} turned this into a sandwich: the gains of the expansion are at least $\lambda=1/(1+\eta)$ times their ripple-free values, the cost in the denominator at most $\Upsilon=1/(1-\eta)$ times.
+So the natural law for a strong ripple has the coefficient $\lambda/\Upsilon=(1-\eta)/(1+\eta)$.
+Paper~H proved it for the states whose focus spans at least about $0.7$ ripple periods and $\ell\le960.8$ (Theorem~H1, (ii)--(iii)).
+Paper~I proved the law with coefficient one, on the whole map of states, for a weak ripple.
+Here the two meet: the whole map, every ripple of the class, coefficient $\lambda/\Upsilon$.
+In the lower bounds of this proof the coefficient cannot be one at $\eta=\tfrac14$: with the target unscaled their margin falls from $+24.5$ to $-26.5$ at $\ell=55.26$ \numst.
+The sandwich puts the worst gain and the worst cost of the ripple at the same time, and one window need not have both.
+The true quantity, computed on windows with $\eta=\tfrac14$, stays far above the law ($((a)+(a'))\sqrt\ell\ge3.40$ on everything we found at $\ell=55.26$, so $g\sqrt\ell\ge(1-\bar\varepsilon)\,3.40$ there), and at those states the factors of the sandwich move it by a few per cent (Sec.~\ref{sec:truth}) \numst.
+We conjecture that the coefficient one holds for every ripple of the class (Conjecture~\ref{conj:one}).
+
+\emph{What is new.}
+Most of the work of Paper~I carries over.
+Its lines (the lower bounds of the local expansion) are written with $\eta$ as a parameter.
+We read every lemma behind them again, those of Paper~I and those it borrows from Papers~F and~H, and recorded for each where $\eta$ enters its proof and which bound on $\eta$ that step uses (Table~\ref{tab:lemmas}, App.~\ref{app:lemmas}): every lemma uses only $\eta<1$ (through $h\ge1-\eta$) or no bound at all, with one exception.
+What had to be added is the following.
+\begin{itemize}
+\item \emph{Two ends instead of a continuum} (Sec.~\ref{sec:sandwich}).
+  The remainders of the lines are functions of $\eta$; the gains and the target carry the sandwich.
+  Each remainder is a sum of products of six non-negative, increasing, convex functions of $\eta$ (Lemma~\ref{lem:chord}); as a function of $\lambda=1/(1+\eta)$ it is convex and lies under its chord on $[\tfrac45,1]$.
+  With the target scaled by $\lambda/\Upsilon=2\lambda-1$, every line becomes affine in $\lambda$, and the interval proofs at the two ends, $\eta=0$ and $\eta=\tfrac14$, cover every ripple in between.
+\item \emph{One step repaired} (Sec.~\ref{sec:changes}).
+  One elementary step of Paper~I (in the group FrB1) used $\eta\le1/\ell$; it fails at $\eta=\tfrac14$.
+  A larger constant $X_1\to U_1/(1-\bar\eta)+\sqrt{\mathrm{CZ}(\bar\eta)}$ repairs it; no new lemma is needed.
+\item \emph{New constants} (Sec.~\ref{sec:changes} and App.~\ref{app:D}).
+  The rule of the proof, which chooses the option of the expansion, has new constants ($c_1=0.77$, $c_T=6.5$, and $c_{\rm ch}=1.5$ for $\ell<960.8$, $2.0$ beyond), $18$ of the $48$ quoted bounds of Paper~I take new values, and the tail $[10^6,\infty)$ is derived again with $\eta$ and $1/\ell$ separated.
+\end{itemize}
+The focus at the resolution keeps the coefficient one (Theorem~\ref{thm:Jres}): $(a)+(a')\ge0.49$ whenever the ripple reaches the focus ($G>0$), and $\ge0.1995$ otherwise, for every ripple of the class; both are above $\Gamma_\ell\le0.1462$, by hand \proofst.
+The very wide focus needed no bound on $\eta$ already in Paper~I.
+
+\emph{What is proved and what is not.}
+We keep the distinction of Papers~F, H and~I between proof, computer-assisted proof, derivation, numerical evidence and conjecture, and mark every statement.
+The computer-assisted part is a finite list of interval-arithmetic evaluations with outward rounding, at the two ends; it is listed in App.~\ref{app:D}.
+We tried to break the claim first, with planted dips and with deliberately wrong versions that the same search breaks (Sec.~\ref{sec:break}).
+The limits are those of Paper~I with one removed (Sec.~\ref{sec:limits}): the class constant $\bar\varepsilon$, the upper side, and now also the restriction of the coefficient to the ripple sandwich, since Paper~H's general sandwich factors do not close the proof here.
+
+\emph{In the observer's words.}
+A stronger ripple can dim the picture at most by the ratio $(1-\eta)/(1+\eta)$ of the darkest to the brightest it can make it.
+It does not change the exchange rate.
+However the observer focuses, the information that survives the blur is still at least that fraction of $1/\sqrt\ell$; where she focuses at the resolution itself, the ripple cannot even take that fraction away; and in the windows we could compute, it does not take it away anywhere.

@@ -1,0 +1,130 @@
+{
+ "331.56": {
+  "smallest (F^2 - 1) ell (kappa >= e^{-2.2 ell - 50})": 21.059568754952245,
+  "state (log mu, log r, log B, log kappa)": [
+   4.360027160342464,
+   -166.47675287756428,
+   333.4214213317899,
+   -5.356839447901346
+  ],
+  "mu": 78.25925994252025,
+  "ell/4 - mu": 4.6307400574797555,
+  "log r + ell/2": -0.6967528775642791,
+  "log b + ell": 1.8614213317898702,
+  "log kappa": -5.356839447901346,
+  "below 10": false,
+  "log kappa range searched": [
+   -779.432,
+   18.420680743952367
+  ],
+  "smallest per family (before refinement)": {
+   "F1 corner": 33.812176814329995,
+   "F2 global": 1381.3121715033649,
+   "E1 small r, b at the lower end": 81557494505.55135,
+   "E2 b at the lower end": 17641167.86087479,
+   "E3 large b": 221485.49213576,
+   "E4 tails of mu": 5227.099893336664,
+   "E5 tails of kappa": 42.085011585448385,
+   "E6 narrow": 28142.87541051023,
+   "F4 seeds": 21.07480194036801
+  },
+  "states evaluated": 52181,
+  "seconds": 177.2
+ },
+ "955.8": {
+  "smallest (F^2 - 1) ell (kappa >= e^{-2.2 ell - 50})": 24.095753991662434,
+  "state (log mu, log r, log B, log kappa)": [
+   5.4525505598047275,
+   -478.86826999669273,
+   958.2152498953892,
+   -6.451479988029296
+  ],
+  "mu": 233.35258726121046,
+  "ell/4 - mu": 5.597412738789529,
+  "log r + ell/2": -0.9682699966927544,
+  "log b + ell": 2.415249895389252,
+  "log kappa": -6.451479988029296,
+  "below 10": false,
+  "log kappa range searched": [
+   -2152.76,
+   18.420680743952367
+  ],
+  "smallest per family (before refinement)": {
+   "F1 corner": 37.23315626696664,
+   "F2 global": 1627.5287571236518,
+   "E1 small r, b at the lower end": 6.346016101053594e+45,
+   "E2 b at the lower end": 8663422708.703463,
+   "E3 large b": 1836913.3262749834,
+   "E4 tails of mu": 44573.55526031076,
+   "E5 tails of kappa": 41.366463131695646,
+   "E6 narrow": 3046726.2734421776,
+   "F4 seeds": 24.103151751352375
+  },
+  "states evaluated": 51392,
+  "seconds": 266.0
+ },
+ "10000.0": {
+  "smallest (F^2 - 1) ell (kappa >= e^{-2.2 ell - 50})": 31.815082191692095,
+  "state (log mu, log r, log B, log kappa)": [
+   7.820971277952465,
+   -5001.559478380455,
+   10003.603268089462,
+   -8.820870835730233
+  ],
+  "mu": 2492.3249731159103,
+  "ell/4 - mu": 7.675026884089675,
+  "log r + ell/2": -1.5594783804554027,
+  "log b + ell": 3.60326808946229,
+  "log kappa": -8.820870835730233,
+  "below 10": false,
+  "log kappa range searched": [
+   -22050.0,
+   18.420680743952367
+  ],
+  "smallest per family (before refinement)": {
+   "F1 corner": 39.92660059806262,
+   "F2 global": 37883.263535084174,
+   "E1 small r, b at the lower end": Infinity,
+   "E2 b at the lower end": 1.249011752657372e+38,
+   "E3 large b": 200576666.22431532,
+   "E4 tails of mu": 4988659.516382467,
+   "E5 tails of kappa": 48.09872328987309,
+   "E6 narrow": 11553521.42082767,
+   "F4 seeds": 31.84585879217777
+  },
+  "states evaluated": 46940,
+  "seconds": 133.9
+ },
+ "1000000.0": {
+  "smallest (F^2 - 1) ell (kappa >= e^{-2.2 ell - 50})": 47.83317291005568,
+  "state (log mu, log r, log B, log kappa)": [
+   12.429169375283616,
+   -500002.71011430497,
+   1000005.9050643146,
+   -13.429154385607307
+  ],
+  "mu": 249988.2948838361,
+  "ell/4 - mu": 11.705116163910134,
+  "log r + ell/2": -2.7101143049658276,
+  "log b + ell": 5.9050643146038055,
+  "log kappa": -13.429154385607307,
+  "below 10": false,
+  "log kappa range searched": [
+   -2200050.0,
+   18.420680743952367
+  ],
+  "smallest per family (before refinement)": {
+   "F1 corner": 52.14017302288136,
+   "F2 global": 9806254.031660352,
+   "E1 small r, b at the lower end": Infinity,
+   "E2 b at the lower end": Infinity,
+   "E3 large b": 2035870056872.0781,
+   "E4 tails of mu": 50501117993.36351,
+   "E5 tails of kappa": 64.76021509422698,
+   "E6 narrow": 36933713710.06178,
+   "F4 seeds": 47.83573416964647
+  },
+  "states evaluated": 45174,
+  "seconds": 100.6
+ }
+}

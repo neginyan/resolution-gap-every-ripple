@@ -1,0 +1,14 @@
+\section{Verification}
+\label{app:E}
+
+The repository of this paper starts from the published repository of~\cite{I} and changes five of its modules only to separate the ripple $\eta$ from $1/\ell$ (they were the same symbol in~\cite{I}); with $\eta=1/\ell$, the default, the arithmetic is unchanged.
+\code{verification/quick.py} (about one minute, no other repository needed) re-runs:
+\begin{itemize}
+\item the checks of~\cite{I} that need no other repository, on the separated code at $\eta=1/\ell$, their records compared with the published ones (floating-point values to $10^{-9}$ relative, interval values and decisions exactly);
+\item the separation of $\eta$ from $1/\ell$ (the keys that must not depend on $\eta$ do not; a forgotten separation is caught);
+\item the chord inventory read from the code, and the table of how the lemmas use $\eta$ with its elementary steps (Apps.~\ref{app:lemmas} and~\ref{app:A});
+\item the tail with $\eta$ and $1/\ell$ separated (App.~\ref{app:C}), and the hand proof of Theorem~\ref{thm:Jres} in exact rational arithmetic, with their wrong versions;
+\item the checks of the method that computes the true quantity (Sec.~\ref{sec:truth}).
+\end{itemize}
+\code{verification/run\_all.py}, with the repositories of~\cite{H} and~\cite{I}, adds the interval proofs of App.~\ref{app:D} at both ends with their wrong versions, the two audits of~\cite{I} re-run from scratch at $\eta=1/\ell$ and compared with the published records, the audits at strong ripples of Sec.~\ref{sec:break}, the figure, and the stored records of the searches (re-run with \code{--full}); it also checks that every file taken from the repository of~\cite{I} is unchanged except the five modules.
+Papers~F, H and~I and their repositories are not changed.

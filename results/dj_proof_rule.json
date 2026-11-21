@@ -1,0 +1,743 @@
+{
+ "the rule, end to end": {
+  "55.26": {
+   "states": 30302,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.3768892922321719,
+     3.27812853433007,
+     6.58760768365006,
+     0.13794659482424895
+    ],
+    "states per regime": [
+     19651,
+     7866,
+     73,
+     2712
+    ],
+    "log F needed": 0.08316498583495205,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 17.556494995346675,
+    "the same with the best option-branch at every a (the search)": 17.556494995346675,
+    "largest log(F_best/F_rule)": 18.787245179805815
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.3768892922321719,
+     3.27812853433007,
+     6.58760768365006,
+     0.13794659482424895
+    ],
+    "states per regime": [
+     19651,
+     7866,
+     73,
+     2712
+    ],
+    "log F needed": 0.08316498583495205,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 17.556494995346675,
+    "the same with the best option-branch at every a (the search)": 17.556494995346675,
+    "largest log(F_best/F_rule)": 18.787245179805815
+   }
+  },
+  "82.89": {
+   "states": 30301,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.33643625197618476,
+     3.495054494641038,
+     10.50573823193437,
+     0.09906339386209828
+    ],
+    "states per regime": [
+     18205,
+     8060,
+     195,
+     3841
+    ],
+    "log F needed": 0.05695078489799729,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 18.162604241409472,
+    "the same with the best option-branch at every a (the search)": 18.162604241409472,
+    "largest log(F_best/F_rule)": 30.773727730698536
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.33643625197618476,
+     3.495054494641038,
+     10.50573823193437,
+     0.09906339386209828
+    ],
+    "states per regime": [
+     18205,
+     8060,
+     195,
+     3841
+    ],
+    "log F needed": 0.05695078489799729,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 18.162604241409472,
+    "the same with the best option-branch at every a (the search)": 18.162604241409472,
+    "largest log(F_best/F_rule)": 30.773727730698536
+   }
+  },
+  "331.56": {
+   "states": 30302,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.2839593115736818,
+     4.085222276367946,
+     10.940784990484218,
+     0.03079048907733295
+    ],
+    "states per regime": [
+     16375,
+     7776,
+     533,
+     5618
+    ],
+    "log F needed": 0.01485728515803996,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 21.059568754952245,
+    "the same with the best option-branch at every a (the search)": 21.059568754952245,
+    "largest log(F_best/F_rule)": 148.38017759267387
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.2839593115736818,
+     4.085222276367946,
+     10.940784990484218,
+     0.03079048907733295
+    ],
+    "states per regime": [
+     16375,
+     7776,
+     533,
+     5618
+    ],
+    "log F needed": 0.01485728515803996,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 21.059568754952245,
+    "the same with the best option-branch at every a (the search)": 21.059568754952245,
+    "largest log(F_best/F_rule)": 148.38017759267387
+   }
+  },
+  "955.8": {
+   "states": 30303,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.2726177571463495,
+     4.687064558745447,
+     11.694343592956656,
+     0.01244875300909598
+    ],
+    "states per regime": [
+     16464,
+     7487,
+     592,
+     5760
+    ],
+    "log F needed": 0.005204043647691839,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 24.09575363261621,
+    "the same with the best option-branch at every a (the search)": 24.09575363261621,
+    "largest log(F_best/F_rule)": 412.92767460641477
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.2726177571463495,
+     4.687064558745447,
+     11.694343592956656,
+     0.01244875300909598
+    ],
+    "states per regime": [
+     16464,
+     7487,
+     592,
+     5760
+    ],
+    "log F needed": 0.005204043647691839,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 24.09575363261621,
+    "the same with the best option-branch at every a (the search)": 24.09575363261621,
+    "largest log(F_best/F_rule)": 412.92767460641477
+   }
+  },
+  "10000.0": {
+   "states": 30303,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.24987960843463952,
+     5.79290586935977,
+     15.983858129081648,
+     0.0015882289644650882
+    ],
+    "states per regime": [
+     16527,
+     7195,
+     624,
+     5957
+    ],
+    "log F needed": 0.0004997501665417666,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 31.81508217344433,
+    "the same with the best option-branch at every a (the search)": 31.81508217344433,
+    "largest log(F_best/F_rule)": 4743.442279289582
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.24987960843463952,
+     5.79290586935977,
+     15.983858129081648,
+     0.0015882289644650882
+    ],
+    "states per regime": [
+     16527,
+     7195,
+     624,
+     5957
+    ],
+    "log F needed": 0.0004997501665417666,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 31.81508217344433,
+    "the same with the best option-branch at every a (the search)": 31.81508217344433,
+    "largest log(F_best/F_rule)": 4743.442279289582
+   }
+  },
+  "1000000.0": {
+   "states": 30303,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.3380910122068599,
+     8.134642642436035,
+     19.008974426954744,
+     2.391607267782092e-05
+    ],
+    "states per regime": [
+     16674,
+     6552,
+     665,
+     6412
+    ],
+    "log F needed": 4.999975000166666e-06,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 47.83328933094603,
+    "the same with the best option-branch at every a (the search)": 47.83328933094603,
+    "largest log(F_best/F_rule)": 437082.7594461043
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.3380910122068599,
+     8.134642642436035,
+     19.008974426954744,
+     2.391607267782092e-05
+    ],
+    "states per regime": [
+     16674,
+     6552,
+     665,
+     6412
+    ],
+    "log F needed": 4.999975000166666e-06,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 47.83328933094603,
+    "the same with the best option-branch at every a (the search)": 47.83328933094603,
+    "largest log(F_best/F_rule)": 437082.7594461043
+   }
+  },
+  "100000000.0": {
+   "states": 30000,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.3069137185692662,
+     10.362340747357763,
+     25.40164084024962,
+     3.501772880554199e-07
+    ],
+    "states per regime": [
+     16398,
+     6393,
+     680,
+     6529
+    ],
+    "log F needed": 4.999999750000017e-08,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 70.03548213591633,
+    "the same with the best option-branch at every a (the search)": 70.03548213591633,
+    "largest log(F_best/F_rule)": 44309524.26904701
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.3069137185692662,
+     10.362340747357763,
+     25.40164084024962,
+     3.501772880554199e-07
+    ],
+    "states per regime": [
+     16398,
+     6393,
+     680,
+     6529
+    ],
+    "log F needed": 4.999999750000017e-08,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 70.03548213591633,
+    "the same with the best option-branch at every a (the search)": 70.03548213591633,
+    "largest log(F_best/F_rule)": 44309524.26904701
+   }
+  }
+ },
+ "borders, ell = 55.26": {
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) +0e+00": {
+   "states": 26250,
+   "states per regime": [
+    16107,
+    6319,
+    0,
+    3824
+   ],
+   "smallest log F of the rule": 2.1007834288468197,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma +0e+00": {
+   "states": 26250,
+   "states per regime": [
+    17382,
+    7107,
+    1761,
+    0
+   ],
+   "smallest log F of the rule": 2.362275545365066,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 +0e+00": {
+   "states": 5040,
+   "states per regime": [
+    2747,
+    2262,
+    0,
+    31
+   ],
+   "smallest log F of the rule": 0.23522752244304268,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) +0e+00": {
+   "states": 25878,
+   "states per regime": [
+    6771,
+    12619,
+    75,
+    6413
+   ],
+   "smallest log F of the rule": 0.33531115448645366,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) +1e-09": {
+   "states": 26250,
+   "states per regime": [
+    16107,
+    6319,
+    0,
+    3824
+   ],
+   "smallest log F of the rule": 2.1007834282755002,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma +1e-09": {
+   "states": 26250,
+   "states per regime": [
+    17382,
+    7107,
+    0,
+    1761
+   ],
+   "smallest log F of the rule": 2.362275545365066,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 +1e-09": {
+   "states": 5040,
+   "states per regime": [
+    0,
+    0,
+    526,
+    4514
+   ],
+   "smallest log F of the rule": 0.8861737563203871,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) +1e-09": {
+   "states": 25878,
+   "states per regime": [
+    0,
+    19390,
+    75,
+    6413
+   ],
+   "smallest log F of the rule": 2.8050173468655926,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) -1e-09": {
+   "states": 26250,
+   "states per regime": [
+    16107,
+    6319,
+    0,
+    3824
+   ],
+   "smallest log F of the rule": 2.1007834294181387,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma -1e-09": {
+   "states": 26250,
+   "states per regime": [
+    17382,
+    7107,
+    1761,
+    0
+   ],
+   "smallest log F of the rule": 2.362275545365066,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 -1e-09": {
+   "states": 5040,
+   "states per regime": [
+    2765,
+    2275,
+    0,
+    0
+   ],
+   "smallest log F of the rule": 0.23522752343922704,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) -1e-09": {
+   "states": 25878,
+   "states per regime": [
+    19390,
+    0,
+    75,
+    6413
+   ],
+   "smallest log F of the rule": 0.33506103949962185,
+   "log F needed": 0.08316498583495205,
+   "below the claim": 0
+  }
+ },
+ "borders, ell = 955.8": {
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) +0e+00": {
+   "states": 26625,
+   "states per regime": [
+    14711,
+    6150,
+    0,
+    5764
+   ],
+   "smallest log F of the rule": 0.8593700569887055,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma +0e+00": {
+   "states": 26625,
+   "states per regime": [
+    16639,
+    6978,
+    3008,
+    0
+   ],
+   "smallest log F of the rule": 3.7792057093999167,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 +0e+00": {
+   "states": 8227,
+   "states per regime": [
+    4569,
+    3609,
+    1,
+    48
+   ],
+   "smallest log F of the rule": 0.2362142805559847,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) +0e+00": {
+   "states": 26357,
+   "states per regime": [
+    2160,
+    15599,
+    22,
+    8576
+   ],
+   "smallest log F of the rule": 0.43669950134145685,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) +1e-09": {
+   "states": 26625,
+   "states per regime": [
+    14711,
+    6150,
+    0,
+    5764
+   ],
+   "smallest log F of the rule": 0.8593700563172701,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma +1e-09": {
+   "states": 26625,
+   "states per regime": [
+    16639,
+    6978,
+    0,
+    3008
+   ],
+   "smallest log F of the rule": 3.7792057093999167,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 +1e-09": {
+   "states": 8227,
+   "states per regime": [
+    0,
+    0,
+    1077,
+    7150
+   ],
+   "smallest log F of the rule": 0.8318760804802992,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) +1e-09": {
+   "states": 26357,
+   "states per regime": [
+    0,
+    17759,
+    22,
+    8576
+   ],
+   "smallest log F of the rule": 4.583636146066765,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) -1e-09": {
+   "states": 26625,
+   "states per regime": [
+    14711,
+    6150,
+    0,
+    5764
+   ],
+   "smallest log F of the rule": 0.8593700576601409,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma -1e-09": {
+   "states": 26625,
+   "states per regime": [
+    16639,
+    6978,
+    3008,
+    0
+   ],
+   "smallest log F of the rule": 3.7792057093999167,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 -1e-09": {
+   "states": 8227,
+   "states per regime": [
+    4592,
+    3635,
+    0,
+    0
+   ],
+   "smallest log F of the rule": 0.23621428155597413,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) -1e-09": {
+   "states": 26357,
+   "states per regime": [
+    17759,
+    0,
+    22,
+    8576
+   ],
+   "smallest log F of the rule": 0.31450180765153846,
+   "log F needed": 0.005204043647691839,
+   "below the claim": 0
+  }
+ },
+ "borders, ell = 1000000.0": {
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) +0e+00": {
+   "states": 26625,
+   "states per regime": [
+    14784,
+    5765,
+    0,
+    6076
+   ],
+   "smallest log F of the rule": 0.27103922559913046,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma +0e+00": {
+   "states": 26625,
+   "states per regime": [
+    17310,
+    6466,
+    2849,
+    0
+   ],
+   "smallest log F of the rule": 4.77533595054954,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 +0e+00": {
+   "states": 8599,
+   "states per regime": [
+    4895,
+    3663,
+    2,
+    39
+   ],
+   "smallest log F of the rule": 0.24845608187056628,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) +0e+00": {
+   "states": 26330,
+   "states per regime": [
+    2761,
+    14536,
+    17,
+    9016
+   ],
+   "smallest log F of the rule": 8.06316546651297,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) +1e-09": {
+   "states": 26625,
+   "states per regime": [
+    14784,
+    5765,
+    0,
+    6076
+   ],
+   "smallest log F of the rule": 0.27103922501705385,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma +1e-09": {
+   "states": 26625,
+   "states per regime": [
+    17310,
+    6466,
+    0,
+    2849
+   ],
+   "smallest log F of the rule": 4.7753359497346315,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 +1e-09": {
+   "states": 8599,
+   "states per regime": [
+    0,
+    0,
+    1195,
+    7404
+   ],
+   "smallest log F of the rule": 0.8250867323949933,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) +1e-09": {
+   "states": 26330,
+   "states per regime": [
+    0,
+    17297,
+    17,
+    9016
+   ],
+   "smallest log F of the rule": 8.06316546651297,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "xi = ell^2 (r sqrt(mu) = ell^2 sigma) -1e-09": {
+   "states": 26625,
+   "states per regime": [
+    14784,
+    5765,
+    0,
+    6076
+   ],
+   "smallest log F of the rule": 0.27103922606479175,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "r = c_ch sqrt(ell) sigma -1e-09": {
+   "states": 26625,
+   "states per regime": [
+    17310,
+    6466,
+    2849,
+    0
+   ],
+   "smallest log F of the rule": 4.775335951364447,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "G = c1 sqrt(b)/Gam2 -1e-09": {
+   "states": 8599,
+   "states per regime": [
+    4911,
+    3688,
+    0,
+    0
+   ],
+   "smallest log F of the rule": 0.24845608291830418,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  },
+  "kappa = c_T sqrt(ell) b/sigma (b < 0.1) -1e-09": {
+   "states": 26330,
+   "states per regime": [
+    17297,
+    0,
+    17,
+    9016
+   ],
+   "smallest log F of the rule": 0.2984813582152128,
+   "log F needed": 4.999975000166666e-06,
+   "below the claim": 0
+  }
+ }
+}

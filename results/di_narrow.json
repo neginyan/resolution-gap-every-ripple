@@ -1,0 +1,142 @@
+{
+ "55.26": {
+  "narrow states evaluated": 150001,
+  "nan among the first 54001": 0,
+  "smallest log F over the narrow states": 2.100083724836722,
+  "the same as (F^2 - 1) ell": 3630.443771544915,
+  "log F needed by the claim: (1/2) log(1 + 10/ell)": 0.08316498583495205,
+  "below the claim": false,
+  "states of the first sample with (F^2 - 1) ell < 1e4": 104,
+  "state (log mu, log r, log B, log kappa)": [
+   1.6100539600373716,
+   -48.040928343080225,
+   23.942141661814613,
+   -30.76166558163935
+  ],
+  "mu": 5.003081186997842,
+  "ell/4 - mu": 8.811918813002158,
+  "log r + ell/2": -20.410928343080226,
+  "log b + ell": -31.317858338185385,
+  "log kappa": -30.76166558163935,
+  "log(r sqrt(mu)/(ell^2 sigma))": -2.0520829480119573e-09,
+  "smallest log F by depth below the line (first sample): [0, 1), [1, 12), [12, 2 ln ell + 40), deeper": [
+   2.100083724836722,
+   2.3530997782831466,
+   2.8778269582780514,
+   25.862448466922533
+  ],
+  "seconds": 130.9
+ },
+ "165.78": {
+  "narrow states evaluated": 150001,
+  "nan among the first 54001": 0,
+  "smallest log F over the narrow states": 1.5981566757490384,
+  "the same as (F^2 - 1) ell": 3886.256850242325,
+  "log F needed by the claim: (1/2) log(1 + 10/ell)": 0.02928580248655949,
+  "below the claim": false,
+  "states of the first sample with (F^2 - 1) ell < 1e4": 4,
+  "state (log mu, log r, log B, log kappa)": [
+   1.6103792373815475,
+   -156.36393654094033,
+   23.942141661814613,
+   -142.7959210944464
+  ],
+  "mu": 5.004708840664126,
+  "ell/4 - mu": 36.44029115933587,
+  "log r + ell/2": -73.47393654094033,
+  "log b + ell": -141.83785833818538,
+  "log kappa": -142.7959210944464,
+  "log(r sqrt(mu)/(ell^2 sigma))": -7.013857631932296e-05,
+  "smallest log F by depth below the line (first sample): [0, 1), [1, 12), [12, 2 ln ell + 40), deeper": [
+   1.7316020935099914,
+   2.9043246674677463,
+   3.80548294818307,
+   33.73908677009575
+  ],
+  "seconds": 123.5
+ },
+ "955.8": {
+  "narrow states evaluated": 150001,
+  "nan among the first 54001": 0,
+  "smallest log F over the narrow states": 2.049054626767088,
+  "the same as (F^2 - 1) ell": 56608.504421581536,
+  "log F needed by the claim: (1/2) log(1 + 10/ell)": 0.005204043647691839,
+  "below the claim": false,
+  "states of the first sample with (F^2 - 1) ell < 1e4": 0,
+  "state (log mu, log r, log B, log kappa)": [
+   1.6326131724415127,
+   -942.8912513932302,
+   27.436902257258033,
+   -930.8726380511383
+  ],
+  "mu": 5.117229464824025,
+  "ell/4 - mu": 233.83277053517597,
+  "log r + ell/2": -464.9912513932302,
+  "log b + ell": -928.363097742742,
+  "log kappa": -930.8726380511383,
+  "log(r sqrt(mu)/(ell^2 sigma))": -4.217929756578087e-05,
+  "smallest log F by depth below the line (first sample): [0, 1), [1, 12), [12, 2 ln ell + 40), deeper": [
+   2.070505440742636,
+   2.3887814328058994,
+   3.9525074203549133,
+   39.81366827265569
+  ],
+  "seconds": 157.9
+ },
+ "10000.0": {
+  "narrow states evaluated": 150001,
+  "nan among the first 54001": 0,
+  "smallest log F over the narrow states": 3.047157123362922,
+  "the same as (F^2 - 1) ell": 4423299.259654093,
+  "log F needed by the claim: (1/2) log(1 + 10/ell)": 0.0004997501665417666,
+  "below the claim": false,
+  "states of the first sample with (F^2 - 1) ell < 1e4": 0,
+  "state (log mu, log r, log B, log kappa)": [
+   1.9483003151705605,
+   -9982.553471631652,
+   36.839200829398905,
+   -9966.010882408318
+  ],
+  "mu": 7.016751173876019,
+  "ell/4 - mu": 2492.983248826124,
+  "log r + ell/2": -4982.553471631652,
+  "log b + ell": -9963.1607991706,
+  "log kappa": -9966.010882408318,
+  "log(r sqrt(mu)/(ell^2 sigma))": -2.218021109001711e-06,
+  "smallest log F by depth below the line (first sample): [0, 1), [1, 12), [12, 2 ln ell + 40), deeper": [
+   3.0813092357675487,
+   3.2188975706776546,
+   5.003592179056133,
+   52.58558395117822
+  ],
+  "seconds": 132.7
+ },
+ "1000000.0": {
+  "narrow states evaluated": 150000,
+  "nan among the first 54000": 0,
+  "smallest log F over the narrow states": 5.086334099527448,
+  "the same as (F^2 - 1) ell": 26176831327.920616,
+  "log F needed by the claim: (1/2) log(1 + 10/ell)": 4.999975000166666e-06,
+  "below the claim": false,
+  "states of the first sample with (F^2 - 1) ell < 1e4": 0,
+  "state (log mu, log r, log B, log kappa)": [
+   2.4018598832396405,
+   -999973.5699651646,
+   55.26412352722637,
+   -999948.2384502578
+  ],
+  "mu": 11.04369727896155,
+  "ell/4 - mu": 249988.95630272102,
+  "log r + ell/2": -499973.56996516464,
+  "log b + ell": -999944.7358764728,
+  "log kappa": -999948.2384502578,
+  "log(r sqrt(mu)/(ell^2 sigma))": -5.633896216750145e-05,
+  "smallest log F by depth below the line (first sample): [0, 1), [1, 12), [12, 2 ln ell + 40), deeper": [
+   5.136557708727196,
+   5.198295610956848,
+   5.5618040901608765,
+   211.53042381586974
+  ],
+  "seconds": 112.9
+ }
+}

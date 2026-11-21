@@ -1,0 +1,253 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "claim": "Theorem DP-1a with B_1(ell) = 8 ell + 100 (ell >= 960.8, 8 ell + 100 <= B < ell^4, c_B = 1)",
+ "c_B = 1, B_m = 8 ell_a + 100": {
+  "c_B": "1",
+  "pieces (with the tail)": 6953,
+  "failing pieces (must be empty)": [],
+  "number of failing pieces": 0,
+  "worst value of every condition (ok, value, left end of the piece)": {
+   "written-in: (b.5) b < ell^4 sigma^2 <= 1e-100": [
+    true,
+    0.0,
+    960.8
+   ],
+   "written-in: A2k/cKz coefficient 2/((1 - eta) fl k_f) <= 2.1 (Case II)": [
+    true,
+    2.091474593461106,
+    960.8
+   ],
+   "written-in: II-ch: (A2k + B2a)/cKz <= 1e-3": [
+    true,
+    6.15707471739157e-06,
+    960.8
+   ],
+   "written-in: II-s: log(a_s/sigma) <= -20.73 (a_s <= 1e-9 sigma)": [
+    true,
+    -916.4015260365555,
+    960.8
+   ],
+   "written-in: Case I (Tz-B2): B2a/cKz <= 1e-6": [
+    true,
+    2.351918212081779e-209,
+    960.8
+   ],
+   "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": [
+    true,
+    0.07874046183804724,
+    960.8
+   ],
+   "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": [
+    true,
+    0.0023301452404371546,
+    960.8
+   ],
+   "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": [
+    true,
+    5.967822805122282,
+    960.8
+   ],
+   "16 b_II (must be <= 1)": [
+    true,
+    0.00020983131857703493,
+    960.8
+   ],
+   "II-ch: slack (must be >= 0)": [
+    true,
+    0.038308527692978975,
+    960.8
+   ],
+   "II-s: slack (must be >= 0)": [
+    true,
+    0.15664153367708838,
+    960.8
+   ],
+   "m1: slack 1 (must be >= 0)": [
+    true,
+    0.12018396951258584,
+    960.8
+   ],
+   "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": [
+    true,
+    0.07829291563713499,
+    960.8
+   ],
+   "m3: 16 b e^mu at mu_n (must be <= 1)": [
+    true,
+    1.2066140237623864e-44,
+    960.8
+   ],
+   "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": [
+    true,
+    0.11052574652627634,
+    960.8
+   ],
+   "m3: slack (must be >= 0)": [
+    true,
+    195.890067417763,
+    960.8
+   ],
+   "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": [
+    true,
+    0.002,
+    960.8
+   ],
+   "b.5: mT + Tbar (must be <= 1.002)": [
+    true,
+    1.0,
+    960.8
+   ],
+   "R1: sum/P1 <= 0.52 es": [
+    true,
+    0.5004189136510719,
+    960.8
+   ],
+   "R3 (a <= 1): S/P4z <= 0.48 es": [
+    true,
+    2.1881670129605077e-205,
+    960.8
+   ],
+   "R3 (a >= 1): S/P1 <= 0.48 es": [
+    true,
+    1.0938727687611564e-205,
+    960.8
+   ],
+   "tiny: (d4 + N4G)/P2z / es_sigma <= 1": [
+    true,
+    2.012153829734969e-08,
+    960.8
+   ],
+   "tiny: B1l/P2z / es_sigma (mu <= 2 ell) <= 1": [
+    true,
+    0.0,
+    960.8
+   ],
+   "tiny: B1c/(Gam2 G) / es_sigma <= 1": [
+    true,
+    0.003591438194283819,
+    960.8
+   ],
+   "tiny: X1^2/ell <= 1": [
+    true,
+    0.22258076035840965,
+    960.8
+   ],
+   "tiny: B1m/P2z at a_L / es_sigma (mu <= 2 ell) <= 1": [
+    true,
+    0.0,
+    960.8
+   ],
+   "R4: e0 needed <= e0": [
+    true,
+    0.962871063417302,
+    960.8
+   ],
+   "input: F1: P <= 0.7008": [
+    true,
+    0.7007453370351892,
+    960.8
+   ],
+   "input: b.1 first pass P/(mu e^-mu) <= 9.18": [
+    true,
+    9.0045368559989,
+    960.8
+   ],
+   "b.2: c_G sqrt(ell) > G/sigma at mu = ell + ln ell": [
+    true,
+    3.0218648498853127e-07,
+    1000000.0
+   ],
+   "b.5: mu_II >= 6": [
+    true,
+    121.15636621611374,
+    960.8
+   ],
+   "b.5: kappa_b mu < 1 (both bounds)": [
+    true,
+    0.0,
+    960.8
+   ],
+   "b.5: u > max(6, U_max) where kappa_b = kappa": [
+    true,
+    1.835935496433172e+48,
+    960.8
+   ],
+   "b.5: log u - log max(6, U_max) > 0 where kappa_b = 16 b e^mu/mu": [
+    true,
+    528.9375305824162,
+    960.8
+   ],
+   "b.5: ell >= 398, so 2.5e10 <= 398^4 <= ell^4 (B < ell^4 in the whole room)": [
+    true,
+    960.8,
+    960.8
+   ]
+  },
+  "parameters of the first piece": {
+   "B_m": 7786.4,
+   "es": 3.210726394739546e-05,
+   "e0": 0.022697416067454294,
+   "x0": 0.12609946525407342,
+   "U_max": 6.984329462748268,
+   "c_k": 0.11892528295159985,
+   "c1F": 0.859734268837449,
+   "rho_max": 0.012430446843167233
+  },
+  "last piece": {
+   "B_m": 8000100.0,
+   "es": 3.124960937988275e-08,
+   "e0": 0.0007071336114199766,
+   "x0": 0.1295775975963879,
+   "U_max": 6.717487625024666,
+   "c_k": 0.1197908281309296,
+   "c1F": 0.9123630534481209,
+   "rho_max": 0.0003868378931336909
+  },
+  "ok": true,
+  "seconds": 157.00929284095764
+ },
+ "power": {
+  "e0 := es (the constant lines are not absorbed)": {
+   "failing pieces of 4": 4,
+   "caught": true,
+   "first": [
+    "R4: e0 needed <= e0"
+   ]
+  },
+  "c_B = 0.3 (z2 > 1)": {
+   "failing pieces of 4": 4,
+   "caught": true,
+   "first": [
+    "written-in: A2k/cKz coefficient 2/((1 - eta) fl k_f) <= 2.1 (Case II)",
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ]
+  },
+  "the rule constant c1 = 0.95": {
+   "failing pieces of 4": 4,
+   "caught": true,
+   "first": [
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)"
+   ]
+  },
+  "B_m = 100 (the constants with B far below the room; they still hold at B_m = 1e3)": {
+   "failing pieces of 4": 4,
+   "caught": true,
+   "first": [
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)",
+    "R4: e0 needed <= e0"
+   ]
+  },
+  "ok": true
+ },
+ "first piece: B_m, es, e0": [
+  7786.4,
+  3.210726394739546e-05,
+  0.022697416067454294
+ ],
+ "Lemma DQ-M2 (M4(1e-4) <= 2.07) holds (results/dq_m4.json)": true,
+ "largest y here: 1/(2 (8 x 960.8 + 100))": 6.421452789479091e-05,
+ "the break attempts passed first (results/dq_low.json)": true,
+ "ok": true,
+ "seconds": 157.32701110839844
+}

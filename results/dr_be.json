@@ -1,0 +1,201 @@
+{
+ "window_and_nu": {
+  "ell0": "960.8",
+  "U1": [
+   10.967851746613942,
+   10.967851746613942
+  ],
+  "U2": [
+   481.1751,
+   481.1751
+  ],
+  "gamma_P": [
+   1300.873163500371,
+   1300.873163500371
+  ],
+  "c_chi": [
+   11.047740024480458,
+   11.047740024480458
+  ],
+  "nu_tail_sum_at_tau_60": 1.3112780286422086e-38,
+  "nu_tail_ok": true,
+  "note": "nu_k <= 2 e^{-tau/2 + beta}(1 + tail) with beta <= 1e-6 tau; (n-1) <= (n^2-1) gives the exponent -0.499999 (n^2-1) tau for the ratio of term n to term 1"
+ },
+ "point": {
+  "ell0": "960.8",
+  "tau0": [
+   67.4710650830631,
+   67.4710650830631
+  ],
+  "B_top": [
+   7786.4,
+   7786.4
+  ],
+  "nu_bar": [
+   4.4658454861569456e-15,
+   4.4658454861569456e-15
+  ],
+  "rho_2_sum_over_sigma2": 4.759989214809086e-09,
+  "rho_1_sum_over_b": 5.482872622994075e-11,
+  "terms_over_sigma2_at_B_top": {
+   "a1": 4.1867301432721367e-16,
+   "a2": 0.0,
+   "a3": 9.416104732731213e-15,
+   "a5": 7.261873181601047e-12,
+   "a6": 4.114083068970379e-09,
+   "a7": 0.0,
+   "a8": 6.353146152510461e-13,
+   "a9": 0.0,
+   "a10": 1.930382678799782e-11,
+   "Phi_prop": 5.952336779508597e-10,
+   "rho_bnu": 2.3461618525247646e-11
+  },
+  "rho_W": [
+   0.08,
+   0.08
+  ],
+  "delta_4": 5.021922524123314e-13,
+  "eps_1": 6.698768229235422e-15,
+  "sigma2_over_1_minus_e": 0.0,
+  "c_1": [
+   0.9199999999994973,
+   0.9199999999994973
+  ],
+  "coef_W": 0.45999999999974867,
+  "Psi_min": 0.22119921692859512,
+  "coef_b_L2_ge_1": 0.05529980420473433,
+  "coef_J_L2_ge_1": 0.8749999999999999,
+  "coef_J_L2_lt_1_times_1_minus_eps1": 0.8749999976199995,
+  "ln_tail_ratio_upper_is_minus_10_to_the": 831,
+  "tail_ok": true,
+  "checks": {
+   "remainder claim (R): rho_2 <= 2e-4": true,
+   "rho_1 <= 2e-4": true,
+   "rho_W <= 0.0801": true,
+   "coef_W >= 0.459": true,
+   "coef_b >= 0.055 (L^2 >= 1)": true,
+   "coef_J >= 0.459 (L^2 >= 1)": true,
+   "coef_J (1 - eps1) >= 0.459 (L^2 < 1)": true,
+   "Psi_min >= 0.2211": true,
+   "tail": true
+  },
+  "ok": true
+ },
+ "wrong_versions": {
+  "tau0": {
+   "rho_2_lower": 8.401004328290208,
+   "claim_R_broken": true
+  },
+  "nu": {
+   "rho_2_lower": 0.10072905729877589,
+   "claim_R_broken": true
+  }
+ },
+ "scan": {
+  "points": 2049,
+  "rho_1_corner": 5.482872622994052e-11,
+  "rho_1_max_scan": 5.482872622994052e-11,
+  "rho_2_corner": 4.759989214809068e-09,
+  "rho_2_max_scan": 4.759989214809068e-09,
+  "rho_2_argmax": [
+   960.8,
+   67.4710650830631,
+   7786.4
+  ],
+  "sup_at_corner": true,
+  "ratios_C_over_ell_nonincreasing": true
+ },
+ "DR_P": {
+  "ell0": "960.8",
+  "ln_cP_over_sigma_Gamma_lower": 947.1856707443065,
+  "ten_pi2_over_tau_max": 1.5369737541728436e-06,
+  "brk_lower": 1.0,
+  "Gamma_ell0": [
+   0.03242887550351773,
+   0.03242887550351773
+  ],
+  "ok": true,
+  "note": "theta/(1+theta) = 1/(1 + 5 e^{10 pi^2/tau}) >= e^{-10 pi^2/tau}/6 and tau >= 5e11/(8 ell + 100); d/d ell of the bound >= 1 - 1.6e-9 - 8/(8 ell+100) - 4/(ell tau0) - 1/(2 ell) - tiny > 0.99"
+ },
+ "map": {
+  "ell_star": 519644119.5709112,
+  "rows": [
+   {
+    "ell": 960.8,
+    "tau0": 67.4710650830631,
+    "B_top": 7786.4,
+    "tau_min_in_room": 64214527.89479092,
+    "B_min_where_tau_lt_tau0": 7410584068.658972,
+    "room_1b_has_tau_below_tau0": false
+   },
+   {
+    "ell": 10000.0,
+    "tau0": 76.84136148790473,
+    "B_top": 80100.0,
+    "tau_min_in_room": 6242197.253433209,
+    "B_min_where_tau_lt_tau0": 6506912297.209919,
+    "room_1b_has_tau_below_tau0": false
+   },
+   {
+    "ell": 1000000.0,
+    "tau0": 95.2620422318571,
+    "B_top": 8000100.0,
+    "tau_min_in_room": 62499.21875976551,
+    "B_min_where_tau_lt_tau0": 5248680253.810392,
+    "room_1b_has_tau_below_tau0": false
+   },
+   {
+    "ell": 100000000.0,
+    "tau0": 113.68272297580947,
+    "B_top": 800000100.0,
+    "tau_min_in_room": 624.9999218750098,
+    "B_min_where_tau_lt_tau0": 4398205698.383869,
+    "room_1b_has_tau_below_tau0": false
+   },
+   {
+    "ell": 519644119.5709112,
+    "tau0": 120.27461899920227,
+    "B_top": 4157153056.56729,
+    "tau_min_in_room": 120.27461899920229,
+    "B_min_where_tau_lt_tau0": 4157153056.5672903,
+    "room_1b_has_tau_below_tau0": false
+   },
+   {
+    "ell": 1000000000.0,
+    "tau0": 122.89306334778564,
+    "B_top": 8000000100.0,
+    "tau_min_in_room": 62.49999921875001,
+    "B_min_where_tau_lt_tau0": 4068577886.9797316,
+    "room_1b_has_tau_below_tau0": true
+   },
+   {
+    "ell": 10000000000.0,
+    "tau0": 132.10340371976184,
+    "B_top": 80000000100.0,
+    "tau_min_in_room": 6.2499999921875,
+    "B_min_where_tau_lt_tau0": 3784913832.051423,
+    "room_1b_has_tau_below_tau0": true
+   },
+   {
+    "ell": 1000000000000.0,
+    "tau0": 150.5240844637142,
+    "B_top": 8000000000100.0,
+    "tau_min_in_room": 0.06249999999921875,
+    "B_min_where_tau_lt_tau0": 3321727561.282936,
+    "room_1b_has_tau_below_tau0": true
+   },
+   {
+    "ell": 1000000000000000.0,
+    "tau0": 178.15510557964274,
+    "B_top": 8000000000000100.0,
+    "tau_min_in_room": 6.249999999999922e-05,
+    "B_min_where_tau_lt_tau0": 2806543199.383524,
+    "room_1b_has_tau_below_tau0": true
+   }
+  ],
+  "note": "for ell <= ell_star every state of room 1b has tau >= tau0(ell) (Theorem DR-1 alone); above, the states with tau < tau0 are covered by Lemma DR-P"
+ },
+ "python": "3.13.18",
+ "inexact_trapped": true,
+ "ok": true
+}

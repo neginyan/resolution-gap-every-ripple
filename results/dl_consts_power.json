@@ -1,0 +1,91 @@
+{
+ "eps1 ell^2 <= 0.76 (the number of DJ)": {
+  "pieces checked": 36,
+  "failing pieces": 30,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "quoted: eps1 ell^2 <= 0.76"
+   ],
+   [
+    "55.31526",
+    "quoted: eps1 ell^2 <= 0.76"
+   ],
+   [
+    "55.37057526",
+    "quoted: eps1 ell^2 <= 0.76"
+   ]
+  ]
+ },
+ "A2k/cKz <= 0.0461 (the table row of DJ without the 1e-6)": {
+  "pieces checked": 36,
+  "failing pieces": 30,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "quoted: Case I (Tz-B2): A2k/cKz <= <= 0.0461"
+   ],
+   [
+    "55.31526",
+    "quoted: Case I (Tz-B2): A2k/cKz <= <= 0.0461"
+   ],
+   [
+    "55.37057526",
+    "quoted: Case I (Tz-B2): A2k/cKz <= <= 0.0461"
+   ]
+  ]
+ },
+ "c1F >= 0.7858": {
+  "pieces checked": 36,
+  "failing pieces": 1,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "quoted: c1F >= 0.7858"
+   ]
+  ]
+ },
+ "K_F/sqrt(b) <= 0.0009999 (fails only near 1e6 and in the tail)": {
+  "pieces checked": 36,
+  "failing pieces": 6,
+  "caught": true,
+  "first failures": [
+   [
+    "995649.5179655366986851306035",
+    "quoted: R5: K_F/sqrt(b) <= <= 0.0009999"
+   ],
+   [
+    "996645.1674835022353838157341",
+    "quoted: R5: K_F/sqrt(b) <= <= 0.0009999"
+   ],
+   [
+    "997641.8126509857376191995498",
+    "quoted: R5: K_F/sqrt(b) <= <= 0.0009999"
+   ]
+  ]
+ },
+ "c1 = 0.7905 (the rule constant of Case I)": {
+  "pieces checked": 36,
+  "failing pieces": 30,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)"
+   ],
+   [
+    "55.31526",
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)"
+   ],
+   [
+    "55.37057526",
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)"
+   ]
+  ]
+ },
+ "ok": true,
+ "seconds": 2.359567165374756
+}

@@ -1,0 +1,47 @@
+% written by src/dz_lemma_table.py (stage DZ); do not edit by hand
+\begin{table*}
+\caption{How the lemmas behind Theorem~\ref{thm:J} use $\eta$: the re-reading of every lemma of~\cite{I} that Theorem~\ref{thm:J} uses, and of the lemmas it borrows from~\cite{F,H}. ``Statement'': $\eta$ or $\ell$ in the hypotheses. ``Where $\eta$ enters'': the step of the proof. ``Bound used'': the bound on $\eta$ that step needs. Numbers of lemmas and sections are those of~\cite{I} v1.0 unless marked H~\cite{H} or F~\cite{F}. The labels (e1)--(e8) are the elementary checks of \code{dz\_lemma\_table.py}.}
+\label{tab:lemmas}
+\begin{ruledtabular}
+\scriptsize
+\begin{tabular}{p{0.15\textwidth}p{0.09\textwidth}p{0.1\textwidth}p{0.25\textwidth}p{0.12\textwidth}p{0.08\textwidth}p{0.13\textwidth}}
+lemma & where & statement & where $\eta$ enters & bound used & $\eta\le\frac14$ & repair\\ \hline
+Lemma 18 (direct form) & I, App. A 2 & none & nowhere (an identity: the definition in the variables of the line) & none & yes & ---\\
+Lemma 19 (M0) & I, App. A 3 & none ($|R_\theta|\le\eta$ is a consequence) & $|R_\theta|\le\eta$ from $|R|\le\eta$; $|t_\rho|\le0.184b$ uses $\Qb$ & $\eta=\sup|R|$ (definition) & yes & ---\\
+Lemma 19 (A1v), (A1w) & I, App. A 3 & none & (A1w): $|R|\le\eta$ and $\eta k_E/\sqrt{\mathrm{se}_E}=\eta/L$ (identity) & definition & yes & ---\\
+Lemma 19 (A2) & I, App. A 3 & none & $h\ge1-\eta$; $R^2/h\le\eta^2/(1-\eta)$ & $\eta<1$ & yes & ---\\
+Lemma 19 (B1v) & I, App. A 3 & none & $\langle\hat s^2\tilde F\rangle\le\kappa W/(1-\eta)$ ($h\ge1-\eta$) & $\eta<1$ & yes & ---\\
+Lemma 19 (B1w) & I, App. A 3 & none & $|G_E(R)|\le R^2/(2(1-\eta))$ for $|ER|\le\eta$; $R^2\le\eta^2$ & $\eta<1$ (checked, e1) & yes & ---\\
+Lemma 19 (B2) & I, App. A 3 & none & $E|X_1|/h\le U/(1-\eta)$; $R^2/h^2\le\eta^2/(1-\eta)^2$ & $\eta<1$ & yes & ---\\
+Lemmas 15, 20, 21 ($M_4$, $M_1$, $M_2$) & I, Sec. VI, App. A 3 & none & nowhere ($y$ only) & none & yes & ---\\
+Lemma 22 (ring) & I, App. A 4 & none & $M=\eta^2/(1-\eta)$ for $g=R^2/h$; $q=K^2(1+\eta)/(8B(1-\eta))<1$ & $\eta<1$; $q\le\frac1{240}$ (narrow), $\frac5{24}$ (wide) at $\eta\le\frac14$ (e6) & yes & the number $1-0.0026$ in the sign paragraph of App. B of I is the value at $\eta=1/\ell$; at $\eta\le\frac14$ it is $1-\frac1{240}$ (the code computes $q$ with $\eta$)\\
+Lemma 23 (pair) (a)--(c) & I, App. A 4 & none & $\tilde F$ between $E^2X_1^2/(1\pm\eta)$; tails $U^2g_s/(1-\eta)$ & $\eta<1$ & yes & ---\\
+Lemma 23 (d), FrB2 & I, App. A 4; App. B (group B2c$+$B2s) & none & $c_0=\sigma U/(\sqrt2(1-\eta))+\zeta/\sqrt2$, $\zeta^2=\sigma^2\mathrm{CZ}A$; App. B: $U_1/(1-\eta)\le X_1$ & $1/(1-\eta)\le\frac43$ (e2) & yes (equality at $\frac14$) & ---\\
+Lemma 23 (d), FrB1 & I, App. A 4; App. B (group B1m$+\dots+$uB2s) & none & App. B: $\hat c_0\le X_1/\sqrt2$ from $U_1(\frac43-1/(1-\eta))\ge\sqrt{\mathrm{CZ}}$; $\hat c_0^2\le X_1^2+\mathrm{CZ}$ & $\eta\le1/\ell$ in the first step (e3); $1/(1-\eta)\le\frac43$ in the second (e5) & \textbf{no} for the first step (zero left side at $\frac14$); yes for the second & $X_{1,\rm B1}(\eta)=U_1/(1-\eta)+\sqrt{\mathrm{CZ}(\eta)}$ in the line B1m (e4), a function of $\eta$ of the class of Lemma~\ref{lem:chord}, Sec.~\ref{sec:changes}\\
+$v$-branch sum and its den (App. A 5 of I) & I, App. A 5 & none & den: $b(1+k_ER_\theta)\le b(1+\eta k_E)$; $W/(1-\eta)$ & $\eta<1$ & yes & ---\\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+\begin{table*}
+\addtocounter{table}{-1}
+\caption{(Continued.)}
+\begin{ruledtabular}
+\scriptsize
+\begin{tabular}{p{0.15\textwidth}p{0.09\textwidth}p{0.1\textwidth}p{0.25\textwidth}p{0.12\textwidth}p{0.08\textwidth}p{0.13\textwidth}}
+lemma & where & statement & where $\eta$ enters & bound used & $\eta\le\frac14$ & repair\\ \hline
+Lemma R$_\theta$ of H, $w$-branch (N1--N4, P1, P2, den) & H, Sec. IX A; \code{co\_remainders.py}; I, App. A 6 & none (``every periodic window state'') & $\Lambda_1$, $Q_2$: $|R_\theta|\le\eta$; $J_{2,\rm up}$, $M_{4w}$, $J_{\rm up}$: $\eta^2/(1-\eta)$, $D_0/(1-\eta)$; P2: $D_0/(1+\eta)$; $\xi=\sigma U_1/(1-\Qb)$ uses $\Qb$, not $\eta$ & $\eta<1$, $\Qb=\frac14$, $A\le1$ & yes & ---\\
+Lemma 8 (the 37 lines): the 12 identities and 18 inequalities & I, Sec. III B; App. B & $\eta\le1/\ell$ (coefficients evaluated at $\eta=1/\ell$) & coefficients only, except the FrB1 step (row above) and $1/(1-\eta)\le\frac43$ in FrB2, FrB1; signs: positive factors for $\eta<1$ & $\eta<1$, $\eta\le\frac14$ & yes, with the FrB1 constant & the coefficients are evaluated with the end values of $\eta$ (the chord, Sec.~\ref{sec:sandwich})\\
+Lemma 9 (H$^\prime$), Lemma 24, Corollary 25 & I, Sec. III C; App. A 7 & none & nowhere: (A) and (CM) use $\Qb$; (K) uses $U_1$; (J) is Jensen & none & yes & ---\\
+Lemmas 10, 26, 27 (closed forms, $E_J$) & I, Sec. III C; App. A 8 & none & nowhere & none & yes & ---\\
+Lemma 11 ($G=0$) & I, Sec. III D; App. A 9 & none & nowhere ($R=0$) & none & yes & ---\\
+Theorem 5 (Proposition 6, Lemmas 7, 16, 17) & I, Sec. VII; App. D & none & only through $\Qb$: $|h_t/h|\le N_1/(1-\Qb)$, $\Xi$, $K_1$ & $\Qb=\frac14$ & yes & ---\\
+Lemma CM-1, Lemma CN-1 (line 2) of H & H, Sec. IX A; I, App. A 10 & none (every focus) & nowhere ($f\ge0$; a pointwise Gaussian bound) & none & yes & ---\\
+Lemma A4$^*$ of H & H, Sec. III, App. D; I, App. A 10 & none & $\zeta=\sigma^2\eta e^{-1/2}/(s(1-\eta))$; $\xi$ with $\Qb$ & $\eta<1$ & yes & ---\\
+Theorem H1, Lemma BE of H & H, Secs. IV, VI--VIII & the theorem: every admissible window, coefficient $\lambda/\Upsilon$; item (i) only: $\eta\le1/\ell$ & the certificates: $\bar\eta=\frac12$ in the remainders, $\lambda_*=\frac23$ & $\eta\le\frac12$ & yes (item (i) is not used) & ---\\
+window constants $U_1$, $U_2$, $\gamma_P$, $c_\chi$ of H & H, Sec. VI; I, App. A 10 & $x\ge5\times10^{11}\sigma^2$ & nowhere ($\Qb$, $\ell$) & none & yes & ---\\
+Lemmas 19, 21--23 of F (BL0--BL3), Eq.~(ga) and (P6) & F, App. A & none & nowhere: $\Qb$ and $\nu_k$; (P6) is the class bound $\bar\varepsilon$ & none & yes & ---\\
+Propositions 12, 14 (Theorems 2, 4): the written steps & I, Secs. IV, VI; App. C & $\eta\le1/\ell$ & (a) 18 of the 48 quoted numbers are values at $\eta=1/\ell$; (b) the rule: $c_m$, $\Gamma_2=\Gamma_\ell k_2$; (c) the tail on $[10^6,\infty)$: $\theta_1\ge(1-7/\ell)(1-\varepsilon_1^\prime)$ uses $(1-\eta)/(1+\eta)\ge1-2/\ell$ (e7) & $\eta=1/\ell$ as a value; (c) $\eta\le1/\ell$ & no as written; every step holds with the numbers retaken & (a) new bounds (Table~\ref{tab:quoted}); (b) $\lambda$-free rule (Sec.~\ref{sec:sandwich}); (c) the tail with $\eta$ and $1/\ell$ separated (App.~\ref{app:C}): constants, no new idea\\
+Proposition 13 (Theorem 3) & I, Sec. V & $\eta\le1/\ell$ & the numbers of the proof at $\eta=1/\ell$ & $\eta=1/\ell$ as a value & redone & proved again by hand at $\bar\eta=\frac14$ (Sec.~\ref{sec:res})\\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}

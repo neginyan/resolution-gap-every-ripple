@@ -1,0 +1,130 @@
+{
+ "initial_boxes_sampled": 100000,
+ "generations": [
+  {
+   "generation": 0,
+   "boxes": 100000,
+   "not_accepted": 9189
+  },
+  {
+   "generation": 1,
+   "boxes": 18378,
+   "not_accepted": 12854
+  },
+  {
+   "generation": 2,
+   "boxes": 25708,
+   "not_accepted": 11127
+  },
+  {
+   "generation": 3,
+   "boxes": 22254,
+   "not_accepted": 19042
+  },
+  {
+   "generation": 4,
+   "boxes": 38084,
+   "not_accepted": 12192
+  },
+  {
+   "generation": 5,
+   "boxes": 24384,
+   "not_accepted": 7669
+  },
+  {
+   "generation": 6,
+   "boxes": 15338,
+   "not_accepted": 10097
+  },
+  {
+   "generation": 7,
+   "boxes": 20194,
+   "not_accepted": 8268
+  },
+  {
+   "generation": 8,
+   "boxes": 16536,
+   "not_accepted": 9473
+  },
+  {
+   "generation": 9,
+   "boxes": 18946,
+   "not_accepted": 17659
+  },
+  {
+   "generation": 10,
+   "boxes": 35318,
+   "not_accepted": 32444
+  },
+  {
+   "generation": 11,
+   "boxes": 64888,
+   "not_accepted": 39596
+  },
+  {
+   "generation": 12,
+   "boxes": 79192,
+   "not_accepted": 22584
+  },
+  {
+   "generation": 13,
+   "boxes": 45168,
+   "not_accepted": 28104
+  },
+  {
+   "generation": 14,
+   "boxes": 56208,
+   "not_accepted": 51086
+  },
+  {
+   "generation": 15,
+   "boxes": 102172,
+   "not_accepted": 97709
+  },
+  {
+   "generation": 16,
+   "boxes": 195418,
+   "not_accepted": 64419
+  },
+  {
+   "generation": 17,
+   "boxes": 128838,
+   "not_accepted": 18428
+  },
+  {
+   "generation": 18,
+   "boxes": 36856,
+   "not_accepted": 32864
+  },
+  {
+   "generation": 19,
+   "boxes": 65728,
+   "not_accepted": 61114
+  },
+  {
+   "generation": 20,
+   "boxes": 122228,
+   "not_accepted": 114171
+  },
+  {
+   "generation": 21,
+   "boxes": 228342,
+   "not_accepted": 2363
+  },
+  {
+   "generation": 22,
+   "boxes": 4726,
+   "not_accepted": 0
+  }
+ ],
+ "boxes_evaluated": 1464904,
+ "where_not_accepted_at_the_end": null,
+ "closed": true,
+ "weights (mu, r, beta, kappa, ell)": [
+  1.0,
+  1.0,
+  0.7,
+  0.5,
+  2.0
+ ]
+}

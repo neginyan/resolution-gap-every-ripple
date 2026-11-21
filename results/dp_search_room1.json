@@ -1,0 +1,1021 @@
+{
+ "model": "Claude Fable 5.2 (claude-fable-5-2)",
+ "needed": "(F^2 - 1) ell >= 10",
+ "960.8": {
+  "(i) [max(5e5, 50(8 ell + 100)), 2.5e10]": {
+   "F_full": {
+    "log F": 2.1198679161097904,
+    "(F^2 - 1) ell": 65708.64979964482,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.6104691403387164,
+     -949.017371673096,
+     23.942141661814613,
+     -938.9715156713603,
+     0.0
+    ],
+    "mu": 5.00515879901466,
+    "B": 25000000000.000034,
+    "kappa": 0.0,
+    "log r + ell/2": -468.61737167309605,
+    "tau >= 5e11/B": 19.99999999999997,
+    "evaluations": 34040,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 898.2562184414853,
+     "F2 global": 30.617729563850613,
+     "E1 small r, b at the lower end": 98.65512894849697,
+     "E2 b at the lower end": 7.06138371953074,
+     "E3 large b": 11.930897082927627,
+     "E4 tails of mu": 898.2323785464869,
+     "E5 tails of kappa": 177.74078482228765,
+     "N1 narrow": 3.6705907784770413,
+     "N2 low mu": 8.85052881717668,
+     "N3 DF region": 8.767736950757527,
+     "N4 on the line": 2.287483599474582,
+     "N5 large kappa": 938.3766582216618,
+     "F4 seeds": 2.5047431167123446
+    }
+   },
+   "F_rule": {
+    "log F": 0.2513361072640421,
+    "(F^2 - 1) ell": 627.5300897593168,
+    "state (log mu, log r, log B, log kappa, q)": [
+     -65.71863832839566,
+     -791.6285532935644,
+     13.122363377404328,
+     -1011.1383611760627,
+     -48.48648616314665
+    ],
+    "mu": 2.8757956058389487e-29,
+    "B": 499999.9999999997,
+    "kappa": 0.0,
+    "log r + ell/2": -311.22855329356446,
+    "tau >= 5e11/B": 1000000.0000000006,
+    "evaluations": 26320,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 898.2234473233027,
+     "F2 global": 5.484439411053588,
+     "E1 small r, b at the lower end": 49.17653908067422,
+     "E2 b at the lower end": 19.881728744288775,
+     "E3 large b": 5.571698775486702,
+     "E4 tails of mu": 898.7044544877857,
+     "E5 tails of kappa": 0.6435342119864148,
+     "N1 narrow": 1.9450141103529761,
+     "N2 low mu": 1.5529081002746787,
+     "N3 DF region": 7.198686800854714,
+     "N4 on the line": 0.39555267984155407,
+     "N5 large kappa": 938.495212776018,
+     "F4 seeds": 0.7639887538139633
+    }
+   }
+  },
+  "(iii) [max(1e4, 1.05(ell + 13)), max(5e5, (8 ell + 100)/2)] (NOT lower bounds: formulas only)": {
+   "F_full": {
+    "log F": 2.710887249954181,
+    "(F^2 - 1) ell": 216449.31303207515,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.6104691402512752,
+     -954.1320274693621,
+     13.122363377404328,
+     -948.0879051712316,
+     0.0
+    ],
+    "mu": 5.005158798577003,
+    "B": 499999.9999999997,
+    "kappa": 0.0,
+    "log r + ell/2": -473.73202746936215,
+    "tau >= 5e11/B": 1000000.0000000006,
+    "evaluations": 34610,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 909.0753476616012,
+     "F2 global": 30.51365978237167,
+     "E1 small r, b at the lower end": 96.69647045797548,
+     "E2 b at the lower end": 7.599309416099859,
+     "E3 large b": 11.929044673940503,
+     "E4 tails of mu": 909.0515077666028,
+     "E5 tails of kappa": 177.73883434933683,
+     "N1 narrow": 6.042603996076232,
+     "N2 low mu": 9.070761067451746,
+     "N3 DF region": 7.321873607012841,
+     "N4 on the line": 3.6952177506837347,
+     "N5 large kappa": 949.1957874417777,
+     "F4 seeds": 3.900453925220384
+    }
+   },
+   "F_rule": {
+    "log F": 0.23717217437075186,
+    "(F^2 - 1) ell": 583.1674048404872,
+    "state (log mu, log r, log B, log kappa, q)": [
+     5.496384353087834,
+     -475.9054984399653,
+     9.210340371976184,
+     -956.7188404635062,
+     -1.9852846810764828
+    ],
+    "mu": 243.80881012589407,
+    "B": 10000.00000000001,
+    "kappa": 0.0,
+    "log r + ell/2": 4.494501560034678,
+    "tau >= 5e11/B": 49999999.999999955,
+    "evaluations": 26410,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 909.0425765434186,
+     "F2 global": 1.215764564511414,
+     "E1 small r, b at the lower end": 47.08484666327163,
+     "E2 b at the lower end": 19.868194988678418,
+     "E3 large b": 6.6529353232539,
+     "E4 tails of mu": 909.5235837079016,
+     "E5 tails of kappa": 1.1917602127022249,
+     "N1 narrow": 3.6607764415827995,
+     "N2 low mu": 7.3760016165043405,
+     "N3 DF region": 6.326716408798177,
+     "N4 on the line": 0.36439174916934347,
+     "N5 large kappa": 949.3143419961339,
+     "F4 seeds": 0.3488118469272464
+    }
+   }
+  }
+ },
+ "3000.0": {
+  "(i) [max(5e5, 50(8 ell + 100)), 2.5e10]": {
+   "F_full": {
+    "log F": 2.690504126962381,
+    "(F^2 - 1) ell": 648723.5979984119,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.610469140291489,
+     -2988.2173997922305,
+     23.942141661814613,
+     -2978.1719759326816,
+     0.0
+    ],
+    "mu": 5.00515879877828,
+    "B": 25000000000.000034,
+    "kappa": 0.0,
+    "log r + ell/2": -1488.2173997922305,
+    "tau >= 5e11/B": 19.99999999999997,
+    "evaluations": 36000,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 2938.0097402690326,
+     "F2 global": 134.4791044182225,
+     "E1 small r, b at the lower end": 206.98392062504428,
+     "E2 b at the lower end": 47.80473773886552,
+     "E3 large b": 28.232104508881548,
+     "E4 tails of mu": 2937.9972583072226,
+     "E5 tails of kappa": 595.5063402084004,
+     "N1 narrow": 3.721399901187576,
+     "N2 low mu": 7.550727710660768,
+     "N3 DF region": 7.776088617527553,
+     "N4 on the line": 3.1012163934247927,
+     "N5 large kappa": 2978.012108582573,
+     "F4 seeds": 2.9728888661650217
+    }
+   },
+   "F_rule": {
+    "log F": 0.24864323827266016,
+    "(F^2 - 1) ell": 1932.7604739460864,
+    "state (log mu, log r, log B, log kappa, q)": [
+     -6.816221015882519,
+     -1820.915101494611,
+     14.001990124906893,
+     -4155.1981150852125,
+     0.0
+    ],
+    "mu": 0.001095854323415154,
+    "B": 1205000.0000000007,
+    "kappa": 0.0,
+    "log r + ell/2": -320.915101494611,
+    "tau >= 5e11/B": 414937.7593360993,
+    "evaluations": 26440,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 2938.020854314614,
+     "F2 global": 83.22143728086664,
+     "E1 small r, b at the lower end": 273.42195297687334,
+     "E2 b at the lower end": 11.6796168364481,
+     "E3 large b": 14.12327255664463,
+     "E4 tails of mu": 2938.0175768094414,
+     "E5 tails of kappa": 7.413191293277899,
+     "N1 narrow": 1.0574283139988507,
+     "N2 low mu": 5.248069741085884,
+     "N3 DF region": 9.547932971845771,
+     "N4 on the line": 0.277765020532734,
+     "N5 large kappa": 2978.4797803222245,
+     "F4 seeds": 0.3328741571694155
+    }
+   }
+  },
+  "(ii) [max(5e5, (8 ell + 100)/2), 50(8 ell + 100)]": {
+   "F_full": {
+    "log F": 3.208337666219871,
+    "(F^2 - 1) ell": 1832895.4426440385,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.610469140235204,
+     -2992.934534453164,
+     14.001990124906893,
+     -2986.54045379302,
+     0.0
+    ],
+    "mu": 5.005158798496565,
+    "B": 1205000.0000000007,
+    "kappa": 0.0,
+    "log r + ell/2": -1492.934534453164,
+    "tau >= 5e11/B": 414937.7593360993,
+    "evaluations": 34740,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 2947.9490581653586,
+     "F2 global": 142.53856415856671,
+     "E1 small r, b at the lower end": 206.47215084184577,
+     "E2 b at the lower end": 47.80223352905331,
+     "E3 large b": 38.171422405151574,
+     "E4 tails of mu": 2947.9365762035486,
+     "E5 tails of kappa": 595.5160882234695,
+     "N1 narrow": 3.5394249638137154,
+     "N2 low mu": 7.544818904335306,
+     "N3 DF region": 7.168783284206812,
+     "N4 on the line": 4.1124777793566265,
+     "N5 large kappa": 2987.9514264788986,
+     "F4 seeds": 3.5857770986184123
+    }
+   },
+   "F_rule": {
+    "log F": 0.2478229028369202,
+    "(F^2 - 1) ell": 1924.67407289574,
+    "state (log mu, log r, log B, log kappa, q)": [
+     -6.809466111056429,
+     -1819.2888782161763,
+     13.122363377404328,
+     -4157.703964969126,
+     0.0
+    ],
+    "mu": 0.0011032817726874759,
+    "B": 499999.9999999997,
+    "kappa": 0.0,
+    "log r + ell/2": -319.2888782161763,
+    "tau >= 5e11/B": 1000000.0000000006,
+    "evaluations": 26720,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 2947.96017221094,
+     "F2 global": 83.21800271211144,
+     "E1 small r, b at the lower end": 269.71772692291205,
+     "E2 b at the lower end": 12.61699398853879,
+     "E3 large b": 24.04304905016574,
+     "E4 tails of mu": 2947.9568947057674,
+     "E5 tails of kappa": 10.608236358889979,
+     "N1 narrow": 0.43237560111996387,
+     "N2 low mu": 2.54252164144822,
+     "N3 DF region": 10.015901530179708,
+     "N4 on the line": 0.3345602889901203,
+     "N5 large kappa": 2988.41909821855,
+     "F4 seeds": 0.331143821484573
+    }
+   }
+  },
+  "(iii) [max(1e4, 1.05(ell + 13)), max(5e5, (8 ell + 100)/2)] (NOT lower bounds: formulas only)": {
+   "F_full": {
+    "log F": 3.2777703612446936,
+    "(F^2 - 1) ell": 2106387.734539085,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.6104691402571252,
+     -2993.328538510207,
+     13.122363377404328,
+     -2987.288630369932,
+     -1.4779288903810084e-12
+    ],
+    "mu": 5.005158798606283,
+    "B": 499999.9999999997,
+    "kappa": 0.0,
+    "log r + ell/2": -1493.3285385102072,
+    "tau >= 5e11/B": 1000000.0000000006,
+    "evaluations": 34670,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 2948.827508240871,
+     "F2 global": 144.0437588486534,
+     "E1 small r, b at the lower end": 204.57916031935025,
+     "E2 b at the lower end": 46.44214455193011,
+     "E3 large b": 39.049872480664355,
+     "E4 tails of mu": 2948.815026279061,
+     "E5 tails of kappa": 595.5296295852349,
+     "N1 narrow": 5.074459686192221,
+     "N2 low mu": 7.390405558977065,
+     "N3 DF region": 6.603008357159001,
+     "N4 on the line": 4.4971721958346915,
+     "N5 large kappa": 2988.829876554411,
+     "F4 seeds": 3.6289972263637353
+    }
+   },
+   "F_rule": {
+    "log F": 0.2336589779438826,
+    "(F^2 - 1) ell": 1787.1260632143988,
+    "state (log mu, log r, log B, log kappa, q)": [
+     2.1051201058395455,
+     -2474.3449599106257,
+     9.210340371976184,
+     -3500.697771645635,
+     -0.006221742536164884
+    ],
+    "mu": 8.208088789790807,
+    "B": 10000.00000000001,
+    "kappa": 0.0,
+    "log r + ell/2": -974.3449599106257,
+    "tau >= 5e11/B": 49999999.999999955,
+    "evaluations": 26160,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 2948.838622286452,
+     "F2 global": 83.1963240397445,
+     "E1 small r, b at the lower end": 269.2770932847369,
+     "E2 b at the lower end": 14.24056446598292,
+     "E3 large b": 24.921498569158253,
+     "E4 tails of mu": 2948.835344781279,
+     "E5 tails of kappa": 10.167602720714873,
+     "N1 narrow": 1.7696797182075306,
+     "N2 low mu": 7.4821459755733395,
+     "N3 DF region": 8.252368566210446,
+     "N4 on the line": 0.5517736234786886,
+     "N5 large kappa": 2989.2975482940624,
+     "F4 seeds": 0.3261980310162612
+    }
+   }
+  }
+ },
+ "10000.0": {
+  "(i) [max(5e5, 50(8 ell + 100)), 2.5e10]": {
+   "F_full": {
+    "log F": 3.2929306849687072,
+    "(F^2 - 1) ell": 7237750.783316915,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.6104691403800633,
+     -9988.217415601848,
+     23.942141661814613,
+     -9978.172128686441,
+     -4.547473508864641e-12
+    ],
+    "mu": 5.005158799221608,
+    "B": 25000000000.000034,
+    "kappa": 0.0,
+    "log r + ell/2": -4988.217415601848,
+    "tau >= 5e11/B": 19.99999999999997,
+    "evaluations": 36820,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 9938.594134419694,
+     "F2 global": 151.60292570894606,
+     "E1 small r, b at the lower end": 784.3362134543562,
+     "E2 b at the lower end": 9.406307429172793,
+     "E3 large b": 168.9041138131281,
+     "E4 tails of mu": 9938.640983000616,
+     "E5 tails of kappa": 1994.027648419282,
+     "N1 narrow": 3.3059273749606737,
+     "N2 low mu": 8.210034528939753,
+     "N3 DF region": 10.239007394803181,
+     "N4 on the line": 3.9452764412569317,
+     "N5 large kappa": 9978.766375326913,
+     "F4 seeds": 4.075317124892683
+    }
+   },
+   "F_rule": {
+    "log F": 0.24814859042926057,
+    "(F^2 - 1) ell": 6426.276427834718,
+    "state (log mu, log r, log B, log kappa, q)": [
+     7.415043274278406,
+     -3309.8169901029632,
+     15.203054138484596,
+     -13368.643792230167,
+     0.0
+    ],
+    "mu": 1660.7810359426667,
+    "B": 4004999.9999999977,
+    "kappa": 0.0,
+    "log r + ell/2": 1690.1830098970368,
+    "tau >= 5e11/B": 124843.94506866424,
+    "evaluations": 28030,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 9938.637026125085,
+     "F2 global": 6.833945842592113,
+     "E1 small r, b at the lower end": 963.935011692227,
+     "E2 b at the lower end": 76.13815221683711,
+     "E3 large b": 142.93821605147173,
+     "E4 tails of mu": 9938.720236192046,
+     "E5 tails of kappa": 6.428620364344491,
+     "N1 narrow": 1.4788919322914098,
+     "N2 low mu": 5.009619700522905,
+     "N3 DF region": 8.43012585646504,
+     "N4 on the line": 0.2886621251215794,
+     "N5 large kappa": 9978.594902486555,
+     "F4 seeds": 0.26583162324035964
+    }
+   }
+  },
+  "(ii) [max(5e5, (8 ell + 100)/2), 50(8 ell + 100)]": {
+   "F_full": {
+    "log F": 3.7186173964349933,
+    "(F^2 - 1) ell": 16970482.68031813,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.6104691402336861,
+     -9992.385557202655,
+     15.203054138484596,
+     -9985.52197944606,
+     0.0
+    ],
+    "mu": 5.005158798488967,
+    "B": 4004999.9999999977,
+    "kappa": 0.0,
+    "log r + ell/2": -4992.385557202655,
+    "tau >= 5e11/B": 124843.94506866424,
+    "evaluations": 35460,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 9947.332388395775,
+     "F2 global": 151.58934848249012,
+     "E1 small r, b at the lower end": 781.4934569767859,
+     "E2 b at the lower end": 11.550231102744668,
+     "E3 large b": 168.90160792711285,
+     "E4 tails of mu": 9947.379236976698,
+     "E5 tails of kappa": 1994.0251425332676,
+     "N1 narrow": 5.098556334861604,
+     "N2 low mu": 8.183253509730969,
+     "N3 DF region": 9.35018548550913,
+     "N4 on the line": 5.178855340797882,
+     "N5 large kappa": 9987.504629302995,
+     "F4 seeds": 3.998142970790274
+    }
+   },
+   "F_rule": {
+    "log F": 0.2466587407633537,
+    "(F^2 - 1) ell": 6377.403911800184,
+    "state (log mu, log r, log B, log kappa, q)": [
+     0.6373757867484624,
+     -9656.247451935516,
+     13.122363377404328,
+     -10319.538623353512,
+     0.0
+    ],
+    "mu": 1.8915106333950793,
+    "B": 499999.9999999997,
+    "kappa": 0.0,
+    "log r + ell/2": -4656.247451935516,
+    "tau >= 5e11/B": 1000000.0000000006,
+    "evaluations": 28170,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 9947.375280101167,
+     "F2 global": 2.7054522789599464,
+     "E1 small r, b at the lower end": 962.0035907451595,
+     "E2 b at the lower end": 76.12745121695676,
+     "E3 large b": 142.93571016545647,
+     "E4 tails of mu": 9947.45849016813,
+     "E5 tails of kappa": 2.058274354595775,
+     "N1 narrow": 2.0222405813275546,
+     "N2 low mu": 3.9106093816227094,
+     "N3 DF region": 7.889763637776085,
+     "N4 on the line": 0.4370753292327884,
+     "N5 large kappa": 9987.333156462637,
+     "F4 seeds": 0.2648707068635579
+    }
+   }
+  },
+  "(iii) [max(1e4, 1.05(ell + 13)), max(5e5, (8 ell + 100)/2)] (NOT lower bounds: formulas only)": {
+   "F_full": {
+    "log F": -Infinity,
+    "(F^2 - 1) ell": -10000.0,
+    "state (log mu, log r, log B, log kappa, q)": [
+     -841.1999183446223,
+     -1.3862943611198906,
+     9.689950684967348,
+     7592.241703562133,
+     0.0
+    ],
+    "mu": 0.0,
+    "B": 16154.447616823803,
+    "kappa": 1.0142320547350045e+304,
+    "log r + ell/2": 4998.61370563888,
+    "tau >= 5e11/B": 30951228.532214407,
+    "evaluations": 26200,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 9949.407215460156,
+     "F2 global": -7393.102742655408,
+     "E1 small r, b at the lower end": 780.4516217507424,
+     "E2 b at the lower end": -9771.441808153493,
+     "E3 large b": 168.88367704902433,
+     "E4 tails of mu": 9949.454064041078,
+     "E5 tails of kappa": 1994.00721165518,
+     "N1 narrow": -3853.7954336225744,
+     "N2 low mu": -4968.989986900492,
+     "N3 DF region": 8.337642503844206,
+     "N4 on the line": -18.74287156142791,
+     "N5 large kappa": -5903.115074074422,
+     "F4 seeds": -7483.975484135383
+    }
+   },
+   "F_rule": {
+    "log F": -Infinity,
+    "(F^2 - 1) ell": -10000.0,
+    "state (log mu, log r, log B, log kappa, q)": [
+     -2.9587804896468954,
+     -9994.600136742652,
+     9.260429691877235,
+     -9979.676918289553,
+     0.0
+    ],
+    "mu": 0.051882149427062436,
+    "B": 10513.650000000001,
+    "kappa": 0.0,
+    "log r + ell/2": -4994.6001367426525,
+    "tau >= 5e11/B": 47557223.22885011,
+    "evaluations": 15710,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 9949.450107165549,
+     "F2 global": -Infinity,
+     "E1 small r, b at the lower end": -Infinity,
+     "E2 b at the lower end": -Infinity,
+     "E3 large b": 142.91777928736795,
+     "E4 tails of mu": 9949.53331723251,
+     "E5 tails of kappa": 1.0164391285524228,
+     "N1 narrow": -Infinity,
+     "N2 low mu": -Infinity,
+     "N3 DF region": -Infinity,
+     "N4 on the line": -Infinity,
+     "N5 large kappa": -Infinity,
+     "F4 seeds": -Infinity
+    }
+   }
+  }
+ },
+ "100000.0": {
+  "(i) [max(5e5, 50(8 ell + 100)), 2.5e10]": {
+   "F_full": {
+    "log F": 4.444388484568769,
+    "(F^2 - 1) ell": 724914660.5826203,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.6104691402374351,
+     -99988.21742379168,
+     23.942141661814613,
+     -99978.17219270128,
+     -4.3655745685100555e-11
+    ],
+    "mu": 5.005158798507732,
+    "B": 25000000000.000034,
+    "kappa": 0.0,
+    "log r + ell/2": -49988.21742379168,
+    "tau >= 5e11/B": 19.99999999999997,
+    "evaluations": 38730,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 99939.97553400416,
+     "F2 global": 2854.26594520011,
+     "E1 small r, b at the lower end": 6976.883178208398,
+     "E2 b at the lower end": 1772.6685550837358,
+     "E3 large b": 75.86153349929405,
+     "E4 tails of mu": 99939.8712066208,
+     "E5 tails of kappa": 20020.348476447994,
+     "N1 narrow": 4.8096417330586,
+     "N2 low mu": 9.078250162684384,
+     "N3 DF region": 12.841749707668944,
+     "N4 on the line": 5.746467007979753,
+     "N5 large kappa": 99980.00742541425,
+     "F4 seeds": 5.884867477314965
+    }
+   },
+   "F_rule": {
+    "log F": 0.24825441632050405,
+    "(F^2 - 1) ell": 64297.53446465907,
+    "state (log mu, log r, log B, log kappa, q)": [
+     9.255960584339876,
+     -47940.36284217255,
+     17.504515004266363,
+     -131127.04135426242,
+     0.0
+    ],
+    "mu": 10466.768205461027,
+    "B": 40005000.00000006,
+    "kappa": 0.0,
+    "log r + ell/2": 2059.6371578274484,
+    "tau >= 5e11/B": 12498.43769528807,
+    "evaluations": 28230,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 99939.74014111966,
+     "F2 global": 1558.2969271306442,
+     "E1 small r, b at the lower end": 7254.915032025605,
+     "E2 b at the lower end": 563.9526623699469,
+     "E3 large b": 308.4585881507785,
+     "E4 tails of mu": 99939.7728321531,
+     "E5 tails of kappa": 121.17185929257572,
+     "N1 narrow": 0.5435181220502496,
+     "N2 low mu": 2.9301279587713975,
+     "N3 DF region": 12.084749041893861,
+     "N4 on the line": 0.45166007988009665,
+     "N5 large kappa": 99979.76697767485,
+     "F4 seeds": 0.37168447117469744
+    }
+   }
+  },
+  "(ii) [max(5e5, (8 ell + 100)/2), 50(8 ell + 100)]": {
+   "F_full": {
+    "log F": 4.716946820173509,
+    "(F^2 - 1) ell": 1250412251.2526531,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.610469139629068,
+     -99991.31372857527,
+     17.504515004266363,
+     -99983.57738107347,
+     0.0
+    ],
+    "mu": 5.005158795462758,
+    "B": 40005000.00000006,
+    "kappa": 0.0,
+    "log r + ell/2": -49991.313728575275,
+    "tau >= 5e11/B": 12498.43769528807,
+    "evaluations": 37200,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 99946.41232831446,
+     "F2 global": 2859.7122772147995,
+     "E1 small r, b at the lower end": 6974.691011469348,
+     "E2 b at the lower end": 1772.6660601809656,
+     "E3 large b": 72.6424734756721,
+     "E4 tails of mu": 99946.30800093114,
+     "E5 tails of kappa": 20026.785270758337,
+     "N1 narrow": 5.158312280905986,
+     "N2 low mu": 9.069000263025213,
+     "N3 DF region": 11.374272843245814,
+     "N4 on the line": 7.01556463910286,
+     "N5 large kappa": 99986.4442197246,
+     "F4 seeds": 5.343004459216504
+    }
+   },
+   "F_rule": {
+    "log F": 0.2462089988711436,
+    "(F^2 - 1) ell": 63626.79325806555,
+    "state (log mu, log r, log B, log kappa, q)": [
+     9.255859044736457,
+     -47945.223417337664,
+     13.122363377404328,
+     -131128.68810113907,
+     0.0
+    ],
+    "mu": 10465.705467924256,
+    "B": 499999.9999999997,
+    "kappa": 0.0,
+    "log r + ell/2": 2054.7765826623363,
+    "tau >= 5e11/B": 1000000.0000000006,
+    "evaluations": 28050,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 99946.17693542998,
+     "F2 global": 1555.2426533100775,
+     "E1 small r, b at the lower end": 7252.723551512112,
+     "E2 b at the lower end": 563.9501600979804,
+     "E3 large b": 308.456085878812,
+     "E4 tails of mu": 99946.20962646339,
+     "E5 tails of kappa": 117.95279926895377,
+     "N1 narrow": 1.234035312191731,
+     "N2 low mu": 0.7387684728699156,
+     "N3 DF region": 10.79361959924631,
+     "N4 on the line": 0.2602330020581029,
+     "N5 large kappa": 99986.20377198517,
+     "F4 seeds": 0.2787095951868126
+    }
+   }
+  },
+  "(iii) [max(1e4, 1.05(ell + 13)), max(5e5, (8 ell + 100)/2)] (NOT lower bounds: formulas only)": {
+   "F_full": {
+    "log F": -Infinity,
+    "(F^2 - 1) ell": -100000.0,
+    "state (log mu, log r, log B, log kappa, q)": [
+     -244203.21357989428,
+     -1.3862943611198906,
+     11.68671570106636,
+     298050.2870426029,
+     0.0
+    ],
+    "mu": 0.0,
+    "B": 118980.59612989805,
+    "kappa": 1.0142320547350045e+304,
+    "log r + ell/2": 49998.61370563888,
+    "tau >= 5e11/B": 4202365.9005214665,
+    "evaluations": 27830,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 99950.72631182197,
+     "F2 global": -71644.52286981951,
+     "E1 small r, b at the lower end": 6973.90929778239,
+     "E2 b at the lower end": -93773.3053605732,
+     "E3 large b": 70.44935226350381,
+     "E4 tails of mu": 99950.62198443865,
+     "E5 tails of kappa": 20031.09925426585,
+     "N1 narrow": -49989.7528557894,
+     "N2 low mu": -Infinity,
+     "N3 DF region": 9.689116609715093,
+     "N4 on the line": -22.576208216750008,
+     "N5 large kappa": -96482.34219249644,
+     "F4 seeds": -93520.11653940463
+    }
+   },
+   "F_rule": {
+    "log F": -Infinity,
+    "(F^2 - 1) ell": -100000.0,
+    "state (log mu, log r, log B, log kappa, q)": [
+     2.672234412269768,
+     -218624.67536531304,
+     11.881500419105018,
+     114667.33516638236,
+     -92472.79410877236
+    ],
+    "mu": 14.472270110486962,
+    "B": 144567.29957364275,
+    "kappa": 1.0142320547350045e+304,
+    "log r + ell/2": -168624.67536531304,
+    "tau >= 5e11/B": 3458596.802144038,
+    "evaluations": 15850,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 99950.49091893749,
+     "F2 global": -Infinity,
+     "E1 small r, b at the lower end": -Infinity,
+     "E2 b at the lower end": -Infinity,
+     "E3 large b": 308.20313754600744,
+     "E4 tails of mu": 99950.5236099709,
+     "E5 tails of kappa": 115.75967805678548,
+     "N1 narrow": -Infinity,
+     "N2 low mu": -Infinity,
+     "N3 DF region": -Infinity,
+     "N4 on the line": -Infinity,
+     "N5 large kappa": -Infinity,
+     "F4 seeds": -Infinity
+    }
+   }
+  }
+ },
+ "1000000.0": {
+  "(i) [max(5e5, 50(8 ell + 100)), 2.5e10]": {
+   "F_full": {
+    "log F": 5.59565141781924,
+    "(F^2 - 1) ell": 72496172177.83948,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.6104691404442701,
+     -999988.2174365395,
+     23.942141661814613,
+     -999978.1722125574,
+     -5.820766091346741e-11
+    ],
+    "mu": 5.005158799542974,
+    "B": 25000000000.000034,
+    "kappa": 0.0,
+    "log r + ell/2": -499988.2174365395,
+    "tau >= 5e11/B": 19.99999999999997,
+    "evaluations": 40590,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 999941.0325013343,
+     "F2 global": 81252.51607595083,
+     "E1 small r, b at the lower end": 87674.40839490635,
+     "E2 b at the lower end": 3389.4122520171263,
+     "E3 large b": 2680.0988344607154,
+     "E4 tails of mu": 999940.9215959236,
+     "E5 tails of kappa": 201381.94569230697,
+     "N1 narrow": 6.439161380479766,
+     "N2 low mu": 9.899708552167809,
+     "N3 DF region": 13.159069472907031,
+     "N4 on the line": 7.838051584773733,
+     "N5 large kappa": 999981.0414919333,
+     "F4 seeds": 8.027954039768106
+    }
+   },
+   "F_rule": {
+    "log F": 0.24838511778528047,
+    "(F^2 - 1) ell": 643404.8793532338,
+    "state (log mu, log r, log B, log kappa, q)": [
+     12.363712791516646,
+     -483075.9545901498,
+     19.80698760499413,
+     -1048631.7754617478,
+     0.0
+    ],
+    "mu": 234148.9643345863,
+    "B": 400004999.9999996,
+    "kappa": 0.0,
+    "log r + ell/2": 16924.045409850194,
+    "tau >= 5e11/B": 1249.9843751953115,
+    "evaluations": 31690,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 999940.8998285448,
+     "F2 global": 20440.983401103953,
+     "E1 small r, b at the lower end": 81163.49286650491,
+     "E2 b at the lower end": 2219.5441155201734,
+     "E3 large b": 1912.569505231336,
+     "E4 tails of mu": 999940.9937138965,
+     "E5 tails of kappa": 2483.7392003904392,
+     "N1 narrow": 0.9297944467990501,
+     "N2 low mu": 9.053224248499458,
+     "N3 DF region": 11.849620440756087,
+     "N4 on the line": 0.25441570018960846,
+     "N5 large kappa": 999980.9704940561,
+     "F4 seeds": 0.37777901071063713
+    }
+   }
+  },
+  "(ii) [max(5e5, (8 ell + 100)/2), 50(8 ell + 100)]": {
+   "F_full": {
+    "log F": 5.722658213986131,
+    "(F^2 - 1) ell": 93461580626.77739,
+    "state (log mu, log r, log B, log kappa, q)": [
+     1.6104691396667254,
+     -999992.0748805592,
+     15.201817419073056,
+     -999985.5693360002,
+     0.0
+    ],
+    "mu": 5.005158795651239,
+    "B": 4000050.000268064,
+    "kappa": 0.0,
+    "log r + ell/2": -499992.07488055923,
+    "tau >= 5e11/B": 124998.43751115422,
+    "evaluations": 38760,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 999945.166835044,
+     "F2 global": 81248.02356378893,
+     "E1 small r, b at the lower end": 87672.34074690058,
+     "E2 b at the lower end": 3384.8070817954826,
+     "E3 large b": 2680.0963681917237,
+     "E4 tails of mu": 999945.0559296331,
+     "E5 tails of kappa": 201381.94322603798,
+     "N1 narrow": 7.020829294678773,
+     "N2 low mu": 9.883859298911004,
+     "N3 DF region": 12.577960870134502,
+     "N4 on the line": 8.66735434262466,
+     "N5 large kappa": 999985.1758256429,
+     "F4 seeds": 7.2388140626965125
+    }
+   },
+   "F_rule": {
+    "log F": 0.24765333402662226,
+    "(F^2 - 1) ell": 641001.4046068231,
+    "state (log mu, log r, log B, log kappa, q)": [
+     12.363713898000007,
+     -483080.0919584653,
+     15.20181741900604,
+     -1048631.7251027646,
+     0.0
+    ],
+    "mu": 234149.22341666286,
+    "B": 4000050.0000000014,
+    "kappa": 0.0,
+    "log r + ell/2": 16919.908041534713,
+    "tau >= 5e11/B": 124998.43751953098,
+    "evaluations": 31220,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 999945.0341622545,
+     "F2 global": 20440.98294490924,
+     "E1 small r, b at the lower end": 81161.19010286286,
+     "E2 b at the lower end": 2219.244221440778,
+     "E3 large b": 1912.567038962345,
+     "E4 tails of mu": 999945.128047606,
+     "E5 tails of kappa": 2481.6715523846683,
+     "N1 narrow": 0.677758729874409,
+     "N2 low mu": 6.832088418624707,
+     "N3 DF region": 10.928611015192516,
+     "N4 on the line": 0.3935344482439891,
+     "N5 large kappa": 999985.1048277656,
+     "F4 seeds": 0.3772329254868158
+    }
+   }
+  },
+  "(iii) [max(1e4, 1.05(ell + 13)), max(5e5, (8 ell + 100)/2)] (NOT lower bounds: formulas only)": {
+   "F_full": {
+    "log F": -Infinity,
+    "(F^2 - 1) ell": -1000000.0,
+    "state (log mu, log r, log B, log kappa, q)": [
+     -44359.534576430386,
+     -1.3862943611198906,
+     14.47804172774078,
+     308120.3914476144,
+     0.0
+    ],
+    "mu": 0.0,
+    "B": 1939695.8254488732,
+    "kappa": 1.0142320547350045e+304,
+    "log r + ell/2": 499998.61370563885,
+    "tau >= 5e11/B": 257772.37515283763,
+    "evaluations": 28430,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 999949.6858275337,
+     "F2 global": -850456.1804131616,
+     "E1 small r, b at the lower end": 87670.03743003387,
+     "E2 b at the lower end": -952220.6641351277,
+     "E3 large b": 2679.7523008568423,
+     "E4 tails of mu": 999949.574922123,
+     "E5 tails of kappa": 201381.5991587031,
+     "N1 narrow": -499983.55576078634,
+     "N2 low mu": -893537.1664839576,
+     "N3 DF region": 10.496541692799882,
+     "N4 on the line": -21.399022702631182,
+     "N5 large kappa": -900938.1505635362,
+     "F4 seeds": -809339.0986626716
+    }
+   },
+   "F_rule": {
+    "log F": -Infinity,
+    "(F^2 - 1) ell": -1000000.0,
+    "state (log mu, log r, log B, log kappa, q)": [
+     13.522141107976044,
+     -1000002.6043175848,
+     13.864313722049207,
+     -18.984417312178707,
+     0.0
+    ],
+    "mu": 745746.5737333613,
+    "B": 1050013.6500000004,
+    "kappa": 5.690786848421776e-09,
+    "log r + ell/2": -500002.6043175848,
+    "tau >= 5e11/B": 476184.2857947607,
+    "evaluations": 16430,
+    "nan": 0,
+    "family minima before refinement (log F)": {
+     "F1 corner": 999949.5531547442,
+     "F2 global": -Infinity,
+     "E1 small r, b at the lower end": -Infinity,
+     "E2 b at the lower end": -Infinity,
+     "E3 large b": 1912.2229716274635,
+     "E4 tails of mu": 999949.6470400959,
+     "E5 tails of kappa": 2479.3682355179662,
+     "N1 narrow": -Infinity,
+     "N2 low mu": -Infinity,
+     "N3 DF region": 11.842753543840077,
+     "N4 on the line": -Infinity,
+     "N5 large kappa": -Infinity,
+     "F4 seeds": -Infinity
+    }
+   }
+  }
+ },
+ "planted dips (depth 5)": {
+  "ell = 3000: wide focus: kappa ~ 1, mu ~ ell/4, r ~ sigma^(1/2), B in the middle": {
+   "found minimum of (F^2 - 1) ell": 5.000000000000016,
+   "found": true
+  },
+  "ell = 3000: B at the lower end, low mu": {
+   "found minimum of (F^2 - 1) ell": 5.0000000000000036,
+   "found": true
+  },
+  "ell = 100000: wide focus: kappa ~ 1, mu ~ ell/4, r ~ sigma^(1/2), B in the middle": {
+   "found minimum of (F^2 - 1) ell": 5.000000000000015,
+   "found": true
+  },
+  "ell = 100000: B at the lower end, low mu": {
+   "found minimum of (F^2 - 1) ell": 5.0,
+   "found": true
+  }
+ },
+ "wrong versions (ell = 3000, band (i))": {
+  "line cKz (chirp) dropped": {
+   "smallest (F^2 - 1) ell": -3000.0,
+   "log F": -1482.8004662142712,
+   "broken (< 10)": true
+  },
+  "line P1 dropped": {
+   "smallest (F^2 - 1) ell": -3000.0,
+   "log F": -Infinity,
+   "broken (< 10)": true
+  },
+  "line P2z dropped": {
+   "smallest (F^2 - 1) ell": 89191.55169008113,
+   "log F": 1.712628103718353,
+   "broken (< 10)": false
+  },
+  "(J) removed from (H')": {
+   "smallest (F^2 - 1) ell": -3000.0,
+   "log F": -1482.8004662312703,
+   "broken (< 10)": true
+  },
+  "Tz-B2 only": {
+   "smallest (F^2 - 1) ell": -3000.0,
+   "log F": -Infinity,
+   "broken (< 10)": true
+  },
+  "Fz only": {
+   "smallest (F^2 - 1) ell": -3000.0,
+   "log F": -2986.691508418466,
+   "broken (< 10)": true
+  }
+ },
+ "smallest (F^2 - 1) ell in the bands (i), (ii)": 627.5300897593168,
+ "claim holds on the searched states": true,
+ "nan in the bands (i), (ii)": 0,
+ "ok": true,
+ "seconds": 1271.577433347702
+}

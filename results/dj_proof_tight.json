@@ -1,0 +1,190 @@
+{
+ "the smallest value of the rule per regime, ell = 55.26": {
+  "Case I, Fz": {
+   "smallest log F of the rule in this regime": 0.23914988395770526,
+   "the same as (F^2 - 1) ell": 33.89256248432824,
+   "log F needed": 0.08316498583495205,
+   "below the claim": false,
+   "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+    1.4317768330832918,
+    -1.3862943611198906,
+    102.30381052969584,
+    1.1246151366932045,
+    0.0
+   ],
+   "mu": 4.186130643161614,
+   "ell/4 - mu": 9.628869356838386,
+   "log r + ell/2": 26.243705638880108,
+   "log b + ell": 47.04381052969584,
+   "log kappa": 1.1246151366932045,
+   "log(r sqrt(mu)/(ell^2 sigma))": 46.56549541643121,
+   "log(B/2.5e10)": 78.36166886788122,
+   "log(kappa sigma/b)": -45.91919539300263,
+   "states evaluated": 49840,
+   "nan": 0
+  },
+  "Case I, Tz-B2": {
+   "smallest log F of the rule in this regime": 2.804391308683036,
+   "the same as (F^2 - 1) ell": 15020.326659049208,
+   "log F needed": 0.08316498583495205,
+   "below the claim": false,
+   "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+    2.2824462970701855,
+    -44.21346541143159,
+    24.4277246595384,
+    -27.573487706983904,
+    0.0
+   ],
+   "mu": 9.800626351673152,
+   "ell/4 - mu": 4.014373648326847,
+   "log r + ell/2": -16.583465411431593,
+   "log b + ell": -30.8322753404616,
+   "log kappa": -27.573487706983904,
+   "log(r sqrt(mu)/(ell^2 sigma))": 4.1636590981129515,
+   "log(B/2.5e10)": 0.4855829977237853,
+   "log(kappa sigma/b)": 3.258787633477695,
+   "states evaluated": 48930,
+   "nan": 0
+  },
+  "Case II, chirp (Tz-B2)": {
+   "smallest log F of the rule in this regime": 4.459423755679511,
+   "the same as (F^2 - 1) ell": 412818.3643693479,
+   "log F needed": 0.08316498583495205,
+   "below the claim": false,
+   "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+    1.610469140248373,
+    -52.18926460335969,
+    23.942141661814613,
+    -28.25567768600991,
+    0.0
+   ],
+   "mu": 5.005158798562477,
+   "ell/4 - mu": 8.809841201437521,
+   "log r + ell/2": -24.55926460335969,
+   "log b + ell": -31.317858338185385,
+   "log kappa": -28.25567768600991,
+   "log(r sqrt(mu)/(ell^2 sigma))": -4.1481286722260435,
+   "log(B/2.5e10)": 0.0,
+   "log(kappa sigma/b)": 3.0621806521754777,
+   "states evaluated": 31424,
+   "nan": 0
+  },
+  "Case II, the rest (Tz-B2 below a_s, Tz-B1 from a_s)": {
+   "smallest log F of the rule in this regime": 0.13793432072529574,
+   "the same as (F^2 - 1) ell": 17.554707503556617,
+   "log F needed": 0.08316498583495205,
+   "below the claim": false,
+   "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+    2.397732252279778,
+    -27.84402963397517,
+    56.08173861250256,
+    -3.3864023099596006,
+    0.0
+   ],
+   "mu": 10.99820692045383,
+   "ell/4 - mu": 2.8167930795461693,
+   "log r + ell/2": -0.21402963397516928,
+   "log b + ell": 0.8217386125025641,
+   "log kappa": -3.3864023099596006,
+   "log(r sqrt(mu)/(ell^2 sigma))": 20.590737853174183,
+   "log(B/2.5e10)": 32.139596950687945,
+   "log(kappa sigma/b)": -4.208140922462164,
+   "states evaluated": 59200,
+   "nan": 0
+  }
+ },
+ "the smallest value of the rule per regime, ell = 955.8": {
+  "Case I, Fz": {
+   "smallest log F of the rule in this regime": 0.2536551853088243,
+   "the same as (F^2 - 1) ell": 631.6100325662713,
+   "log F needed": 0.005204043647691839,
+   "below the claim": false,
+   "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+    -2.4470147694877293,
+    -476.0906867941994,
+    23.942141661814613,
+    -1399.4264051148325,
+    -1.7041495283451435
+   ],
+   "mu": 0.08655157763671643,
+   "ell/4 - mu": 238.86344842236326,
+   "log r + ell/2": 1.8093132058005494,
+   "log b + ell": -931.8578583381853,
+   "log kappa": -1399.4264051148325,
+   "log(r sqrt(mu)/(ell^2 sigma))": 464.7607084487685,
+   "log(B/2.5e10)": 0.0,
+   "log(kappa sigma/b)": -467.56854677664705,
+   "states evaluated": 49730,
+   "nan": 0
+  },
+  "Case I, Tz-B2": {
+   "smallest log F of the rule in this regime": 4.4121694215482705,
+   "the same as (F^2 - 1) ell": 6496280.950951919,
+   "log F needed": 0.005204043647691839,
+   "below the claim": false,
+   "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+    -1.8852730052762277,
+    -1.3862943611198906,
+    1909.297414488676,
+    2275.593976251058,
+    -2590.414596841637
+   ],
+   "mu": 0.15178761495265952,
+   "ell/4 - mu": 238.79821238504732,
+   "log r + ell/2": 476.5137056388801,
+   "log b + ell": 953.497414488676,
+   "log kappa": 2275.593976251058,
+   "log(r sqrt(mu)/(ell^2 sigma))": 939.7459717639539,
+   "log(B/2.5e10)": 1885.3552728268614,
+   "log(kappa sigma/b)": 1322.096561762382,
+   "states evaluated": 48990,
+   "nan": 0
+  },
+  "Case II, chirp (Tz-B2)": {
+   "smallest log F of the rule in this regime": 5.363039492247599,
+   "the same as (F^2 - 1) ell": 43514540.55378474,
+   "log F needed": 0.005204043647691839,
+   "below the claim": false,
+   "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+    1.6104688778519467,
+    -951.304014997893,
+    24.88199334844651,
+    -926.6815241405557,
+    0.0
+   ],
+   "mu": 5.005157485226868,
+   "ell/4 - mu": 233.94484251477311,
+   "log r + ell/2": -473.404014997893,
+   "log b + ell": -930.9180066515535,
+   "log kappa": -926.6815241405557,
+   "log(r sqrt(mu)/(ell^2 sigma))": -8.42387793125522,
+   "log(B/2.5e10)": 0.9398516866318971,
+   "log(kappa sigma/b)": 4.236482510997803,
+   "states evaluated": 56179,
+   "nan": 0
+  },
+  "Case II, the rest (Tz-B2 below a_s, Tz-B1 from a_s)": {
+   "smallest log F of the rule in this regime": 0.01244875202979756,
+   "the same as (F^2 - 1) ell": 24.09575171339548,
+   "log F needed": 0.005204043647691839,
+   "below the claim": false,
+   "state (log mu, log r, log B, log kappa, log(P/Pbar))": [
+    5.452545854409163,
+    -478.8678299346095,
+    958.2161308046343,
+    -6.4514752740709636,
+    0.0
+   ],
+   "mu": 233.35148924756464,
+   "ell/4 - mu": 5.598510752435345,
+   "log r + ell/2": -0.96782993460954,
+   "log b + ell": 2.4161308046343493,
+   "log kappa": -6.4514752740709636,
+   "log(r sqrt(mu)/(ell^2 sigma))": 465.9333456203069,
+   "log(B/2.5e10)": 934.2739891428197,
+   "log(kappa sigma/b)": -8.867606078705307,
+   "states evaluated": 105690,
+   "nan": 0
+  }
+ }
+}

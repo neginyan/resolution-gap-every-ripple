@@ -1,0 +1,1509 @@
+{
+ "validation": {
+  "55.26": {
+   "points": 600,
+   "largest |log G (log form) - log G (table)|": 4.547473508864641e-13,
+   "largest (f fast - f DG grid)/f": 0.02001509553266326,
+   "smallest (f refined - f DG grid)/f": -0.0008377076988588827,
+   "largest (f robust - f DG grid)/f (<= ~0: the robust grid is never above the uniform grid of DG)": 3.124967186954587e-16,
+   "smallest (f robust - f DG grid)/f": -0.0008434748980469625,
+   "same sign of f - 1": true,
+   "(f robust - f uniform 40001)/f: smallest, largest": [
+    -2.103812400957317e-06,
+    2.2825999819128675e-15
+   ]
+  },
+  "331.56": {
+   "points": 600,
+   "largest |log G (log form) - log G (table)|": 1.5575096767861396e-11,
+   "largest (f fast - f DG grid)/f": 0.11984254281571317,
+   "smallest (f refined - f DG grid)/f": -0.03000945845882684,
+   "largest (f robust - f DG grid)/f (<= ~0: the robust grid is never above the uniform grid of DG)": -4.6069948532462045e-09,
+   "smallest (f robust - f DG grid)/f": -0.030009479569655637,
+   "same sign of f - 1": true,
+   "(f robust - f uniform 40001)/f: smallest, largest": [
+    -7.670789382479785e-05,
+    1.3307583177322092e-14
+   ]
+  },
+  "955.8": {
+   "points": 600,
+   "largest |log G (log form) - log G (table)|": 414.36802357964916,
+   "largest (f fast - f DG grid)/f": 3.2209243010209447,
+   "smallest (f refined - f DG grid)/f": -0.20625494472312908,
+   "largest (f robust - f DG grid)/f (<= ~0: the robust grid is never above the uniform grid of DG)": -1.6156197673483125e-08,
+   "smallest (f robust - f DG grid)/f": -0.20625542603876718,
+   "same sign of f - 1": true
+  }
+ },
+ "validation of the fast refinement (V3)": {
+  "55.26": {
+   "states": 2000,
+   "smallest (fast - robust)/robust (>= 0: fast never below)": 0.0,
+   "largest (fast - robust)/robust (at states with f >> 1)": 0.020490279866103616,
+   "states with robust (f1^2 - 1) ell < 100": 8,
+   "largest |fast - robust| of (f1^2 - 1) ell among them": 0.0018152421454828982,
+   "states with robust margin < 10 and fast margin >= 10": 0,
+   "smallest robust (f1^2 - 1) ell in the sample": 29.018978607694713
+  },
+  "955.8": {
+   "states": 1808,
+   "smallest (fast - robust)/robust (>= 0: fast never below)": 0.0,
+   "largest (fast - robust)/robust (at states with f >> 1)": 15.921981601665795,
+   "states with robust (f1^2 - 1) ell < 100": 114,
+   "largest |fast - robust| of (f1^2 - 1) ell among them": 0.0020995956346467892,
+   "states with robust margin < 10 and fast margin >= 10": 0,
+   "smallest robust (f1^2 - 1) ell in the sample": 39.18955918299889
+  },
+  "100000.0": {
+   "states": 1526,
+   "smallest (fast - robust)/robust (>= 0: fast never below)": 0.0,
+   "largest (fast - robust)/robust (at states with f >> 1)": 2.94470386870691e+87,
+   "states with robust (f1^2 - 1) ell < 100": 115,
+   "largest |fast - robust| of (f1^2 - 1) ell among them": 0.06150365350343634,
+   "states with robust margin < 10 and fast margin >= 10": 0,
+   "smallest robust (f1^2 - 1) ell in the sample": 46.761906030612366
+  }
+ },
+ "validation of the fast refinement next to the worst states (V4)": {
+  "55.26": {
+   "states": 400,
+   "(f1^2 - 1) ell in the sample (robust): smallest, median, largest": [
+    18.176897329707774,
+    41.501799354790954,
+    96496.13797002204
+   ],
+   "largest |fast - robust| of (f1^2 - 1) ell": 0.19944404865600518,
+   "smallest fast - robust (>= 0)": 0.0
+  },
+  "955.8": {
+   "states": 400,
+   "(f1^2 - 1) ell in the sample (robust): smallest, median, largest": [
+    24.508359488146432,
+    37.45779581559694,
+    8156.603245278654
+   ],
+   "largest |fast - robust| of (f1^2 - 1) ell": 0.004101270405044488,
+   "smallest fast - robust (>= 0)": 0.0
+  },
+  "10000.0": {
+   "states": 400,
+   "(f1^2 - 1) ell in the sample (robust): smallest, median, largest": [
+    32.408178737195485,
+    44.68111950915343,
+    4589.867624147479
+   ],
+   "largest |fast - robust| of (f1^2 - 1) ell": 0.0009117756483192352,
+   "smallest fast - robust (>= 0)": 0.0
+  },
+  "1000000.0": {
+   "states": 400,
+   "(f1^2 - 1) ell in the sample (robust): smallest, median, largest": [
+    48.34560128430532,
+    60.79381420598384,
+    7684.655165979937
+   ],
+   "largest |fast - robust| of (f1^2 - 1) ell": 0.2754861165853981,
+   "smallest fast - robust (>= 0)": 0.00011665335364341445
+  }
+ },
+ "smallest (f1^2 - 1) ell per ell and ceiling": {
+  "55.26": {
+   "DG": {
+    "f (table target)": 1.0944989479521123,
+    "(f1^2 - 1) ell": 10.970601241514348,
+    "ten lowest (f1^2 - 1) ell": [
+     10.970601241514348,
+     10.973549563410156,
+     10.99045039671915,
+     11.012296173801518,
+     11.014532720037652,
+     11.036233925789137,
+     11.081103087751517,
+     11.131375863604715,
+     11.167057621317959,
+     11.219698578211961
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     2.485240255516097,
+     -30.049256932302907,
+     51.829386579894106,
+     -7.721775499788386
+    ],
+    "mu/ell": 0.21722772234108056,
+    "ell/4 - mu": 1.8109960634318885,
+    "log r + ell/2": -2.4192569323029076,
+    "log b + ell": -3.4306134201058924,
+    "log kappa": -7.721775499788386,
+    "states evaluated": 23980,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 10.970601241514348,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 10.937498354993188,
+    "first search: (f1^2 - 1) ell": 10.969974383304486,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 10.969655625707276,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 10.969655625707276
+   },
+   "JEN": {
+    "f (table target)": 1.1476734114049794,
+    "(f1^2 - 1) ell": 17.562341887235313,
+    "ten lowest (f1^2 - 1) ell": [
+     17.562341887235313,
+     17.56712252690552,
+     17.578871254994116,
+     17.91921144064906,
+     17.929915652132767,
+     18.388361402386398,
+     18.51613963181487,
+     19.200509351930354,
+     19.789321367287577,
+     19.945409342459154
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     2.4014579897917376,
+     -27.893251033639572,
+     55.98744081187367,
+     -3.3908737697236138
+    ],
+    "mu/ell": 0.19976944953211886,
+    "ell/4 - mu": 2.775740218855111,
+    "log r + ell/2": -0.26325103363957325,
+    "log b + ell": 0.7274408118736702,
+    "log kappa": -3.3908737697236138,
+    "states evaluated": 24039,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 17.561171427436467,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 17.525944365930815,
+    "first search: (f1^2 - 1) ell": 17.5896455485479,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 17.588902691462955,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 17.561171427436467
+   },
+   "true": {
+    "f (table target)": 1.1961196894508128,
+    "(f1^2 - 1) ell": 23.840144979197532,
+    "ten lowest (f1^2 - 1) ell": [
+     23.840144979197532,
+     23.84114850404297,
+     23.864759529740606,
+     23.876100089441557,
+     23.88093612472069,
+     23.89851557302198,
+     23.93508877433624,
+     23.964521648351564,
+     23.983432674550922,
+     24.10496898597229
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     2.3229697229942676,
+     -26.179891743120955,
+     59.36823249139266,
+     -0.00030880129435915135
+    ],
+    "mu/ell": 0.18468943458966466,
+    "ell/4 - mu": 3.6090618445751304,
+    "log r + ell/2": 1.4501082568790444,
+    "log b + ell": 4.108232491392663,
+    "log kappa": -0.00030880129435915135,
+    "states evaluated": 24009,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 23.83945989096929,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 23.800609733042883,
+    "first search: (f1^2 - 1) ell": 23.84124433582594,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 23.840297999376716,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 23.83945989096929
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 23.83784103459534,
+   "true (g^2 - 1) ell of the comb (dh_true)": 29.625362035512016,
+   "seconds": 365.5606553554535
+  },
+  "82.89": {
+   "DG": {
+    "f (table target)": 1.0655831633221757,
+    "(f1^2 - 1) ell": 11.275964579802634,
+    "ten lowest (f1^2 - 1) ell": [
+     11.275964579802634,
+     11.301117184580413,
+     11.336544034505053,
+     11.82194330831469,
+     11.982260324771717,
+     12.067110360215567,
+     12.087205937365797,
+     12.131231184120766,
+     12.45900635651547,
+     14.049318778013838
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     2.9259813465316777,
+     -44.272753817297826,
+     79.00218151329541,
+     -8.901800857930795
+    ],
+    "mu/ell": 0.22502740570275553,
+    "ell/4 - mu": 2.0699783412985937,
+    "log r + ell/2": -2.8277538172978254,
+    "log b + ell": -3.887818486704589,
+    "log kappa": -8.901800857930795,
+    "states evaluated": 24039,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 11.275958025436333,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 11.228899247747524,
+    "first search: (f1^2 - 1) ell": 11.275303856833597,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 11.275231529680777,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 11.275231529680777
+   },
+   "JEN": {
+    "f (table target)": 1.1040072044179496,
+    "(f1^2 - 1) ell": 18.189497607657923,
+    "ten lowest (f1^2 - 1) ell": [
+     18.189497607657923,
+     18.375610558357675,
+     18.45170298645463,
+     18.46409227340637,
+     18.6225379546287,
+     18.73719476630439,
+     18.938715793154962,
+     18.948709287029864,
+     19.147713574066024,
+     19.1883928622318
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     2.8576808117531765,
+     -41.63890132031082,
+     84.15717082005177,
+     -3.844997093827373
+    ],
+    "mu/ell": 0.21017103742113327,
+    "ell/4 - mu": 3.3014227081622636,
+    "log r + ell/2": -0.19390132031082175,
+    "log b + ell": 1.2671708200517742,
+    "log kappa": -3.844997093827373,
+    "states evaluated": 24041,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 18.189377064061876,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 18.13897680494438,
+    "first search: (f1^2 - 1) ell": 18.17103637004408,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 18.170874413645098,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 18.170874413645098
+   },
+   "true": {
+    "f (table target)": 1.1358175637442822,
+    "(f1^2 - 1) ell": 24.09833280671326,
+    "ten lowest (f1^2 - 1) ell": [
+     24.09833280671326,
+     24.251762630931818,
+     24.312517568304354,
+     24.3282551385416,
+     24.616304593985866,
+     24.652927246174666,
+     24.701425174668042,
+     24.90174596245186,
+     25.100125214644613,
+     25.201532511837662
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     2.8057099737156954,
+     -39.855378569721076,
+     87.72587628991839,
+     0.00025117156564881475
+    ],
+    "mu/ell": 0.19952725131958332,
+    "ell/4 - mu": 4.183686138119739,
+    "log r + ell/2": 1.5896214302789247,
+    "log b + ell": 4.835876289918389,
+    "log kappa": 0.00025117156564881475,
+    "states evaluated": 24009,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 24.098332300324227,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 24.044858693937616,
+    "first search: (f1^2 - 1) ell": 24.098110594569683,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 24.098106196244277,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 24.098106196244277
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 24.097346205349105,
+   "true (g^2 - 1) ell of the comb (dh_true)": 29.305091602358377,
+   "seconds": 364.101925611496
+  },
+  "165.78": {
+   "DG": {
+    "f (table target)": 1.036037585953826,
+    "(f1^2 - 1) ell": 12.252904827374865,
+    "ten lowest (f1^2 - 1) ell": [
+     12.252904827374865,
+     12.297956605136513,
+     12.318933829019782,
+     12.32797296556185,
+     12.346298300216308,
+     12.38216472120837,
+     12.485341547440175,
+     12.515721108449844,
+     12.748615338758341,
+     12.811270841127213
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     3.6616618235691547,
+     -86.3947489293088,
+     161.30939448531322,
+     -10.611644683238659
+    ],
+    "mu/ell": 0.23480502628449343,
+    "ell/4 - mu": 2.519022742556679,
+    "log r + ell/2": -3.5047489293088034,
+    "log b + ell": -4.470605514686781,
+    "log kappa": -10.611644683238659,
+    "states evaluated": 23987,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 12.252904827374865,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 12.163921745007208,
+    "first search: (f1^2 - 1) ell": 12.253754989916796,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 12.253745873740984,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 12.252904827374865
+   },
+   "JEN": {
+    "f (table target)": 1.056598333714648,
+    "(f1^2 - 1) ell": 19.389348400201648,
+    "ten lowest (f1^2 - 1) ell": [
+     19.389348400201648,
+     19.417824133063917,
+     19.47634564474174,
+     19.600014118025133,
+     19.682010007330064,
+     19.90067095684115,
+     20.145443544948627,
+     20.154738672546248,
+     20.195851961628243,
+     20.877058586311694
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     3.6237535781256605,
+     -83.40789972314755,
+     167.25190490568522,
+     -4.627754259559997
+    ],
+    "mu/ell": 0.22607057944453246,
+    "ell/4 - mu": 3.9670193396854074,
+    "log r + ell/2": -0.5178997231475506,
+    "log b + ell": 1.4719049056852214,
+    "log kappa": -4.627754259559997,
+    "states evaluated": 24044,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 19.38934809167358,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 19.296798433684877,
+    "first search: (f1^2 - 1) ell": 19.393862334584927,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 19.393862334586213,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 19.38934809167358
+   },
+   "true": {
+    "f (table target)": 1.0733531914497954,
+    "(f1^2 - 1) ell": 25.30850349524808,
+    "ten lowest (f1^2 - 1) ell": [
+     25.30850349524808,
+     25.309128703668605,
+     25.31078215173211,
+     25.315201019573294,
+     25.34082466797068,
+     25.36956726514631,
+     25.369745400812363,
+     25.41936734758895,
+     25.551008806622686,
+     25.61936310423882
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     3.5926745509470663,
+     -81.06846905844507,
+     171.88612867647143,
+     0.000275512648124441
+    ],
+    "mu/ell": 0.21915258486779937,
+    "ell/4 - mu": 5.113884480616221,
+    "log r + ell/2": 1.8215309415549257,
+    "log b + ell": 6.106128676471428,
+    "log kappa": 0.000275512648124441,
+    "states evaluated": 24074,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 25.30849669216974,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 25.212995060655548,
+    "first search: (f1^2 - 1) ell": 25.306976063576062,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 25.30697414816635,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 25.30697414816635
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 25.30670565256098,
+   "true (g^2 - 1) ell of the comb (dh_true)": 29.940947329724864,
+   "seconds": 443.0172483921051
+  },
+  "331.56": {
+   "DG": {
+    "f (table target)": 1.020935727607515,
+    "(f1^2 - 1) ell": 14.201039705524158,
+    "ten lowest (f1^2 - 1) ell": [
+     14.201039705524158,
+     14.2058705595018,
+     14.231946396021774,
+     14.234345296999162,
+     14.238513422851126,
+     14.301983759172682,
+     14.328712476450473,
+     14.408857942690407,
+     14.983499578748768,
+     15.031653029582023
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     4.379610759152369,
+     -169.65289328208343,
+     327.11509657420345,
+     -11.564587213247696
+    ],
+    "mu/ell": 0.24070142124674848,
+    "ell/4 - mu": 3.0830367714280698,
+    "log r + ell/2": -3.8728932820834245,
+    "log b + ell": -4.444903425796554,
+    "log kappa": -11.564587213247696,
+    "states evaluated": 24186,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 14.201011586401187,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 14.02822399426302,
+    "first search: (f1^2 - 1) ell": 14.194923947825444,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 14.194922756371671,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 14.194922756371671
+   },
+   "JEN": {
+    "f (table target)": 1.0309979468268038,
+    "(f1^2 - 1) ell": 21.05018445453033,
+    "ten lowest (f1^2 - 1) ell": [
+     21.05018445453033,
+     21.110207624598658,
+     21.120558044455006,
+     21.12536678042411,
+     21.12839375547503,
+     21.130645043316058,
+     21.14862162849966,
+     21.236538144409195,
+     21.32228159870531,
+     21.502191973095442
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     4.360265068918676,
+     -166.53293378715315,
+     333.35673808329733,
+     -5.367908401646788
+    ],
+    "mu/ell": 0.23608963899915691,
+    "ell/4 - mu": 4.612119293439534,
+    "log r + ell/2": -0.7529337871531538,
+    "log b + ell": 1.7967380832973276,
+    "log kappa": -5.367908401646788,
+    "states evaluated": 24066,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 21.05010088103754,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 20.873945454681284,
+    "first search: (f1^2 - 1) ell": 21.052056575317263,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 21.052054175842095,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 21.05010088103754
+   },
+   "true": {
+    "f (table target)": 1.0399714744491073,
+    "(f1^2 - 1) ell": 27.214943996064996,
+    "ten lowest (f1^2 - 1) ell": [
+     27.214943996064996,
+     27.22668062566451,
+     27.252269118398182,
+     27.26417156983144,
+     27.272866838021802,
+     27.29650852097646,
+     27.353220228158403,
+     27.415705705006893,
+     27.540443654825687,
+     27.60629197268785
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     4.342575814432402,
+     -163.75305223860576,
+     338.86187895671657,
+     -0.00014197731129656914
+    ],
+    "mu/ell": 0.23195010982683417,
+    "ell/4 - mu": 5.984621585814864,
+    "log r + ell/2": 2.02694776139424,
+    "log b + ell": 7.301878956716564,
+    "log kappa": -0.00014197731129656914,
+    "states evaluated": 24036,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 27.214866672569862,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 27.03562377195244,
+    "first search: (f1^2 - 1) ell": 27.208587833891443,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 27.208548770509474,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 27.208548770509474
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 27.208480847501257,
+   "true (g^2 - 1) ell of the comb (dh_true)": 31.548718893519396,
+   "seconds": 506.24574995040894
+  },
+  "663.1": {
+   "DG": {
+    "f (table target)": 1.0111160531053065,
+    "(f1^2 - 1) ell": 15.16305105859903,
+    "ten lowest (f1^2 - 1) ell": [
+     15.16305105859903,
+     15.18407249684015,
+     15.249266878220816,
+     15.251496164794055,
+     15.53434981660827,
+     15.565705767229337,
+     15.78352977789981,
+     15.81339265725885,
+     15.896680606255725,
+     16.07783844327849
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     5.089581598642373,
+     -336.08906015706003,
+     658.0076529136318,
+     -13.487843567674151
+    ],
+    "mu/ell": 0.2447925382698219,
+    "ell/4 - mu": 3.4530678732810998,
+    "log r + ell/2": -4.539060157060021,
+    "log b + ell": -5.09234708636825,
+    "log kappa": -13.487843567674151,
+    "states evaluated": 24132,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 15.162942136003178,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 14.824046665013416,
+    "first search: (f1^2 - 1) ell": 15.158865996774853,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 15.158702478697325,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 15.158702478697325
+   },
+   "JEN": {
+    "f (table target)": 1.0169366954460726,
+    "(f1^2 - 1) ell": 22.994575519336834,
+    "ten lowest (f1^2 - 1) ell": [
+     22.994575519336834,
+     22.998475707671535,
+     22.9990350667766,
+     23.004207606142863,
+     23.034386602064906,
+     23.280693358040875,
+     23.389924894904397,
+     23.45184820604504,
+     23.454491132427567,
+     23.88355456632941
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     5.078095271520094,
+     -332.4504688665397,
+     665.2852100054969,
+     -6.0835499747164
+    ],
+    "mu/ell": 0.24199685788531355,
+    "ell/4 - mu": 5.306883536248591,
+    "log r + ell/2": -0.9004688665397111,
+    "log b + ell": 2.185210005496856,
+    "log kappa": -6.0835499747164,
+    "states evaluated": 23802,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 22.994273440522633,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 22.651656831442445,
+    "first search: (f1^2 - 1) ell": 22.989007809640267,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 22.988679216412876,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 22.988679216412876
+   },
+   "true": {
+    "f (table target)": 1.0217895819207778,
+    "(f1^2 - 1) ell": 29.558373417092177,
+    "ten lowest (f1^2 - 1) ell": [
+     29.558373417092177,
+     29.56367335805323,
+     29.6125851405655,
+     29.615188763149636,
+     29.76469270669224,
+     29.768830426999653,
+     29.796385958514442,
+     29.9984309027326,
+     30.041668341415487,
+     30.0730510234875
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     5.068998149455698,
+     -329.40578046550445,
+     671.3488057346282,
+     7.301141393286601e-05
+    ],
+    "mu/ell": 0.23980536617725046,
+    "ell/4 - mu": 6.760061687865232,
+    "log r + ell/2": 2.144219534495562,
+    "log b + ell": 8.24880573462815,
+    "log kappa": 7.301141393286601e-05,
+    "states evaluated": 24042,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 29.558373417092177,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 29.21217406055075,
+    "first search: (f1^2 - 1) ell": 29.557635967944435,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 29.557635967914546,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 29.557635967914546
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 29.557083214913597,
+   "true (g^2 - 1) ell of the comb (dh_true)": 33.74140059594761,
+   "seconds": 550.3014261722565
+  },
+  "955.8": {
+   "DG": {
+    "f (table target)": 1.0075681497880629,
+    "(f1^2 - 1) ell": 15.007242042803911,
+    "ten lowest (f1^2 - 1) ell": [
+     15.007242042803911,
+     15.010842134176263,
+     15.083527531729606,
+     15.182531133695205,
+     15.441350600642513,
+     15.604994731817017,
+     15.655893211273531,
+     15.712698223004336,
+     15.782929655428703,
+     16.042295461729132
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     5.461698681004776,
+     -483.22686708866496,
+     949.5983982123998,
+     -15.195331924904936
+    ],
+    "mu/ell": 0.24638744431392004,
+    "ell/4 - mu": 3.4528807247552322,
+    "log r + ell/2": -5.326867088664983,
+    "log b + ell": -6.2016017876001115,
+    "log kappa": -15.195331924904936,
+    "states evaluated": 24030,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 15.00683909625342,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 14.522020387483877,
+    "first search: (f1^2 - 1) ell": 14.99673954085918,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 14.996337786941154,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 14.996337786941154
+   },
+   "JEN": {
+    "f (table target)": 1.0122731869678419,
+    "(f1^2 - 1) ell": 24.095161342196043,
+    "ten lowest (f1^2 - 1) ell": [
+     24.095161342196043,
+     24.144532591949794,
+     24.160679672918775,
+     24.160772367355506,
+     24.22849370752837,
+     24.529992775877147,
+     24.580373110642256,
+     24.68219571478434,
+     24.745225666213887,
+     24.779854475547335
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     5.452652176449151,
+     -478.9067731110334,
+     958.1411625643207,
+     -6.455922460445931
+    ],
+    "mu/ell": 0.24416855092375916,
+    "ell/4 - mu": 5.573699027071001,
+    "log r + ell/2": -1.0067731110333966,
+    "log b + ell": 2.3411625643207117,
+    "log kappa": -6.455922460445931,
+    "states evaluated": 24030,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 24.093972422378133,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 23.605397430643198,
+    "first search: (f1^2 - 1) ell": 24.093262157663368,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 24.0920702497866,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 24.0920702497866
+   },
+   "true": {
+    "f (table target)": 1.0158007837345189,
+    "(f1^2 - 1) ell": 30.93659111494516,
+    "ten lowest (f1^2 - 1) ell": [
+     30.93659111494516,
+     31.095977214505005,
+     31.10172018598908,
+     31.242293112041434,
+     31.319946428067798,
+     31.611276333088654,
+     31.8097203521632,
+     31.832597627354495,
+     32.007070346607684,
+     32.26255442597111
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     5.445406381494482,
+     -475.521134546148,
+     964.8212984786699,
+     6.93114789932504e-05
+    ],
+    "mu/ell": 0.24240574982949942,
+    "ell/4 - mu": 7.2585843129644445,
+    "log r + ell/2": 2.3788654538519722,
+    "log b + ell": 9.021298478669905,
+    "log kappa": 6.93114789932504e-05,
+    "states evaluated": 24120,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 30.935693101667653,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 30.443407770846477,
+    "first search: (f1^2 - 1) ell": 30.934923523650973,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 30.933417824546854,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 30.933417824546854
+   },
+   "CN+": {
+    "f (table target)": 1.008412743656644,
+    "(f1^2 - 1) ell": 16.635482278009334,
+    "ten lowest (f1^2 - 1) ell": [
+     16.635482278009334,
+     16.6630960223748,
+     17.051448273332753,
+     17.265108046793582,
+     17.332294662924546,
+     17.420862185963113,
+     17.48768311635234,
+     17.49527408143783,
+     17.54724565030733,
+     17.593652328292496
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     5.459876589487374,
+     -482.4570871663796,
+     951.0564375251836,
+     -13.616992267220809
+    ],
+    "mu/ell": 0.24593891259865247,
+    "ell/4 - mu": 3.8815873382079644,
+    "log r + ell/2": -4.557087166379631,
+    "log b + ell": -4.743562474816372,
+    "log kappa": -13.616992267220809,
+    "states evaluated": 24180,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 16.63541408288086,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 16.149446807765052,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 16.63541408288086
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 30.91929591167011,
+   "true (g^2 - 1) ell of the comb (dh_true)": 35.05287208090122,
+   "seconds": 900.3645091056824
+  },
+  "3000.0": {
+   "DG": {
+    "f (table target)": 1.0012016673148438,
+    "(f1^2 - 1) ell": 8.718131020917674,
+    "ten lowest (f1^2 - 1) ell": [
+     8.718131020917674,
+     9.26454074009131,
+     9.912926265841282,
+     10.130027219421134,
+     11.203987681551064,
+     11.559402253844553,
+     11.689769475760947,
+     11.747638029276697,
+     12.033306239392472,
+     12.101368061481432
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     6.617298443650387,
+     -1510.3034832763287,
+     2984.8776991009913,
+     -26.899233481106858
+    ],
+    "mu/ell": 0.24930727080409845,
+    "ell/4 - mu": 2.078187587704633,
+    "log r + ell/2": -10.303483276328734,
+    "log b + ell": -15.122300899008678,
+    "log kappa": -26.899233481106858,
+    "states evaluated": 24120,
+    "below 10 (the constant of DH-L)": true,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 8.715881557390892,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 7.21433590206999,
+    "first search: (f1^2 - 1) ell": 8.518747012693284,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 8.516518951515062,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 8.516518951515062
+   },
+   "JEN": {
+    "f (table target)": 1.0043740813026039,
+    "(f1^2 - 1) ell": 27.815225664005183,
+    "ten lowest (f1^2 - 1) ell": [
+     27.815225664005183,
+     27.81920439956087,
+     27.87855976748088,
+     28.120695544021412,
+     28.123906044034584,
+     28.490126860554852,
+     28.545670172835713,
+     28.65259505383233,
+     28.73888423917803,
+     28.885635923271423
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     6.611157614756399,
+     -1501.1625767545045,
+     3003.1481010706507,
+     -7.611410573400949
+    ],
+    "mu/ell": 0.24778100856593724,
+    "ell/4 - mu": 6.656974302188246,
+    "log r + ell/2": -1.162576754504471,
+    "log b + ell": 3.1481010706506822,
+    "log kappa": -7.611410573400949,
+    "states evaluated": 23970,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 27.768413959913474,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 26.301885577348692,
+    "first search: (f1^2 - 1) ell": 27.802696430931473,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 27.75662889963848,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 27.75662889963848
+   },
+   "true": {
+    "f (table target)": 1.0056601954384732,
+    "(f1^2 - 1) ell": 35.57450433965914,
+    "ten lowest (f1^2 - 1) ell": [
+     35.57450433965914,
+     35.62395552133935,
+     35.68209362554819,
+     35.71809626000788,
+     35.768105845110924,
+     35.81569309863863,
+     36.059723877899245,
+     36.30860126838553,
+     36.44826833198999,
+     36.52047953020832
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     6.608627932024736,
+     -1497.4011331056367,
+     3010.6772322291,
+     6.826837548579916e-05
+    ],
+    "mu/ell": 0.24715499337108593,
+    "ell/4 - mu": 8.535019886742248,
+    "log r + ell/2": 2.5988668943632547,
+    "log b + ell": 10.6772322290999,
+    "log kappa": 6.826837548579916e-05,
+    "states evaluated": 24060,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 35.53066782652503,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 34.05728606804415,
+    "first search: (f1^2 - 1) ell": 35.57241400320721,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 35.52842502873821,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 35.52842502873821
+   },
+   "CN+": {
+    "f (table target)": 1.002969061506574,
+    "(f1^2 - 1) ell": 19.349924040694688,
+    "ten lowest (f1^2 - 1) ell": [
+     19.349924040694688,
+     19.35723072493434,
+     19.382599563788627,
+     19.42176853730726,
+     19.447772415836397,
+     19.466653861131668,
+     19.52475119601327,
+     19.596153984165365,
+     19.72151165954883,
+     19.79818425267932
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     6.613940397453034,
+     -1505.3185439896545,
+     2994.854727158001,
+     -15.920699275066681
+    ],
+    "mu/ell": 0.24847148955281728,
+    "ell/4 - mu": 4.585531341548176,
+    "log r + ell/2": -5.318543989654472,
+    "log b + ell": -5.145272841999031,
+    "log kappa": -15.920699275066681,
+    "states evaluated": 24030,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 19.33049662217412,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 17.84081501813395,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 19.33049662217412
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 35.52765828574911,
+   "true (g^2 - 1) ell of the comb (dh_true)": 39.57636162784128,
+   "seconds": 1002.4107809066772
+  },
+  "10000.0": {
+   "DG": {
+    "f (table target)": 0.9999748490233884,
+    "(f1^2 - 1) ell": 4.497360255444338,
+    "ten lowest (f1^2 - 1) ell": [
+     4.497360255444338,
+     5.567209218206859,
+     7.573225523698213,
+     7.688280258257851,
+     9.979984453012403,
+     11.4874007395116,
+     11.616002063463693,
+     11.641540251885463,
+     11.983225271254838,
+     12.343782021735361
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     7.823602825128621,
+     -5014.626023718173,
+     9977.338459396282,
+     -38.266347002951356
+    ],
+    "mu/ell": 0.24988922811615422,
+    "ell/4 - mu": 1.107718838457913,
+    "log r + ell/2": -14.626023718173201,
+    "log b + ell": -22.661540603718095,
+    "log kappa": -38.266347002951356,
+    "states evaluated": 24210,
+    "below 10 (the constant of DH-L)": true,
+    "negative with the target 1 + 2.5e-4 (f < 1)": true,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 4.4969936916339215,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": -0.503013206515357,
+    "first search: (f1^2 - 1) ell": 4.096194914278151,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 4.0958363664556074,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 4.0958363664556074
+   },
+   "JEN": {
+    "f (table target)": 1.001339617288565,
+    "(f1^2 - 1) ell": 31.824323337497074,
+    "ten lowest (f1^2 - 1) ell": [
+     31.824323337497074,
+     31.873247147549133,
+     31.898656300157757,
+     32.23553641194421,
+     32.45010534355109,
+     32.75493455795697,
+     33.22027414707662,
+     33.7908661735975,
+     33.81755028036615,
+     33.95326215080097
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     7.820987164661159,
+     -5001.703625412596,
+     10003.42453371305,
+     -8.831996496434062
+    ],
+    "mu/ell": 0.24923645682712475,
+    "ell/4 - mu": 7.635431728752337,
+    "log r + ell/2": -1.7036254125960113,
+    "log b + ell": 3.4245337130505504,
+    "log kappa": -8.831996496434062,
+    "states evaluated": 24090,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 31.82422200756596,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 26.810291516097262,
+    "first search: (f1^2 - 1) ell": 31.805495736758616,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 31.805426116338076,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 31.805426116338076
+   },
+   "true": {
+    "f (table target)": 1.0017829350489338,
+    "(f1^2 - 1) ell": 40.70896202799767,
+    "ten lowest (f1^2 - 1) ell": [
+     40.70896202799767,
+     40.73093629704427,
+     40.76474203708935,
+     40.851121495610876,
+     41.1274439682896,
+     41.16826654235961,
+     41.2924485541688,
+     41.55721669244272,
+     41.59210105527001,
+     41.87718132510065
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     7.820077267298342,
+     -4997.076325005246,
+     10012.555083072382,
+     0.00012401816480506818
+    ],
+    "mu/ell": 0.24900978037413232,
+    "ell/4 - mu": 9.902196258676668,
+    "log r + ell/2": 2.9236749947540375,
+    "log b + ell": 12.555083072382331,
+    "log kappa": 0.00012401816480506818,
+    "states evaluated": 24240,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 40.708390877983724,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 35.69048955256227,
+    "first search: (f1^2 - 1) ell": 40.7009945048431,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 40.7003806814199,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 40.7003806814199
+   },
+   "CN+": {
+    "f (table target)": 1.0008608356213557,
+    "(f1^2 - 1) ell": 22.233360944698966,
+    "ten lowest (f1^2 - 1) ell": [
+     22.233360944698966,
+     22.250302647517373,
+     22.296610949636975,
+     22.44655910139226,
+     22.45842931518416,
+     22.50102107643759,
+     22.506036614138303,
+     22.731044636974396,
+     22.844277293740944,
+     22.903805133942523
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     7.821936290788286,
+     -5006.399414697953,
+     9993.960409917903,
+     -18.35799489241507
+    ],
+    "mu/ell": 0.24947312595679236,
+    "ell/4 - mu": 5.268740432076356,
+    "log r + ell/2": -6.399414697953034,
+    "log b + ell": -6.039590082096765,
+    "log kappa": -18.35799489241507,
+    "states evaluated": 23970,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 22.233360944698966,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 17.22412280678487,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 22.233360944698966
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 40.699572234899065,
+   "true (g^2 - 1) ell of the comb (dh_true)": 44.716252042722445,
+   "seconds": 1004.7098071575165
+  },
+  "100000.0": {
+   "DG": {
+    "f (table target)": 0.9998007838122306,
+    "(f1^2 - 1) ell": 10.147059030685135,
+    "ten lowest (f1^2 - 1) ell": [
+     10.147059030685135,
+     14.835395648749028,
+     18.854307417903726,
+     19.95159499255106,
+     21.595675690200267,
+     21.786313652571998,
+     21.80178570967417,
+     21.878147551501748,
+     23.083643040511248,
+     23.15028875290448
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     10.126532107455743,
+     -50016.39403509366,
+     99975.80368243529,
+     -41.772113261762755
+    ],
+    "mu/ell": 0.24997525212634664,
+    "ell/4 - mu": 2.474787365335942,
+    "log r + ell/2": -16.394035093660932,
+    "log b + ell": -24.196317564710625,
+    "log kappa": -41.772113261762755,
+    "states evaluated": 23130,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": true,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 10.070450005494891,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": -39.83926884493228,
+    "first search: (f1^2 - 1) ell": 10.727966510382103,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 10.651550719908975,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 10.070450005494891
+   },
+   "JEN": {
+    "f (table target)": 0.9999492214424868,
+    "(f1^2 - 1) ell": 39.8457179820344,
+    "ten lowest (f1^2 - 1) ell": [
+     39.8457179820344,
+     39.86068913575114,
+     39.877522223807915,
+     39.89476438674977,
+     40.301203671821995,
+     40.43558662765179,
+     40.44082161245299,
+     40.55570455823165,
+     40.818758831617785,
+     40.95876764560469
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     10.126244881298375,
+     -50002.20826134753,
+     100004.64866240013,
+     -11.129305384436718
+    ],
+    "mu/ell": 0.24990346300559135,
+    "ell/4 - mu": 9.65369944086342,
+    "log r + ell/2": -2.2082613475286053,
+    "log b + ell": 4.648662400126341,
+    "log kappa": -11.129305384436718,
+    "states evaluated": 23190,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": true,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 39.79170014472011,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": -10.155453656457425,
+    "first search: (f1^2 - 1) ell": 39.840367196730675,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 39.78643316691066,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 39.78643316691066
+   },
+   "true": {
+    "f (table target)": 1.0000048218105637,
+    "(f1^2 - 1) ell": 50.971096680241246,
+    "ten lowest (f1^2 - 1) ell": [
+     50.971096680241246,
+     50.972830696749405,
+     51.297034075936665,
+     51.38884556787904,
+     51.43127019298088,
+     51.71086201123387,
+     51.759071241042065,
+     51.800232262588786,
+     51.82126921869923,
+     51.935064537222964
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     10.126132268902163,
+     -49996.55644791459,
+     100015.90791529333,
+     0.0001444225655531726
+    ],
+    "mu/ell": 0.2498753223623231,
+    "ell/4 - mu": 12.467763767690485,
+    "log r + ell/2": 3.443552085409465,
+    "log b + ell": 15.907915293326369,
+    "log kappa": 0.0001444225655531726,
+    "states evaluated": 23430,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": false,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 50.92506153738796,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": 0.9643644377277383,
+    "first search: (f1^2 - 1) ell": 50.970448953258085,
+    "first search: (f1^2 - 1) ell at its stored state, robust refinement": 50.924413647401856,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 50.924413647401856
+   },
+   "CN+": {
+    "f (table target)": 0.9998902816973922,
+    "(f1^2 - 1) ell": 28.052820689294933,
+    "ten lowest (f1^2 - 1) ell": [
+     28.052820689294933,
+     28.10396028818385,
+     28.130852510854787,
+     28.143816093129104,
+     28.378808605777905,
+     28.597656068862776,
+     28.72733332939248,
+     28.87332816361443,
+     28.99131866074267,
+     29.062333697016385
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     10.126357465297838,
+     -50007.89503243798,
+     99993.19587326194,
+     -22.951761282431775
+    ],
+    "mu/ell": 0.24993159972077858,
+    "ell/4 - mu": 6.840027922142326,
+    "log r + ell/2": -7.895032437976624,
+    "log b + ell": -6.8041267380613135,
+    "log kappa": -22.951761282431775,
+    "states evaluated": 23010,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": true,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 27.990323078186385,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": -21.94245671095496,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 27.990323078186385
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 50.924252340545095,
+   "true (g^2 - 1) ell of the comb (dh_true)": 54.92632993959745,
+   "seconds": 1267.5351977348328
+  },
+  "1000000.0": {
+   "DG": {
+    "f (table target)": 0.9997618979578192,
+    "(f1^2 - 1) ell": 23.677004765909615,
+    "ten lowest (f1^2 - 1) ell": [
+     23.677004765909615,
+     25.21814847278314,
+     26.64799853469013,
+     27.69134099578352,
+     28.011608465439153,
+     29.156236627247978,
+     30.330203648620824,
+     30.595871505889605,
+     30.70483958689252,
+     31.059684445500224
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     12.429192722077227,
+     -500014.1717075786,
+     999982.596221285,
+     -39.5458033998816
+    ],
+    "mu/ell": 0.24999413137709342,
+    "ell/4 - mu": 5.868622906593373,
+    "log r + ell/2": -14.171707578585483,
+    "log b + ell": -17.403778714942746,
+    "log kappa": -39.5458033998816,
+    "states evaluated": 22770,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": true,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 23.635094259066847,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": -476.14739177903596,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 23.635094259066847
+   },
+   "JEN": {
+    "f (table target)": 0.9997739919250002,
+    "(f1^2 - 1) ell": 47.871418867195814,
+    "ten lowest (f1^2 - 1) ell": [
+     47.871418867195814,
+     47.8742129690346,
+     47.916823017191135,
+     47.92252764174165,
+     48.20170500074994,
+     48.305552478256075,
+     48.52710156155737,
+     48.54200344639459,
+     48.648994325883876,
+     48.6623827391508
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     12.429169328801626,
+     -500002.66845136957,
+     1000005.9470081457,
+     -13.429871784302197
+    ],
+    "mu/ell": 0.24998828326388298,
+    "ell/4 - mu": 11.716736117028631,
+    "log r + ell/2": -2.668451369565446,
+    "log b + ell": 5.947008145740256,
+    "log kappa": -13.429871784302197,
+    "states evaluated": 23010,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": true,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 47.83404776098621,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": -451.96507034972467,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 47.83404776098621
+   },
+   "true": {
+    "f (table target)": 0.9997807067787629,
+    "(f1^2 - 1) ell": 61.30485045763301,
+    "ten lowest (f1^2 - 1) ell": [
+     61.30485045763301,
+     61.325457232364045,
+     61.33046339873438,
+     61.34012646308307,
+     61.36213030871751,
+     61.530244362950626,
+     61.725252043842715,
+     61.825957518024666,
+     61.929107875613454,
+     62.50097551285805
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     12.42915595740464,
+     -499996.07790646894,
+     1000019.2574195635,
+     -1.5982748041069514e-05
+    ],
+    "mu/ell": 0.24998494059365395,
+    "ell/4 - mu": 15.059406346059404,
+    "log r + ell/2": 3.9220935310586356,
+    "log b + ell": 19.257419563480653,
+    "log kappa": -1.5982748041069514e-05,
+    "states evaluated": 23010,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": true,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 61.27004014300219,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": -438.5383529573739,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 61.27004014300219
+   },
+   "CN+": {
+    "f (table target)": 0.9997669340038954,
+    "(f1^2 - 1) ell": 33.751759583200425,
+    "ten lowest (f1^2 - 1) ell": [
+     33.751759583200425,
+     33.76794185983023,
+     33.79343767617726,
+     33.99624004041257,
+     34.03640469268332,
+     34.11428919686266,
+     34.15340607992867,
+     34.233968237540324,
+     34.235714527541816,
+     34.298348116301725
+    ],
+    "state (log mu, log r, log beta, log kappa)": [
+     12.42918355741901,
+     -500009.8105173208,
+     999991.7006538219,
+     -27.55441913310596
+    ],
+    "mu/ell": 0.24999184027682184,
+    "ell/4 - mu": 8.159723178163404,
+    "log r + ell/2": -9.81051732081687,
+    "log b + ell": -8.299346178071573,
+    "log kappa": -27.55441913310596,
+    "states evaluated": 22680,
+    "below 10 (the constant of DH-L)": false,
+    "negative with the target 1 + 2.5e-4 (f < 1)": true,
+    "(f1^2 - 1) ell at the stored state, robust refinement": 33.71159494269804,
+    "(f^2 - 1) ell in the measure of DG (f relative to (1 + 2.5e-4)/sqrt(ell))": -466.0776724506599,
+    "lowest found (robust refinement at the stored states of both searches): (f1^2 - 1) ell": 33.71159494269804
+   },
+   "sandwich model: (g^2 - 1) ell of the comb with the factors eta = 1/ell": 61.26357683222672,
+   "true (g^2 - 1) ell of the comb (dh_true)": 65.263860347331,
+   "seconds": 1499.7131423950195
+  }
+ },
+ "power": {
+  "165.78": {
+   "planted dips of depth (f1^2 - 1) ell = 5 found (3 needed; the first in the corner family, two anywhere in the class)": [
+    true,
+    true,
+    true
+   ],
+   "dips": [
+    {
+     "kind": "corner",
+     "centre": [
+      14.1052935203214,
+      0.8156723192489341,
+      13.249551590747405,
+      -29.49163651135865
+     ],
+     "found (f1^2 - 1) ell": 5.000004237303348
+    },
+    {
+     "kind": "global",
+     "centre": [
+      0.6931471805599453,
+      -239.27706953193285,
+      225.83358628311586,
+      -31.044845922086182
+     ],
+     "found (f1^2 - 1) ell": 5.004658866111689
+    },
+    {
+     "kind": "global",
+     "centre": [
+      0.6931471805599453,
+      -287.00605438946417,
+      276.7012165305519,
+      -157.37934586745763
+     ],
+     "found (f1^2 - 1) ell": 5.0100534209341
+    }
+   ],
+   "fresh search with another seed (JEN, no dip): (f1^2 - 1) ell": 19.393394077352344,
+   "its state": {
+    "state (log mu, log r, log beta, log kappa)": [
+     3.6235634799452883,
+     -83.3606917767788,
+     167.3246366696479,
+     -4.627796239446237
+    ],
+    "mu/ell": 0.22602760792327778,
+    "ell/4 - mu": 3.9741431584790092,
+    "log r + ell/2": -0.4706917767787928,
+    "log b + ell": 1.5446366696479004,
+    "log kappa": -4.627796239446237
+   }
+  },
+  "100000.0": {
+   "planted dips of depth (f1^2 - 1) ell = 5 found (3 needed; the first in the corner family, two anywhere in the class)": [
+    true,
+    true,
+    true
+   ],
+   "dips": [
+    {
+     "kind": "corner",
+     "centre": [
+      21.30543351247729,
+      -6.7315340124761835,
+      19.643400103024458,
+      -19.894282269782263
+     ],
+     "found (f1^2 - 1) ell": 5.0000006011075016
+    },
+    {
+     "kind": "global",
+     "centre": [
+      11.63858138967695,
+      -58908.94541929258,
+      130014.78645508521,
+      -184.47596523561717
+     ],
+     "found (f1^2 - 1) ell": 5.005582769568306
+    },
+    {
+     "kind": "global",
+     "centre": [
+      8.47413787847797,
+      -242194.65424326275,
+      39603.0977635694,
+      -140.81140315347304
+     ],
+     "found (f1^2 - 1) ell": 5.047583876716111
+    }
+   ],
+   "fresh search with another seed (JEN, no dip): (f1^2 - 1) ell": 39.866832491952664,
+   "its state": {
+    "state (log mu, log r, log beta, log kappa)": [
+     10.126242120603466,
+     -50001.9572145241,
+     100004.94176991362,
+     -11.12910820228464
+    ],
+    "mu/ell": 0.24990277309932582,
+    "ell/4 - mu": 9.722690067417716,
+    "log r + ell/2": -1.9572145241036196,
+    "log b + ell": 4.941769913624739,
+    "log kappa": -11.12910820228464
+   }
+  }
+ },
+ "first search (lowest 40 only; results/dh_main_first.json): planted dips found": {
+  "165.78": [
+   false,
+   false,
+   false
+  ],
+  "100000.0": [
+   false,
+   false,
+   false
+  ]
+ },
+ "largest |fast - robust| of (f1^2 - 1) ell at the stored worst states": 0.07660902519024404,
+ "largest |new search - first search| with the ceiling of DH-1 (ell <= 1e5)": 0.02730366131258677,
+ "DH-L with the ceiling of DG: first ell with (f1^2 - 1) ell < 10": 3000.0,
+ "DH-L with the ceiling of DH-1 (Psi_3): ells with (f1^2 - 1) ell < 10": [],
+ "wrong versions of DH-L (power)": {
+  "constant 1.1 x the minimum (JEN): broken by a fresh search with another seed, per ell": {
+   "165.78": true,
+   "100000.0": true
+  },
+  "fresh search - stored minimum, per ell": {
+   "165.78": 0.0040456771506960365,
+   "100000.0": 0.021114509918263025
+  },
+  "target 1 + 2.5e-4 kept (JEN): ells where f < 1": [
+   100000.0,
+   1000000.0
+  ]
+ }
+}

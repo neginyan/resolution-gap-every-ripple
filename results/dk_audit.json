@@ -1,0 +1,3723 @@
+{
+ "ell = 55.26": {
+  "ell": 55.26,
+  "states": 1500,
+  "points (state, a)": 34258,
+  "decimal digits": 64,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7701635440320876,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": 4.008177274531583e-24,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 31413,
+    "lemma piece 0": 2845,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0437901653522799,
+    "max ratio": 4.1751606614091195,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0587360151076126,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 1.9979946395504165,
+    "max ratio": 7.967390930900492e+48,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 330.1194625446723,
+    "max ratio": 330.11946340921213,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.5925804086646806,
+    "max ratio": 4.0,
+    "comparisons": 2845,
+    "lemma piece 0": 31413,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.2936089989456283,
+    "max ratio": 1.3092049704427555,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.2936089989456283,
+    "max ratio": 3.041166298312048,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0015953401207989,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34258,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": 2.6134107161746713e-75,
+    "comparisons": 34258,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": 2.5222102845361356e-49,
+    "comparisons": 31413,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": 2.5222102845361356e-49,
+    "comparisons": 31413,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": 6.202942893135561e-86,
+    "comparisons": 34258,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": 2.7655555460772094e-55,
+    "comparisons": 34258,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 3.9235735769129855e-63,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 4.169277531861549e-63,
+  "precision self-check points": 171,
+  "points with brk > 0": 31413,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 68.41494631767273,
+  "ok": true
+ },
+ "ell = 60.0": {
+  "ell": 60.0,
+  "states": 1500,
+  "points (state, a)": 35824,
+  "decimal digits": 64,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7701665480151649,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": 3.502604305078608e-26,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 32664,
+    "lemma piece 0": 3160,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0424867484830764,
+    "max ratio": 4.169946993932306,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0542604130973365,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 1.9989806406553798,
+    "max ratio": 1.0433447027149058e+53,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 351.1364817562772,
+    "max ratio": 351.13648274288437,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.5958045432715728,
+    "max ratio": 4.0,
+    "comparisons": 3160,
+    "lemma piece 0": 32664,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.2960741571495875,
+    "max ratio": 1.3111111111111111,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.2960741571495875,
+    "max ratio": 3.063646990859427,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0014709767608168,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35824,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": 1.5196451056764538e-83,
+    "comparisons": 35824,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": 1.9183034113795715e-53,
+    "comparisons": 32664,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": 1.9183034113795715e-53,
+    "comparisons": 32664,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": 3.7719951141910495e-94,
+    "comparisons": 35824,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": 2.0586830587577652e-60,
+    "comparisons": 35824,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 3.4867474462586925e-63,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 6.793223364675382e-63,
+  "precision self-check points": 180,
+  "points with brk > 0": 32664,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 81.33996152877808,
+  "ok": true
+ },
+ "ell = 165.78": {
+  "ell": 165.78,
+  "states": 1500,
+  "points (state, a)": 34320,
+  "decimal digits": 66,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7701689880613872,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": 4.024582008633575e-72,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 31877,
+    "lemma piece 0": 2443,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0284795306033512,
+    "max ratio": 4.113918122413405,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0200921075479423,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 1.9999999997209137,
+    "max ratio": 7.90257100767662e+144,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 809.674999109329,
+    "max ratio": 809.6750048180427,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.5690433559602177,
+    "max ratio": 4.0,
+    "comparisons": 2443,
+    "lemma piece 0": 31877,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.3159076469105777,
+    "max ratio": 1.3252905457031408,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.3159076469105777,
+    "max ratio": 3.2690788398057724,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.000536919455157,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 34320,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.992967923228823e-65,
+    "comparisons": 34320,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.992967923228823e-65,
+    "comparisons": 31877,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.992967923228823e-65,
+    "comparisons": 31877,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.992967923228823e-65,
+    "comparisons": 34320,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.992967923228823e-65,
+    "comparisons": 34320,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 2.963507522118907e-65,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 3.86549431900213e-65,
+  "precision self-check points": 162,
+  "points with brk > 0": 31877,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 70.8622419834137,
+  "ok": true
+ },
+ "ell = 955.8": {
+  "ell": 955.8,
+  "states": 1500,
+  "points (state, a)": 35724,
+  "decimal digits": 66,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7702834100555013,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "3.1870889765890758169278",
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 33124,
+    "lemma piece 0": 2600,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0139124213757302,
+    "max ratio": 4.055649685502921,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0035229844313913,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "1.2601481124617337733924",
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 4104.0863614868895,
+    "max ratio": 4104.086520134564,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.6204419813536228,
+    "max ratio": 4.0,
+    "comparisons": 2600,
+    "lemma piece 0": 33124,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.3279370158144264,
+    "max ratio": 1.3319383413545371,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.3279370158144264,
+    "max ratio": 3.442372314266465,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000935001599949,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35724,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.3933347380520045e-65,
+    "comparisons": 35724,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.3933347380520045e-65,
+    "comparisons": 33124,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.3933347380520045e-65,
+    "comparisons": 33124,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.3933347380520045e-65,
+    "comparisons": 35724,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.3933347380520045e-65,
+    "comparisons": 35724,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.8344982357497005e-65,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.4391654454367713e-65,
+  "precision self-check points": 180,
+  "points with brk > 0": 33124,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 80.56918787956238,
+  "ok": true
+ },
+ "ell = 2000.0": {
+  "ell": 2000.0,
+  "states": 1500,
+  "points (state, a)": 35819,
+  "decimal digits": 68,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7727174755423617,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "1.0306143491844598608760",
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 33110,
+    "lemma piece 0": 2709,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0104905457757032,
+    "max ratio": 4.041962183102813,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.001685650468817,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "1.2050847760404199207807",
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 8389.397841875803,
+    "max ratio": 8389.398516589208,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.5701141036323334,
+    "max ratio": 4.0,
+    "comparisons": 2709,
+    "lemma piece 0": 33110,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.3298882968855408,
+    "max ratio": 1.3326666666666667,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.3298882968855408,
+    "max ratio": 3.4783702593647807,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000447033667919,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35819,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -2.0274277911032717e-67,
+    "comparisons": 35819,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -2.0274277911032717e-67,
+    "comparisons": 33110,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -2.0274277911032717e-67,
+    "comparisons": 33110,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -2.0274277911032717e-67,
+    "comparisons": 35819,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -2.0274277911032717e-67,
+    "comparisons": 35819,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.2825593371743268e-67,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.0133408905712242e-67,
+  "precision self-check points": 180,
+  "points with brk > 0": 33110,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 82.08066630363464,
+  "ok": true
+ },
+ "ell = 10000.0": {
+  "ell": 10000.0,
+  "states": 1500,
+  "points (state, a)": 35870,
+  "decimal digits": 68,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.770629628015724,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "4.5419354612589443941637",
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 33223,
+    "lemma piece 0": 2647,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0061814424957571,
+    "max ratio": 4.024725769983029,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0003374259487132,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "6.2048037807894888366656",
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 40865.593111427945,
+    "max ratio": 40865.60947502708,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.6219201974100654,
+    "max ratio": 4.0,
+    "comparisons": 2647,
+    "lemma piece 0": 33223,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.331951096533094,
+    "max ratio": 1.3332,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.331951096533094,
+    "max ratio": 3.5216329994787006,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.000008943551968,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35870,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.7737701525773187e-67,
+    "comparisons": 35870,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.7737701525773187e-67,
+    "comparisons": 33223,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.7737701525773187e-67,
+    "comparisons": 33223,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.7737701525773187e-67,
+    "comparisons": 35870,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.7737701525773187e-67,
+    "comparisons": 35870,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.0217719795904516e-67,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.45769326948289e-67,
+  "precision self-check points": 180,
+  "points with brk > 0": 33223,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 84.83451890945435,
+  "ok": true
+ },
+ "ell = 50000.0": {
+  "ell": 50000.0,
+  "states": 1500,
+  "points (state, a)": 35822,
+  "decimal digits": 70,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7909883534208532,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "7.5503107912820363541283",
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 32948,
+    "lemma piece 0": 2874,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0042339326848837,
+    "max ratio": 4.016935730739535,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000674970365282,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "2.2453306883408985434547",
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 202165.5191923108,
+    "max ratio": 202165.9236089961,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.5724027150077462,
+    "max ratio": 4.0,
+    "comparisons": 2874,
+    "lemma piece 0": 32948,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.332746925760023,
+    "max ratio": 1.3333066666666666,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.332746925760023,
+    "max ratio": 3.540505507534514,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000017888255825,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35822,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.9359654109430625e-69,
+    "comparisons": 35822,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.9359654109430625e-69,
+    "comparisons": 32948,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.9359654109430625e-69,
+    "comparisons": 32948,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.9359654109430625e-69,
+    "comparisons": 35822,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.9359654109430625e-69,
+    "comparisons": 35822,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.5033095193431107e-69,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.3664914403921346e-69,
+  "precision self-check points": 180,
+  "points with brk > 0": 32948,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 89.04343581199646,
+  "ok": true
+ },
+ "ell = 100000.0": {
+  "ell": 100000.0,
+  "states": 1500,
+  "points (state, a)": 35762,
+  "decimal digits": 70,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7909883534208532,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "1.4251798261237492484284",
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 32595,
+    "lemma piece 0": 3167,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0037709834829476,
+    "max ratio": 4.01508393393179,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000337492589404,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "6.3018873750067665829286",
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 403351.1795394267,
+    "max ratio": 403352.7931134137,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.5870854812820157,
+    "max ratio": 4.0,
+    "comparisons": 3167,
+    "lemma piece 0": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.3329240038086136,
+    "max ratio": 1.33332,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.3329240038086136,
+    "max ratio": 3.544933854043682,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.000000894419991,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.757970912332866e-69,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.757970912332866e-69,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.757970912332866e-69,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.757970912332866e-69,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.757970912332866e-69,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.401771697977629e-69,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.4432009492664294e-69,
+  "precision self-check points": 180,
+  "points with brk > 0": 32595,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 91.88930034637451,
+  "ok": true
+ },
+ "ell = 1000000.0": {
+  "ell": 1000000.0,
+  "states": 1500,
+  "points (state, a)": 35762,
+  "decimal digits": 72,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7909883534208532,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "1.3187325912354234315875",
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 32595,
+    "lemma piece 0": 3167,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.003005673032893,
+    "max ratio": 4.012022692131572,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000033749925763,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "7.3603165147177963184281",
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 4017584.528744065,
+    "max ratio": 4017745.2316899234,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.587085481378016,
+    "max ratio": 4.0,
+    "comparisons": 3167,
+    "lemma piece 0": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.33320667182891,
+    "max ratio": 1.333332,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.33320667182891,
+    "max ratio": 3.552207292207262,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.000000089442647,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.978413974824159e-71,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.978413974824159e-71,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.978413974824159e-71,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.978413974824159e-71,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.978413974824159e-71,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.5867334843621785e-71,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.844029575368798e-71,
+  "precision self-check points": 180,
+  "points with brk > 0": 32595,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 93.97958374023438,
+  "ok": true
+ },
+ "ell = 100000000.0": {
+  "ell": 100000000.0,
+  "states": 1500,
+  "points (state, a)": 35762,
+  "decimal digits": 76,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7909883534260319,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "2.5806838771287064035374",
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 32595,
+    "lemma piece 0": 3167,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0026867576738445,
+    "max ratio": 4.010747030695378,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000000337499992,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "1.9219423321206724184782",
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 400131975.9192186,
+    "max ratio": 401131472.2319929,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.587085476001999,
+    "max ratio": 4.0,
+    "comparisons": 3167,
+    "lemma piece 0": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.3333207829254072,
+    "max ratio": 1.33333332,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.3333207829254072,
+    "max ratio": 3.5552211717851185,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000000008944272,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.539008266914601e-75,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.539008266914601e-75,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.539008266914601e-75,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.539008266914601e-75,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.539008266914601e-75,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.7180194506498065e-75,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.241735596327934e-75,
+  "precision self-check points": 180,
+  "points with brk > 0": 32595,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 104.36045622825623,
+  "ok": true
+ },
+ "ell = 10000000000.0": {
+  "ell": 10000000000.0,
+  "states": 1500,
+  "points (state, a)": 35762,
+  "decimal digits": 80,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7909883534345769,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "3.7114337681299490312292",
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 32595,
+    "lemma piece 0": 3167,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.0026548547475667,
+    "max ratio": 4.010619418990267,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000000003375,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "9.2923709836404502206676",
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 40006827704.08562,
+    "max ratio": 40106761425.76938,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.5870864098938664,
+    "max ratio": 4.0,
+    "comparisons": 3167,
+    "lemma piece 0": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.3333320794500858,
+    "max ratio": 1.3333333332,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.3333320794500858,
+    "max ratio": 3.5555221216067032,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000000000089442,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.998748545531158e-79,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.998748545531158e-79,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.998748545531158e-79,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.998748545531158e-79,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.998748545531158e-79,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.3449057678746898e-79,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.0692815201427152e-79,
+  "precision self-check points": 180,
+  "points with brk > 0": 32595,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 114.2096836566925,
+  "ok": true
+ },
+ "ell = 1000000000000.0": {
+  "ell": 1000000000000.0,
+  "states": 1500,
+  "points (state, a)": 35762,
+  "decimal digits": 84,
+  "families": {
+   "uniform": 900,
+   "ends": 300,
+   "corner": 107,
+   "corners (several ends)": 150,
+   "large b (brk <= 0)": 43
+  },
+  "groups": {
+   "P1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P2z": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "P3z+P4z (M0: b Psi0)": {
+    "min ratio": 0.7909883534346623,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hFz": {
+    "min ratio": "2.2399191369215228021715",
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "cKz (chirp)": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 32595,
+    "lemma piece 0": 3167,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N2": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "ring2": {
+    "min ratio": 1.002651664343045,
+    "max ratio": 4.01060665737218,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "N4+N4G": {
+    "min ratio": 1.0,
+    "max ratio": 1.000000000003375,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "hneg1 (M0: R_theta, t_rho)": {
+    "min ratio": 2.0,
+    "max ratio": "2.5512045997115838313815",
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "M0Xi": {
+    "min ratio": 1.0,
+    "max ratio": 4.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1v": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A1w": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2k": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "A2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1w2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2a": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2b": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "pair (tails)": {
+    "min ratio": 4000619116108.0444,
+    "max ratio": 4010612329275.137,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "FzK": {
+    "min ratio": 1.0,
+    "max ratio": 2.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "lossK": {
+    "min ratio": 1.5870455170235525,
+    "max ratio": 4.0,
+    "comparisons": 3167,
+    "lemma piece 0": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B2c+B2s (FrB2)": {
+    "min ratio": 1.333333207956584,
+    "max ratio": 1.333333333332,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "B1m+B1c+B1l+uB2c+uB2s (FrB1)": {
+    "min ratio": 1.333333207956584,
+    "max ratio": 3.5555522122049545,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d1": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d2": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d3": {
+    "min ratio": 1.0,
+    "max ratio": 1.0000000000000895,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   },
+   "d4": {
+    "min ratio": 1.0,
+    "max ratio": 1.0,
+    "comparisons": 35762,
+    "lemma piece 0": 0,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "totals": {
+   "Fz": {
+    "min (Phi - Lambda)/scale": -1.9230355281041448e-83,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB2": {
+    "min (Phi - Lambda)/scale": -1.9230355281041448e-83,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "TzB1": {
+    "min (Phi - Lambda)/scale": -1.9230355281041448e-83,
+    "comparisons": 32595,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB2": {
+    "min (Phi - Lambda)/scale": -1.9230355281041448e-83,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   },
+   "BzB1": {
+    "min (Phi - Lambda)/scale": -1.9230355281041448e-83,
+    "comparisons": 35762,
+    "violations": [],
+    "number of violations": 0
+   }
+  },
+  "identity: largest |assembled - cz_point form|/scale": 1.6252631883155537e-83,
+  "vanished (underflow)": [],
+  "number vanished": 0,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "range conditions that fail (count of points)": {},
+  "precision self-check: largest relative difference (40 more digits)": 2.2653932062809815e-83,
+  "precision self-check points": 180,
+  "points with brk > 0": 32595,
+  "points with brk > 0 but c_delta <= 0 (must be 0)": 0,
+  "seconds": 102.20226883888245,
+  "ok": true
+ },
+ "transcription (T2)": {
+  "55.26": {
+   "ell": 55.26,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.3213172254035056e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.0465684091450443e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "60.0": {
+   "ell": 60.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 1.9394701645811254e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 1.9394701645811254e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "165.78": {
+   "ell": 165.78,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 1.9629867882228993e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.3034664285484003e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "955.8": {
+   "ell": 955.8,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.7091321673577494e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.7091321673577494e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "2000.0": {
+   "ell": 2000.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.5345260209997724e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.5345260209997724e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "10000.0": {
+   "ell": 10000.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.661101935716666e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.661101935716666e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "50000.0": {
+   "ell": 50000.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.5555730404601766e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.5555730404601766e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "100000.0": {
+   "ell": 100000.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 1.7565957089589243e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.4471456537825126e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "1000000.0": {
+   "ell": 1000000.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.424110653176774e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.424110653176774e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "100000000.0": {
+   "ell": 100000000.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.0219128154341477e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 1.873242755495684e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "10000000000.0": {
+   "ell": 10000000000.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.1466472774541837e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.051613045631973e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  },
+  "1000000000000.0": {
+   "ell": 1000000000000.0,
+   "states": 400,
+   "dj_lines: largest |dL|/tol x 1e-13 (tol = 1e-13 (1 + |L|) + 2e-15 (4 ell + |log mu| + |log B| + |log kappa| + |log P|))": 2.7801385311292103e-15,
+   "dj_lines: lines that differ": {},
+   "dg_tm: largest |dL|/tol x 1e-13": 2.7801385311292103e-15,
+   "dg_tm: lines that differ": {},
+   "zero/finite mismatches": 0,
+   "ok": true
+  }
+ },
+ "cross-check (X)": {
+  "cz_point.point": 5.45636029735545e-41,
+  "cz_point.lemma_lines": 2.81322036504454e-49,
+  "da_linecheck.lemma_pieces": 2.41362509394138e-49,
+  "states": 120,
+  "option comparisons": 360,
+  "skipped (Tz with c_delta <= 0)": 0,
+  "ok": true
+ },
+ "ok": true,
+ "seconds (this call)": 571.4684045314789
+}

@@ -1,0 +1,39 @@
+\section{\texorpdfstring{The tail $[10^6,\infty)$ with $\eta$ and $1/\ell$ separated}{The tail with eta and 1/ell separated}}
+\label{app:C}
+
+On the tail Paper~I replaced two quantities of step (b.6) by bounds valid for all $\ell\ge10^6$ (App.~C of~\cite{I}): $a_0$ and the condition (N0).
+Both rest on a lower bound of
+\begin{equation}
+A=\frac{\theta_A}{\Gamma_\ell\sqrt\ell},\qquad \Gamma_\ell\sqrt\ell=\sqrt{1+10t},\qquad t=1/\ell,
+\end{equation}
+where $\theta_A$ is the ratio of the gain to the target in the line of step (b.6): $\theta_A=(1-\eta)/(1+\eta)$ in~\cite{I}, and $\theta_A=1$ here, since the gain carries $\lambda$ and the target $\lambda\gamma$.
+
+\begin{lemma}[the tail] \proofst
+Let $0<t\le10^{-6}$ and $a_1:=5+\ell(1-\theta_A)$.
+Then $A\ge1-a_1t$, and with $\mathrm{th}_1=A(1-\varepsilon_1'\,t^2)$, $T_N:=\bar T_N\ell$ and $T_2:=\bar T(\mu_{II})\ell$ (the $\ell$-scaled quantities of App.~C of~\cite{I}),
+\begin{gather}
+a_0\ \le\ \ell\,\mathrm{es}_\sigma+T_N+a_1+\varepsilon_1't,\\
+\begin{split}
+&\frac{\mathrm{th}_1(1-15t)^{-1/2}-(m_T+T_2t)}{t}\\
+&\quad\ge\ (7.5-a_1)-7.5a_1t-\varepsilon_1't\bigl(1+(7.5-a_1)t\bigr)\\
+&\qquad-\ell\,\mathrm{es}_\sigma-T_2.
+\end{split}
+\end{gather}
+\end{lemma}
+
+\begin{proof}
+$1/\sqrt{1+10t}\ge1-5t$: $(1-5t)^2(1+10t)=1-75t^2+250t^3\le1$ for $t\le0.3$.
+So $A\ge\theta_A(1-5t)\ge\theta_A-5t\ge1-a_1t$, since $\theta_A\le1$.
+Then $\ell(1-\mathrm{th}_1)\le\ell(1-A)+\varepsilon_1't\le a_1+\varepsilon_1't$, and $a_0=\ell(m_T+T_Nt-\mathrm{th}_1)$ with $\ell(m_T-1)=\ell\,\mathrm{es}_\sigma$ gives the first bound.
+For the second, $(1-15t)^{-1/2}\ge1+7.5t$ and $(1-a_1t)(1+7.5t)=1+(7.5-a_1)t-7.5a_1t^2$; multiplying by $1-\varepsilon_1't^2$ loses at most $(1+(7.5-a_1)t)\varepsilon_1't^2$.
+\end{proof}
+
+\emph{Back to Paper~I.}
+With $\theta_A=(1-\eta)/(1+\eta)$ and $\eta=t$: $(1-t)/(1+t)\ge1-2t$ (since $(1-2t)(1+t)=1-t-2t^2\le1-t$), so $A\ge(1-2t)(1-5t)\ge1-7t$, which is $a_1=7$.
+Then the two bounds read $a_0\le\ell\,\mathrm{es}_\sigma+T_N+7+\varepsilon_1't$ and $0.5-52.5t-\varepsilon_1't(1+0.5t)-\ell\,\mathrm{es}_\sigma-T_2$, the formulas of~\cite{I}.
+We checked that the general formulas with $a_1=7$, put into the source of~\cite{I}, give every one of its $101$ interval values on $[10^6,\infty)$ exactly \status{computer-assisted}.
+Here $a_1=5$; the polynomial identity is checked in exact rational arithmetic, and the wrong values $a_1=4$ (the coefficient of $t$ in $(1-4t)^2(1+10t)$ is $+2$) and, for~\cite{I}, $a_1=6.9$ fail.
+
+\emph{A general $\eta$.}
+For a target with coefficient one and a ripple $\eta\gg1/\ell$, $\ell(1-\theta_A)=2\eta\ell/(1+\eta)$ is unbounded, and the tail bound would fail; this is one more way in which coefficient one is out of reach for a strong ripple.
+With the target $(\lambda/\Upsilon)\gamma$ the ratio is one at every $\eta$.

@@ -1,0 +1,63 @@
+{
+ "model": "Claude Fable 5.2 (claude-fable-5-2)",
+ "gamma = 0.6: conditions (ok, value)": {
+  "e2 - (e_L + e_S) (must be >= 0)": [
+   true,
+   6.915599232794736e-13
+  ],
+  "1.86 - R4' (must be >= 0)": [
+   true,
+   0.0021286663040753907
+  ],
+  "1 - K_F/(ell sigma) (must be >= 0)": [
+   true,
+   0.9525224547379003
+  ],
+  "(d4 + N4G)/P2z / es_sigma (must be <= 1)": [
+   true,
+   0.00010186369646687795
+  ],
+  "Lambda_Fz lower bound at b = 1 (must be >= 0)": [
+   true,
+   0.15436567473828325
+  ],
+  "Lambda_Fz lower bound at b = 1/2 (must be >= 0)": [
+   true,
+   0.21831463877063623
+  ],
+  "Case I: c1 sqrt(1/2)/Gam2 - P1/3 (must be > 0)": [
+   true,
+   7.11483665355706
+  ]
+ },
+ "values (upper ends, or lower end for th)": {
+  "P1": 0.882810448180825,
+  "eps1_max": 0.014567218094461171,
+  "epsh_max": 0.18076040102671914,
+  "e_L": 6.944115027222915e-17,
+  "e_S": 3.0837063557025416e-13,
+  "R4'": 1.8578713336959245,
+  "K_F/(ell sigma)": 0.047477545262099706,
+  "th (lower)": 0.8985018403217734,
+  "k1": 1.0903802005133596,
+  "k2": 0.5092148912642831
+ },
+ "quoted in the text": {
+  "P1 <= 0.8829": true,
+  "eps1 <= 0.01457": true,
+  "eps_h <= 0.1808": true,
+  "th >= 0.8984": true,
+  "k1 <= 1.0904": true,
+  "k2 <= 0.50922": true
+ },
+ "gamma = 0.72: lower bounds at b = 1, 1/2 (both >= 0: the proof also gives 0.72)": [
+  0.005538441621585217,
+  0.13491021768473976
+ ],
+ "power (each must be False)": {
+  "gamma = 0.75: lower bound at b = 1 >= 0": false,
+  "no (CM) (P up to 1000): lower bound at b = 1 >= 0": false
+ },
+ "ok": true,
+ "seconds": 0.02136850357055664
+}

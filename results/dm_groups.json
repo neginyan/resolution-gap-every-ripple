@@ -1,0 +1,1043 @@
+{
+ "55.26": {
+  "ell": 55.26,
+  "points": 9223,
+  "digits": 64,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "seconds": 27.447505950927734,
+  "groups": {
+   "P1": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.5847809818327123e-63,
+    "lemma and table both 0": 0
+   },
+   "P2z": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.4109031161652987e-46,
+    "lemma and table both 0": 0
+   },
+   "P3z+P4z": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.2298363621345026,
+    "lemma and table both 0": 0
+   },
+   "hFz": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.0,
+    "lemma and table both 0": 0
+   },
+   "cKz": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 4.396432986718274e-46,
+    "lemma and table both 0": 664
+   },
+   "N1": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.8953675703647705e-63,
+    "lemma and table both 0": 0
+   },
+   "N2": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 0
+   },
+   "ring2": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.7604882587530178,
+    "lemma and table both 0": 0
+   },
+   "N3": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.330613136106016e-63,
+    "lemma and table both 0": 0
+   },
+   "N4+N4G": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.05547748850466992,
+    "lemma and table both 0": 0
+   },
+   "hneg1": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.0,
+    "lemma and table both 0": 0
+   },
+   "M0Xi": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 0
+   },
+   "A1v": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.5,
+    "lemma and table both 0": 0
+   },
+   "A1w": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 3.1356059565686444e-63,
+    "lemma and table both 0": 0
+   },
+   "A2k": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.2471954870589828e-63,
+    "lemma and table both 0": 0
+   },
+   "A2a": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.9523034185836305e-63,
+    "lemma and table both 0": 0
+   },
+   "A2b": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.5094613813012156e-63,
+    "lemma and table both 0": 0
+   },
+   "B1w1": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 5.457026176654698e-48,
+    "lemma and table both 0": 0
+   },
+   "B1w2": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 5.0204640825223405e-49,
+    "lemma and table both 0": 0
+   },
+   "B2a": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.9906754264242872e-63,
+    "lemma and table both 0": 0
+   },
+   "B2b": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 3.23975932617039e-63,
+    "lemma and table both 0": 0
+   },
+   "pair": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.9969707935737179,
+    "lemma and table both 0": 0
+   },
+   "FzK": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.5,
+    "lemma and table both 0": 0
+   },
+   "lossK": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 8559
+   },
+   "FrB2": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.23617766310357538,
+    "lemma and table both 0": 0
+   },
+   "FrB1": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.6711787840885142,
+    "lemma and table both 0": 0
+   },
+   "d1": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.8760483964592957e-63,
+    "lemma and table both 0": 0
+   },
+   "d2": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.034900011488697e-63,
+    "lemma and table both 0": 0
+   },
+   "d3": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.0015927990645468986,
+    "lemma and table both 0": 0
+   },
+   "d4": {
+    "points": 9223,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 3.1304916899941676e-63,
+    "lemma and table both 0": 0
+   }
+  },
+  "coverage: largest relative difference (sums of the groups vs Lambda_k and Phi_k)": 1.9540767910389448e-63
+ },
+ "955.8": {
+  "ell": 955.8,
+  "points": 9569,
+  "digits": 66,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "seconds": 30.51764678955078,
+  "groups": {
+   "P1": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.5751851405768942e-65,
+    "lemma and table both 0": 0
+   },
+   "P2z": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.4645477463351547e-65,
+    "lemma and table both 0": 0
+   },
+   "P3z+P4z": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.2298120817573149,
+    "lemma and table both 0": 0
+   },
+   "hFz": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.0,
+    "lemma and table both 0": 0
+   },
+   "cKz": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.9866906564233433e-65,
+    "lemma and table both 0": 687
+   },
+   "N1": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.604701103399355e-65,
+    "lemma and table both 0": 0
+   },
+   "N2": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 0
+   },
+   "ring2": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.753430380445693,
+    "lemma and table both 0": 0
+   },
+   "N3": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 8.367091996034005e-66,
+    "lemma and table both 0": 0
+   },
+   "N4+N4G": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.003510616583821976,
+    "lemma and table both 0": 0
+   },
+   "hneg1": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.0,
+    "lemma and table both 0": 0
+   },
+   "M0Xi": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 0
+   },
+   "A1v": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.5,
+    "lemma and table both 0": 0
+   },
+   "A1w": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.0108248130305603e-65,
+    "lemma and table both 0": 0
+   },
+   "A2k": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.6305559285359716e-65,
+    "lemma and table both 0": 0
+   },
+   "A2a": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.485103850227614e-65,
+    "lemma and table both 0": 0
+   },
+   "A2b": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.336017161762933e-65,
+    "lemma and table both 0": 0
+   },
+   "B1w1": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.2863787456085712e-65,
+    "lemma and table both 0": 0
+   },
+   "B1w2": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.7686027456569116e-65,
+    "lemma and table both 0": 0
+   },
+   "B2a": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.528495659338814e-65,
+    "lemma and table both 0": 0
+   },
+   "B2b": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.875017003267836e-65,
+    "lemma and table both 0": 0
+   },
+   "pair": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.999756340419459,
+    "lemma and table both 0": 0
+   },
+   "FzK": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.5,
+    "lemma and table both 0": 0
+   },
+   "lossK": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 8882
+   },
+   "FrB2": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.24921449518223712,
+    "lemma and table both 0": 0
+   },
+   "FrB1": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.7095026601696656,
+    "lemma and table both 0": 0
+   },
+   "d1": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.328965378600431e-65,
+    "lemma and table both 0": 0
+   },
+   "d2": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 9.9982239393837e-66,
+    "lemma and table both 0": 0
+   },
+   "d3": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 9.349141853225695e-05,
+    "lemma and table both 0": 0
+   },
+   "d4": {
+    "points": 9569,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.6880284972147283e-65,
+    "lemma and table both 0": 0
+   }
+  },
+  "coverage: largest relative difference (sums of the groups vs Lambda_k and Phi_k)": 3.909962829523681e-66
+ },
+ "1000000.0": {
+  "ell": 1000000.0,
+  "points": 9547,
+  "digits": 72,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "seconds": 34.37819790840149,
+  "groups": {
+   "P1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 9.978083309885677e-72,
+    "lemma and table both 0": 0
+   },
+   "P2z": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.3735088664687555e-71,
+    "lemma and table both 0": 0
+   },
+   "P3z+P4z": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.2090116465791469,
+    "lemma and table both 0": 0
+   },
+   "hFz": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.0,
+    "lemma and table both 0": 0
+   },
+   "cKz": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.8307945272363535e-71,
+    "lemma and table both 0": 686
+   },
+   "N1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 9.987898888875981e-72,
+    "lemma and table both 0": 0
+   },
+   "N2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 0
+   },
+   "ring2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.750749166508651,
+    "lemma and table both 0": 0
+   },
+   "N3": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.0221435978680583e-72,
+    "lemma and table both 0": 0
+   },
+   "N4+N4G": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 3.3749811856785354e-06,
+    "lemma and table both 0": 0
+   },
+   "hneg1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.0,
+    "lemma and table both 0": 0
+   },
+   "M0Xi": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 0
+   },
+   "A1v": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.5,
+    "lemma and table both 0": 0
+   },
+   "A1w": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.5301858953679892e-71,
+    "lemma and table both 0": 0
+   },
+   "A2k": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.3493624807240345e-71,
+    "lemma and table both 0": 0
+   },
+   "A2a": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.9905108215618412e-71,
+    "lemma and table both 0": 0
+   },
+   "A2b": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.3140634969025595e-71,
+    "lemma and table both 0": 0
+   },
+   "B1w1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.1720951111226435e-71,
+    "lemma and table both 0": 0
+   },
+   "B1w2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.43762549875725e-71,
+    "lemma and table both 0": 0
+   },
+   "B2a": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.6894241205645488e-71,
+    "lemma and table both 0": 0
+   },
+   "B2b": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.8042845126750327e-71,
+    "lemma and table both 0": 0
+   },
+   "pair": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.9999997511041785,
+    "lemma and table both 0": 0
+   },
+   "FzK": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.5,
+    "lemma and table both 0": 0
+   },
+   "lossK": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 8861
+   },
+   "FrB2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.24999924999925,
+    "lemma and table both 0": 0
+   },
+   "FrB1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.7184848974907029,
+    "lemma and table both 0": 0
+   },
+   "d1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 9.965143263535699e-72,
+    "lemma and table both 0": 0
+   },
+   "d2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 9.496058675645626e-72,
+    "lemma and table both 0": 0
+   },
+   "d3": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 8.944263910006314e-08,
+    "lemma and table both 0": 0
+   },
+   "d4": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.6327794009697793e-71,
+    "lemma and table both 0": 0
+   }
+  },
+  "coverage: largest relative difference (sums of the groups vs Lambda_k and Phi_k)": 0.0
+ },
+ "1000000000000.0": {
+  "ell": 1000000000000.0,
+  "points": 9547,
+  "digits": 84,
+  "exceptions": [],
+  "number of exceptions": 0,
+  "seconds": 37.15376043319702,
+  "groups": {
+   "P1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.1168441585569195e-83,
+    "lemma and table both 0": 0
+   },
+   "P2z": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.206935521808304e-83,
+    "lemma and table both 0": 0
+   },
+   "P3z+P4z": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.20901164656533766,
+    "lemma and table both 0": 0
+   },
+   "hFz": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.0,
+    "lemma and table both 0": 0
+   },
+   "cKz": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.9715105156581435e-83,
+    "lemma and table both 0": 686
+   },
+   "N1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.7144553062125625e-83,
+    "lemma and table both 0": 0
+   },
+   "N2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 0
+   },
+   "ring2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.7506611629036647,
+    "lemma and table both 0": 0
+   },
+   "N3": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.381038335456746e-84,
+    "lemma and table both 0": 0
+   },
+   "N4+N4G": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 3.374999999962113e-12,
+    "lemma and table both 0": 0
+   },
+   "hneg1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.0,
+    "lemma and table both 0": 0
+   },
+   "M0Xi": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 0
+   },
+   "A1v": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.5,
+    "lemma and table both 0": 0
+   },
+   "A1w": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.378509753345754e-83,
+    "lemma and table both 0": 0
+   },
+   "A2k": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.854571102140945e-83,
+    "lemma and table both 0": 0
+   },
+   "A2a": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.963719020741254e-83,
+    "lemma and table both 0": 0
+   },
+   "A2b": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.7637272533123963e-83,
+    "lemma and table both 0": 0
+   },
+   "B1w1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.532834236175927e-83,
+    "lemma and table both 0": 0
+   },
+   "B1w2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.478326490443865e-83,
+    "lemma and table both 0": 0
+   },
+   "B2a": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.99039501176134e-83,
+    "lemma and table both 0": 0
+   },
+   "B2b": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 3.076643165213302e-83,
+    "lemma and table both 0": 0
+   },
+   "pair": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.9999999999997506,
+    "lemma and table both 0": 0
+   },
+   "FzK": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.5,
+    "lemma and table both 0": 0
+   },
+   "lossK": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.75,
+    "lemma and table both 0": 8861
+   },
+   "FrB2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.24999999999925,
+    "lemma and table both 0": 0
+   },
+   "FrB1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 0.7187497355354948,
+    "lemma and table both 0": 0
+   },
+   "d1": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.6280000323483046e-83,
+    "lemma and table both 0": 0
+   },
+   "d2": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 1.9105239288290285e-83,
+    "lemma and table both 0": 0
+   },
+   "d3": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 8.944271909991159e-14,
+    "lemma and table both 0": 0
+   },
+   "d4": {
+    "points": 9547,
+    "failing points": 0,
+    "first failure": null,
+    "largest |lemma - table|/size": 2.841060628079438e-83,
+    "lemma and table both 0": 0
+   }
+  },
+  "coverage: largest relative difference (sums of the groups vs Lambda_k and Phi_k)": 2.9999851859267876e-84
+ },
+ "ok": true,
+ "power": {
+  "W1 reversed (inequality groups: the strict gap must be positive somewhere)": {
+   "55.26": {
+    "P2z": 1.4109031161652987e-46,
+    "P3z+P4z": 0.22485615797166097,
+    "hFz": 1.0,
+    "cKz": 7.115685890837768e-47,
+    "N2": 0.75,
+    "ring2": 0.7604882587530178,
+    "N4+N4G": 0.05547748850466992,
+    "hneg1": 1.0,
+    "M0Xi": 0.75,
+    "A1v": 0.5,
+    "B1w1": 5.457026176654697e-48,
+    "B1w2": 5.020464082522332e-49,
+    "pair": 0.9969707935737179,
+    "FzK": 0.5,
+    "lossK": 0.75,
+    "FrB2": 0.23617766310357538,
+    "FrB1": 0.6711787840885142,
+    "d3": 0.0015927990645468986
+   },
+   "955.8": {
+    "P2z": 1.782073781722632e-65,
+    "P3z+P4z": 0.2090116465791469,
+    "hFz": 1.0,
+    "cKz": 4.2683257124433616e-65,
+    "N2": 0.75,
+    "ring2": 0.753430380445693,
+    "N4+N4G": 0.003510616583821976,
+    "hneg1": 1.0,
+    "M0Xi": 0.75,
+    "A1v": 0.5,
+    "B1w1": 1.8927834587710646e-65,
+    "B1w2": 2.1641437009089263e-65,
+    "pair": 0.999756340419459,
+    "FzK": 0.5,
+    "lossK": 0.75,
+    "FrB2": 0.24921449518223712,
+    "FrB1": 0.7095026601696656,
+    "d3": 9.349141853225695e-05
+   }
+  },
+  "W1' a factor changed (identity groups)": {
+   "55.26": {
+    "P1": 474,
+    "N1": 474,
+    "A1w": 474,
+    "A2k": 474,
+    "A2a": 474,
+    "A2b": 474,
+    "B2a": 474,
+    "B2b": 474,
+    "d1": 474,
+    "d2": 474,
+    "N3": 474,
+    "d4": 474
+   },
+   "955.8": {
+    "P1": 489,
+    "N1": 489,
+    "A1w": 489,
+    "A2k": 489,
+    "A2a": 489,
+    "A2b": 489,
+    "B2a": 489,
+    "B2b": 489,
+    "d1": 489,
+    "d2": 489,
+    "N3": 489,
+    "d4": 489
+   }
+  },
+  "W2 condition dropped": {
+   "55.26": {
+    "P > mu/8 (P = e^3 mu/8): N3, N4+N4G, d4": {
+     "N3": 474,
+     "N4+N4G": 474,
+     "d4": 474
+    },
+    "A > 1 (a = e^2 4r/sigma): N4+N4G": {
+     "N4+N4G": 474
+    },
+    "A >> 1 (a = e^12 4r/sigma; FrB1 holds up to A ~ 5e3): FrB1": {
+     "FrB1": 465
+    },
+    "eta = 0.3 > 1/4: FrB2, FrB1": {
+     "FrB2": 474,
+     "FrB1": 474
+    },
+    "z0^2 > 2 (B = K^2/8): hFz": {
+     "hFz": 474
+    },
+    "w0 = 0 (no w0 >= 3y/2): P3z+P4z": {
+     "P3z+P4z": 474
+    },
+    "T2(K) bound 0.79 K: ring2": {
+     "ring2": 412
+    }
+   },
+   "955.8": {
+    "P > mu/8 (P = e^3 mu/8): N3, N4+N4G, d4": {
+     "N3": 126,
+     "N4+N4G": 489,
+     "d4": 489
+    },
+    "A > 1 (a = e^2 4r/sigma): N4+N4G": {
+     "N4+N4G": 489
+    },
+    "A >> 1 (a = e^12 4r/sigma; FrB1 holds up to A ~ 5e3): FrB1": {
+     "FrB1": 0
+    },
+    "eta = 0.3 > 1/4: FrB2, FrB1": {
+     "FrB2": 489,
+     "FrB1": 475
+    },
+    "z0^2 > 2 (B = K^2/8): hFz": {
+     "hFz": 489
+    },
+    "w0 = 0 (no w0 >= 3y/2): P3z+P4z": {
+     "P3z+P4z": 121
+    },
+    "T2(K) bound 0.79 K: ring2": {
+     "ring2": 455
+    }
+   }
+  },
+  "resolution of the gap (10^(12 - digits))": {
+   "55.26": 1e-52,
+   "955.8": 1e-54
+  },
+  "reversal caught (gap > 10 x resolution at some ell)": {
+   "P2z": true,
+   "P3z+P4z": true,
+   "hFz": true,
+   "cKz": true,
+   "N2": true,
+   "ring2": true,
+   "N4+N4G": true,
+   "hneg1": true,
+   "M0Xi": true,
+   "A1v": true,
+   "B1w1": true,
+   "B1w2": true,
+   "pair": true,
+   "FzK": true,
+   "lossK": true,
+   "FrB2": true,
+   "FrB1": true,
+   "d3": true
+  },
+  "ok": true
+ },
+ "power ok": true,
+ "seconds": 189.37588119506836,
+ "note": "power ok recomputed from the stored counts with the rule of the current dm_groups.power (W2: caught at some ell); FrB1 with A = e^12 is not caught at ell = 955.8 (the table's slack grows with U1)"
+}

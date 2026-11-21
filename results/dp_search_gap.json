@@ -1,0 +1,161 @@
+{
+ "model": "Claude Fable 5.2 (claude-fable-5-2)",
+ "needed": "(F^2 - 1) ell >= 10",
+ "band": "B in [8 ell + 100, 50 (8 ell + 100)]",
+ "100000000.0": {
+  "F_full": {
+   "log F": 7.856228451586813,
+   "(F^2 - 1) ell": 666550816931977.9,
+   "state (log mu, log r, log B, log kappa, q)": [
+    1.6104691426593394,
+    -99999989.79100278,
+    20.500122410632194,
+    -99999981.06167461,
+    0.0
+   ],
+   "mu": 5.005158810629747,
+   "B": 800000100.0000005,
+   "kappa": 0.0,
+   "log r + ell/2": -49999989.79100278,
+   "tau >= 5e11/B": 624.9999218750094,
+   "evaluations": 45500,
+   "nan": 0,
+   "family minima before refinement (log F)": {
+    "F1 corner": 99999942.88180673,
+    "F2 global": 2791104.46555005,
+    "E1 small r, b at the lower end": 8945576.25744575,
+    "E2 b at the lower end": 867945.6815682054,
+    "E3 large b": 402298.8709037751,
+    "E4 tails of mu": 99999942.75078034,
+    "E5 tails of kappa": 20007093.762419984,
+    "N1 narrow": 9.967474608871077,
+    "N2 low mu": 13.576790630814534,
+    "N3 DF region": 15.519916589796503,
+    "N4 on the line": 11.902814745901635,
+    "N5 large kappa": 99999983.08211489,
+    "F4 seeds": 8.36624408625207
+   }
+  },
+  "F_rule": {
+   "log F": 0.24840396493451455,
+   "(F^2 - 1) ell": 64346682.75147991,
+   "state (log mu, log r, log B, log kappa, q)": [
+    -1007027.4445883164,
+    -88237634.13394824,
+    20.500122410632194,
+    -102444690.94744653,
+    -4658817.057690901
+   ],
+   "mu": 0.0,
+   "B": 800000100.0000005,
+   "kappa": 0.0,
+   "log r + ell/2": -38237634.13394824,
+   "tau >= 5e11/B": 624.9999218750094,
+   "evaluations": 31770,
+   "nan": 0,
+   "family minima before refinement (log F)": {
+    "F1 corner": 99999942.80089414,
+    "F2 global": 600528.7326072106,
+    "E1 small r, b at the lower end": 9207914.127326526,
+    "E2 b at the lower end": 533184.2554737853,
+    "E3 large b": 299101.62389773125,
+    "E4 tails of mu": 99999942.78298971,
+    "E5 tails of kappa": 382523.58945020556,
+    "N1 narrow": 1.6485267049081946,
+    "N2 low mu": 7.662300323473976,
+    "N3 DF region": 14.94128676654369,
+    "N4 on the line": 0.4379409504130476,
+    "N5 large kappa": 99999982.83410364,
+    "F4 seeds": 0.36014986055445364
+   }
+  },
+  "the band contains B = 2.5e10": true
+ },
+ "1000000000.0": {
+  "F_full": {
+   "log F": 8.981394362673385,
+   "(F^2 - 1) ell": 6.3261577325374936e+16,
+   "state (log mu, log r, log B, log kappa, q)": [
+    1.6282156775278622,
+    -999999986.8602737,
+    26.714730396554394,
+    -999999975.7913196,
+    0.0
+   ],
+   "mu": 5.0947758802263765,
+   "B": 400000005000.0004,
+   "kappa": 0.0,
+   "log r + ell/2": -499999986.8602737,
+   "tau >= 5e11/B": 1.249999984374999,
+   "evaluations": 44890,
+   "nan": 0,
+   "family minima before refinement (log F)": {
+    "F1 corner": 999999941.6879706,
+    "F2 global": 7648074.373858675,
+    "E1 small r, b at the lower end": 91038271.3022696,
+    "E2 b at the lower end": 1437150.234953165,
+    "E3 large b": 7855397.5024574995,
+    "E4 tails of mu": 999999941.6245991,
+    "E5 tails of kappa": 202521802.98642027,
+    "N1 narrow": 11.311530176568105,
+    "N2 low mu": 16.14844620227812,
+    "N3 DF region": 17.019685256887723,
+    "N4 on the line": 13.144278883933914,
+    "N5 large kappa": 999999981.6252205,
+    "F4 seeds": 10.880998351048332
+   }
+  },
+  "F_rule": {
+   "log F": 0.24844316450600898,
+   "(F^2 - 1) ell": 643595678.9564621,
+   "state (log mu, log r, log B, log kappa, q)": [
+    19.20262201563315,
+    -489115897.72323984,
+    22.802707391126248,
+    -1073741876.7549498,
+    0.0
+   ],
+   "mu": 218571120.89688697,
+   "B": 8000000100.000006,
+   "kappa": 0.0,
+   "log r + ell/2": 10884102.27676016,
+   "tau >= 5e11/B": 62.49999921874996,
+   "evaluations": 34930,
+   "nan": 0,
+   "family minima before refinement (log F)": {
+    "F1 corner": 999999941.6840205,
+    "F2 global": 7088224.88185809,
+    "E1 small r, b at the lower end": 90238937.9909529,
+    "E2 b at the lower end": 949148.5689595938,
+    "E3 large b": 3678503.7075618505,
+    "E4 tails of mu": 999999941.6861534,
+    "E5 tails of kappa": 3425419.8567054397,
+    "N1 narrow": 0.4126774056423554,
+    "N2 low mu": 1.0797303826501223,
+    "N3 DF region": 15.417949553497872,
+    "N4 on the line": 0.8223259573744942,
+    "N5 large kappa": 999999981.6214805,
+    "F4 seeds": 0.3400504514162069
+   }
+  },
+  "the band contains B = 2.5e10": true
+ },
+ "planted dip (depth 5; ell = 1e8, B = 3e10, kappa ~ 1, mu ~ ell/4)": {
+  "found minimum of (F^2 - 1) ell": 5.000000000000005,
+  "found": true
+ },
+ "wrong versions (ell = 1e8)": {
+  "line cKz (chirp) dropped": {
+   "smallest (F^2 - 1) ell": -100000000.0,
+   "broken (< 10)": true
+  },
+  "line P1 dropped": {
+   "smallest (F^2 - 1) ell": -100000000.0,
+   "broken (< 10)": true
+  }
+ },
+ "smallest (F^2 - 1) ell": 64346682.75147991,
+ "nan": 0,
+ "ok": true,
+ "seconds": 351.0497329235077
+}

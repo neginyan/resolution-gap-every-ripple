@@ -1,0 +1,96 @@
+{
+ "60-digit check (the identities of the proof): largest error": 1.34e-77,
+ "closed form against the numerical solution of the same inequality": {
+  "inside": {
+   "states": 40000,
+   "states with the range flags (mu >= 1/2, mu kappa_b <= 1, mu > mu_cap)": 40000,
+   "smallest log(closed/numerical) where the flags hold (must be >= 0)": 1.2398231774568558e-07,
+   "median": 6.818244378337113e-05,
+   "largest": 0.08312612476751902,
+   "largest eps where the flags hold": 0.8957069601617319,
+   "median eps": 0.0009483272604786589,
+   "wrong versions: states with closed < numerical (flags hold)": {
+    "noe": 40000,
+    "B1": 3144,
+    "noadd": 17857,
+    "nobp": 0
+   },
+   "(C), general (s, c): states with mu > mu_cap": 37720,
+   "(C): smallest log(closed/numerical) (must be >= 0)": -1.862645149230957e-09
+  },
+  "edge": {
+   "states": 40000,
+   "states with the range flags (mu >= 1/2, mu kappa_b <= 1, mu > mu_cap)": 31481,
+   "smallest log(closed/numerical) where the flags hold (must be >= 0)": 0.025947966468173767,
+   "median": 0.07420039580120563,
+   "largest": 0.08312612103796102,
+   "largest eps where the flags hold": 1.0935982467007714,
+   "median eps": 0.7191203032467338,
+   "wrong versions: states with closed < numerical (flags hold)": {
+    "noe": 31481,
+    "B1": 31481,
+    "noadd": 0,
+    "nobp": 0
+   },
+   "outside the flags: states with closed < numerical": 0,
+   "outside the flags: smallest log(closed/numerical)": 0.026000863000184227,
+   "(C), general (s, c): states with mu > mu_cap": 7092,
+   "(C): smallest log(closed/numerical) (must be >= 0)": 9.536870866311276e-05
+  },
+  "wide": {
+   "states": 40000,
+   "states with the range flags (mu >= 1/2, mu kappa_b <= 1, mu > mu_cap)": 22287,
+   "smallest log(closed/numerical) where the flags hold (must be >= 0)": 4.168722671238356e-05,
+   "median": 0.0023817528849434666,
+   "largest": 313459.4024148887,
+   "largest eps where the flags hold": Infinity,
+   "median eps": 1.0645136018834165e-08,
+   "wrong versions: states with closed < numerical (flags hold)": {
+    "noe": 15521,
+    "B1": 1653,
+    "noadd": 7237,
+    "nobp": 47
+   },
+   "outside the flags: states with closed < numerical": 0,
+   "outside the flags: smallest log(closed/numerical)": 0.03025052641807946,
+   "(C), general (s, c): states with mu > mu_cap": 25618,
+   "(C): smallest log(closed/numerical) (must be >= 0)": -4.547473508864641e-12
+  },
+  "outside": {
+   "states": 40000,
+   "states with the range flags (mu >= 1/2, mu kappa_b <= 1, mu > mu_cap)": 0,
+   "outside the flags: states with closed < numerical": 0,
+   "outside the flags: smallest log(closed/numerical)": 0.3632520191089721,
+   "(C), general (s, c): states with mu > mu_cap": 11,
+   "(C): smallest log(closed/numerical) (must be >= 0)": 5.4083174359398356e-05
+  }
+ },
+ "closed form (K) with kappa_b = max(kappa, 16 b e^mu/mu) against the table's Psi_3 and against lP_H (corner-like states)": {
+  "states": 4000,
+  "flags hold": 4000,
+  "log(closed/Psi_3): smallest, median, largest": [
+   -0.0074990329158026725,
+   -0.0009456774778300314,
+   3.459953379434701
+  ],
+  "log(closed/lP_H): smallest, median, largest": [
+   5.039037205278873e-07,
+   8.354927649634192e-05,
+   3.2063546040938604
+  ],
+  "log(lP_H/Psi_3): smallest, largest": [
+   -0.0074996027105953544,
+   0.5442968435702866
+  ],
+  "largest eps": 0.16771914781703295
+ },
+ "ok": true,
+ "wrong versions caught (states, all families)": {
+  "noe": 87002,
+  "B1": 36278,
+  "noadd": 25094,
+  "nobp": 47
+ },
+ "outside the range (mu < mu_cap): states where (K) is below the numerical solution": 0,
+ "seconds": 29.461474180221558
+}

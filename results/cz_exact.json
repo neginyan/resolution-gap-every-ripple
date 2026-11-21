@@ -1,0 +1,44 @@
+{
+ "(X1) w-averages (L^2=0.7, s^2=0.1)": {
+  "ok": true,
+  "max_error": "7.000000E-70"
+ },
+ "(X1) int Gamma E^2 |w| = g_s sqrt(2 se2/pi) (midpoint rule, 1e-6)": {
+  "ok": true,
+  "lhs": "1.230797E-01",
+  "rhs": "1.230796E-01"
+ },
+ "(X1) w-averages (L^2=3, s^2=0.75)": {
+  "ok": true,
+  "max_error": "1.000000E-69"
+ },
+ "(X1) w-averages (L^2=40, s^2=2)": {
+  "ok": true,
+  "max_error": "4.000000E-70"
+ },
+ "(X2) the identity of M0 for one harmonic (5 cases)": {
+  "ok": true,
+  "max_error": "4.450000E-69"
+ },
+ "(X3) |Xi_1| <= 2.07 y for y <= 1e-6 (u in [0, 400], 5 values of y)": {
+  "ok": true,
+  "sup": "1.500000E+00"
+ },
+ "(X3) sup u e^{-u/2} = 2/e and c_2 = 2 Qb/e <= 0.184": {
+  "ok": true,
+  "sup": "7.357589E-01",
+  "c2": "1.839397E-01"
+ },
+ "(X4) E s^2 = 1, E s^4 = 3, E s^6 = 15": {
+  "ok": true,
+  "max_error": "4.000000E-69"
+ },
+ "(X4) T_2(K) = 2(K phi + Q), E|s|1{|s|>K} = 2 phi, Q <= phi/K, T_2 <= 0.8 (K+1) e^{-K^2/2}, tails <= (K+5) phi": {
+  "ok": true,
+  "max_rel_error": "1.303819E-13"
+ },
+ "(X5) elementary inequalities on grids": {
+  "ok": true
+ },
+ "all_ok": true
+}

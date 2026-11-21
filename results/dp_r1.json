@@ -1,0 +1,113 @@
+{
+ "model": "Claude Fable 5.2 (claude-fable-5-2)",
+ "(I) interval proof, ell in [55.26, inf) as one piece, Inexact trapped": {
+  "upper bounds for every ell >= 55.26 (in units of es = 1e-11 where it applies)": {
+   "N2/P1": 0.5072836090472306,
+   "d3/P1": 7.442909005146504e-15,
+   "N4/P1": 1.0212127708736869e-36,
+   "ring2/P1": 5.541032895255332e-48,
+   "A2a/P1": 1.2778289417422397e-38,
+   "A2b/P1": 1.475427298376143e-06,
+   "B2b/P1": 2.515799044939063e-06,
+   "R1: sum/P1": 0.5072876002735813,
+   "R3 (a <= 1): S/P4z": 0.030837063559101638,
+   "R3 (a >= 1): S/P1": 0.015418531778625708,
+   "c_S": 0.1540279570577635,
+   "X1^2/ell": 0.22845555409611562,
+   "(d4 + N4G)/P2z / es_sigma": 2.488330445282377e-05,
+   "B1l/P2z / es_sigma (mu <= 2 ell)": 2.9453928716900874e-28,
+   "B1c/(Gam2 G) / es_sigma": 0.015446256835741756
+  },
+  "conditions (all must hold)": {
+   "R1: sum/P1 <= 0.52 es": true,
+   "R3 (a <= 1) <= 0.48 es": true,
+   "R3 (a >= 1) <= 0.48 es": true,
+   "X1^2 <= ell": true,
+   "(d4 + N4G)/P2z <= es_sigma": true,
+   "B1l/P2z <= es_sigma": true,
+   "B1c <= es_sigma Gam2 G": true,
+   "c_S <= 0.155": true
+  },
+  "power (each must be False: the wrong version fails)": {
+   "the old 'half': R1 sum/P1 <= 0.5 es": false,
+   "B >= 2.4e10 instead of 2.5e10: R1 sum/P1 <= 0.52 es": false,
+   "r >= sigma^5 instead of sigma^3: R1 sum/P1 <= 0.52 es": false
+  },
+  "ok": true
+ },
+ "(II) on the states of dj_proof.sample (ratio/bound, must be <= 1)": {
+  "55.26": {
+   "states": 26250,
+   "R1: (N2 + d3 + N4 + ring2 + A2a + A2b + B2b)/P1 against 0.52 es": 0.975545402013935,
+   "POWER, the old 'half': the same against 0.5 es (must exceed 1 at ell = 55.26)": 1.0145672180944925,
+   "R3 (a <= 1): (A1w + B1w1 + B1w2)/P4z against 0.48 es": 0.06424170228016912,
+   "R3 (a >= 1): (A1w + B1w1 + B1w2)/P1 against 0.48 es": 0.029563212834949962,
+   "R1 + R3 charged to P1 (a >= 1) against es": 0.507283609047239,
+   "R4 in the form of the text: (N3 + M0Xi + A1v + pair)/((e0 - es)(P1 + P4z))": 0.7873174054501401,
+   "R4 as coded in dj_proof (with the factor 1 - eps1_max - epsh_max)": 0.9784322466752071
+  },
+  "82.89": {
+   "states": 25875,
+   "R1: (N2 + d3 + N4 + ring2 + A2a + A2b + B2b)/P1 against 0.52 es": 0.9708764218554378,
+   "POWER, the old 'half': the same against 0.5 es (must exceed 1 at ell = 55.26)": 1.0097114787296553,
+   "R3 (a <= 1): (A1w + B1w1 + B1w2)/P4z against 0.48 es": 6.390972055471241e-08,
+   "R3 (a >= 1): (A1w + B1w1 + B1w2)/P1 against 0.48 es": 2.8684555819111048e-08,
+   "R1 + R3 charged to P1 (a >= 1) against es": 0.5048557393648205,
+   "R4 in the form of the text: (N3 + M0Xi + A1v + pair)/((e0 - es)(P1 + P4z))": 0.7865669356412602,
+   "R4 as coded in dj_proof (with the factor 1 - eps1_max - epsh_max)": 0.9652035381077924
+  },
+  "165.78": {
+   "states": 26250,
+   "R1: (N2 + d3 + N4 + ring2 + A2a + A2b + B2b)/P1 against 0.52 es": 0.9662074416969482,
+   "POWER, the old 'half': the same against 0.5 es (must exceed 1 at ell = 55.26)": 1.004855739364826,
+   "R3 (a <= 1): (A1w + B1w1 + B1w2)/P4z against 0.48 es": 6.36462908579893e-26,
+   "R3 (a >= 1): (A1w + B1w1 + B1w2)/P1 against 0.48 es": 2.907263266847356e-26,
+   "R1 + R3 charged to P1 (a >= 1) against es": 0.502427869682413,
+   "R4 in the form of the text: (N3 + M0Xi + A1v + pair)/((e0 - es)(P1 + P4z))": 0.7858166996848032,
+   "R4 as coded in dj_proof (with the factor 1 - eps1_max - epsh_max)": 0.952303789065993
+  },
+  "955.8": {
+   "states": 26625,
+   "R1: (N2 + d3 + N4 + ring2 + A2a + A2b + B2b)/P1 against 0.52 es": 0.9623482790010053,
+   "POWER, the old 'half': the same against 0.5 es (must exceed 1 at ell = 55.26)": 1.0008422101610455,
+   "R3 (a <= 1): (A1w + B1w1 + B1w2)/P4z against 0.48 es": 1.7827352307264605e-197,
+   "R3 (a >= 1): (A1w + B1w1 + B1w2)/P1 against 0.48 es": 8.024955262659725e-198,
+   "R1 + R3 charged to P1 (a >= 1) against es": 0.5004211050805227,
+   "R4 in the form of the text: (N3 + M0Xi + A1v + pair)/((e0 - es)(P1 + P4z))": 0.7851967629156555,
+   "R4 as coded in dj_proof (with the factor 1 - eps1_max - epsh_max)": 0.9418811420270757
+  },
+  "10000.0": {
+   "states": 26625,
+   "R1: (N2 + d3 + N4 + ring2 + A2a + A2b + B2b)/P1 against 0.52 es": 0.9616158638918137,
+   "POWER, the old 'half': the same against 0.5 es (must exceed 1 at ell = 55.26)": 1.0000804984474863,
+   "R3 (a <= 1): (A1w + B1w1 + B1w2)/P4z against 0.48 es": 0.0,
+   "R3 (a >= 1): (A1w + B1w1 + B1w2)/P1 against 0.48 es": 0.0,
+   "R1 + R3 charged to P1 (a >= 1) against es": 0.5000402492237431,
+   "R4 in the form of the text: (N3 + M0Xi + A1v + pair)/((e0 - es)(P1 + P4z))": 0.7850791251050853,
+   "R4 as coded in dj_proof (with the factor 1 - eps1_max - epsh_max)": 0.9399269645788548
+  },
+  "1000000.0": {
+   "states": 26625,
+   "R1: (N2 + d3 + N4 + ring2 + A2a + A2b + B2b)/P1 against 0.52 es": 0.9615384615723949,
+   "POWER, the old 'half': the same against 0.5 es (must exceed 1 at ell = 55.26)": 1.0000000000352909,
+   "R3 (a <= 1): (A1w + B1w1 + B1w2)/P4z against 0.48 es": 0.0,
+   "R3 (a >= 1): (A1w + B1w1 + B1w2)/P1 against 0.48 es": 0.0,
+   "R1 + R3 charged to P1 (a >= 1) against es": 0.5000000000176454,
+   "R4 in the form of the text: (N3 + M0Xi + A1v + pair)/((e0 - es)(P1 + P4z))": 0.7529262309330654,
+   "R4 as coded in dj_proof (with the factor 1 - eps1_max - epsh_max)": 0.9012507464718119
+  },
+  "100000000.0": {
+   "states": 24000,
+   "R1: (N2 + d3 + N4 + ring2 + A2a + A2b + B2b)/P1 against 0.52 es": 0.6009614659486938,
+   "POWER, the old 'half': the same against 0.5 es (must exceed 1 at ell = 55.26)": 0.6249999245866417,
+   "R3 (a <= 1): (A1w + B1w1 + B1w2)/P4z against 0.48 es": 0.0,
+   "R3 (a >= 1): (A1w + B1w1 + B1w2)/P1 against 0.48 es": 0.0,
+   "R1 + R3 charged to P1 (a >= 1) against es": 0.31249996229332083,
+   "R4 in the form of the text: (N3 + M0Xi + A1v + pair)/((e0 - es)(P1 + P4z))": 0.5952400253607198,
+   "R4 as coded in dj_proof (with the factor 1 - eps1_max - epsh_max)": 0.7124993323355251
+  },
+  "ok": true
+ },
+ "ok": true,
+ "seconds": 47.28450679779053
+}

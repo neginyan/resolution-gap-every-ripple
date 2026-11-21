@@ -1,0 +1,382 @@
+{
+ "(a) check_A: lines vs dg_tm.z_lines": {
+  "55.26": {
+   "lines of the table": 37,
+   "lines missing in dj_lines": [],
+   "lines of dj_lines not in the table": [],
+   "largest |difference of log coefficients|": 1.1368683772161603e-13,
+   "lines that differ (value, type or sign)": [],
+   "brk > 0 agrees": true,
+   "states": 400
+  },
+  "300.0": {
+   "lines of the table": 37,
+   "lines missing in dj_lines": [],
+   "lines of dj_lines not in the table": [],
+   "largest |difference of log coefficients|": 4.547473508864641e-13,
+   "lines that differ (value, type or sign)": [],
+   "brk > 0 agrees": true,
+   "states": 400
+  },
+  "955.8": {
+   "lines of the table": 37,
+   "lines missing in dj_lines": [],
+   "lines of dj_lines not in the table": [],
+   "largest |difference of log coefficients|": 9.094947017729282e-13,
+   "lines that differ (value, type or sign)": [],
+   "brk > 0 agrees": true,
+   "states": 400
+  }
+ },
+ "(a) check_B: point function vs table rule": {
+  "55.26": {
+   "states": 521,
+   "smallest log(F_dj/F_table rule)": -2.1018317752918847e-08,
+   "median": -8.834089015863356e-11,
+   "largest": 12.778030342820031,
+   "at the worst state of the DI search: (F^2 - 1) ell, dj_lines / the table rule": [
+    17.55648802331818,
+    17.55648804265889
+   ]
+  },
+  "955.8": {
+   "states": 521,
+   "smallest log(F_dj/F_table rule)": -6.416485121008009e-10,
+   "median": -1.1315393066979595e-12,
+   "largest": 802.8144616065954,
+   "at the worst state of the DI search: (F^2 - 1) ell, dj_lines / the table rule": [
+    24.095749421648982,
+    24.09574943311209
+   ]
+  }
+ },
+ "(a) check_CD: minimum over a, option-branches": {
+  "55.26": {
+   "states": 640,
+   "largest (candidates - dense grid) (must be <= 1e-9)": 1.4210854715202004e-14,
+   "smallest (how far below the dense grid)": -3.3837424400218197e-06,
+   "step of the dense grid in log a": 0.005526,
+   "largest |three effective option-branches - five|": 0.0,
+   "states where one is finite and the other is not": 0,
+   "nan": 0
+  },
+  "955.8": {
+   "states": 640,
+   "largest (candidates - dense grid) (must be <= 1e-9)": 0.0,
+   "smallest (how far below the dense grid)": -0.0008531385660148771,
+   "step of the dense grid in log a": 0.09557999999999998,
+   "largest |three effective option-branches - five|": 0.0,
+   "states where one is finite and the other is not": 0,
+   "nan": 0
+  },
+  "1000000.0": {
+   "states": 640,
+   "largest (candidates - dense grid) (must be <= 1e-9)": 0.0,
+   "smallest (how far below the dense grid)": -43.47569160225976,
+   "step of the dense grid in log a": 100.0,
+   "largest |three effective option-branches - five|": 0.0,
+   "states where one is finite and the other is not": 0,
+   "nan": 0
+  }
+ },
+ "(b) worst states of the DJ search, corrected N4": {
+  "55.26": {
+   "stored (old N4)": 17.55469105022474,
+   "recomputed (corrected N4)": 17.55469105022474,
+   "difference": 0.0
+  },
+  "82.89": {
+   "stored (old N4)": 18.16241782054033,
+   "recomputed (corrected N4)": 18.16241782054033,
+   "difference": 0.0
+  },
+  "165.78": {
+   "stored (old N4)": 19.40260142302103,
+   "recomputed (corrected N4)": 19.40260142302103,
+   "difference": 0.0
+  },
+  "331.56": {
+   "stored (old N4)": 21.059557522177617,
+   "recomputed (corrected N4)": 21.059557522177617,
+   "difference": 0.0
+  },
+  "955.8": {
+   "stored (old N4)": 24.095752485740345,
+   "recomputed (corrected N4)": 24.095752485740345,
+   "difference": 0.0
+  },
+  "3000.0": {
+   "stored (old N4)": 27.756819963352477,
+   "recomputed (corrected N4)": 27.756819963352477,
+   "difference": 0.0
+  },
+  "10000.0": {
+   "stored (old N4)": 31.815082063957743,
+   "recomputed (corrected N4)": 31.815082063957743,
+   "difference": 0.0
+  },
+  "100000.0": {
+   "stored (old N4)": 39.7879819372807,
+   "recomputed (corrected N4)": 39.7879819372807,
+   "difference": 0.0
+  },
+  "1000000.0": {
+   "stored (old N4)": 47.833056489165344,
+   "recomputed (corrected N4)": 47.833056489165344,
+   "difference": 0.0
+  },
+  "100000000.0": {
+   "stored (old N4)": 64.07501366157302,
+   "recomputed (corrected N4)": 64.07501366157302,
+   "difference": 0.0
+  }
+ },
+ "(c) the rule end to end, corrected N4": {
+  "55.26": {
+   "states": 7502,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.42394368004243904,
+     3.2020819539794068,
+     8.947313915766218,
+     0.13794659482424895
+    ],
+    "states per regime": [
+     4704,
+     1919,
+     23,
+     856
+    ],
+    "log F needed": 0.08316498583495205,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 17.556494995346675,
+    "the same with the best option-branch at every a (the search)": 17.556494995346675,
+    "largest log(F_best/F_rule)": 20.205082752956738
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.42394368004243904,
+     3.2020819539794068,
+     8.947313915766218,
+     0.13794659482424895
+    ],
+    "states per regime": [
+     4704,
+     1919,
+     23,
+     856
+    ],
+    "log F needed": 0.08316498583495205,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 17.556494995346675,
+    "the same with the best option-branch at every a (the search)": 17.556494995346675,
+    "largest log(F_best/F_rule)": 20.20508275295764
+   }
+  },
+  "955.8": {
+   "states": 7503,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.2643160482268172,
+     4.621102754202439,
+     21.640501678556635,
+     0.01244875300909598
+    ],
+    "states per regime": [
+     3999,
+     1845,
+     151,
+     1508
+    ],
+    "log F needed": 0.005204043647691839,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 24.09575363261621,
+    "the same with the best option-branch at every a (the search)": 24.09575363261621,
+    "largest log(F_best/F_rule)": 411.2020482746005
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.2643160482268172,
+     4.621102754202439,
+     21.640501678556635,
+     0.01244875300909598
+    ],
+    "states per regime": [
+     3999,
+     1845,
+     151,
+     1508
+    ],
+    "log F needed": 0.005204043647691839,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 24.09575363261621,
+    "the same with the best option-branch at every a (the search)": 24.09575363261621,
+    "largest log(F_best/F_rule)": 411.2020482746005
+   }
+  },
+  "1000000.0": {
+   "states": 7503,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.42833372426684946,
+     8.080091740449376,
+     19.62297939775726,
+     2.391607267782092e-05
+    ],
+    "states per regime": [
+     4088,
+     1564,
+     163,
+     1688
+    ],
+    "log F needed": 4.999975000166666e-06,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 47.83328933094603,
+    "the same with the best option-branch at every a (the search)": 47.83328933094603,
+    "largest log(F_best/F_rule)": 483614.96955076803
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.42833372426684946,
+     8.080091740449376,
+     19.62297939775726,
+     2.391607267782092e-05
+    ],
+    "states per regime": [
+     4088,
+     1564,
+     163,
+     1688
+    ],
+    "log F needed": 4.999975000166666e-06,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 47.83328933094603,
+    "the same with the best option-branch at every a (the search)": 47.83328933094603,
+    "largest log(F_best/F_rule)": 483614.96955076803
+   }
+  },
+  "100000000.0": {
+   "states": 7200,
+   "class": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.2715115384028584,
+     10.376384957672514,
+     25.601310339440985,
+     3.948807716369629e-07
+    ],
+    "states per regime": [
+     4003,
+     1487,
+     169,
+     1541
+    ],
+    "log F needed": 4.999999750000017e-08,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 78.97618551356554,
+    "the same with the best option-branch at every a (the search)": 78.97618551356554,
+    "largest log(F_best/F_rule)": 43992493.57305739
+   },
+   "low": {
+    "smallest log F of the rule per regime (I/Fz, I/Tz-B2, II chirp, II rest)": [
+     0.2715115384028584,
+     10.376384957672514,
+     25.601310339440985,
+     3.948807716369629e-07
+    ],
+    "states per regime": [
+     4003,
+     1487,
+     169,
+     1541
+    ],
+    "log F needed": 4.999999750000017e-08,
+    "states below the claim": 0,
+    "nan": 0,
+    "smallest (F^2 - 1) ell of the rule": 78.97618551356554,
+    "the same with the best option-branch at every a (the search)": 78.97618551356554,
+    "largest log(F_best/F_rule)": 43992493.57305739
+   }
+  }
+ },
+ "(d) search minima, corrected N4": {
+  "55.26": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 17.55469105022474,
+   "DJ (old N4)": 17.55469105022474,
+   "states evaluated": 48363,
+   "nan": 0,
+   "below the claim": false
+  },
+  "82.89": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 18.16241782054033,
+   "DJ (old N4)": 18.16241782054033,
+   "states evaluated": 59542,
+   "nan": 0,
+   "below the claim": false
+  },
+  "165.78": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 19.40260114866062,
+   "DJ (old N4)": 19.40260142302103,
+   "states evaluated": 92583,
+   "nan": 0,
+   "below the claim": false
+  },
+  "331.56": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 21.059557052624502,
+   "DJ (old N4)": 21.059557522177617,
+   "states evaluated": 125593,
+   "nan": 0,
+   "below the claim": false
+  },
+  "955.8": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 24.095751712949877,
+   "DJ (old N4)": 24.095752485740345,
+   "states evaluated": 124124,
+   "nan": 0,
+   "below the claim": false
+  },
+  "3000.0": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 27.756819963352477,
+   "DJ (old N4)": 27.756819963352477,
+   "states evaluated": 100612,
+   "nan": 0,
+   "below the claim": false
+  },
+  "10000.0": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 31.815082063957743,
+   "DJ (old N4)": 31.815082063957743,
+   "states evaluated": 127304,
+   "nan": 0,
+   "below the claim": false
+  },
+  "100000.0": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 39.78798048151018,
+   "DJ (old N4)": 39.7879819372807,
+   "states evaluated": 91382,
+   "nan": 0,
+   "below the claim": false
+  },
+  "1000000.0": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 47.833056489165344,
+   "DJ (old N4)": 47.833056489165344,
+   "states evaluated": 104704,
+   "nan": 0,
+   "below the claim": false
+  },
+  "100000000.0": {
+   "smallest (F^2 - 1) ell, corrected N4 (seeded search, 400 per family)": 64.07501366157302,
+   "DJ (old N4)": 64.07501366157302,
+   "states evaluated": 92251,
+   "nan": 0,
+   "below the claim": false
+  }
+ },
+ "ok": true,
+ "seconds": 1624.2003908157349
+}

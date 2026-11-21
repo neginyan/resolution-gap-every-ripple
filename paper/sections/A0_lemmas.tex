@@ -1,0 +1,20 @@
+\section{How the lemmas use the ripple}
+\label{app:lemmas}
+
+Theorem~\ref{thm:J} uses the lemmas of Paper~I~\cite{I} and the lemmas Paper~I borrows from~\cite{F,H} with $\eta\le\tfrac14$ in place of $\eta\le1/\ell$.
+Table~\ref{tab:lemmas} is the result of reading every one of their proofs again for this purpose.
+For each lemma it records whether $\eta$ or $\ell$ appears in the hypotheses, the step of the proof where $\eta$ enters, the bound on $\eta$ that the step needs, whether that bound holds for $\eta\le\tfrac14$, and, where it does not, the repair.
+
+\emph{The result of the reading} \proofst.
+Every lemma uses $\eta$ only through $\eta=\sup|R|$ and $h\ge1-\eta$ (so through $\eta<1$), or not at all; the borrowed lemmas of~\cite{F} and the lemmas of Theorem~5 of~\cite{I} use the class constant $\Qb$ instead.
+Theorem~H1 of~\cite{H} is stated for every admissible window, and its certificates use $\bar\eta=\tfrac12$.
+Exactly one written step of the lemmas needs $\eta\le1/\ell$ as an inequality: the first step of the group FrB1, $U_1(\tfrac43-1/(1-\eta))\ge\sqrt{\mathrm{CZ}}$, whose left side is zero at $\eta=\tfrac14$ (check e3).
+It is repaired by the constant $X_{1,\rm B1}$ of Sec.~\ref{sec:changes} (check e4).
+Besides the lemmas, the written proofs of the narrow and wide rooms of~\cite{I} use $\eta\le1/\ell$ in two further ways, both of them numbers: values quoted at $\eta=1/\ell$ (18 of the 48 quoted bounds, and two numbers of the text, $q\le0.0026$ and $\mathrm{ringf}\ge1-0.0026$, which become $\tfrac1{240}$ and $1-\tfrac1{240}$, check e6), and the tail $[10^6,\infty)$, where $(1-\eta)/(1+\eta)\ge1-2/\ell$ was used (check e7).
+Both are replaced in this paper by new constants (Table~\ref{tab:quoted}, App.~\ref{app:C}); no step needed a new idea.
+
+\emph{What is checked by machine} (\code{dz\_lemma\_table.py}).
+The rows of the table that carry lines of~\cite{I} are compared with the inventory that the parser of Lemma~\ref{lem:chord} reads from the code (Table~\ref{tab:inventory}): every basic function of $\eta$ in a line is one that the table lists for the lemma the line comes from, and every function listed for a lemma occurs in one of its lines (37 of 37 lines; three wrong versions of the table are caught).
+The elementary steps (e1)--(e8) are checked at $\eta\le\tfrac14$ in exact rational or 60-digit arithmetic, each with a wrong version that fails: (e1) $|z-\ln(1+z)|\le z^2/(2(1-\eta))$ for $|z|\le\eta$; (e2) $1/(1-\eta)\le\tfrac43$; (e3) the old step of FrB1, true at $\eta=1/\ell$ and false at $\tfrac14$; (e4) the repaired step; (e5) $\hat c_0^2\le X_1^2+\mathrm{CZ}$; (e6) the ring factor; (e7) the old tail step; (e8) the factors of Theorem~H1.
+
+\input{sections/A0_lemma_table}

@@ -1,0 +1,12 @@
+\begin{acknowledgments}
+The author used AI assistants in this work. Anthropic Claude (claude-opus-5-5) extended the lemmas and the interval arithmetic to strong ripples, proved the convexity lemma, wrote the verification code, and drafted the text; a separate session re-ran and checked every stage. Google Gemini (Gemini 4 Neon) and OpenAI ChatGPT (GPT-6 Sol) independently reviewed the manuscript and re-derived its main steps; their comments led to corrected rounding in the hand proof of Theorem~\ref{thm:Jres}, a precise statement of where the bound $0.49$ applies, a consistent definition of the repaired constant of FrB1, and a more exact account of the numerical study. The author directed the research, made all decisions on its content, and takes full responsibility for this article.
+\end{acknowledgments}
+
+\emph{Data and code availability.}
+All code, stored results, the interval-arithmetic computations and the verification suite are available at \url{\Jrepourl} and archived at Zenodo, doi:\Jcodedoi.
+A single entry point, \code{verification/run\_all.py}, recomputes every computer-assisted part of this paper and re-derives its numbers from the stored results; \code{verification/quick.py} is a short check that runs in a few minutes.
+The repository starts from the repository of Paper~I~\cite{Icode}; the certificates of Theorem~H1 are those of~\cite{H} and are re-run with the repository of~\cite{H}.
+Papers~F, H and~I and their repositories are not changed.
+
+\paragraph*{Version~1.0.}
+First version.

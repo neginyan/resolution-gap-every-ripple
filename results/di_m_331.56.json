@@ -1,0 +1,53 @@
+{
+ "smallest (F^2 - 1) ell (class range of a')": 21.0595715632111,
+ "state (log mu, log r, log B, log kappa)": [
+  4.3600308476628316,
+  -166.47687285243668,
+  333.42118638840356,
+  -5.35684314834329
+ ],
+ "mu": 78.25954851001538,
+ "ell/4 - mu": 4.6304514899846225,
+ "log r + ell/2": -0.6968728524366838,
+ "log b + ell": 1.8611863884035529,
+ "log kappa": -5.35684314834329,
+ "the same state with every a' > 0": 21.0595715632111,
+ "smallest (F^2 - 1) ell with every a' > 0 (own search)": 21.0595715632111,
+ "its state": {
+  "state (log mu, log r, log B, log kappa)": [
+   4.3600308476628316,
+   -166.47687285243668,
+   333.42118638840356,
+   -5.35684314834329
+  ],
+  "mu": 78.25954851001538,
+  "ell/4 - mu": 4.6304514899846225,
+  "log r + ell/2": -0.6968728524366838,
+  "log b + ell": 1.8611863884035529,
+  "log kappa": -5.35684314834329
+ },
+ "smallest per family (before refinement)": {
+  "F1 corner": 28.320222295154895,
+  "F2 global": 651.2446389905468,
+  "E1 small r, b at the lower end": 9.370958506029031e+70,
+  "E2 b at the lower end": 1.0930180419975234e+76,
+  "E3 large b": 218662.66211999452,
+  "E4 tails of mu": 5111.3299192773675,
+  "E5 tails of kappa": 30.041005582734133,
+  "F4 seeds": 21.07480194036801
+ },
+ "at the minimiser: pieces / target": {
+  "P1+P2z": 0.5148052601204465,
+  "hFz+P4z": 0.514805260120461,
+  "chirp": 0.0016589029093613122,
+  "u = 1/(2 alpha G)": 0.009761562332095049,
+  "v = b omega/(2 beta G)": 0.0032328164015103405,
+  "T = b k1/(G k2)": 8.052747638882313e-76
+ },
+ "log(t/sigma) at the minimiser (t = a' + sigma)": 167.2598992593956,
+ "states evaluated": 92299,
+ "below 10 (DI-M broken)": false,
+ "3.5 ln ell - 2 (DI-M')": 18.31333076053164,
+ "below 3.5 ln ell - 2 (DI-M' broken)": false,
+ "seconds": 205.7
+}

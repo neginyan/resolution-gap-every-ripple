@@ -1,0 +1,554 @@
+{
+ "55.26": {
+  "the table's worst state": {
+   "state (log mu, log r, log beta, log kappa)": [
+    2.485433907182869,
+    -29.984409343232212,
+    51.959151016204395,
+    -7.722222710965544
+   ],
+   "mu/ell": 0.21726979292496887,
+   "ell/4 - mu": 1.80867124296622,
+   "log r + ell/2": -2.354409343232213,
+   "log b + ell": -3.3008489837956034,
+   "log kappa": -7.722222710965544
+  },
+  "f (table, target (1 + 2.5e-4)/sqrt(ell))": 1.0945797182677173,
+  "(f1^2 - 1) ell (table)": 10.9803767903374,
+  "binding option, branch, log A": [
+   "Tz",
+   "B1",
+   -55.42533785614843
+  ],
+  "table lines / table target at the minimiser": {
+   "P1": 0.03635186960809803,
+   "P2z": 0.5060126711702139,
+   "hFz": 0.5285210361661232,
+   "P4z": 0.012926795517006847,
+   "P3z": 8.477812231167182e-14,
+   "cKz": 0.01076734782774207,
+   "d1": -1.1210246783510864e-15,
+   "d2": -1.0,
+   "d3": -2.450681153199596e-27,
+   "d4": -3.537051512290085e-26
+  },
+  "all remainder lines together / target": -2.021549755319336e-09,
+  "true pieces / true target (the real window with this mu, kappa, at the same state)": {
+   "P1": 1.7807986217597154,
+   "P2": 0.5247952441624472,
+   "P34": 0.6332554525779791,
+   "hF": 0.5481390922073442,
+   "chirp": 0.011167018642387104
+  },
+  "true g sqrt(ell) of that window at this state": 3.498155429349876,
+  "(g^2 - 1) ell of that window at this state": 620.9616712000022,
+  "brightness: G_cell (table) / G (real window)": 48.089294722162,
+  "coefficient ratios table/true (1 = the row is exact)": {
+   "P1 (w background)": 1.0000000000023377,
+   "P2z (w gain of the window), per unit G": 0.9822253821542957,
+   "hFz (F main), per unit G": 0.9822253821512353,
+   "P4z + P3z (v background)": 0.9999999999968914,
+   "chirp, per unit G": 0.9822253821542957,
+   "d1 (target, b part)": 1.0000000623055192,
+   "d2 (target, W part), per unit G": 1.0184297825285678
+  },
+  "states evaluated": 23922,
+  "at the true worst state (comb, kappa = 1)": {
+   "state": {
+    "state (log mu, log r, log beta, log kappa)": [
+     2.324942000594298,
+     -26.164755572472536,
+     59.364042208534606,
+     0.0
+    ],
+    "mu/ell": 0.1850540528705087,
+    "ell/4 - mu": 3.58891303837569,
+    "log r + ell/2": 1.4652444275274625,
+    "log b + ell": 4.104042208534608,
+    "log kappa": 0.0
+   },
+   "f1 = f T0 of the table there (min over A)": 1.1946751966516744,
+   "(f1^2 - 1) ell (table)": 23.609770096838055,
+   "true g sqrt(ell) (min over s)": 1.2393984889728513,
+   "(g^2 - 1) ell (true)": 29.625362035512016,
+   "brightness: G_cell (table) / G (comb)": 1.029702939646726,
+   "table lines / table target": {
+    "P1": 0.04398302048107441,
+    "P2z": 0.5472232008256809,
+    "hFz": 0.5737991721920636,
+    "P4z": 0.01458272647983789,
+    "cKz": 0.014788498110445022,
+    "d1": -5.3103127048488794e-14,
+    "d2": -0.9999999999999467
+   },
+   "coefficient ratios table/true at the table's minimiser": {
+    "P2z per unit G": 0.9822253821542852,
+    "hFz per unit G": 0.9822253821542154,
+    "chirp per unit G": 0.9822253821542921,
+    "P4z + P3z": 0.9999999999999183,
+    "d2 per unit G": 1.0184297825285642
+   },
+   "remainder lines together / target": -1.55880532205585e-08
+  }
+ },
+ "100.0": {
+  "the table's worst state": {
+   "state (log mu, log r, log beta, log kappa)": [
+    3.126355951058654,
+    -53.05313601902217,
+    95.95817989422076,
+    -9.392967941805468
+   ],
+   "mu/ell": 0.2279077733004261,
+   "ell/4 - mu": 2.209222669957388,
+   "log r + ell/2": -3.053136019022169,
+   "log b + ell": -4.041820105779237,
+   "log kappa": -9.392967941805468
+  },
+  "f (table, target (1 + 2.5e-4)/sqrt(ell))": 1.055630554671142,
+  "(f1^2 - 1) ell (table)": 11.491311553652261,
+  "binding option, branch, log A": [
+   "Tz",
+   "B1",
+   -99.83402713771859
+  ],
+  "table lines / table target at the minimiser": {
+   "P1": 0.01729643345748984,
+   "P2z": 0.507606554121143,
+   "hFz": 0.5188050321513875,
+   "P4z": 0.006113000954480554,
+   "P3z": 1.122309824358092e-23,
+   "cKz": 0.005809533986647272,
+   "d1": -5.258354824136984e-26,
+   "d2": -1.0,
+   "d3": -3.218006629384975e-47,
+   "d4": -9.63482374395719e-46
+  },
+  "all remainder lines together / target": -8.201081908237369e-15,
+  "true pieces / true target (the real window with this mu, kappa, at the same state)": {
+   "P1": 1.9145237284520356,
+   "P2": 0.5179906972901648,
+   "P34": 0.676641540475224,
+   "hF": 0.5294182633772704,
+   "chirp": 0.00592838003418725
+  },
+  "true g sqrt(ell) of that window at this state": 3.6445026096288613,
+  "(g^2 - 1) ell of that window at this state": 1228.239927159158,
+  "brightness: G_cell (table) / G (real window)": 109.55465296550587,
+  "coefficient ratios table/true (1 = the row is exact)": {
+   "P1 (w background)": 1.0,
+   "P2z (w gain of the window), per unit G": 0.990099009901007,
+   "hFz (F main), per unit G": 0.9900990099010352,
+   "P4z + P3z (v background)": 0.9999999999999858,
+   "chirp, per unit G": 0.990099009900993,
+   "d1 (target, b part)": 1.0000000000005826,
+   "d2 (target, W part), per unit G": 1.0101010101010153
+  },
+  "states evaluated": 24096,
+  "at the true worst state (comb, kappa = 1)": {
+   "state": {
+    "state (log mu, log r, log beta, log kappa)": [
+     3.023779716346002,
+     -48.35417214433367,
+     105.19159378778953,
+     0.0
+    ],
+    "mu/ell": 0.20568889510827404,
+    "ell/4 - mu": 4.431110489172596,
+    "log r + ell/2": 1.645827855666333,
+    "log b + ell": 5.191593787789529,
+    "log kappa": 0.0
+   },
+   "f1 = f T0 of the table there (min over A)": 1.1150686023669036,
+   "(f1^2 - 1) ell (table)": 24.337798798447995,
+   "true g sqrt(ell) (min over s)": 1.1373217529221638,
+   "(g^2 - 1) ell (true)": 29.350076966994322,
+   "brightness: G_cell (table) / G (comb)": 1.0001659613633305,
+   "table lines / table target": {
+    "P1": 0.02064124079919275,
+    "P2z": 0.5333242791628379,
+    "hFz": 0.5471272410755367,
+    "P4z": 0.006882632185693882,
+    "cKz": 0.006814511667521009,
+    "d1": -6.165948718271324e-24,
+    "d2": -1.0
+   },
+   "coefficient ratios table/true at the table's minimiser": {
+    "P2z per unit G": 0.990099009901007,
+    "hFz per unit G": 0.9900990099010211,
+    "chirp per unit G": 0.990099009900993,
+    "P4z + P3z": 1.0,
+    "d2 per unit G": 1.0101010101010153
+   },
+   "remainder lines together / target": -9.750766625511099e-14
+  }
+ },
+ "165.78": {
+  "the table's worst state": {
+   "state (log mu, log r, log beta, log kappa)": [
+    3.6614936538309104,
+    -86.38125524645751,
+    161.36056971167895,
+    -10.611538004164986
+   ],
+   "mu/ell": 0.23476554250476622,
+   "ell/4 - mu": 2.525568363559856,
+   "log r + ell/2": -3.491255246457513,
+   "log b + ell": -4.419430288321053,
+   "log kappa": -10.611538004164986
+  },
+  "f (table, target (1 + 2.5e-4)/sqrt(ell))": 1.0360387587340432,
+  "(f1^2 - 1) ell (table)": 12.253307889174526,
+  "binding option, branch, log A": [
+   "Tz",
+   "B1",
+   -165.34203829330113
+  ],
+  "table lines / table target at the minimiser": {
+   "P1": 0.01006083114169217,
+   "P2z": 0.5063559292042913,
+   "hFz": 0.5129720486369702,
+   "P4z": 0.00339810474640527,
+   "P3z": 4.008612376645971e-38,
+   "cKz": 0.0032518450046840407,
+   "d1": -9.999334582621807e-41,
+   "d2": -1.0,
+   "d3": -3.9319423970596347e-76,
+   "d4": -2.0029433102612064e-74
+  },
+  "all remainder lines together / target": -2.4697446929897014e-22,
+  "true pieces / true target (the real window with this mu, kappa, at the same state)": {
+   "P1": 2.0399911355407765,
+   "P2": 0.5126298967299538,
+   "P34": 0.6890189749412643,
+   "hF": 0.5193279927250961,
+   "chirp": 0.0032921367614922132
+  },
+  "true g sqrt(ell) of that window at this state": 3.7642601366986113,
+  "(g^2 - 1) ell of that window at this state": 2183.2653025756667,
+  "brightness: G_cell (table) / G (real window)": 201.49219290688725,
+  "coefficient ratios table/true (1 = the row is exact)": {
+   "P1 (w background)": 0.9999999999999858,
+   "P2z (w gain of the window), per unit G": 0.994004077227471,
+   "hFz (F main), per unit G": 0.9940040772274992,
+   "P4z + P3z (v background)": 0.9999999999999716,
+   "chirp, per unit G": 0.994004077227471,
+   "d1 (target, b part)": 1.0,
+   "d2 (target, W part), per unit G": 1.0060686976574853
+  },
+  "states evaluated": 24164,
+  "at the true worst state (comb, kappa = 1)": {
+   "state": {
+    "state (log mu, log r, log beta, log kappa)": [
+     3.593195885729677,
+     -81.0992334183493,
+     171.84206964149604,
+     0.0
+    ],
+    "mu/ell": 0.21926686651990168,
+    "ell/4 - mu": 5.094938868330701,
+    "log r + ell/2": 1.7907665816507006,
+    "log b + ell": 6.062069641496038,
+    "log kappa": 0.0
+   },
+   "f1 = f T0 of the table there (min over A)": 1.0736167200309357,
+   "(f1^2 - 1) ell (table)": 25.306791384440825,
+   "true g sqrt(ell) (min over s)": 1.086557182395303,
+   "(g^2 - 1) ell (true)": 29.940947329724864,
+   "brightness: G_cell (table) / G (comb)": 1.0000010617297996,
+   "table lines / table target": {
+    "P1": 0.011176929297305255,
+    "P2z": 0.5236485997054919,
+    "hFz": 0.5310935150775413,
+    "P4z": 0.0037259044621869497,
+    "cKz": 0.0037034343926716706,
+    "d1": -2.0837311755209167e-38,
+    "d2": -1.0
+   },
+   "coefficient ratios table/true at the table's minimiser": {
+    "P2z per unit G": 0.9940040772274992,
+    "hFz per unit G": 0.9940040772275133,
+    "chirp per unit G": 0.9940040772274568,
+    "P4z + P3z": 0.9999999999999432,
+    "d2 per unit G": 1.0060686976574853
+   },
+   "remainder lines together / target": -3.802905640382707e-21
+  }
+ },
+ "331.56": {
+  "the table's worst state": {
+   "state (log mu, log r, log beta, log kappa)": [
+    4.379012665632274,
+    -169.48028984556387,
+    327.34674328274565,
+    -11.563514393037163
+   ],
+   "mu/ell": 0.24055750232919937,
+   "ell/4 - mu": 3.1307545277306588,
+   "log r + ell/2": -3.700289845563873,
+   "log b + ell": -4.213256717254353,
+   "log kappa": -11.563514393037163
+  },
+  "f (table, target (1 + 2.5e-4)/sqrt(ell))": 1.0209338019238914,
+  "(f1^2 - 1) ell (table)": 14.199735361429038,
+  "binding option, branch, log A": [
+   "Tz",
+   "B1",
+   -330.75985092180764
+  ],
+  "table lines / table target at the minimiser": {
+   "P1": 0.0049194594379047005,
+   "P2z": 0.5049775678226565,
+   "hFz": 0.508080446932093,
+   "P4z": 0.0015032579949583215,
+   "P3z": 1.6869203534423996e-74,
+   "cKz": 0.0014530697362647948,
+   "d1": -3.656761719348599e-77,
+   "d2": -1.0,
+   "d3": -1.3678436641718351e-148,
+   "d4": -1.4125729223252384e-146
+  },
+  "all remainder lines together / target": -9.334721119488415e-41,
+  "true pieces / true target (the real window with this mu, kappa, at the same state)": {
+   "P1": 1.6007497979708836,
+   "P2": 0.5081598614172457,
+   "P34": 0.48914722483259054,
+   "hF": 0.5112822944097388,
+   "chirp": 0.0014622267658219016
+  },
+  "true g sqrt(ell) of that window at this state": 3.1108014053963817,
+  "(g^2 - 1) ell of that window at this state": 2876.9744298580677,
+  "brightness: G_cell (table) / G (real window)": 324.3289234033877,
+  "coefficient ratios table/true (1 = the row is exact)": {
+   "P1 (w background)": 0.9999999999999716,
+   "P2z (w gain of the window), per unit G": 0.9969930238152651,
+   "hFz (F main), per unit G": 0.9969930238152934,
+   "P4z + P3z (v background)": 1.0,
+   "chirp, per unit G": 0.9969930238152368,
+   "d1 (target, b part)": 1.0,
+   "d2 (target, W part), per unit G": 1.0030251694094836
+  },
+  "states evaluated": 24126,
+  "at the true worst state (comb, kappa = 1)": {
+   "state": {
+    "state (log mu, log r, log beta, log kappa)": [
+     4.342971986119576,
+     -163.7999946939772,
+     338.7578066367323,
+     0.0
+    ],
+    "mu/ell": 0.23204202009810598,
+    "ell/4 - mu": 5.954147816271984,
+    "log r + ell/2": 1.9800053060228038,
+    "log b + ell": 7.1978066367323095,
+    "log kappa": 0.0
+   },
+   "f1 = f T0 of the table there (min over A)": 1.0402221916664331,
+   "(f1^2 - 1) ell (table)": 27.20854569618987,
+   "true g sqrt(ell) (min over s)": 1.0464952781902355,
+   "(g^2 - 1) ell (true)": 31.548718893519396,
+   "brightness: G_cell (table) / G (comb)": 1.0000010000007533,
+   "table lines / table target": {
+    "P1": 0.005094259584779527,
+    "P2z": 0.5142324501882349,
+    "hFz": 0.5172462578231656,
+    "P4z": 0.0016968643597989176,
+    "cKz": 0.001692369160182812,
+    "d1": -1.1881362106726996e-74,
+    "d2": -1.0
+   },
+   "coefficient ratios table/true at the table's minimiser": {
+    "P2z per unit G": 0.9969930238152934,
+    "hFz per unit G": 0.9969930238152651,
+    "chirp per unit G": 0.9969930238152651,
+    "P4z + P3z": 1.0,
+    "d2 per unit G": 1.0030251694094836
+   },
+   "remainder lines together / target": -1.7962753233604753e-39
+  }
+ },
+ "663.1": {
+  "the table's worst state": {
+   "state (log mu, log r, log beta, log kappa)": [
+    5.090097165950807,
+    -336.2678174941048,
+    657.7399958729187,
+    -13.49067333065555
+   ],
+   "mu/ell": 0.24491877783960367,
+   "ell/4 - mu": 3.3693584145588034,
+   "log r + ell/2": -4.717817494104793,
+   "log b + ell": -5.360004127081311,
+   "log kappa": -13.49067333065555
+  },
+  "f (table, target (1 + 2.5e-4)/sqrt(ell))": 1.0111300044430858,
+  "(f1^2 - 1) ell (table)": 15.181768479180636,
+  "binding option, branch, log A": [
+   "Tz",
+   "B1",
+   -661.943457358457
+  ],
+  "table lines / table target at the minimiser": {
+   "P1": 0.002314537566347674,
+   "P2z": 0.5024004703655721,
+   "hFz": 0.504627590167246,
+   "P4z": 0.0008429621408852256,
+   "P3z": 1.562327395061176e-146,
+   "cKz": 0.0009444442030296235,
+   "d1": -7.607458836317125e-150,
+   "d2": -1.0,
+   "d3": -4.69983200522514e-293,
+   "d4": -1.023241227628559e-290
+  },
+  "all remainder lines together / target": -3.0560424023698357e-77,
+  "true pieces / true target (the real window with this mu, kappa, at the same state)": {
+   "P1": 1.9710205883963594,
+   "P2": 0.5040440468326929,
+   "P34": 0.7178521355976396,
+   "hF": 0.5062784525385924,
+   "chirp": 0.0009475339021006687
+  },
+  "true g sqrt(ell) of that window at this state": 3.7001427572672805,
+  "(g^2 - 1) ell of that window at this state": 8415.439514858846,
+  "brightness: G_cell (table) / G (real window)": 850.0861228333088,
+  "coefficient ratios table/true (1 = the row is exact)": {
+   "P1 (w background)": 1.0,
+   "P2z (w gain of the window), per unit G": 0.9984942026801734,
+   "hFz (F main), per unit G": 0.9984942026801167,
+   "P4z + P3z (v background)": 0.9999999999998863,
+   "chirp, per unit G": 0.9984942026802303,
+   "d1 (target, b part)": 1.0,
+   "d2 (target, W part), per unit G": 1.0015103458692236
+  },
+  "states evaluated": 24222,
+  "at the true worst state (comb, kappa = 1)": {
+   "state": {
+    "state (log mu, log r, log beta, log kappa)": [
+     5.0688853633129645,
+     -329.387680261719,
+     671.3917568779348,
+     0.0
+    ],
+    "mu/ell": 0.23977832098018284,
+    "ell/4 - mu": 6.777995358040755,
+    "log r + ell/2": 2.162319738280985,
+    "log b + ell": 8.291756877934745,
+    "log kappa": 0.0
+   },
+   "f1 = f T0 of the table there (min over A)": 1.0220440784187803,
+   "(f1^2 - 1) ell (table)": 29.557084536905798,
+   "true g sqrt(ell) (min over s)": 1.0251264956435857,
+   "(g^2 - 1) ell (true)": 33.74140059594761,
+   "brightness: G_cell (table) / G (comb)": 1.0000010000015207,
+   "table lines / table target": {
+    "P1": 0.0024155181502283213,
+    "P2z": 0.5080956846745471,
+    "hFz": 0.5096683808227389,
+    "P4z": 0.0008051202387216385,
+    "cKz": 0.0008039273747339619,
+    "d1": -6.998117335712967e-147,
+    "d2": -1.0
+   },
+   "coefficient ratios table/true at the table's minimiser": {
+    "P2z per unit G": 0.9984942026803437,
+    "hFz per unit G": 0.998494202680287,
+    "chirp per unit G": 0.998494202680287,
+    "P4z + P3z": 1.0,
+    "d2 per unit G": 1.0015103458692236
+   },
+   "remainder lines together / target": -9.122057457536334e-76
+  }
+ },
+ "955.8": {
+  "the table's worst state": {
+   "state (log mu, log r, log beta, log kappa)": [
+    5.461907406267579,
+    -483.2644101530061,
+    949.4290480998308,
+    -15.196065605275791
+   ],
+   "mu/ell": 0.2464388769654458,
+   "ell/4 - mu": 3.403721396426903,
+   "log r + ell/2": -5.364410153006133,
+   "log b + ell": -6.370951900169189,
+   "log kappa": -15.196065605275791
+  },
+  "f (table, target (1 + 2.5e-4)/sqrt(ell))": 1.0075634028385019,
+  "(f1^2 - 1) ell (table)": 14.998094548102614,
+  "binding option, branch, log A": [
+   "Tz",
+   "B1",
+   -954.4570803340937
+  ],
+  "table lines / table target at the minimiser": {
+   "P1": 0.0016151304695370108,
+   "P2z": 0.501548054429394,
+   "hFz": 0.5032961561309574,
+   "P4z": 0.0005373294300922694,
+   "P3z": 4.768558427650989e-210,
+   "cKz": 0.0005667323785289134,
+   "d1": -7.037390214690678e-214,
+   "d2": -1.0,
+   "d3": -0.0,
+   "d4": -0.0
+  },
+  "all remainder lines together / target": -2.324536532872221e-109,
+  "true pieces / true target (the real window with this mu, kappa, at the same state)": {
+   "P1": 3.2251082729712204,
+   "P2": 0.5027242865235364,
+   "P34": 1.0729446462600358,
+   "hF": 0.5044764878786615,
+   "chirp": 0.0005680614811074766
+  },
+  "true g sqrt(ell) of that window at this state": 5.305821755114671,
+  "(g^2 - 1) ell of that window at this state": 25951.6373902786,
+  "brightness: G_cell (table) / G (real window)": 1994.2220466985768,
+  "coefficient ratios table/true (1 = the row is exact)": {
+   "P1 (w background)": 1.0000000000000568,
+   "P2z (w gain of the window), per unit G": 0.9989548494982327,
+   "hFz (F main), per unit G": 0.9989548494984598,
+   "P4z + P3z (v background)": 1.0000000000002274,
+   "chirp, per unit G": 0.9989548494982327,
+   "d1 (target, b part)": 1.0,
+   "d2 (target, W part), per unit G": 1.0010473397569917
+  },
+  "states evaluated": 24150,
+  "at the true worst state (comb, kappa = 1)": {
+   "state": {
+    "state (log mu, log r, log beta, log kappa)": [
+     5.445642143467452,
+     -475.6432559309877,
+     964.6583639441592,
+     0.0
+    ],
+    "mu/ell": 0.24246290662477296,
+    "ell/4 - mu": 7.203953848042005,
+    "log r + ell/2": 2.2567440690122567,
+    "log b + ell": 8.858363944159237,
+    "log kappa": 0.0
+   },
+   "f1 = f T0 of the table there (min over A)": 1.016046466564721,
+   "(f1^2 - 1) ell (table)": 30.92053355659026,
+   "true g sqrt(ell) (min over s)": 1.0181718207355612,
+   "(g^2 - 1) ell (true)": 35.05287208090122,
+   "brightness: G_cell (table) / G (comb)": 1.0000010000070345,
+   "table lines / table target": {
+    "P1": 0.0016444452933813772,
+    "P2z": 0.5054083143710115,
+    "hFz": 0.5076421740217989,
+    "P4z": 0.000549386517513973,
+    "cKz": 0.0005481982314228474,
+    "d1": -1.4559288254023898e-210,
+    "d2": -1.0
+   },
+   "coefficient ratios table/true at the table's minimiser": {
+    "P2z per unit G": 0.9989548494980623,
+    "hFz per unit G": 0.9989548494982894,
+    "chirp per unit G": 0.9989548494981759,
+    "P4z + P3z": 1.0000000000001137,
+    "d2 per unit G": 1.0010473397569917
+   },
+   "remainder lines together / target": -1.0736331530453901e-107
+  }
+ }
+}

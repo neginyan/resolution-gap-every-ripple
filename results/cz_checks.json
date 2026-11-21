@@ -1,0 +1,80 @@
+{
+ "(K1) repairs off, z off: cz_cells = cy_cells (values of T, B, F at both ends and margins, incl. the two-piece rule)": {
+  "ok": true,
+  "boxes": 3100,
+  "accepted": 2389
+ },
+ "(K2) N9: table/lemma = 1/sqrt2 without the repair and 1 with it": {
+  "ok": true,
+  "ratio_without": 0.7071067811865475,
+  "ratio_with": 1.0
+ },
+ "(K3) effect of the repairs and of the z-options on random initial boxes (ell near 55.26, 300, 960.8)": {
+  "ok": true,
+  "boxes": 5000,
+  "cy_cells accepted": 3853,
+  "N9 repair only": {
+   "accepted": 3853,
+   "lost": 0,
+   "gained": 0
+  },
+  "sandwich repair only": {
+   "accepted": 3853,
+   "lost": 0,
+   "gained": 0
+  },
+  "both repairs": {
+   "accepted": 3853,
+   "lost": 0,
+   "gained": 0
+  },
+  "CZ table (both repairs, z-options)": {
+   "accepted": 4625,
+   "lost vs repaired old options": 0,
+   "gained": 772
+  }
+ },
+ "(K4) concavity in G of the z-options (chord test); power: a gain made convex in G is caught": {
+  "ok": true,
+  "violations": 0,
+  "tested": {
+   "Tz": {
+    "finite kappa": [
+     0,
+     94920
+    ],
+    "true kappa tail": [
+     0,
+     3990
+    ]
+   },
+   "Bz": {
+    "finite kappa": [
+     0,
+     97405
+    ],
+    "true kappa tail": [
+     0,
+     4060
+    ]
+   },
+   "Fz": {
+    "finite kappa": [
+     0,
+     97405
+    ],
+    "true kappa tail": [
+     0,
+     4060
+    ]
+   }
+  },
+  "power_violations_of_the_convex_version": 17916
+ },
+ "(K5) K^2 y_hi <= 1 and y_hi <= 1e-6 on every box that is not skipped (beta_a > 2.5e10)": {
+  "ok": true,
+  "K2_yhi_max": 1.557279999999998e-07,
+  "y_hi_max": 1.9999999999999973e-11
+ },
+ "all_ok": true
+}
