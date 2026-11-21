@@ -34,7 +34,7 @@ python verification/run_all.py --h-repo ../resolution-gap-weak-ripple --i-repo .
 
 `quick.py` reruns the checks of paper I that need no other repository (on the code in which η is a separate argument, at η = 1/ℓ), the separation of η from 1/ℓ, the chord inventory read from the code (with the repaired line B1m), the table of how the lemmas use η, the tail, the hand proof of Theorem 3 at η = 1/4 (every step of its chain in exact rationals), and the checks of the method that computes the true quantity. It is the check of the GitHub Actions workflow.
 
-`run_all.py` runs `quick.py` and then the interval proofs of Theorems 2 and 4 at both ends (9,810 and 6,953 pieces and the tails), the absorptions (R1) and (R3), the audits of paper I re-run from scratch, the audits at strong ripples, the figure, and reads the stored records of the searches (`--full` re-runs them, several hours). Some modules import modules of paper H's repository (v1.3), which are not copied here: pass its location with `--h-repo` (or `H_REPO`). With `--i-repo` (or `I_REPO`) it also checks that every file taken from the published repository of paper I is unchanged, except the five modules that separate η from 1/ℓ.
+`run_all.py` runs `quick.py` and then the interval proofs of Theorems 2 and 4 at both ends (9,810 and 6,952 pieces and the tails), the absorptions (R1) and (R3), the audits of paper I re-run from scratch, the audits at strong ripples, the figure, and reads the stored records of the searches (`--full` re-runs them, several hours). Some modules import modules of paper H's repository (v1.3), which are not copied here: pass its location with `--h-repo` (or `H_REPO`). With `--i-repo` (or `I_REPO`) it also checks that every file taken from the published repository of paper I is unchanged, except the five modules that separate η from 1/ℓ.
 
 Every rerun is made in a temporary copy and compared with the stored record entry by entry (flags, counts and interval bounds exactly; double-precision floats up to a relative 10⁻⁹); the stored records are never overwritten. Theorem H1 is certified by the repository of paper H, not here.
 
@@ -43,10 +43,10 @@ Every rerun is made in a temporary copy and compared with the stored record entr
 | result | status | script → results |
 |---|---|---|
 | Theorem 1 (assembly; the map of the five rooms) | proof | `paper/sections/02_main_theorem.tex`; map: `verification/map_check.py`, `src/dz_figure.py` |
-| Theorem 2 (narrow focus), both ends | computer-assisted | `src/dy_run.py t2 A|B measure|final` → `results_DY/dy_t2_*.json` |
+| Theorem 2 (narrow focus), both ends | computer-assisted | `src/dy_run.py t2 A` (or `B`; `measure`, then `final`) → `results_DY/dy_t2_*.json` |
 | Theorem 3 (focus at the resolution) at η = 1/4 | proof (exact rationals) | `src/dy_room2_hand.py` → `results_DY/dy_room2_hand.json` |
-| Theorem 4 (wide focus), both ends | computer-assisted | `src/dy_run.py t4 A|B` → `results_DY/dy_t4_*.json` |
-| (R1), (R3); wrong versions | computer-assisted | `src/dy_run.py r1|power A|B` |
+| Theorem 4 (wide focus), both ends | computer-assisted | `src/dy_run.py t4 A` (or `B`) → `results_DY/dy_t4_*.json` |
+| (R1), (R3); wrong versions | computer-assisted | `src/dy_run.py r1 A`, `src/dy_run.py power A` (or `B`) → `results_DY/dy_r1_*.json`, `results_DY/dy_power_*.json` |
 | Lemma 5 (the chord) and the inventory of the 37 lines | proof; inventory read from the code | `src/dy_convex.py` → `results_DY/dy_convex.json`; the line B1m with X₁,B1(η): `src/ea_convex.py` → `results_EA/ea_convex.json` |
 | how the lemmas use η (App. A) | proof (reading); steps checked | `src/dz_lemma_table.py` → `results_DZ/dz_lemma_table.json` |
 | the tail with η and 1/ℓ separated | computer-assisted | `src/dy_tail.py` → `results_DY/dy_tail.json` |
