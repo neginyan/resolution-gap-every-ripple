@@ -4,9 +4,9 @@
 
 Code, stored results, interval-arithmetic proofs and a verification script for the paper by Taishi Namba (2026).
 
-**Paper:** T. Namba, *Wherever the observer focuses, whatever the ripple: the lower side of the logarithmic law of the resolution gap for every window of the class*, preprint, Zenodo (2026), doi: to be added at publication.
+**Paper:** T. Namba, *Wherever the observer focuses, whatever the ripple: the lower side of the logarithmic law of the resolution gap for every window of the class*, preprint, Zenodo (2026), [doi:10.5281/zenodo.24418628](https://doi.org/10.5281/zenodo.24418628) (all versions; v1.0 is [10.5281/zenodo.24418629](https://doi.org/10.5281/zenodo.24418629)).
 
-[![DOI](https://img.shields.io/badge/DOI-to%20be%20assigned-lightgrey.svg)](#citation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24418549.svg)](https://doi.org/10.5281/zenodo.24418549)
 [![verify](https://github.com/neginyan/resolution-gap-every-ripple/actions/workflows/verify.yml/badge.svg)](https://github.com/neginyan/resolution-gap-every-ripple/actions/workflows/verify.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -61,7 +61,7 @@ Every rerun is made in a temporary copy and compared with the stored record entr
 | `results/` | the stored records of paper I (unchanged) |
 | `results_DX/`, `results_DY/`, `results_DZ/`, `results_EA/` | the stored records of this paper |
 | `verification/` | `quick.py`, `run_all.py`, `map_check.py`, `common.py` |
-| `paper/` | LaTeX source of the paper (REVTeX 4.2) and its figure |
+| `paper/` | LaTeX source of the paper (REVTeX 4.2), its figure and the PDF of v1.0 (`paper/paperJ_v1.0.pdf`) |
 
 The working record of the proofs (the stage reports of the lab sessions) is kept by the author.
 
@@ -83,7 +83,7 @@ The study was carried out with AI assistants (Anthropic Claude, Google Gemini an
 
 ## Citation
 
-Please cite the paper and this repository; see `CITATION.cff`. The DOIs will be added here at publication.
+Please cite the paper ([doi:10.5281/zenodo.24418628](https://doi.org/10.5281/zenodo.24418628)) and this repository; see `CITATION.cff`. The code is archived at Zenodo: [doi:10.5281/zenodo.24418549](https://doi.org/10.5281/zenodo.24418549) (all versions; v1.0.0 is [10.5281/zenodo.24418550](https://doi.org/10.5281/zenodo.24418550)).
 
 ## License
 

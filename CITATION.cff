@@ -3,7 +3,9 @@ message: "If you use this code, please cite the paper and this repository."
 title: "resolution-gap-every-ripple: code, interval arithmetic and verification for 'Wherever the observer focuses, whatever the ripple: the lower side of the logarithmic law of the resolution gap for every window of the class'"
 type: software
 version: 1.0.0
+date-released: 2026-11-21
 license: MIT
+doi: "10.5281/zenodo.24418549"
 repository-code: "https://github.com/neginyan/resolution-gap-every-ripple"
 authors:
   - family-names: "Namba"
@@ -24,6 +26,7 @@ preferred-citation:
       given-names: "Taishi"
       orcid: "https://orcid.org/0009-0002-7098-970X"
   year: 2026
+  doi: "10.5281/zenodo.24418628"
   publisher:
     name: "Zenodo"
   notes: "Preprint"
