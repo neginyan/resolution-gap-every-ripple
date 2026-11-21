@@ -1,0 +1,23 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "dk_audit": {
+  "exit": 0,
+  "seconds": 627.3712165355682,
+  "record equals the published one (common.py)": true,
+  "first difference": null,
+  "keys of the published record written by hand (not compared)": {},
+  "ok in the new record": true
+ },
+ "dm_groups": {
+  "exit": 0,
+  "seconds": 182.9005663394928,
+  "record equals the published one (common.py)": true,
+  "first difference": null,
+  "keys of the published record written by hand (not compared)": {
+   "note": "power ok recomputed from the stored counts with the rule of the current dm_groups.power (W2: caught at some ell); FrB1 with A = e^12 is not caught at ell = 955.8 (the table's slack grows with U1)"
+  },
+  "ok in the new record": true
+ },
+ "ok": true,
+ "seconds": 810.3146336078644
+}

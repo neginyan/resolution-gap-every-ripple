@@ -1,0 +1,42 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "ell": 55.26,
+ "family": "F1 corner (+ seeds)",
+ "n": 1500,
+ "chord A (lam 1, eta 0)": {
+  "(F^2 - 1) ell at the minimum": 22.89125512141852,
+  "state": [
+   2.4002972786152883,
+   -27.84953869664222,
+   56.072906817346976,
+   -3.3888676951248855,
+   0.0
+  ],
+  "evaluations": 6883,
+  "nan": 0,
+  "family of the lowest walker": "F4 seeds"
+ },
+ "power: corner dip of paper I, chord A (lam 1, eta 0)": {
+  "margin": 5.000000000000219,
+  "found (<= 5.5)": true
+ },
+ "chord B (lam 0.8, eta 1/4)": {
+  "(F^2 - 1) ell at the minimum": 24.54359936525744,
+  "state": [
+   2.380463771704019,
+   -27.839430927727395,
+   56.07282975596011,
+   -3.369849943222873,
+   0.0
+  ],
+  "evaluations": 7313,
+  "nan": 0,
+  "family of the lowest walker": "F1 corner"
+ },
+ "power: corner dip of paper I, chord B (lam 0.8, eta 1/4)": {
+  "margin": 5.000000000000219,
+  "found (<= 5.5)": true
+ },
+ "ok": true,
+ "seconds": 45.1057984828949
+}

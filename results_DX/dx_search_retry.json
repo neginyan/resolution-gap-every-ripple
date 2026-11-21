@@ -1,0 +1,16 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "retried": {
+  "planted dip corner (paper I design, depth 5) chord A (lam 1, eta 0) ell=55.26": {
+   "n = 1500, seed 32": {
+    "margin": 5.000000000000046,
+    "found (margin <= 5.5)": true
+   },
+   "n = 800, seed 31, widths x 3": {
+    "margin": 5.000000000000005,
+    "found (margin <= 5.5)": true
+   }
+  }
+ },
+ "ok": true
+}

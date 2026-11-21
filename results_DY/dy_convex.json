@@ -1,0 +1,445 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "inventory read from the code (line -> sign, type, sandwich, basics)": {
+  "P1": {
+   "sign": 1,
+   "type": "F",
+   "sandwich": [],
+   "basics": [],
+   "grammar ok": true,
+   "why not": []
+  },
+  "P2z": {
+   "sign": 1,
+   "type": "F",
+   "sandwich": [
+    "fl",
+    "rf"
+   ],
+   "basics": [
+    "sandwich fl",
+    "sandwich ringf: (1+eta)/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "P3z": {
+   "sign": 1,
+   "type": "F",
+   "sandwich": [],
+   "basics": [],
+   "grammar ok": true,
+   "why not": []
+  },
+  "d1": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "eta"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "d2": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "d3": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "eta"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "d4": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "N1": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "eta"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "N2": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "eta"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "N3": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)",
+    "eta"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "N4": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)^2",
+    "eta",
+    "eta^2"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "N4G": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)",
+    "1/(1-eta)^2",
+    "eta^2"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "ring2": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)",
+    "eta^2"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "M0Xi": {
+   "sign": -1,
+   "type": "F",
+   "sandwich": [],
+   "basics": [],
+   "grammar ok": true,
+   "why not": []
+  },
+  "A1v": {
+   "sign": -1,
+   "type": "F",
+   "sandwich": [],
+   "basics": [],
+   "grammar ok": true,
+   "why not": []
+  },
+  "A1w": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "eta"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "A2k": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "A2a": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "eta"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "A2b": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)",
+    "eta^2"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B1w1": {
+   "sign": -1,
+   "type": "F",
+   "sandwich": [],
+   "basics": [],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B1w2": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)",
+    "eta^2"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B2a": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)^2"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B2b": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)^2",
+    "eta^2"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "pair": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "P4z": {
+   "sign": 1,
+   "type": "F",
+   "sandwich": [],
+   "basics": [],
+   "grammar ok": true,
+   "why not": []
+  },
+  "hneg1": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "eta"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "hFz": {
+   "sign": 1,
+   "type": "F",
+   "sandwich": [
+    "fl"
+   ],
+   "basics": [
+    "sandwich fl"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "cKz": {
+   "sign": 1,
+   "type": "F",
+   "sandwich": [
+    "fl"
+   ],
+   "basics": [
+    "sandwich fl"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "lossK": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B2c": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B2s": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)",
+    "sqrt(CZ)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B1m": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B1c": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)",
+    "1/(1-eta)^2",
+    "eta^2",
+    "sqrt(CZ)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "B1l": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "uB2c": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "uB2s": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)",
+    "sqrt(CZ)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  },
+  "FzK": {
+   "sign": -1,
+   "type": "P",
+   "sandwich": [],
+   "basics": [
+    "1/(1-eta)"
+   ],
+   "grammar ok": true,
+   "why not": []
+  }
+ },
+ "lines outside the grammar (must be empty)": [],
+ "differences from the hand-written inventory (must be empty)": {},
+ "the first hand-written list: rows found wrong by the check (corrected)": {
+  "N4G": [
+   "1/(1-eta)",
+   "1/(1-eta)^2",
+   "eta",
+   "eta^2"
+  ],
+  "B2s": [
+   "1/(1-eta)",
+   "1/(1-eta)^2",
+   "eta^2",
+   "sqrt(CZ)"
+  ],
+  "uB2s": [
+   "1/(1-eta)",
+   "1/(1-eta)^2",
+   "eta^2",
+   "sqrt(CZ)"
+  ]
+ },
+ "power": {
+  "(p1) N2 times (1 - eta)": {
+   "flagged by the grammar": [
+    "N2"
+   ],
+   "inventory differences": [
+    "N2"
+   ],
+   "caught": true
+  },
+  "(p2) A1w with 1/(1 + eta)": {
+   "flagged by the grammar": [
+    "A1w"
+   ],
+   "inventory differences": [
+    "A1w"
+   ],
+   "caught": true
+  },
+  "(p3) d3 with sqrt(eta)": {
+   "flagged by the grammar": [
+    "d3"
+   ],
+   "inventory differences": [
+    "d3"
+   ],
+   "caught": true
+  }
+ },
+ "numbers": {
+  "(n1) products of up to three basics": 83,
+  "(n1) smallest chord - value": -8.881784197001252e-16,
+  "(n2) loss-line coefficients compared (states x lam x lines)": 27105,
+  "(n2) smallest (chord - value)/scale": -6.666666666666667e-64,
+  "ok": true
+ },
+ "ok": true,
+ "seconds": 0.43569064140319824
+}

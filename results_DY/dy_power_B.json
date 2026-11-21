@@ -1,0 +1,343 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "end": "B",
+ "end parameters": {
+  "LAM": "0.8",
+  "ETR": "0.25",
+  "A2CJ": "3.5"
+ },
+ "rule": {
+  "C1": "0.77",
+  "CT": "6.5",
+  "CCH": "1.5",
+  "CCH for ell >= 960.8": "2.0"
+ },
+ "e0": "2e-5",
+ "paper I quoted bounds": [
+  [
+   "F1: P <=",
+   "<=",
+   "0.7008"
+  ],
+  [
+   "w16",
+   "<=",
+   "0.8972"
+  ],
+  [
+   "eps1_max",
+   "<=",
+   "0.01457"
+  ],
+  [
+   "epsh_max",
+   "<=",
+   "0.1808"
+  ],
+  [
+   "c_S",
+   "<=",
+   "0.155"
+  ],
+  [
+   "R4: constants/sigma <=",
+   "<=",
+   "1.77"
+  ],
+  [
+   "R4: e0 needed",
+   "<=",
+   "1.26e-5"
+  ],
+  [
+   "th_bg",
+   ">=",
+   "0.8985"
+  ],
+  [
+   "c1F",
+   ">=",
+   "0.7857"
+  ],
+  [
+   "R5: K_F/sqrt(b) <=",
+   "<=",
+   "1.01e-3"
+  ],
+  [
+   "c_s",
+   "<=",
+   "0.102"
+  ],
+  [
+   "c_B2/sqrt(ell)",
+   "<=",
+   "0.0896"
+  ],
+  [
+   "kf (b < 0.1)",
+   ">=",
+   "0.4493"
+  ],
+  [
+   "cK",
+   ">=",
+   "0.02758"
+  ],
+  [
+   "Case I (Tz-B2): A2k/cKz <=",
+   "<=",
+   "0.04616"
+  ],
+  [
+   "cb ell",
+   "<=",
+   "0.05593"
+  ],
+  [
+   "P_II",
+   "<=",
+   "0.5223"
+  ],
+  [
+   "b_II ell",
+   "<=",
+   "0.01526"
+  ],
+  [
+   "brk (Case II)",
+   ">=",
+   "0.998"
+  ],
+  [
+   "kf (Case II)",
+   ">=",
+   "0.9975"
+  ],
+  [
+   "tc",
+   "<=",
+   "1.0779"
+  ],
+  [
+   "T_max ell",
+   "<=",
+   "0.1877"
+  ],
+  [
+   "c_kap",
+   ">=",
+   "4.935"
+  ],
+  [
+   "c_u",
+   "<=",
+   "0.48"
+  ],
+  [
+   "vth0",
+   ">=",
+   "0.7858"
+  ],
+  [
+   "m1: mu ell <",
+   "<=",
+   "7.7"
+  ],
+  [
+   "rhobar (xi >= 8)",
+   "<=",
+   "0.12501"
+  ],
+  [
+   "x_n",
+   ">=",
+   "0.1347"
+  ],
+  [
+   "mu_n",
+   ">=",
+   "7.44"
+  ],
+  [
+   "c_J",
+   ">=",
+   "0.0913"
+  ],
+  [
+   "m3: log Ch(ell, mu_n)",
+   ">=",
+   "2.8332"
+  ],
+  [
+   "x0 (certified lower bound)",
+   ">=",
+   "0.1531"
+  ],
+  [
+   "mu_II",
+   ">=",
+   "8.46"
+  ],
+  [
+   "r bound coefficient",
+   "<=",
+   "18.7"
+  ],
+  [
+   "m4: factor of K",
+   ">=",
+   "0.997"
+  ],
+  [
+   "eps1 ell^2",
+   "<=",
+   "0.80"
+  ],
+  [
+   "U_max",
+   "<=",
+   "5.96"
+  ],
+  [
+   "b.2: G/sigma at mu = ell + ln ell <=",
+   "<=",
+   "1.5"
+  ],
+  [
+   "c_G",
+   ">=",
+   "2.2e5"
+  ],
+  [
+   "b.5: u lower bound (kappa_b = kappa), ell >= 397.6, mu >= x0 ell",
+   ">=",
+   "6.0"
+  ],
+  [
+   "b.4: r <= (at mu_II)",
+   "<=",
+   "1e-6"
+  ],
+  [
+   "II-s: log(a_s/sigma) <=",
+   "<=",
+   "-29.89"
+  ],
+  [
+   "II-ch: A2k + B2a relative to cKz <=",
+   "<=",
+   "1e-3"
+  ],
+  [
+   "m4: m1 after (b.4) >=",
+   ">=",
+   "0.9994"
+  ],
+  [
+   "m4: m4 after (b.4) >=",
+   ">=",
+   "0.9994"
+  ],
+  [
+   "m4: m5 after (b.4) >=",
+   ">=",
+   "0.9994"
+  ],
+  [
+   "c_k",
+   ">=",
+   "0.1107"
+  ],
+  [
+   "b.1 first pass: P/(mu e^-mu) <=",
+   "<=",
+   "9.18"
+  ]
+ ],
+ "c1F quoted 1e-4 above its worst": {
+  "pieces checked": 36,
+  "failing pieces": 2,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "quoted: c1F >= 0.620421"
+   ],
+   [
+    "55.31526",
+    "quoted: c1F >= 0.620421"
+   ]
+  ]
+ },
+ "eps1 ell^2 quoted 1e-4 below its worst": {
+  "pieces checked": 36,
+  "failing pieces": 1,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "quoted: eps1 ell^2 <= 0.807059"
+   ]
+  ]
+ },
+ "R4 e0 needed quoted 1e-4 below its worst": {
+  "pieces checked": 36,
+  "failing pieces": 36,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "quoted: R4: e0 needed <= 1.63728e-05"
+   ],
+   [
+    "55.31526",
+    "quoted: R4: e0 needed <= 1.63728e-05"
+   ],
+   [
+    "55.37057526",
+    "quoted: R4: e0 needed <= 1.63728e-05"
+   ]
+  ]
+ },
+ "the rule constant c1 = 0.776": {
+  "pieces checked": 36,
+  "failing pieces": 30,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)"
+   ],
+   [
+    "55.31526",
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)"
+   ],
+   [
+    "55.37057526",
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)"
+   ]
+  ]
+ },
+ "e0 = 1.26e-5 (the number of paper I; at the end A the e0 needed is below it, so this version is for the end B)": {
+  "pieces checked": 36,
+  "failing pieces": 36,
+  "caught": true,
+  "first failures": [
+   [
+    "55.26",
+    "R4: e0 - e0 needed (must be >= 0)"
+   ],
+   [
+    "55.31526",
+    "R4: e0 - e0 needed (must be >= 0)"
+   ],
+   [
+    "55.37057526",
+    "R4: e0 - e0 needed (must be >= 0)"
+   ]
+  ]
+ },
+ "ok": true,
+ "seconds": 2.314117908477783
+}

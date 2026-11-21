@@ -1,0 +1,69 @@
+{
+ "forget eta (remainders at 1/ell), lemma at eta = 1/4": {
+  "violations (mode ell)": {
+   "uniform 55.26": 7200,
+   "uniform 960.8": 5554,
+   "chord 55.26": 7194,
+   "chord 960.8": 5554
+  },
+  "caught": true
+ },
+ "old X1 in B1m (x1new off)": {
+  "violations (mode ell)": {
+   "uniform 55.26": 0,
+   "uniform 960.8": 0,
+   "chord 55.26": 0,
+   "chord 960.8": 0
+  },
+  "caught": false
+ },
+ "target with coefficient 1 (not lam/Upsilon)": {
+  "violations (mode ell)": {
+   "uniform 55.26": 2137,
+   "uniform 960.8": 1886,
+   "chord 55.26": 2107,
+   "chord 960.8": 1886
+  },
+  "caught": true
+ },
+ "dk_table P2z x1.01": {
+  "violations (mode ell)": {
+   "uniform 55.26": 646,
+   "uniform 960.8": 485,
+   "chord 55.26": 641,
+   "chord 960.8": 485
+  },
+  "caught": true
+ },
+ "dk_table N1 x0.99": {
+  "violations (mode ell)": {
+   "uniform 55.26": 687,
+   "uniform 960.8": 511,
+   "chord 55.26": 677,
+   "chord 960.8": 511
+  },
+  "caught": true
+ },
+ "dk_table B2c x0.99": {
+  "violations (mode ell)": {
+   "uniform 55.26": 474,
+   "uniform 960.8": 470,
+   "chord 55.26": 470,
+   "chord 960.8": 470
+  },
+  "caught": true
+ },
+ "dk_table FrB1 x 0.9/1.2936": {
+  "violations (mode ell)": {
+   "uniform 55.26": 416,
+   "uniform 960.8": 441,
+   "chord 55.26": 416,
+   "chord 960.8": 441
+  },
+  "caught": true
+ },
+ "expected not visible to this audit (checked by dx_groups)": [
+  "old X1 in B1m (x1new off)"
+ ],
+ "ok": true
+}

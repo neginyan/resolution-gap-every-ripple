@@ -1,0 +1,2397 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "status": "numerical estimate (interval arithmetic read at points); not a proof",
+ "python": "3.13.18",
+ "uniform: best rule on ell = 55.26, 960.8 (min over every condition, both ends)": [
+  -0.025304687824975993,
+  "0.6",
+  "1.2",
+  "5"
+ ],
+ "uniform: top 10": [
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.4",
+   "8"
+  ],
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.4",
+   "6.5"
+  ],
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.4",
+   "5"
+  ],
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.3",
+   "8"
+  ],
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.3",
+   "6.5"
+  ],
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.3",
+   "5"
+  ],
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.2",
+   "8"
+  ],
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.2",
+   "6.5"
+  ],
+  [
+   -0.025304687824975993,
+   "0.6",
+   "1.2",
+   "5"
+  ],
+  [
+   -0.03061965020086334,
+   "0.6",
+   "1.5",
+   "8"
+  ]
+ ],
+ "chord: best rule on ell = 55.26, 960.8 (min over every condition, both ends)": [
+  0.0011513285395436258,
+  "0.77",
+  "1.5",
+  "6.5"
+ ],
+ "chord: top 10": [
+  [
+   0.0011513285395436258,
+   "0.77",
+   "1.8",
+   "8"
+  ],
+  [
+   0.0011513285395436258,
+   "0.77",
+   "1.8",
+   "6.5"
+  ],
+  [
+   0.0011513285395436258,
+   "0.77",
+   "1.7",
+   "8"
+  ],
+  [
+   0.0011513285395436258,
+   "0.77",
+   "1.7",
+   "6.5"
+  ],
+  [
+   0.0011513285395436258,
+   "0.77",
+   "1.6",
+   "8"
+  ],
+  [
+   0.0011513285395436258,
+   "0.77",
+   "1.6",
+   "6.5"
+  ],
+  [
+   0.0011513285395436258,
+   "0.77",
+   "1.5",
+   "8"
+  ],
+  [
+   0.0011513285395436258,
+   "0.77",
+   "1.5",
+   "6.5"
+  ],
+  [
+   0.0011273424305459252,
+   "0.76",
+   "1.8",
+   "8"
+  ],
+  [
+   0.0011273424305459252,
+   "0.76",
+   "1.8",
+   "6.5"
+  ]
+ ],
+ "chosen rule (chord)": {
+  "C1": "0.77",
+  "CT": "6.5",
+  "CCH": "1.5"
+ },
+ "table uniform, DU rule (c1 0.62, c_T 6.5, c_ch 1.7)": {
+  "A ell=55.26": {
+   "error": null,
+   "A2C used": "2.7",
+   "failing": [
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)",
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": -0.045304687824975994,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.04841917778554031,
+    "II-ch: slack (must be >= 0)": -0.014701675661858865,
+    "II-s: slack (must be >= 0)": 0.054826056380045084
+   },
+   "min margin over all conditions": -0.045304687824975994,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": -0.045304687824975994,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.04841917778554031,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.1626428575485055,
+    "16 b_II (must be <= 1)": 0.006741622662769807,
+    "II-ch: slack (must be >= 0)": -0.014701675661858865,
+    "II-s: slack (must be >= 0)": 0.054826056380045084,
+    "m1: slack 1 (must be >= 0)": 0.08408203765954111,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04281702927125098,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0461673637283844,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.05766219916974225,
+    "m3: slack (must be >= 0)": 3.413398184405688,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0006539503863732881,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000505761143632,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.80882646598135,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.9626750308209466,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07774314488523013,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3453624578099375,
+    "F: left - right (must be >= 0)": 59.00456104824445
+   }
+  },
+  "A ell=960.8": {
+   "error": null,
+   "A2C used": "2.7",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.05067341428344664,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.05795548693818065,
+    "II-ch: slack (must be >= 0)": 0.024466430968909644,
+    "II-s: slack (must be >= 0)": 0.07367206500140663
+   },
+   "min margin over all conditions": 0.002,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.05067341428344664,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.05795548693818065,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.7769306115646764,
+    "16 b_II (must be <= 1)": 0.00033142073513300034,
+    "II-ch: slack (must be >= 0)": 0.024466430968909644,
+    "II-s: slack (must be >= 0)": 0.07367206500140663,
+    "m1: slack 1 (must be >= 0)": 0.0934489726076183,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06492631609887908,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.7359968198473902e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06997809702544261,
+    "m3: slack (must be >= 0)": 306.0441628972241,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 723.1645134340864,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.700838601687675,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712458503238
+   }
+  },
+  "A ell=10000": {
+   "error": null,
+   "A2C used": "2.7",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.06960234226150716,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.05979506619794972,
+    "II-ch: slack (must be >= 0)": 0.028098794606481587,
+    "II-s: slack (must be >= 0)": 0.07598472008231118
+   },
+   "min margin over all conditions": 0.00025083727526220085,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.06960234226150716,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.05979506619794972,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.8162307772996606,
+    "16 b_II (must be <= 1)": 3.1544972323416634e-05,
+    "II-ch: slack (must be >= 0)": 0.028098794606481587,
+    "II-s: slack (must be >= 0)": 0.07598472008231118,
+    "m1: slack 1 (must be >= 0)": 0.09392219587488593,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06617668414692579,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07063579280035086,
+    "m3: slack (must be >= 0)": 3408.879996498285,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7795.175890966065,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415507839266,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.74616817576805
+   }
+  },
+  "A ell=1000000": {
+   "error": null,
+   "A2C used": "2.7",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.07720521079240907,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.060514570427009744,
+    "II-ch: slack (must be >= 0)": 0.029008123179005505,
+    "II-s: slack (must be >= 0)": 0.07675374930262434
+   },
+   "min margin over all conditions": 2.500083668488359e-06,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.07720521079240907,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.060514570427009744,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.82040520398492,
+    "16 b_II (must be <= 1)": 3.151362418044178e-07,
+    "II-ch: slack (must be >= 0)": 0.029008123179005505,
+    "II-s: slack (must be >= 0)": 0.07675374930262434,
+    "m1: slack 1 (must be >= 0)": 0.09397172221958708,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06630848536872985,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07070572153593585,
+    "m3: slack (must be >= 0)": 344001.179707139,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 782848.512233015,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.46977342398742
+   }
+  },
+  "B ell=55.26": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.12806893143740597,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.011911558043196557,
+    "II-ch: slack (must be >= 0)": -0.036418458048056115,
+    "II-s: slack (must be >= 0)": 0.019203727585467043
+   },
+   "min margin over all conditions": -0.036418458048056115,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.12806893143740597,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.011911558043196557,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.1626428575485055,
+    "16 b_II (must be <= 1)": 0.006741622662769807,
+    "II-ch: slack (must be >= 0)": -0.036418458048056115,
+    "II-s: slack (must be >= 0)": 0.019203727585467043,
+    "m1: slack 1 (must be >= 0)": 0.06726563012763288,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04281702927125098,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0461673637283844,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.05766219916974225,
+    "m3: slack (must be >= 0)": 3.4133980601232894,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0006539503863732881,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000505761143632,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.80882646598135,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.962615368889308,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07774314488523013,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3453624578099375,
+    "F: left - right (must be >= 0)": 58.997196448275105
+   }
+  },
+  "B ell=960.8": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.18562593791777665,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.021447867195836905,
+    "II-ch: slack (must be >= 0)": -0.003176710912913237,
+    "II-s: slack (must be >= 0)": 0.03618779631308436
+   },
+   "min margin over all conditions": -0.003176710912913237,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.18562593791777665,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.021447867195836905,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.7769306115646764,
+    "16 b_II (must be <= 1)": 0.00033142073513300034,
+    "II-ch: slack (must be >= 0)": -0.003176710912913237,
+    "II-s: slack (must be >= 0)": 0.03618779631308436,
+    "m1: slack 1 (must be >= 0)": 0.07475917808609464,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06492631609887908,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.7359968198473902e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06997809702544261,
+    "m3: slack (must be >= 0)": 306.04416289692375,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 723.1645134340864,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.700838601537503,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712453902892
+   }
+  },
+  "B ell=10000": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.19698142906535798,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.02328744645560597,
+    "II-ch: slack (must be >= 0)": 9.709584909812999e-05,
+    "II-s: slack (must be >= 0)": 0.038405836229761806
+   },
+   "min margin over all conditions": 9.709584909812999e-05,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.19698142906535798,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.02328744645560597,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.8162307772996606,
+    "16 b_II (must be <= 1)": 3.1544972323416634e-05,
+    "II-ch: slack (must be >= 0)": 9.709584909812999e-05,
+    "II-s: slack (must be >= 0)": 0.038405836229761806,
+    "m1: slack 1 (must be >= 0)": 0.07513775669990874,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06617668414692579,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07063579280035086,
+    "m3: slack (must be >= 0)": 3408.8799964982823,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7795.175890966065,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415507837906,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.74616817533337
+   }
+  },
+  "B ell=1000000": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.20154295233375924,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.024006950684665997,
+    "II-ch: slack (must be >= 0)": 0.0009684595529292684,
+    "II-s: slack (must be >= 0)": 0.039164960451824334
+   },
+   "min margin over all conditions": 2.500083668488359e-06,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.20154295233375924,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.024006950684665997,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.82040520398492,
+    "16 b_II (must be <= 1)": 3.151362418044178e-07,
+    "II-ch: slack (must be >= 0)": 0.0009684595529292684,
+    "II-s: slack (must be >= 0)": 0.039164960451824334,
+    "m1: slack 1 (must be >= 0)": 0.07517737777566967,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06630848536872985,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07070572153593585,
+    "m3: slack (must be >= 0)": 344001.179707139,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 782848.512233015,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.46977342398736
+   }
+  },
+  "S ell=55.26": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3014425506997879,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.024596061699147194,
+    "II-ch: slack (must be >= 0)": -0.05813524043425336,
+    "II-s: slack (must be >= 0)": -0.016418601209110994
+   },
+   "min margin over all conditions": -0.05813524043425336,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3014425506997879,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.024596061699147194,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.1626428575485055,
+    "16 b_II (must be <= 1)": 0.006741622662769807,
+    "II-ch: slack (must be >= 0)": -0.05813524043425336,
+    "II-s: slack (must be >= 0)": -0.016418601209110994,
+    "m1: slack 1 (must be >= 0)": 0.050449222595724666,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04281702927125098,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0461673637283844,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.05766219916974225,
+    "m3: slack (must be >= 0)": 3.4133978648217354,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0006539503863732881,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000505761143632,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.80882646598135,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.9625159224362547,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07774314488523013,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3453624578099375,
+    "F: left - right (must be >= 0)": 58.98492284588391
+   }
+  },
+  "S ell=960.8": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3205784615521067,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.015059752546506848,
+    "II-ch: slack (must be >= 0)": -0.03081985279473612,
+    "II-s: slack (must be >= 0)": -0.001296472375237924
+   },
+   "min margin over all conditions": -0.03081985279473612,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3205784615521067,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.015059752546506848,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.7769306115646764,
+    "16 b_II (must be <= 1)": 0.00033142073513300034,
+    "II-ch: slack (must be >= 0)": -0.03081985279473612,
+    "II-s: slack (must be >= 0)": -0.001296472375237924,
+    "m1: slack 1 (must be >= 0)": 0.05606938356457098,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06492631609887908,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.7359968198473902e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06997809702544261,
+    "m3: slack (must be >= 0)": 306.0441628964518,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 723.1645134340864,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.70083860130152,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712446673773
+   }
+  },
+  "S ell=10000": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.32436051586920883,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.013220173286737781,
+    "II-ch: slack (must be >= 0)": -0.027904602908285326,
+    "II-s: slack (must be >= 0)": 0.0008269523772124282
+   },
+   "min margin over all conditions": -0.027904602908285326,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.32436051586920883,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.013220173286737781,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.8162307772996606,
+    "16 b_II (must be <= 1)": 3.1544972323416634e-05,
+    "II-ch: slack (must be >= 0)": -0.027904602908285326,
+    "II-s: slack (must be >= 0)": 0.0008269523772124282,
+    "m1: slack 1 (must be >= 0)": 0.056353317524931563,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06617668414692579,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07063579280035086,
+    "m3: slack (must be >= 0)": 3408.8799964982777,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7795.175890966065,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415507835769,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.74616817465028
+   }
+  },
+  "S ell=1000000": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.32588069387510943,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.012500669057677756,
+    "II-ch: slack (must be >= 0)": -0.027071204073146966,
+    "II-s: slack (must be >= 0)": 0.0015761716010243322
+   },
+   "min margin over all conditions": -0.027071204073146966,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.32588069387510943,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.012500669057677756,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.82040520398492,
+    "16 b_II (must be <= 1)": 3.151362418044178e-07,
+    "II-ch: slack (must be >= 0)": -0.027071204073146966,
+    "II-s: slack (must be >= 0)": 0.0015761716010243322,
+    "m1: slack 1 (must be >= 0)": 0.05638303333175225,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06630848536872985,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07070572153593585,
+    "m3: slack (must be >= 0)": 344001.179707139,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 782848.512233015,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.4697734239873
+   }
+  }
+ },
+ "table chord, DU rule (c1 0.62, c_T 6.5, c_ch 1.7)": {
+  "A ell=55.26": {
+   "error": null,
+   "A2C used": "2.1",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.18120322145097764,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.08675675984610495,
+    "II-ch: slack (must be >= 0)": 0.020927573065372452,
+    "II-s: slack (must be >= 0)": 0.0904553051072764
+   },
+   "min margin over all conditions": 0.0006799662793363346,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.18120322145097764,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.08675675984610495,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.1626428575485055,
+    "16 b_II (must be <= 1)": 0.006741622662769807,
+    "II-ch: slack (must be >= 0)": 0.020927573065372452,
+    "II-s: slack (must be >= 0)": 0.0904553051072764,
+    "m1: slack 1 (must be >= 0)": 0.08408735844096298,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04287786127639817,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.04541623448988296,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.057705392726698286,
+    "m3: slack (must be >= 0)": 3.454204027875181,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0006799662793363346,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000447960046195,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.9158939378358,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.963907584789662,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07775422841664369,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3455659615897257,
+    "F: left - right (must be >= 0)": 59.10614549843921
+   }
+  },
+  "A ell=960.8": {
+   "error": null,
+   "A2C used": "2.1",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.2681878503707446,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.09025416831748356,
+    "II-ch: slack (must be >= 0)": 0.05405677901487922,
+    "II-s: slack (must be >= 0)": 0.10326241304737621
+   },
+   "min margin over all conditions": 0.002,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.2681878503707446,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.09025416831748356,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.7769306115646764,
+    "16 b_II (must be <= 1)": 0.00033142073513300034,
+    "II-ch: slack (must be >= 0)": 0.05405677901487922,
+    "II-s: slack (must be >= 0)": 0.10326241304737621,
+    "m1: slack 1 (must be >= 0)": 0.09344898652990105,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06498152357617396,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.0701432680244747e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06997809702544261,
+    "m3: slack (must be >= 0)": 306.60453373198305,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 724.4527482074596,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.70083934023782,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.0026933186812027085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2560992750335098,
+    "F: left - right (must be >= 0)": 152.0771255574755
+   }
+  },
+  "A ell=10000": {
+   "error": null,
+   "A2C used": "2.1",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.285344015236054,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.0908382259451256,
+    "II-ch: slack (must be >= 0)": 0.05643362102032414,
+    "II-s: slack (must be >= 0)": 0.10431954649615373
+   },
+   "min margin over all conditions": 0.00025083727592986827,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.285344015236054,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.0908382259451256,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.8162307772996606,
+    "16 b_II (must be <= 1)": 3.1544972323416634e-05,
+    "II-ch: slack (must be >= 0)": 0.05643362102032414,
+    "II-s: slack (must be >= 0)": 0.10431954649615373,
+    "m1: slack 1 (must be >= 0)": 0.0939221960016139,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06623212287657534,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07063579280035086,
+    "m3: slack (must be >= 0)": 3414.6452858637963,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7808.310256177863,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415514521441,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727592986827,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.250589294653857,
+    "F: left - right (must be >= 0)": 158.74616817699373
+   }
+  },
+  "A ell=1000000": {
+   "error": null,
+   "A2C used": "2.1",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.29223497650276603,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.09105619266006036,
+    "II-ch: slack (must be >= 0)": 0.056841412078722786,
+    "II-s: slack (must be >= 0)": 0.10458703820234161
+   },
+   "min margin over all conditions": 2.5000836684890256e-06,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.29223497650276603,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.09105619266006036,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.82040520398492,
+    "16 b_II (must be <= 1)": 3.151362418044178e-07,
+    "II-ch: slack (must be >= 0)": 0.056841412078722786,
+    "II-s: slack (must be >= 0)": 0.10458703820234161,
+    "m1: slack 1 (must be >= 0)": 0.09397172221959973,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06636395128005843,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07070572153593585,
+    "m3: slack (must be >= 0)": 344576.99709165096,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 784159.0607135756,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418754,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.5000836684890256e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964115919,
+    "F: left - right (must be >= 0)": 159.46977342398745
+   }
+  },
+  "B ell=55.26": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.12344605107645215,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.011911558043196557,
+    "II-ch: slack (must be >= 0)": -0.036418458048056115,
+    "II-s: slack (must be >= 0)": 0.019203727585467043
+   },
+   "min margin over all conditions": -0.036418458048056115,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.12344605107645215,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.011911558043196557,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.1626428575485055,
+    "16 b_II (must be <= 1)": 0.006741622662769807,
+    "II-ch: slack (must be >= 0)": -0.036418458048056115,
+    "II-s: slack (must be >= 0)": 0.019203727585467043,
+    "m1: slack 1 (must be >= 0)": 0.06726563012763288,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04278510780085065,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.04645589184022735,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.05764554764894998,
+    "m3: slack (must be >= 0)": 3.398090490304989,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0006439171599487679,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000510211969267,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.766705468918538,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.962603092090883,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07774269516313974,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3453623285212728,
+    "F: left - right (must be >= 0)": 58.99570220897067
+   }
+  },
+  "B ell=960.8": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.1846004468322851,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.021447867195836905,
+    "II-ch: slack (must be >= 0)": -0.003176710912913237,
+    "II-s: slack (must be >= 0)": 0.03618779631308436
+   },
+   "min margin over all conditions": -0.003176710912913237,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.1846004468322851,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.021447867195836905,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.7769306115646764,
+    "16 b_II (must be <= 1)": 0.00033142073513300034,
+    "II-ch: slack (must be >= 0)": -0.003176710912913237,
+    "II-s: slack (must be >= 0)": 0.03618779631308436,
+    "m1: slack 1 (must be >= 0)": 0.07475917808609464,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06489180528757935,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 3.239476020642919e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06997809702544261,
+    "m3: slack (must be >= 0)": 305.70476152351,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 722.3841957864715,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.700838601537503,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712453902892
+   }
+  },
+  "B ell=10000": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.19666504322496686,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.02328744645560597,
+    "II-ch: slack (must be >= 0)": 9.709584909812999e-05,
+    "II-s: slack (must be >= 0)": 0.038405836229761806
+   },
+   "min margin over all conditions": 9.709584909812999e-05,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.19666504322496686,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.02328744645560597,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.8162307772996606,
+    "16 b_II (must be <= 1)": 3.1544972323416634e-05,
+    "II-ch: slack (must be >= 0)": 9.709584909812999e-05,
+    "II-s: slack (must be >= 0)": 0.038405836229761806,
+    "m1: slack 1 (must be >= 0)": 0.07513775669990874,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06614201153829985,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07063579280035086,
+    "m3: slack (must be >= 0)": 3405.287589029973,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7786.993211246606,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415507837906,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.74616817533337
+   }
+  },
+  "B ell=1000000": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.20151132939904406,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.024006950684665997,
+    "II-ch: slack (must be >= 0)": 0.0009684595529292684,
+    "II-s: slack (must be >= 0)": 0.039164960451824334
+   },
+   "min margin over all conditions": 2.500083668488359e-06,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.20151132939904406,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.024006950684665997,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.82040520398492,
+    "16 b_II (must be <= 1)": 3.151362418044178e-07,
+    "II-ch: slack (must be >= 0)": 0.0009684595529292684,
+    "II-s: slack (must be >= 0)": 0.039164960451824334,
+    "m1: slack 1 (must be >= 0)": 0.07517737777566967,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06627379560157988,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07070572153593585,
+    "m3: slack (must be >= 0)": 343641.30475123326,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 782029.594677057,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.46977342398736
+   }
+  },
+  "S ell=55.26": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.2921967899778803,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.024596061699147194,
+    "II-ch: slack (must be >= 0)": -0.05813524043425336,
+    "II-s: slack (must be >= 0)": -0.016418601209110994
+   },
+   "min margin over all conditions": -0.05813524043425336,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.2921967899778803,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.024596061699147194,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.1626428575485055,
+    "16 b_II (must be <= 1)": 0.006741622662769807,
+    "II-ch: slack (must be >= 0)": -0.05813524043425336,
+    "II-s: slack (must be >= 0)": -0.016418601209110994,
+    "m1: slack 1 (must be >= 0)": 0.050449222595724666,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04273186818788847,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.04694055581876822,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.05761750211374523,
+    "m3: slack (must be >= 0)": 3.3725728275144307,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0006270136322271225,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000517717758508,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.696476722464308,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.962479894003661,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.0777419366208878,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3453621066089871,
+    "F: left - right (must be >= 0)": 58.98053443006953
+   }
+  },
+  "S ell=960.8": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3185274793811236,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.015059752546506848,
+    "II-ch: slack (must be >= 0)": -0.03081985279473612,
+    "II-s: slack (must be >= 0)": -0.001296472375237924
+   },
+   "min margin over all conditions": -0.03081985279473612,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3185274793811236,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.015059752546506848,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.7769306115646764,
+    "16 b_II (must be <= 1)": 0.00033142073513300034,
+    "II-ch: slack (must be >= 0)": -0.03081985279473612,
+    "II-s: slack (must be >= 0)": -0.001296472375237924,
+    "m1: slack 1 (must be >= 0)": 0.05606938356457098,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.06483424709199605,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 4.292773301914765e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06997809702544261,
+    "m3: slack (must be >= 0)": 305.1390986616413,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 721.083664487257,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.70083860130152,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712446673773
+   }
+  },
+  "S ell=10000": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3237277441884266,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.013220173286737781,
+    "II-ch: slack (must be >= 0)": -0.027904602908285326,
+    "II-s: slack (must be >= 0)": 0.0008269523772124282
+   },
+   "min margin over all conditions": -0.027904602908285326,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3237277441884266,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.013220173286737781,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.8162307772996606,
+    "16 b_II (must be <= 1)": 3.1544972323416634e-05,
+    "II-ch: slack (must be >= 0)": -0.027904602908285326,
+    "II-s: slack (must be >= 0)": 0.0008269523772124282,
+    "m1: slack 1 (must be >= 0)": 0.056353317524931563,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.0660841834921452,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07063579280035086,
+    "m3: slack (must be >= 0)": 3399.3002493437466,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7773.355409849335,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415507835769,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.74616817465028
+   }
+  },
+  "S ell=1000000": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3258174480056791,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.012500669057677756,
+    "II-ch: slack (must be >= 0)": -0.027071204073146966,
+    "II-s: slack (must be >= 0)": 0.0015761716010243322
+   },
+   "min margin over all conditions": -0.027071204073146966,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3258174480056791,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.012500669057677756,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.82040520398492,
+    "16 b_II (must be <= 1)": 3.151362418044178e-07,
+    "II-ch: slack (must be >= 0)": -0.027071204073146966,
+    "II-s: slack (must be >= 0)": 0.0015761716010243322,
+    "m1: slack 1 (must be >= 0)": 0.05638303333175225,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.0662159389379096,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.07070572153593585,
+    "m3: slack (must be >= 0)": 343041.51316415146,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 780664.7320819314,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.4697734239873
+   }
+  }
+ },
+ "table uniform, its best rule": {
+  "A ell=55.26": {
+   "error": null,
+   "A2C used": "2.7",
+   "failing": [
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": -0.025304687824975993,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.008795001159759057,
+    "II-ch: slack (must be >= 0)": 0.023963139653028858,
+    "II-s: slack (must be >= 0)": -0.00045172134245491786
+   },
+   "min margin over all conditions": -0.025304687824975993,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": -0.025304687824975993,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.008795001159759057,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 2.957297691347221,
+    "16 b_II (must be <= 1)": 0.007199054849436508,
+    "II-ch: slack (must be >= 0)": 0.023963139653028858,
+    "II-s: slack (must be >= 0)": -0.00045172134245491786,
+    "m1: slack 1 (must be >= 0)": 0.05643945881926118,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.024863499646310613,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.04952571929493316,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.053849413833003124,
+    "m3: slack (must be >= 0)": 3.3358587454042437,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0005529000796448901,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000543575341971,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.7155383280555,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.9625757641676316,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07773936040569072,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3453220409177782,
+    "F: left - right (must be >= 0)": 59.002543063280825
+   }
+  },
+  "A ell=960.8": {
+   "error": null,
+   "A2C used": "2.7",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.07067341428344665,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.0183313103123994,
+    "II-ch: slack (must be >= 0)": 0.06979681109397101,
+    "II-s: slack (must be >= 0)": 0.018394287278906636
+   },
+   "min margin over all conditions": 0.002,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.07067341428344665,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.0183313103123994,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5369236164107596,
+    "16 b_II (must be <= 1)": 0.0003538849060981576,
+    "II-ch: slack (must be >= 0)": 0.06979681109397101,
+    "II-s: slack (must be >= 0)": 0.018394287278906636,
+    "m1: slack 1 (must be >= 0)": 0.06581007367148671,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.045524116256545163,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.9396662873954835e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06553619908730317,
+    "m3: slack (must be >= 0)": 305.96605660959494,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 723.0703883584513,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.70083860160649,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712456016262
+   }
+  },
+  "A ell=10000": {
+   "error": null,
+   "A2C used": "2.7",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.08960234226150715,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.02017088957216847,
+    "II-ch: slack (must be >= 0)": 0.07386178278562987,
+    "II-s: slack (must be >= 0)": 0.02070694235981118
+   },
+   "min margin over all conditions": 0.00025083727526220085,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.08960234226150715,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.02017088957216847,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5739680536625333,
+    "16 b_II (must be <= 1)": 3.3683031410448525e-05,
+    "II-ch: slack (must be >= 0)": 0.07386178278562987,
+    "II-s: slack (must be >= 0)": 0.02070694235981118,
+    "m1: slack 1 (must be >= 0)": 0.06628330689428796,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04668354077161704,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06615214726359603,
+    "m3: slack (must be >= 0)": 3408.801818673877,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7795.0816398087745,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.84941550783853,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.74616817553306
+   }
+  },
+  "A ell=1000000": {
+   "error": null,
+   "A2C used": "2.7",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.09720521079240906,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.020890393801228493,
+    "II-ch: slack (must be >= 0)": 0.07481710076606508,
+    "II-s: slack (must be >= 0)": 0.021475971580124334
+   },
+   "min margin over all conditions": 2.500083668488359e-06,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.09720521079240906,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.020890393801228493,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5779026426497693,
+    "16 b_II (must be <= 1)": 3.3649547706528023e-07,
+    "II-ch: slack (must be >= 0)": 0.07481710076606508,
+    "II-s: slack (must be >= 0)": 0.021475971580124334,
+    "m1: slack 1 (must be >= 0)": 0.06633283333068903,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.046805695554299726,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06621763723448727,
+    "m3: slack (must be >= 0)": 344001.1015218617,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 782848.417968723,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.4697734239874
+   }
+  },
+  "B ell=55.26": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.14406893143740598,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.019287783257428442,
+    "II-ch: slack (must be >= 0)": -0.005486605796145937,
+    "II-s: slack (must be >= 0)": -0.025018494592532955
+   },
+   "min margin over all conditions": -0.025018494592532955,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.14406893143740598,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.019287783257428442,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 2.957297691347221,
+    "16 b_II (must be <= 1)": 0.007199054849436508,
+    "II-ch: slack (must be >= 0)": -0.005486605796145937,
+    "II-s: slack (must be >= 0)": -0.025018494592532955,
+    "m1: slack 1 (must be >= 0)": 0.045151567055408945,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.024863499646310613,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.04952571929493316,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.053849413833003124,
+    "m3: slack (must be >= 0)": 3.3358586036847324,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0005529000796448901,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000543575341971,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.7155383280555,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.962513639580362,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07773936040569072,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3453220409177782,
+    "F: left - right (must be >= 0)": 58.99487473405086
+   }
+  },
+  "B ell=960.8": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.20162593791777667,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.009751474104788098,
+    "II-ch: slack (must be >= 0)": 0.033087593187135854,
+    "II-s: slack (must be >= 0)": -0.008034425864915644
+   },
+   "min margin over all conditions": -0.009751474104788098,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.20162593791777667,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.009751474104788098,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5369236164107596,
+    "16 b_II (must be <= 1)": 0.0003538849060981576,
+    "II-ch: slack (must be >= 0)": 0.033087593187135854,
+    "II-s: slack (must be >= 0)": -0.008034425864915644,
+    "m1: slack 1 (must be >= 0)": 0.052648058937189365,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.045524116256545163,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.9396662873954835e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06553619908730317,
+    "m3: slack (must be >= 0)": 305.9660566092525,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 723.0703883584513,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.700838601435272,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712450771143
+   }
+  },
+  "B ell=10000": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.212981429065358,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.007911894845019031,
+    "II-ch: slack (must be >= 0)": 0.036707486392416756,
+    "II-s: slack (must be >= 0)": -0.005816385948238197
+   },
+   "min margin over all conditions": -0.007911894845019031,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.212981429065358,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.007911894845019031,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5739680536625333,
+    "16 b_II (must be <= 1)": 3.3683031410448525e-05,
+    "II-ch: slack (must be >= 0)": 0.036707486392416756,
+    "II-s: slack (must be >= 0)": -0.005816385948238197,
+    "m1: slack 1 (must be >= 0)": 0.05302664551543037,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04668354077161704,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06615214726359603,
+    "m3: slack (must be >= 0)": 3408.8018186738736,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7795.0816398087745,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.84941550783698,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.74616817503744
+   }
+  },
+  "B ell=1000000": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.21754295233375925,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.007192390615959005,
+    "II-ch: slack (must be >= 0)": 0.03761564162257693,
+    "II-s: slack (must be >= 0)": -0.005057261726175667
+   },
+   "min margin over all conditions": -0.007192390615959005,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.21754295233375925,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.007192390615959005,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5779026426497693,
+    "16 b_II (must be <= 1)": 3.3649547706528023e-07,
+    "II-ch: slack (must be >= 0)": 0.03761564162257693,
+    "II-s: slack (must be >= 0)": -0.005057261726175667,
+    "m1: slack 1 (must be >= 0)": 0.05306626666455123,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.046805695554299726,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06621763723448727,
+    "m3: slack (must be >= 0)": 344001.1015218617,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 782848.417968723,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.46977342398733
+   }
+  },
+  "S ell=55.26": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.31344255069978794,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.04737056767461594,
+    "II-ch: slack (must be >= 0)": -0.03493635124532073,
+    "II-s: slack (must be >= 0)": -0.049585267842611
+   },
+   "min margin over all conditions": -0.049585267842611,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.31344255069978794,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.04737056767461594,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 2.957297691347221,
+    "16 b_II (must be <= 1)": 0.007199054849436508,
+    "II-ch: slack (must be >= 0)": -0.03493635124532073,
+    "II-s: slack (must be >= 0)": -0.049585267842611,
+    "m1: slack 1 (must be >= 0)": 0.033863675291556705,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.024863499646310613,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.04952571929493316,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.053849413833003124,
+    "m3: slack (must be >= 0)": 3.3358583809819704,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0005529000796448901,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000543575341971,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 19.7155383280555,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.9624100881991438,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07773936040569072,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3453220409177782,
+    "F: left - right (must be >= 0)": 58.98209501876539
+   }
+  },
+  "S ell=960.8": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3325784615521067,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.0378342585219756,
+    "II-ch: slack (must be >= 0)": -0.0036216247196993,
+    "II-s: slack (must be >= 0)": -0.034463139008737924
+   },
+   "min margin over all conditions": -0.0378342585219756,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.3325784615521067,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.0378342585219756,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5369236164107596,
+    "16 b_II (must be <= 1)": 0.0003538849060981576,
+    "II-ch: slack (must be >= 0)": -0.0036216247196993,
+    "II-s: slack (must be >= 0)": -0.034463139008737924,
+    "m1: slack 1 (must be >= 0)": 0.03948604420289203,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.045524116256545163,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.9396662873954835e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06553619908730317,
+    "m3: slack (must be >= 0)": 305.9660566087144,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 723.0703883584513,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.700838601166213,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712442528813
+   }
+  },
+  "S ell=10000": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.33636051586920884,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.03599467926220653,
+    "II-ch: slack (must be >= 0)": -0.0004468100007963567,
+    "II-s: slack (must be >= 0)": -0.03233971425628757
+   },
+   "min margin over all conditions": -0.03599467926220653,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.33636051586920884,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.03599467926220653,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5739680536625333,
+    "16 b_II (must be <= 1)": 3.3683031410448525e-05,
+    "II-ch: slack (must be >= 0)": -0.0004468100007963567,
+    "II-s: slack (must be >= 0)": -0.03233971425628757,
+    "m1: slack 1 (must be >= 0)": 0.039769984136572775,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.04668354077161704,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06615214726359603,
+    "m3: slack (must be >= 0)": 3408.8018186738686,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7795.0816398087745,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415507834543,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.74616817425863
+   }
+  },
+  "S ell=1000000": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.33788069387510944,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.035275175033146505,
+    "II-ch: slack (must be >= 0)": 0.0004141824790887842,
+    "II-s: slack (must be >= 0)": -0.03159049503247567
+   },
+   "min margin over all conditions": -0.035275175033146505,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.33788069387510944,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.035275175033146505,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 3.5779026426497693,
+    "16 b_II (must be <= 1)": 3.3649547706528023e-07,
+    "II-ch: slack (must be >= 0)": 0.0004141824790887842,
+    "II-s: slack (must be >= 0)": -0.03159049503247567,
+    "m1: slack 1 (must be >= 0)": 0.03979969999841342,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.046805695554299726,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.06621763723448727,
+    "m3: slack (must be >= 0)": 344001.1015218617,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 782848.417968723,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.46977342398725
+   }
+  }
+ },
+ "table chord, chosen rule": {
+  "A ell=55.26": {
+   "error": null,
+   "A2C used": "2.1",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.031203221450977637,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.08675675984610495,
+    "II-ch: slack (must be >= 0)": 0.10969470711680529,
+    "II-s: slack (must be >= 0)": 0.0683441940182764
+   },
+   "min margin over all conditions": 0.0011716874046831989,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.031203221450977637,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.08675675984610495,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 4.917334134309484,
+    "16 b_II (must be <= 1)": 0.0043692797608161325,
+    "II-ch: slack (must be >= 0)": 0.10969470711680529,
+    "II-s: slack (must be >= 0)": 0.0683441940182764,
+    "m1: slack 1 (must be >= 0)": 0.07304998730145613,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.03572662772912147,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.028804554827626713,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.09023658225271036,
+    "m3: slack (must be >= 0)": 3.9441827631840742,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0011716874046831989,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000281601068488,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 20.48018954748598,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.964333197211586,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07777087282658948,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3457558633336666,
+    "F: left - right (must be >= 0)": 59.1105684085763
+   }
+  },
+  "A ell=960.8": {
+   "error": null,
+   "A2C used": "2.1",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.11818785037074458,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.09025416831748356,
+    "II-ch: slack (must be >= 0)": 0.15785200434416854,
+    "II-s: slack (must be >= 0)": 0.0811513019583762
+   },
+   "min margin over all conditions": 0.002,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.11818785037074458,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.09025416831748356,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.827810057859416,
+    "16 b_II (must be <= 1)": 0.00021486906806904302,
+    "II-ch: slack (must be >= 0)": 0.15785200434416854,
+    "II-s: slack (must be >= 0)": 0.0811513019583762,
+    "m1: slack 1 (must be >= 0)": 0.08239347838150353,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.05721425422183769,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 1.3033867100883455e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.10793447899683903,
+    "m3: slack (must be >= 0)": 307.0969012857513,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 725.0205865854028,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.70083934049897,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.0026933186812027085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2560992750335098,
+    "F: left - right (must be >= 0)": 152.07712563747626
+   }
+  },
+  "A ell=10000": {
+   "error": null,
+   "A2C used": "2.1",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.13534401523605402,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.0908382259451256,
+    "II-ch: slack (must be >= 0)": 0.16120647654115047,
+    "II-s: slack (must be >= 0)": 0.08220843540715374
+   },
+   "min margin over all conditions": 0.00025083727592986827,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.13534401523605402,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.0908382259451256,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.886385608379211,
+    "16 b_II (must be <= 1)": 2.045179100051318e-05,
+    "II-ch: slack (must be >= 0)": 0.16120647654115047,
+    "II-s: slack (must be >= 0)": 0.08220843540715374,
+    "m1: slack 1 (must be >= 0)": 0.08286664087747456,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.058428344288499044,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.10894891142385023,
+    "m3: slack (must be >= 0)": 3415.137973663646,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7808.87865909447,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415514523805,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727592986827,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.250589294653857,
+    "F: left - right (must be >= 0)": 158.74616817774964
+   }
+  },
+  "A ell=1000000": {
+   "error": null,
+   "A2C used": "2.1",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.14223497650276604,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.09105619266006036,
+    "II-ch: slack (must be >= 0)": 0.16171821072787604,
+    "II-s: slack (must be >= 0)": 0.08247592711334162
+   },
+   "min margin over all conditions": 2.5000836684890256e-06,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.14223497650276604,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.09105619266006036,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.892609467852911,
+    "16 b_II (must be <= 1)": 2.0431500979251006e-07,
+    "II-ch: slack (must be >= 0)": 0.16171821072787604,
+    "II-s: slack (must be >= 0)": 0.08247592711334162,
+    "m1: slack 1 (must be >= 0)": 0.08291616666408726,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.058556309953050056,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.1090567697675764,
+    "m3: slack (must be >= 0)": 344577.4898128116,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 784159.6291752981,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418754,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.5000836684890256e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964115919,
+    "F: left - right (must be >= 0)": 159.46977342398753
+   }
+  },
+  "B ell=55.26": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.0034460510764521444,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.011911558043196557,
+    "II-ch: slack (must be >= 0)": 0.034595249193090157,
+    "II-s: slack (must be >= 0)": 0.0015148387142670436
+   },
+   "min margin over all conditions": 0.0011513285395436258,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.0034460510764521444,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.011911558043196557,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 4.917334134309484,
+    "16 b_II (must be <= 1)": 0.0043692797608161325,
+    "II-ch: slack (must be >= 0)": 0.034595249193090157,
+    "II-s: slack (must be >= 0)": 0.0015148387142670436,
+    "m1: slack 1 (must be >= 0)": 0.05843723060371514,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.03564707912276235,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.029400814377818052,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.09018402795426825,
+    "m3: slack (must be >= 0)": 3.89361528808469,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.0011513285395436258,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000319755388654,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 20.344105756277237,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.963134953677022,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07776175637309263,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.345572020365245,
+    "F: left - right (must be >= 0)": 59.008236762738065
+   }
+  },
+  "B ell=960.8": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.06460044683228511,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.021447867195836905,
+    "II-ch: slack (must be >= 0)": 0.07985946935051823,
+    "II-s: slack (must be >= 0)": 0.018498907441884357
+   },
+   "min margin over all conditions": 0.002,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.06460044683228511,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.021447867195836905,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.827810057859416,
+    "16 b_II (must be <= 1)": 0.00021486906806904302,
+    "II-ch: slack (must be >= 0)": 0.07985946935051823,
+    "II-s: slack (must be >= 0)": 0.018498907441884357,
+    "m1: slack 1 (must be >= 0)": 0.0659147754841834,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.05713509750855686,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.0336314051268882e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.10793447899683903,
+    "m3: slack (must be >= 0)": 306.20304000380855,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 722.9655136880701,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.700838601960317,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712466855395
+   }
+  },
+  "B ell=10000": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.07666504322496687,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.02328744645560597,
+    "II-ch: slack (must be >= 0)": 0.08391538026575919,
+    "II-s: slack (must be >= 0)": 0.020716947358561805
+   },
+   "min margin over all conditions": 0.00025083727526220085,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.07666504322496687,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.02328744645560597,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.886385608379211,
+    "16 b_II (must be <= 1)": 2.045179100051318e-05,
+    "II-ch: slack (must be >= 0)": 0.08391538026575919,
+    "II-s: slack (must be >= 0)": 0.020716947358561805,
+    "m1: slack 1 (must be >= 0)": 0.06629331263624959,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.05834883434342112,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.10894891142385023,
+    "m3: slack (must be >= 0)": 3405.7862287083817,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7787.5751606176655,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415507841737,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.7461681765572
+   }
+  },
+  "B ell=1000000": {
+   "error": null,
+   "A2C used": "3.4",
+   "failing": [],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.08151132939904407,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.024006950684665997,
+    "II-ch: slack (must be >= 0)": 0.08486989847225186,
+    "II-s: slack (must be >= 0)": 0.021476071580624333
+   },
+   "min margin over all conditions": 2.500083668488359e-06,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.08151132939904407,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": 0.024006950684665997,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.892609467852911,
+    "16 b_II (must be <= 1)": 2.0431500979251006e-07,
+    "II-ch: slack (must be >= 0)": 0.08486989847225186,
+    "II-s: slack (must be >= 0)": 0.021476071580624333,
+    "m1: slack 1 (must be >= 0)": 0.06633293333126324,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.05847676082498668,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.1090567697675764,
+    "m3: slack (must be >= 0)": 343641.8034285394,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 782030.1766922079,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.4697734239875
+   }
+  },
+  "S ell=55.26": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-ch: slack (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.2021967899778803,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.024596061699147194,
+    "II-ch: slack (must be >= 0)": -0.004874960003393662,
+    "II-s: slack (must be >= 0)": -0.029685267862510994
+   },
+   "min margin over all conditions": -0.029685267862510994,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.2021967899778803,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.024596061699147194,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 4.917334134309484,
+    "16 b_II (must be <= 1)": 0.0043692797608161325,
+    "II-ch: slack (must be >= 0)": -0.004874960003393662,
+    "II-s: slack (must be >= 0)": -0.029685267862510994,
+    "m1: slack 1 (must be >= 0)": 0.043827922952786355,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.03560010299367807,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.02970921769252284,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.09015671297632341,
+    "m3: slack (must be >= 0)": 3.8680082993228693,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.001140742029294962,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0000324477597937,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 20.27367904885404,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 2.9630367098357673,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.07776127674132642,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.3455718138505166,
+    "F: left - right (must be >= 0)": 58.996149013742944
+   }
+  },
+  "S ell=960.8": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.22852747938112358,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.015059752546506848,
+    "II-ch: slack (must be >= 0)": 0.03145728240283748,
+    "II-s: slack (must be >= 0)": -0.014563139028637925
+   },
+   "min margin over all conditions": -0.015059752546506848,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.22852747938112358,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.015059752546506848,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.827810057859416,
+    "16 b_II (must be <= 1)": 0.00021486906806904302,
+    "II-ch: slack (must be >= 0)": 0.03145728240283748,
+    "II-s: slack (must be >= 0)": -0.014563139028637925,
+    "m1: slack 1 (must be >= 0)": 0.04943608161313755,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.05708431086539513,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 2.6950086805709533e-68,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.10793447899683903,
+    "m3: slack (must be >= 0)": 305.63726319381976,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 721.6647230948499,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 8.700838601861127,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.002693317917732768,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.256098907348824,
+    "F: left - right (must be >= 0)": 152.07712463816793
+   }
+  },
+  "S ell=10000": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.23372774418842657,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.013220173286737781,
+    "II-ch: slack (must be >= 0)": 0.034959110404210465,
+    "II-s: slack (must be >= 0)": -0.012439714276187572
+   },
+   "min margin over all conditions": -0.013220173286737781,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.23372774418842657,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.013220173286737781,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.886385608379211,
+    "16 b_II (must be <= 1)": 2.045179100051318e-05,
+    "II-ch: slack (must be >= 0)": 0.034959110404210465,
+    "II-s: slack (must be >= 0)": -0.012439714276187572,
+    "m1: slack 1 (must be >= 0)": 0.04971998447718719,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.05829780959681408,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.10894891142385023,
+    "m3: slack (must be >= 0)": 3399.7987750055777,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 7773.937099771207,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 12.849415507840838,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 0.00025083727526220085,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2505892913146885,
+    "F: left - right (must be >= 0)": 158.7461681762701
+   }
+  },
+  "S ell=1000000": {
+   "error": null,
+   "A2C used": "4.5",
+   "failing": [
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)",
+    "II-s: slack (must be >= 0)"
+   ],
+   "worry margins": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.23581744800567908,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.012500669057677756,
+    "II-ch: slack (must be >= 0)": 0.035854875116344984,
+    "II-s: slack (must be >= 0)": -0.011690495052375668
+   },
+   "min margin over all conditions": -0.012500669057677756,
+   "all conditions": {
+    "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": 0.23581744800567908,
+    "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": -0.012500669057677756,
+    "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": 5.892609467852911,
+    "16 b_II (must be <= 1)": 2.0431500979251006e-07,
+    "II-ch: slack (must be >= 0)": 0.035854875116344984,
+    "II-s: slack (must be >= 0)": -0.011690495052375668,
+    "m1: slack 1 (must be >= 0)": 0.04974969999844743,
+    "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": 0.058425710827630546,
+    "m3: 16 b e^mu at mu_n (must be <= 1)": 0.0,
+    "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": 0.1090567697675764,
+    "m3: slack (must be >= 0)": 343042.01172743394,
+    "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": 0.002,
+    "b.5: mT + Tbar (must be <= 1.002)": 1.0,
+    "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": 780665.313837617,
+    "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": 20.914789518418086,
+    "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": 2.500083668488359e-06,
+    "N0: 3.75 - a0/(2 th1) (must be >= 0)": 1.2500058964112584,
+    "F: left - right (must be >= 0)": 159.46977342398745
+   }
+  }
+ },
+ "chord, chosen rule, dense grid (60 ell from 55.26 to 1e6, ends A and B): failing (must be empty)": [],
+ "chord, chosen rule, dense grid: smallest margin of each condition (margin, end, ell)": {
+  "Case I (Fz): c1F - K_F/sqrt(b) - c1 (must be >= 0)": [
+   0.0034460510764521444,
+   "B",
+   "55.26"
+  ],
+  "Case I (Tz-B2): [(1 - a2k - 1e-6) cK c_T sqrt(ell) - c_B2]/sqrt(ell) (must be >= 0)": [
+   0.011911558043196557,
+   "B",
+   "55.26"
+  ],
+  "[c_kap ell 4 - 16]/(4 ell) (must be > 0)": [
+   4.917334134309484,
+   "A",
+   "55.26"
+  ],
+  "16 b_II (must be <= 1)": [
+   0.9956307202391839,
+   "A",
+   "55.26"
+  ],
+  "II-ch: slack (must be >= 0)": [
+   0.034595249193090157,
+   "B",
+   "55.26"
+  ],
+  "II-s: slack (must be >= 0)": [
+   0.0015148387142670436,
+   "B",
+   "55.26"
+  ],
+  "m1: slack 1 (must be >= 0)": [
+   0.05843723060371514,
+   "B",
+   "55.26"
+  ],
+  "m1: [Th*/sqrt2 - (mT + Tm)]/ell (must be >= 0)": [
+   0.03564707912276235,
+   "B",
+   "55.26"
+  ],
+  "m3: 16 b e^mu at mu_n (must be <= 1)": [
+   0.970599185622182,
+   "B",
+   "55.26"
+  ],
+  "m3: [c_J ell e^mu - 16 mu^2 E_J^2 r]/(ell e^mu) at mu_n, r = 1/4 (must be > 0)": [
+   0.09018402795426825,
+   "B",
+   "55.26"
+  ],
+  "m3: slack (must be >= 0)": [
+   3.89361528808469,
+   "B",
+   "55.26"
+  ],
+  "b.1 second pass: [E_CM formula - derived bound]/((1 + 3.445 e^{-mu/2})^2 t) at mu_n (must be >= 0)": [
+   0.0011513285395436258,
+   "B",
+   "55.26"
+  ],
+  "b.5: mT + Tbar (must be <= 1.002)": [
+   0.001968024461134643,
+   "B",
+   "55.26"
+  ],
+  "beta-case: log(u^3 v lower bound/U_max^4) (must be >= 0)": [
+   20.344105756277237,
+   "B",
+   "55.26"
+  ],
+  "N: 2.5 + 2 dl_0 - a0/th1 (must be >= 0)": [
+   2.963134953677022,
+   "B",
+   "55.26"
+  ],
+  "N0: th1 (1 - 15/ell)^{-1/2} - (mT + Tbar(mu_II)) (must be >= 0)": [
+   2.500083668488359e-06,
+   "B",
+   "1e+06"
+  ],
+  "N0: 3.75 - a0/(2 th1) (must be >= 0)": [
+   1.2500058964112584,
+   "B",
+   "1e+06"
+  ],
+  "F: left - right (must be >= 0)": [
+   59.008236762738065,
+   "B",
+   "55.26"
+  ]
+ },
+ "quoted 48 (chord, chosen rule, dense grid)": {
+  "F1: P <=": {
+   "sense": "<=",
+   "paper I bound": "0.7008",
+   "J worst": 0.7007453370351892,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.7008
+  },
+  "w16": {
+   "sense": "<=",
+   "paper I bound": "0.8972",
+   "J worst": 0.8971799721053665,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.8972
+  },
+  "eps1_max": {
+   "sense": "<=",
+   "paper I bound": "0.01457",
+   "J worst": 0.20124611797498107,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.2013
+  },
+  "epsh_max": {
+   "sense": "<=",
+   "paper I bound": "0.1808",
+   "J worst": 0.3881814009172544,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.3882
+  },
+  "c_S": {
+   "sense": "<=",
+   "paper I bound": "0.155",
+   "J worst": 0.1984442828544434,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.1985
+  },
+  "R4: constants/sigma <=": {
+   "sense": "<=",
+   "paper I bound": "1.77",
+   "J worst": 1.8098873827881088,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 1.81
+  },
+  "R4: e0 needed": {
+   "sense": "<=",
+   "paper I bound": "1.26e-5",
+   "J worst": 1.6374420890708766e-05,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 1.638e-05
+  },
+  "th_bg": {
+   "sense": ">=",
+   "paper I bound": "0.8985",
+   "J worst": 0.6990654340606078,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.699
+  },
+  "c1F": {
+   "sense": ">=",
+   "paper I bound": "0.7857",
+   "J worst": 0.6203662503912952,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.6203
+  },
+  "R5: K_F/sqrt(b) <=": {
+   "sense": "<=",
+   "paper I bound": "1.01e-3",
+   "J worst": 0.0009999950000374998,
+   "at": [
+    "A",
+    "1e+06"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.001
+  },
+  "c_s": {
+   "sense": "<=",
+   "paper I bound": "0.102",
+   "J worst": 0.2369922447514105,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.237
+  },
+  "c_B2/sqrt(ell)": {
+   "sense": "<=",
+   "paper I bound": "0.0896",
+   "J worst": 0.12328558759284511,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.1233
+  },
+  "kf (b < 0.1)": {
+   "sense": ">=",
+   "paper I bound": "0.4493",
+   "J worst": 0.449325,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.4493
+  },
+  "cK": {
+   "sense": ">=",
+   "paper I bound": "0.02758",
+   "J worst": 0.02246625,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.02246
+  },
+  "Case I (Tz-B2): A2k/cKz <=": {
+   "sense": "<=",
+   "paper I bound": "0.04616",
+   "J worst": 0.07418535210222742,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.07419
+  },
+  "cb ell": {
+   "sense": "<=",
+   "paper I bound": "0.05593",
+   "J worst": 0.05532892569851268,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.05533
+  },
+  "P_II": {
+   "sense": "<=",
+   "paper I bound": "0.5223",
+   "J worst": 0.5222449589924218,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.5223
+  },
+  "b_II ell": {
+   "sense": "<=",
+   "paper I bound": "0.01526",
+   "J worst": 0.015090399973918717,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.0151
+  },
+  "brk (Case II)": {
+   "sense": ">=",
+   "paper I bound": "0.998",
+   "J worst": 0.9980740483542703,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.998
+  },
+  "kf (Case II)": {
+   "sense": ">=",
+   "paper I bound": "0.9975",
+   "J worst": 0.9975290146909163,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.9975
+  },
+  "tc": {
+   "sense": "<=",
+   "paper I bound": "1.0779",
+   "J worst": 1.1892196015616883,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 1.19
+  },
+  "T_max ell": {
+   "sense": "<=",
+   "paper I bound": "0.1877",
+   "J worst": 0.20702131401685606,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.2071
+  },
+  "c_kap": {
+   "sense": ">=",
+   "paper I bound": "4.935",
+   "J worst": 4.9897192229812175,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 4.989
+  },
+  "c_u": {
+   "sense": "<=",
+   "paper I bound": "0.48",
+   "J worst": 0.782853344197711,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.7829
+  },
+  "vth0": {
+   "sense": ">=",
+   "paper I bound": "0.7858",
+   "J worst": 0.8137775524285235,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.8137
+  },
+  "m1: mu ell <": {
+   "sense": "<=",
+   "paper I bound": "7.7",
+   "J worst": 28.58755076325408,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 28.59
+  },
+  "rhobar (xi >= 8)": {
+   "sense": "<=",
+   "paper I bound": "0.12501",
+   "J worst": 0.12500000020888746,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.1251
+  },
+  "x_n": {
+   "sense": ">=",
+   "paper I bound": "0.1347",
+   "J worst": 0.1444262204892001,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.1444
+  },
+  "mu_n": {
+   "sense": ">=",
+   "paper I bound": "7.44",
+   "J worst": 7.980992944233197,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 7.98
+  },
+  "c_J": {
+   "sense": ">=",
+   "paper I bound": "0.0913",
+   "J worst": 0.09234657312484286,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.09234
+  },
+  "m3: log Ch(ell, mu_n)": {
+   "sense": ">=",
+   "paper I bound": "2.8332",
+   "J worst": 3.897354602170493,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 3.897
+  },
+  "x0 (certified lower bound)": {
+   "sense": ">=",
+   "paper I bound": "0.1531",
+   "J worst": 0.16427112322262288,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.1642
+  },
+  "mu_II": {
+   "sense": ">=",
+   "paper I bound": "8.46",
+   "J worst": 9.077622269282141,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 9.077
+  },
+  "r bound coefficient": {
+   "sense": "<=",
+   "paper I bound": "18.7",
+   "J worst": 23.545850492961225,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 23.55
+  },
+  "m4: factor of K": {
+   "sense": ">=",
+   "paper I bound": "0.997",
+   "J worst": 0.9979683182403755,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.9979
+  },
+  "eps1 ell^2": {
+   "sense": "<=",
+   "paper I bound": "0.80",
+   "J worst": 0.8071393134126484,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": 0.8072
+  },
+  "U_max": {
+   "sense": "<=",
+   "paper I bound": "5.96",
+   "J worst": 5.481233708656062,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 5.482
+  },
+  "b.2: G/sigma at mu = ell + ln ell <=": {
+   "sense": "<=",
+   "paper I bound": "1.5",
+   "J worst": 1.4301892755657653,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 1.431
+  },
+  "c_G": {
+   "sense": ">=",
+   "paper I bound": "2.2e5",
+   "J worst": 224064.28168975294,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 224000.0
+  },
+  "b.5: u lower bound (kappa_b = kappa), ell >= 397.6, mu >= x0 ell": {
+   "sense": ">=",
+   "paper I bound": "6.0",
+   "J worst": 5.1045799362428944e+29,
+   "at": [
+    "B",
+    "405.846"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 5.104e+29
+  },
+  "b.4: r <= (at mu_II)": {
+   "sense": "<=",
+   "paper I bound": "1e-6",
+   "J worst": 3.548346984442667e-07,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 3.549e-07
+  },
+  "II-s: log(a_s/sigma) <=": {
+   "sense": "<=",
+   "paper I bound": "-29.89",
+   "J worst": -28.175556529748473,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": false,
+   "proposed J bound (4 digits, outward)": -28.17
+  },
+  "II-ch: A2k + B2a relative to cKz <=": {
+   "sense": "<=",
+   "paper I bound": "1e-3",
+   "J worst": 0.0003026637932622048,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.0003027
+  },
+  "m4: m1 after (b.4) >=": {
+   "sense": ">=",
+   "paper I bound": "0.9994",
+   "J worst": 0.9996523299829817,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.9996
+  },
+  "m4: m4 after (b.4) >=": {
+   "sense": ">=",
+   "paper I bound": "0.9994",
+   "J worst": 0.9994703497337079,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.9994
+  },
+  "m4: m5 after (b.4) >=": {
+   "sense": ">=",
+   "paper I bound": "0.9994",
+   "J worst": 0.9995334163491373,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.9995
+  },
+  "c_k": {
+   "sense": ">=",
+   "paper I bound": "0.1107",
+   "J worst": 0.11485627436529545,
+   "at": [
+    "B",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 0.1148
+  },
+  "b.1 first pass: P/(mu e^-mu) <=": {
+   "sense": "<=",
+   "paper I bound": "9.18",
+   "J worst": 9.094887020010566,
+   "at": [
+    "A",
+    "55.26"
+   ],
+   "paper I bound still holds": true,
+   "proposed J bound (4 digits, outward)": 9.095
+  }
+ },
+ "seconds": 327.8158040046692
+}

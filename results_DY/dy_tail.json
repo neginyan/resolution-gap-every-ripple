@@ -1,0 +1,19 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "keys on the tail": 101,
+ "keys that differ (must be empty)": [],
+ "derivation checks": {
+  "J: (1 - a1 t)^2 (1 + 10 t) coefficients, a1 = 5": [
+   "1",
+   "0",
+   "-75",
+   "250"
+  ],
+  "J: a1 = 5 holds for 0 < t <= 1e-6": true,
+  "J power: a1 = 4 holds (must be False)": false,
+  "paper I: (1 - 2t)(1 + t) = 1 - t - 2 t^2 and (1 - 2t)(1 - 5t) = 1 - 7t + 10 t^2 (a1 = 7)": true,
+  "paper I power: a1 = 6.9 from (1 - 2t)(1 - 5t) >= 1 - 6.9 t (must be False for small t)": false
+ },
+ "ok": true,
+ "seconds": 0.02860116958618164
+}

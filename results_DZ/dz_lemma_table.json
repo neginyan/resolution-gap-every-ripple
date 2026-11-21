@@ -1,0 +1,567 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "B1m read with X1_B1(eta) (results_EA/ea_convex.json)": [
+  "1/(1-eta)",
+  "sqrt(CZ)"
+ ],
+ "rows": 26,
+ "lines covered": 37,
+ "the 37 lines read from the code": 37,
+ "inventory problems (must be empty)": [],
+ "line -> origin rows": {
+  "P3z": [
+   "L19M0"
+  ],
+  "P4z": [
+   "L19M0"
+  ],
+  "hneg1": [
+   "L19M0"
+  ],
+  "M0Xi": [
+   "L19M0"
+  ],
+  "A1v": [
+   "L19A1"
+  ],
+  "A1w": [
+   "L19A1"
+  ],
+  "A2k": [
+   "L19A2"
+  ],
+  "A2a": [
+   "L19A2"
+  ],
+  "A2b": [
+   "L19A2"
+  ],
+  "FzK": [
+   "L19B1v"
+  ],
+  "lossK": [
+   "L19B1v"
+  ],
+  "B1w1": [
+   "L19B1w"
+  ],
+  "B1w2": [
+   "L19B1w"
+  ],
+  "B2a": [
+   "L19B2"
+  ],
+  "B2b": [
+   "L19B2"
+  ],
+  "ring2": [
+   "L22"
+  ],
+  "P2z": [
+   "L22",
+   "HRt"
+  ],
+  "hFz": [
+   "L23"
+  ],
+  "cKz": [
+   "L23"
+  ],
+  "pair": [
+   "L23"
+  ],
+  "B2c": [
+   "L23d2"
+  ],
+  "B2s": [
+   "L23d2"
+  ],
+  "B1m": [
+   "L23d1"
+  ],
+  "B1c": [
+   "L23d1"
+  ],
+  "B1l": [
+   "L23d1"
+  ],
+  "uB2c": [
+   "L23d1"
+  ],
+  "uB2s": [
+   "L23d1"
+  ],
+  "d1": [
+   "Lsum"
+  ],
+  "d2": [
+   "Lsum"
+  ],
+  "P1": [
+   "HRt"
+  ],
+  "N1": [
+   "HRt"
+  ],
+  "N2": [
+   "HRt"
+  ],
+  "N3": [
+   "HRt"
+  ],
+  "N4": [
+   "HRt"
+  ],
+  "N4G": [
+   "HRt"
+  ],
+  "d3": [
+   "HRt"
+  ],
+  "d4": [
+   "HRt"
+  ]
+ },
+ "power (each must be caught)": {
+  "t1 1/(1-eta)^2 removed from (B2)": true,
+  "t2 FzK given the origin of (A1v)": true,
+  "t3 sqrt(CZ) added to the ring row": true
+ },
+ "elementary steps": {
+  "e1 |z - ln(1+z)| <= z^2/(2(1-eta)), |z| <= eta <= 1/4: smallest margin": 3.860769126192218e-11,
+  "e1 holds": true,
+  "e1 wrong version z^2/2 fails somewhere": true,
+  "e2 1/(1-1/4) = 4/3 exactly": true,
+  "e2 wrong: 1/(1-26/100) > 4/3": true,
+  "e3 FrB1 step at eta = 1/ell (ell = 55.26 ... 1e6): smallest margin": 0.8279824433576408,
+  "e3 holds at eta = 1/ell": true,
+  "e3 FrB1 step at eta = 1/4, ell = 55.26 (must be negative)": -0.20217688657087782,
+  "e3 fails at eta = 1/4": true,
+  "e4 repaired step c0^ <= X1_B1(eta)/sqrt2 (eta in [0, 1/4], A in [0, 1]): smallest margin": -1e-57,
+  "e4 holds": true,
+  "e4 wrong version (X1_B1 without sqrt(CZ)) fails": true,
+  "e5 c0^2 <= X1^2 + CZ: smallest margin": 5.614311879684632,
+  "e5 holds": true,
+  "e5 wrong version (X1^2 + CZ)/2 fails": true,
+  "e6 q at eta = 1/4: narrow (B >= 50 K^2), wide (B >= K^2)": [
+   "1/240",
+   "5/24"
+  ],
+  "e6 1 - q > 0 at both": true,
+  "e6 text number 0.0026: holds at eta = 1/55.26": true,
+  "e6 text number 0.0026: fails at eta = 1/4": true,
+  "e7 (1-eta)/(1+eta) >= 1 - 2/ell at eta = 1/ell": true,
+  "e7 fails at eta = 1/4, ell = 1e6": true,
+  "e8 1/4 <= 1/2 and 2/3 <= 1/(1 + 1/4)": true,
+  "all elementary checks as expected": true
+ },
+ "rows that need eta <= 1/ell as an inequality": [
+  "L23d1",
+  "P24"
+ ],
+ "table": [
+  {
+   "id": "L18",
+   "lemma": "Lemma 18 (direct form)",
+   "where": "I, App. A 2",
+   "stmt": "none",
+   "enters": "nowhere (an identity: the definition in the variables of the line)",
+   "bound": "none",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "L19M0",
+   "lemma": "Lemma 19 (M0)",
+   "where": "I, App. A 3",
+   "stmt": "none ($|R_\\theta|\\le\\eta$ is a consequence)",
+   "enters": "$|R_\\theta|\\le\\eta$ from $|R|\\le\\eta$; $|t_\\rho|\\le0.184b$ uses $\\Qb$",
+   "bound": "$\\eta=\\sup|R|$ (definition)",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "eta"
+   ],
+   "lines": [
+    "P3z",
+    "P4z",
+    "hneg1",
+    "M0Xi"
+   ]
+  },
+  {
+   "id": "L19A1",
+   "lemma": "Lemma 19 (A1v), (A1w)",
+   "where": "I, App. A 3",
+   "stmt": "none",
+   "enters": "(A1w): $|R|\\le\\eta$ and $\\eta k_E/\\sqrt{\\mathrm{se}_E}=\\eta/L$ (identity)",
+   "bound": "definition",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "eta"
+   ],
+   "lines": [
+    "A1v",
+    "A1w"
+   ]
+  },
+  {
+   "id": "L19A2",
+   "lemma": "Lemma 19 (A2)",
+   "where": "I, App. A 3",
+   "stmt": "none",
+   "enters": "$h\\ge1-\\eta$; $R^2/h\\le\\eta^2/(1-\\eta)$",
+   "bound": "$\\eta<1$",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "eta",
+    "eta^2",
+    "1/(1-eta)"
+   ],
+   "lines": [
+    "A2k",
+    "A2a",
+    "A2b"
+   ]
+  },
+  {
+   "id": "L19B1v",
+   "lemma": "Lemma 19 (B1v)",
+   "where": "I, App. A 3",
+   "stmt": "none",
+   "enters": "$\\langle\\hat s^2\\tilde F\\rangle\\le\\kappa W/(1-\\eta)$ ($h\\ge1-\\eta$)",
+   "bound": "$\\eta<1$",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "1/(1-eta)"
+   ],
+   "lines": [
+    "FzK",
+    "lossK"
+   ]
+  },
+  {
+   "id": "L19B1w",
+   "lemma": "Lemma 19 (B1w)",
+   "where": "I, App. A 3",
+   "stmt": "none",
+   "enters": "$|G_E(R)|\\le R^2/(2(1-\\eta))$ for $|ER|\\le\\eta$; $R^2\\le\\eta^2$",
+   "bound": "$\\eta<1$ (checked, e1)",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "eta^2",
+    "1/(1-eta)"
+   ],
+   "lines": [
+    "B1w1",
+    "B1w2"
+   ]
+  },
+  {
+   "id": "L19B2",
+   "lemma": "Lemma 19 (B2)",
+   "where": "I, App. A 3",
+   "stmt": "none",
+   "enters": "$E|X_1|/h\\le U/(1-\\eta)$; $R^2/h^2\\le\\eta^2/(1-\\eta)^2$",
+   "bound": "$\\eta<1$",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "eta^2",
+    "1/(1-eta)^2"
+   ],
+   "lines": [
+    "B2a",
+    "B2b"
+   ]
+  },
+  {
+   "id": "L20",
+   "lemma": "Lemmas 15, 20, 21 ($M_4$, $M_1$, $M_2$)",
+   "where": "I, Sec. VI, App. A 3",
+   "stmt": "none",
+   "enters": "nowhere ($y$ only)",
+   "bound": "none",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "L22",
+   "lemma": "Lemma 22 (ring)",
+   "where": "I, App. A 4",
+   "stmt": "none",
+   "enters": "$M=\\eta^2/(1-\\eta)$ for $g=R^2/h$; $q=K^2(1+\\eta)/(8B(1-\\eta))<1$",
+   "bound": "$\\eta<1$; $q\\le\\frac1{240}$ (narrow), $\\frac5{24}$ (wide) at $\\eta\\le\\frac14$ (e6)",
+   "ok": "yes",
+   "fix": "the number $1-0.0026$ in the sign paragraph of App. B of I is the value at $\\eta=1/\\ell$; at $\\eta\\le\\frac14$ it is $1-\\frac1{240}$ (the code computes $q$ with $\\eta$)",
+   "forms": [
+    "eta^2",
+    "1/(1-eta)",
+    "sandwich ringf"
+   ],
+   "lines": [
+    "ring2",
+    "P2z"
+   ]
+  },
+  {
+   "id": "L23",
+   "lemma": "Lemma 23 (pair) (a)--(c)",
+   "where": "I, App. A 4",
+   "stmt": "none",
+   "enters": "$\\tilde F$ between $E^2X_1^2/(1\\pm\\eta)$; tails $U^2g_s/(1-\\eta)$",
+   "bound": "$\\eta<1$",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "sandwich fl",
+    "1/(1-eta)"
+   ],
+   "lines": [
+    "hFz",
+    "cKz",
+    "pair"
+   ]
+  },
+  {
+   "id": "L23d2",
+   "lemma": "Lemma 23 (d), FrB2",
+   "where": "I, App. A 4; App. B (group B2c$+$B2s)",
+   "stmt": "none",
+   "enters": "$c_0=\\sigma U/(\\sqrt2(1-\\eta))+\\zeta/\\sqrt2$, $\\zeta^2=\\sigma^2\\mathrm{CZ}A$; App. B: $U_1/(1-\\eta)\\le X_1$",
+   "bound": "$1/(1-\\eta)\\le\\frac43$ (e2)",
+   "ok": "yes (equality at $\\frac14$)",
+   "fix": "",
+   "forms": [
+    "1/(1-eta)",
+    "sqrt(CZ)"
+   ],
+   "lines": [
+    "B2c",
+    "B2s"
+   ]
+  },
+  {
+   "id": "L23d1",
+   "lemma": "Lemma 23 (d), FrB1",
+   "where": "I, App. A 4; App. B (group B1m$+\\dots+$uB2s)",
+   "stmt": "none",
+   "enters": "App. B: $\\hat c_0\\le X_1/\\sqrt2$ from $U_1(\\frac43-1/(1-\\eta))\\ge\\sqrt{\\mathrm{CZ}}$; $\\hat c_0^2\\le X_1^2+\\mathrm{CZ}$",
+   "bound": "$\\eta\\le1/\\ell$ in the first step (e3); $1/(1-\\eta)\\le\\frac43$ in the second (e5)",
+   "ok": "\\textbf{no} for the first step (zero left side at $\\frac14$); yes for the second",
+   "fix": "$X_{1,\\rm B1}(\\eta)=U_1/(1-\\eta)+\\sqrt{\\mathrm{CZ}(\\eta)}$ in the line B1m (e4), a function of $\\eta$ of the class of Lemma~\\ref{lem:chord}, Sec.~\\ref{sec:changes}",
+   "forms": [
+    "1/(1-eta)",
+    "1/(1-eta)^2",
+    "eta^2",
+    "sqrt(CZ)"
+   ],
+   "lines": [
+    "B1m",
+    "B1c",
+    "B1l",
+    "uB2c",
+    "uB2s"
+   ]
+  },
+  {
+   "id": "Lsum",
+   "lemma": "$v$-branch sum and its den (App. A 5 of I)",
+   "where": "I, App. A 5",
+   "stmt": "none",
+   "enters": "den: $b(1+k_ER_\\theta)\\le b(1+\\eta k_E)$; $W/(1-\\eta)$",
+   "bound": "$\\eta<1$",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "eta",
+    "1/(1-eta)"
+   ],
+   "lines": [
+    "d1",
+    "d2"
+   ]
+  },
+  {
+   "id": "HRt",
+   "lemma": "Lemma R$_\\theta$ of H, $w$-branch (N1--N4, P1, P2, den)",
+   "where": "H, Sec. IX A; \\code{co\\_remainders.py}; I, App. A 6",
+   "stmt": "none (``every periodic window state'')",
+   "enters": "$\\Lambda_1$, $Q_2$: $|R_\\theta|\\le\\eta$; $J_{2,\\rm up}$, $M_{4w}$, $J_{\\rm up}$: $\\eta^2/(1-\\eta)$, $D_0/(1-\\eta)$; P2: $D_0/(1+\\eta)$; $\\xi=\\sigma U_1/(1-\\Qb)$ uses $\\Qb$, not $\\eta$",
+   "bound": "$\\eta<1$, $\\Qb=\\frac14$, $A\\le1$",
+   "ok": "yes",
+   "fix": "",
+   "forms": [
+    "eta",
+    "eta^2",
+    "1/(1-eta)",
+    "1/(1-eta)^2",
+    "sandwich fl"
+   ],
+   "lines": [
+    "P1",
+    "P2z",
+    "N1",
+    "N2",
+    "N3",
+    "N4",
+    "N4G",
+    "d3",
+    "d4"
+   ]
+  },
+  {
+   "id": "L8",
+   "lemma": "Lemma 8 (the 37 lines): the 12 identities and 18 inequalities",
+   "where": "I, Sec. III B; App. B",
+   "stmt": "$\\eta\\le1/\\ell$ (coefficients evaluated at $\\eta=1/\\ell$)",
+   "enters": "coefficients only, except the FrB1 step (row above) and $1/(1-\\eta)\\le\\frac43$ in FrB2, FrB1; signs: positive factors for $\\eta<1$",
+   "bound": "$\\eta<1$, $\\eta\\le\\frac14$",
+   "ok": "yes, with the FrB1 constant",
+   "fix": "the coefficients are evaluated with the end values of $\\eta$ (the chord, Sec.~\\ref{sec:sandwich})",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "L9",
+   "lemma": "Lemma 9 (H$^\\prime$), Lemma 24, Corollary 25",
+   "where": "I, Sec. III C; App. A 7",
+   "stmt": "none",
+   "enters": "nowhere: (A) and (CM) use $\\Qb$; (K) uses $U_1$; (J) is Jensen",
+   "bound": "none",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "L10",
+   "lemma": "Lemmas 10, 26, 27 (closed forms, $E_J$)",
+   "where": "I, Sec. III C; App. A 8",
+   "stmt": "none",
+   "enters": "nowhere",
+   "bound": "none",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "L11",
+   "lemma": "Lemma 11 ($G=0$)",
+   "where": "I, Sec. III D; App. A 9",
+   "stmt": "none",
+   "enters": "nowhere ($R=0$)",
+   "bound": "none",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "T5",
+   "lemma": "Theorem 5 (Proposition 6, Lemmas 7, 16, 17)",
+   "where": "I, Sec. VII; App. D",
+   "stmt": "none",
+   "enters": "only through $\\Qb$: $|h_t/h|\\le N_1/(1-\\Qb)$, $\\Xi$, $K_1$",
+   "bound": "$\\Qb=\\frac14$",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "HCM",
+   "lemma": "Lemma CM-1, Lemma CN-1 (line 2) of H",
+   "where": "H, Sec. IX A; I, App. A 10",
+   "stmt": "none (every focus)",
+   "enters": "nowhere ($f\\ge0$; a pointwise Gaussian bound)",
+   "bound": "none",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "HA4",
+   "lemma": "Lemma A4$^*$ of H",
+   "where": "H, Sec. III, App. D; I, App. A 10",
+   "stmt": "none",
+   "enters": "$\\zeta=\\sigma^2\\eta e^{-1/2}/(s(1-\\eta))$; $\\xi$ with $\\Qb$",
+   "bound": "$\\eta<1$",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "HH1",
+   "lemma": "Theorem H1, Lemma BE of H",
+   "where": "H, Secs. IV, VI--VIII",
+   "stmt": "the theorem: every admissible window, coefficient $\\lambda/\\Upsilon$; item (i) only: $\\eta\\le1/\\ell$",
+   "enters": "the certificates: $\\bar\\eta=\\frac12$ in the remainders, $\\lambda_*=\\frac23$",
+   "bound": "$\\eta\\le\\frac12$",
+   "ok": "yes (item (i) is not used)",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "Hwin",
+   "lemma": "window constants $U_1$, $U_2$, $\\gamma_P$, $c_\\chi$ of H",
+   "where": "H, Sec. VI; I, App. A 10",
+   "stmt": "$x\\ge5\\times10^{11}\\sigma^2$",
+   "enters": "nowhere ($\\Qb$, $\\ell$)",
+   "bound": "none",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "F",
+   "lemma": "Lemmas 19, 21--23 of F (BL0--BL3), Eq.~(ga) and (P6)",
+   "where": "F, App. A",
+   "stmt": "none",
+   "enters": "nowhere: $\\Qb$ and $\\nu_k$; (P6) is the class bound $\\bar\\varepsilon$",
+   "bound": "none",
+   "ok": "yes",
+   "fix": "",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "P24",
+   "lemma": "Propositions 12, 14 (Theorems 2, 4): the written steps",
+   "where": "I, Secs. IV, VI; App. C",
+   "stmt": "$\\eta\\le1/\\ell$",
+   "enters": "(a) 18 of the 48 quoted numbers are values at $\\eta=1/\\ell$; (b) the rule: $c_m$, $\\Gamma_2=\\Gamma_\\ell k_2$; (c) the tail on $[10^6,\\infty)$: $\\theta_1\\ge(1-7/\\ell)(1-\\varepsilon_1^\\prime)$ uses $(1-\\eta)/(1+\\eta)\\ge1-2/\\ell$ (e7)",
+   "bound": "$\\eta=1/\\ell$ as a value; (c) $\\eta\\le1/\\ell$",
+   "ok": "no as written; every step holds with the numbers retaken",
+   "fix": "(a) new bounds (Table~\\ref{tab:quoted}); (b) $\\lambda$-free rule (Sec.~\\ref{sec:sandwich}); (c) the tail with $\\eta$ and $1/\\ell$ separated (App.~\\ref{app:C}): constants, no new idea",
+   "forms": [],
+   "lines": []
+  },
+  {
+   "id": "P13",
+   "lemma": "Proposition 13 (Theorem 3)",
+   "where": "I, Sec. V",
+   "stmt": "$\\eta\\le1/\\ell$",
+   "enters": "the numbers of the proof at $\\eta=1/\\ell$",
+   "bound": "$\\eta=1/\\ell$ as a value",
+   "ok": "redone",
+   "fix": "proved again by hand at $\\bar\\eta=\\frac14$ (Sec.~\\ref{sec:res})",
+   "forms": [],
+   "lines": []
+  }
+ ],
+ "ok": true
+}

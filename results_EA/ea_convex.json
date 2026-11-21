@@ -1,0 +1,58 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "B1m of paper J read from the transformed code": {
+  "sign": -1,
+  "type": "P",
+  "sandwich": [],
+  "basics": [
+   "1/(1-eta)",
+   "sqrt(CZ)"
+  ],
+  "grammar ok": true,
+  "why not": []
+ },
+ "B1m of paper I (results_DY/dy_convex.json)": {
+  "sign": -1,
+  "type": "P",
+  "sandwich": [],
+  "basics": [
+   "1/(1-eta)"
+  ],
+  "grammar ok": true,
+  "why not": []
+ },
+ "other lines read differently (must be empty)": [],
+ "lines": 37,
+ "power": {
+  "(q1) U1 * (1 - eta) + sqrt(CZ)": {
+   "read as": {
+    "sign": -1,
+    "type": "X",
+    "sandwich": [],
+    "basics": [],
+    "grammar ok": false,
+    "why not": [
+     "X: product with X"
+    ]
+   },
+   "caught": true
+  },
+  "(q2) U1/(1 - eta) + sqrt(eta)": {
+   "read as": {
+    "sign": -1,
+    "type": "X",
+    "sandwich": [],
+    "basics": [],
+    "grammar ok": false,
+    "why not": [
+     "X: product with X"
+    ]
+   },
+   "caught": true
+  }
+ },
+ "numbers: largest |B1m_J / (B1m_I X1_B1/X1) - 1|": 1e-59,
+ "numbers: smallest (chord - value)/value at eta = 1/4 (must be >= -1e-40)": -1.775994668235386e-60,
+ "ok": true,
+ "seconds": 0.48769640922546387
+}

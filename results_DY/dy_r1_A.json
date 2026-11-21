@@ -1,0 +1,47 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "end": {
+  "LAM": "1",
+  "ETR": "0",
+  "A2CJ": "2.1"
+ },
+ "end parameters": {
+  "LAM": "1",
+  "ETR": "0",
+  "A2CJ": "2.1"
+ },
+ "rule": {
+  "C1": "0.77",
+  "CT": "6.5",
+  "CCH": "1.5",
+  "CCH for ell >= 960.8": "2.0"
+ },
+ "e0": "2e-5",
+ "one piece [55.26, inf)": true,
+ "values": {
+  "R1: sum/P1 (units of es)": 0.5000000000000073,
+  "R3 (a <= 1): S/P4z (es)": 0.03031663784883042,
+  "R3 (a >= 1): S/P1 (es)": 0.015158318923505712,
+  "X1^2/ell": 0.22845555409611562,
+  "(d4 + N4G)/P2z / es_sigma x (1/lam)/(1 + eta_r)": 2.399650499941514e-05,
+  "B1l/P2z / es_sigma x (1/lam)/(1 + eta_r)": 2.8404239840714643e-28,
+  "B1c/(Gam2 G) / es_sigma x (1/lam)": 0.015442266598070997,
+  "c_S": 0.15142848422534616
+ },
+ "conditions": {
+  "R1 <= 0.9 es": true,
+  "R3 (a <= 1) <= 0.1 es": true,
+  "R3 (a >= 1) <= 0.1 es": true,
+  "X1^2 <= ell": true,
+  "(d4 + N4G)/P2z <= es_sigma": true,
+  "B1l/P2z <= es_sigma": true,
+  "B1c <= es_sigma Gam2 G": true
+ },
+ "power (each must be False)": {
+  "B >= 1.3e10: R1 <= 0.9 es (must be False)": false,
+  "paper I's allocation: R1 <= 0.52 es at the end B (must be False at B)": false,
+  "R1 <= 0.49 es at the end A (must be False at A)": false
+ },
+ "ok": true,
+ "seconds": 0.11448860168457031
+}

@@ -1,0 +1,715 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "claim": "(F_J^2 - 1) ell >= 10",
+ "main": {
+  "uniform A (lam 1) ell=55.26": {
+   "case": "uniform A (lam 1)",
+   "ell": 55.26,
+   "(F^2 - 1) ell at the minimum": 22.89099675766918,
+   "log F": 0.1732967458538152,
+   "state": [
+    2.3994979770530795,
+    -27.845714460128082,
+    56.080093275338996,
+    -3.3880992614796446,
+    0.0
+   ],
+   "evaluations": 49310,
+   "nan": 0,
+   "family of the lowest walker": "N5 large kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 0.17330025684325526,
+    "E1 small r, b at the lower end": 0.17329861829968288,
+    "E2 b at the lower end": 0.17330879880342956,
+    "E3 large b": 1.6819772917630649,
+    "E4 tails of mu": 0.173296747919389,
+    "E5 tails of kappa": 0.1732967461166042,
+    "N1 narrow": 0.17330016990823974,
+    "N2 low mu": 1.8172023442867637,
+    "N3 DF region": 0.17329675245330003,
+    "N4 on the line": 0.17330248953060726,
+    "N5 large kappa": 0.1732967458538152,
+    "F1 corner": 0.17330361521665164
+   }
+  },
+  "uniform mid (lam 0.9) ell=55.26": {
+   "case": "uniform mid (lam 0.9)",
+   "ell": 55.26,
+   "(F^2 - 1) ell at the minimum": 23.663252331541624,
+   "log F": 0.1782132856479222,
+   "state": [
+    2.3906234548872196,
+    -27.843101722485393,
+    56.07604079005205,
+    -3.379578644393181,
+    0.0
+   ],
+   "evaluations": 44510,
+   "nan": 0,
+   "family of the lowest walker": "N3 DF region",
+   "per family after polishing (log F)": {
+    "F2 global": 0.1782133626591367,
+    "E1 small r, b at the lower end": 0.17821798214405718,
+    "E2 b at the lower end": 0.1782139875969724,
+    "E3 large b": 1.8806164371918155,
+    "E4 tails of mu": 0.17821492985107704,
+    "E5 tails of kappa": 0.17821462332172858,
+    "N1 narrow": 0.17821338597508443,
+    "N2 low mu": 2.0403458955963276,
+    "N3 DF region": 0.1782132856479222,
+    "N4 on the line": 0.17821382598864857,
+    "N5 large kappa": 0.17821419464455882,
+    "F1 corner": 0.17821503179021428
+   }
+  },
+  "uniform B (lam 0.8) ell=55.26": {
+   "case": "uniform B (lam 0.8)",
+   "ell": 55.26,
+   "(F^2 - 1) ell at the minimum": 24.543567199061645,
+   "log F": 0.18375944285201332,
+   "state": [
+    2.380928011069061,
+    -27.84161411288367,
+    56.06873262992649,
+    -3.3702938727690395,
+    0.0
+   ],
+   "evaluations": 44770,
+   "nan": 0,
+   "family of the lowest walker": "N3 DF region",
+   "per family after polishing (log F)": {
+    "F2 global": 0.1837616641220584,
+    "E1 small r, b at the lower end": 0.1837688242303215,
+    "E2 b at the lower end": 0.183761234454536,
+    "E3 large b": 2.1311641881246137,
+    "E4 tails of mu": 0.18376725936238184,
+    "E5 tails of kappa": 0.18375947642452065,
+    "N1 narrow": 0.18376237700052347,
+    "N2 low mu": 2.328027968052754,
+    "N3 DF region": 0.18375944285201332,
+    "N4 on the line": 0.18376011044902843,
+    "N5 large kappa": 0.18377059568000653,
+    "F1 corner": 0.18376749873579123
+   }
+  },
+  "chord A (lam 1, eta 0) ell=55.26": {
+   "case": "chord A (lam 1, eta 0)",
+   "ell": 55.26,
+   "(F^2 - 1) ell at the minimum": 22.891000021188674,
+   "log F": 0.17329676673339167,
+   "state": [
+    2.3994979770530795,
+    -27.84571517538382,
+    56.08009232166468,
+    -3.3880992614796446,
+    0.0
+   ],
+   "evaluations": 49290,
+   "nan": 0,
+   "family of the lowest walker": "N5 large kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 0.17330027786388513,
+    "E1 small r, b at the lower end": 0.1732986390657083,
+    "E2 b at the lower end": 0.17330881994991654,
+    "E3 large b": 2.021674390288528,
+    "E4 tails of mu": 0.17329676879988254,
+    "E5 tails of kappa": 0.1732967669962927,
+    "N1 narrow": 0.17330019056088464,
+    "N2 low mu": 2.183614463320906,
+    "N3 DF region": 0.17329677331772397,
+    "N4 on the line": 0.17330251021639909,
+    "N5 large kappa": 0.17329676673339167,
+    "F1 corner": 0.17330363573071028
+   }
+  },
+  "chord B (lam 0.8, eta 1/4) ell=55.26": {
+   "case": "chord B (lam 0.8, eta 1/4)",
+   "ell": 55.26,
+   "(F^2 - 1) ell at the minimum": 24.543567199061645,
+   "log F": 0.18375944285201332,
+   "state": [
+    2.380928011069061,
+    -27.84161411288367,
+    56.06873262992649,
+    -3.3702938727690395,
+    0.0
+   ],
+   "evaluations": 44770,
+   "nan": 0,
+   "family of the lowest walker": "N3 DF region",
+   "per family after polishing (log F)": {
+    "F2 global": 0.1837616641220584,
+    "E1 small r, b at the lower end": 0.1837688242303215,
+    "E2 b at the lower end": 0.183761234454536,
+    "E3 large b": 2.0828429131187387,
+    "E4 tails of mu": 0.18376725936238184,
+    "E5 tails of kappa": 0.18375947642452065,
+    "N1 narrow": 0.18376237700052347,
+    "N2 low mu": 2.267478282382558,
+    "N3 DF region": 0.18375944285201332,
+    "N4 on the line": 0.18376011044902843,
+    "N5 large kappa": 0.18377059568000653,
+    "F1 corner": 0.18376749873579123
+   }
+  },
+  "uniform A (lam 1) ell=960.8": {
+   "case": "uniform A (lam 1)",
+   "ell": 960.8,
+   "(F^2 - 1) ell at the minimum": 28.21629239273784,
+   "log F": 0.01447226716180694,
+   "state": [
+    5.457871568733267,
+    -481.3690293686728,
+    963.2190527612398,
+    -6.4568066739431975,
+    0.0
+   ],
+   "evaluations": 108140,
+   "nan": 0,
+   "family of the lowest walker": "F1 corner",
+   "per family after polishing (log F)": {
+    "F1 corner": 0.01447226716180694,
+    "F2 global": 0.014472267971484598,
+    "E1 small r, b at the lower end": 0.7677745051977354,
+    "E2 b at the lower end": 0.7890839103921508,
+    "E3 large b": 3.2450608199223887,
+    "E4 tails of mu": 0.014472267162204844,
+    "N1 narrow": 3.7804567256629573,
+    "N2 low mu": 0.7341160611510986,
+    "N3 DF region": 0.7511752270768284,
+    "N4 on the line": 0.8014554459236933,
+    "N5 large kappa": 0.014472267495762026,
+    "E5 tails of kappa": 0.014472268578344938
+   }
+  },
+  "uniform mid (lam 0.9) ell=960.8": {
+   "case": "uniform mid (lam 0.9)",
+   "ell": 960.8,
+   "(F^2 - 1) ell at the minimum": 28.661382217510276,
+   "log F": 0.014697232971627727,
+   "state": [
+    5.457425081234296,
+    -481.36902851170004,
+    963.2186198524366,
+    -6.45635970822417,
+    0.0
+   ],
+   "evaluations": 109320,
+   "nan": 0,
+   "family of the lowest walker": "N5 large kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 0.014697234111849866,
+    "E1 small r, b at the lower end": 0.7811175019826351,
+    "E2 b at the lower end": 0.8063216932297337,
+    "E3 large b": 3.4682043712365984,
+    "E4 tails of mu": 0.014697233995946135,
+    "E5 tails of kappa": 0.014697233070535276,
+    "N1 narrow": 4.003600276977167,
+    "N2 low mu": 0.7428630196632184,
+    "N3 DF region": 0.745545079716635,
+    "N4 on the line": 0.7760881951915053,
+    "N5 large kappa": 0.014697232971627727,
+    "F1 corner": 0.014697234136235693
+   }
+  },
+  "uniform B (lam 0.8) ell=960.8": {
+   "case": "uniform B (lam 0.8)",
+   "ell": 960.8,
+   "(F^2 - 1) ell at the minimum": 29.15942403779215,
+   "log F": 0.014948842851254085,
+   "state": [
+    5.456923661790895,
+    -481.3688191875962,
+    963.2185318757639,
+    -6.45585775623261,
+    0.0
+   ],
+   "evaluations": 122400,
+   "nan": 0,
+   "family of the lowest walker": "E5 tails of kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 0.01494884396282714,
+    "E1 small r, b at the lower end": 0.7595822442760891,
+    "E2 b at the lower end": 0.8054363837475194,
+    "E3 large b": 3.755886443688379,
+    "E4 tails of mu": 0.014948843199590556,
+    "E5 tails of kappa": 0.014948842851254085,
+    "N1 narrow": 0.7757054292427483,
+    "N2 low mu": 0.723725355849183,
+    "N3 DF region": 0.7446516833534815,
+    "N4 on the line": 0.7767423667642106,
+    "N5 large kappa": 0.014948843729655437,
+    "F1 corner": 0.0149488430610063
+   }
+  },
+  "chord A (lam 1, eta 0) ell=960.8": {
+   "case": "chord A (lam 1, eta 0)",
+   "ell": 960.8,
+   "(F^2 - 1) ell at the minimum": 28.216292323251075,
+   "log F": 0.014472267126677707,
+   "state": [
+    5.457872174173487,
+    -481.3690934994225,
+    963.2189367444603,
+    -6.45680727698587,
+    -1.1368683772161603e-13
+   ],
+   "evaluations": 107480,
+   "nan": 0,
+   "family of the lowest walker": "F2 global",
+   "per family after polishing (log F)": {
+    "F1 corner": 0.014472267161750096,
+    "F2 global": 0.014472267126677707,
+    "E1 small r, b at the lower end": 0.7672620360249311,
+    "E2 b at the lower end": 0.7890839103921508,
+    "E3 large b": 3.611472938956277,
+    "E4 tails of mu": 0.01447226757647968,
+    "N1 narrow": 3.7804567256629573,
+    "N2 low mu": 0.728919725247124,
+    "N3 DF region": 0.7515203028448241,
+    "N4 on the line": 0.8014554459236933,
+    "N5 large kappa": 0.014472267182156884,
+    "E5 tails of kappa": 0.014472268578344938
+   }
+  },
+  "chord B (lam 0.8, eta 1/4) ell=960.8": {
+   "case": "chord B (lam 0.8, eta 1/4)",
+   "ell": 960.8,
+   "(F^2 - 1) ell at the minimum": 29.15942403779215,
+   "log F": 0.014948842851254085,
+   "state": [
+    5.456923661790895,
+    -481.3688191875962,
+    963.2185318757639,
+    -6.45585775623261,
+    0.0
+   ],
+   "evaluations": 122400,
+   "nan": 0,
+   "family of the lowest walker": "E5 tails of kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 0.01494884396282714,
+    "E1 small r, b at the lower end": 0.7595822442760891,
+    "E2 b at the lower end": 0.8054363837475194,
+    "E3 large b": 3.695336758018183,
+    "E4 tails of mu": 0.014948843199590556,
+    "E5 tails of kappa": 0.014948842851254085,
+    "N1 narrow": 0.7757054292427483,
+    "N2 low mu": 0.723725355849183,
+    "N3 DF region": 0.7446516833534815,
+    "N4 on the line": 0.7767423667642106,
+    "N5 large kappa": 0.014948843729655437,
+    "F1 corner": 0.0149488430610063
+   }
+  },
+  "uniform A (lam 1) ell=10000": {
+   "case": "uniform A (lam 1)",
+   "ell": 10000.0,
+   "(F^2 - 1) ell at the minimum": 35.82820806863589,
+   "log F": 0.0017882088968690368,
+   "state": [
+    7.820971243752613,
+    -5001.559493671556,
+    10003.60324656858,
+    -8.820870941099994,
+    0.0
+   ],
+   "evaluations": 91230,
+   "nan": 0,
+   "family of the lowest walker": "E5 tails of kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 4.281122792147917,
+    "E1 small r, b at the lower end": 1.258136591353832,
+    "E2 b at the lower end": 1.856874535098541,
+    "E3 large b": 4.416347870525625,
+    "E4 tails of mu": 0.0017882088977785315,
+    "E5 tails of kappa": 0.0017882088968690368,
+    "N1 narrow": 4.951743776266908,
+    "N2 low mu": 4.416347870525625,
+    "N3 DF region": 1.6139545990354236,
+    "N4 on the line": 1.936463674348488,
+    "N5 large kappa": 0.27395400094428624,
+    "F1 corner": 0.0017882088977785315
+   }
+  },
+  "uniform mid (lam 0.9) ell=10000": {
+   "case": "uniform mid (lam 0.9)",
+   "ell": 10000.0,
+   "(F^2 - 1) ell at the minimum": 36.252544309342504,
+   "log F": 0.00180934951731615,
+   "state": [
+    7.820929032203813,
+    -5001.559465010986,
+    10003.603241791603,
+    -8.820828736424474,
+    0.0
+   ],
+   "evaluations": 92710,
+   "nan": 0,
+   "family of the lowest walker": "F1 corner",
+   "per family after polishing (log F)": {
+    "F2 global": 4.479761953605538,
+    "E1 small r, b at the lower end": 1.2295790715106705,
+    "E2 b at the lower end": 1.8984846437488159,
+    "E3 large b": 4.639491421839835,
+    "E4 tails of mu": 0.0018093495182256447,
+    "E5 tails of kappa": 0.0018093495200446341,
+    "N1 narrow": 5.174887327581118,
+    "N2 low mu": 4.639491421839835,
+    "N3 DF region": 1.6203178892374126,
+    "N4 on the line": 1.980152490124965,
+    "N5 large kappa": 0.22005880201140826,
+    "F1 corner": 0.00180934951731615
+   }
+  },
+  "uniform B (lam 0.8) ell=10000": {
+   "case": "uniform B (lam 0.8)",
+   "ell": 10000.0,
+   "(F^2 - 1) ell at the minimum": 36.72695442275437,
+   "log F": 0.0018329837821511319,
+   "state": [
+    7.820881731905227,
+    -5001.559427489079,
+    10003.603304089143,
+    -8.820781383680256,
+    0.0
+   ],
+   "evaluations": 93010,
+   "nan": 0,
+   "family of the lowest walker": "E4 tails of mu",
+   "per family after polishing (log F)": {
+    "F2 global": 0.19562041845347267,
+    "E1 small r, b at the lower end": 1.2276890156917943,
+    "E2 b at the lower end": 1.8629792424417246,
+    "E3 large b": 4.927173494291615,
+    "E4 tails of mu": 0.0018329837821511319,
+    "E5 tails of kappa": 0.001832983784879616,
+    "N1 narrow": 5.462569400032899,
+    "N2 low mu": 4.927173494291615,
+    "N3 DF region": 1.6227667184557504,
+    "N4 on the line": 1.9291316179969726,
+    "N5 large kappa": 0.27403118473012,
+    "F1 corner": 0.0018329837839701213
+   }
+  },
+  "chord A (lam 1, eta 0) ell=10000": {
+   "case": "chord A (lam 1, eta 0)",
+   "ell": 10000.0,
+   "(F^2 - 1) ell at the minimum": 35.82820805038082,
+   "log F": 0.0017882088959595421,
+   "state": [
+    7.820971243752613,
+    -5001.559493671556,
+    10003.60324656858,
+    -8.820870941099994,
+    0.0
+   ],
+   "evaluations": 94920,
+   "nan": 0,
+   "family of the lowest walker": "E5 tails of kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 0.1951196952054488,
+    "E1 small r, b at the lower end": 1.2580611722332833,
+    "E2 b at the lower end": 1.856874535098541,
+    "E3 large b": 4.782759989561705,
+    "E4 tails of mu": 0.001788208899597521,
+    "E5 tails of kappa": 0.0017882088959595421,
+    "N1 narrow": 4.951743776266908,
+    "N2 low mu": 4.782759989561705,
+    "N3 DF region": 1.6102848221435124,
+    "N4 on the line": 1.9365801499734516,
+    "N5 large kappa": 0.22376939160403708,
+    "F1 corner": 0.0017882089014165103
+   }
+  },
+  "chord B (lam 0.8, eta 1/4) ell=10000": {
+   "case": "chord B (lam 0.8, eta 1/4)",
+   "ell": 10000.0,
+   "(F^2 - 1) ell at the minimum": 36.72695442275437,
+   "log F": 0.0018329837821511319,
+   "state": [
+    7.820881731905227,
+    -5001.559427489079,
+    10003.603304089143,
+    -8.820781383680256,
+    0.0
+   ],
+   "evaluations": 93050,
+   "nan": 0,
+   "family of the lowest walker": "E4 tails of mu",
+   "per family after polishing (log F)": {
+    "F2 global": 0.19450795178045155,
+    "E1 small r, b at the lower end": 1.2276890156917943,
+    "E2 b at the lower end": 1.8629792424417246,
+    "E3 large b": 4.866623808621419,
+    "E4 tails of mu": 0.0018329837821511319,
+    "E5 tails of kappa": 0.001832983784879616,
+    "N1 narrow": 5.462569400032899,
+    "N2 low mu": 4.866623808621419,
+    "N3 DF region": 1.6227667184557504,
+    "N4 on the line": 1.9291316179969726,
+    "N5 large kappa": 0.27403118473012,
+    "F1 corner": 0.0018329837839701213
+   }
+  },
+  "uniform A (lam 1) ell=1e+06": {
+   "case": "uniform A (lam 1)",
+   "ell": 1000000.0,
+   "(F^2 - 1) ell at the minimum": 51.83340270269287,
+   "log F": 2.5916029699146748e-05,
+   "state": [
+    12.429169355143399,
+    -500002.70179492276,
+    1000005.921298752,
+    -13.429099921845818,
+    0.0
+   ],
+   "evaluations": 95740,
+   "nan": 0,
+   "family of the lowest walker": "F1 corner",
+   "per family after polishing (log F)": {
+    "F2 global": 1.002572598052211,
+    "E1 small r, b at the lower end": 12.858104456621813,
+    "E2 b at the lower end": 1.9809621643507853,
+    "E3 large b": 6.718932963494894,
+    "E4 tails of mu": 7.773854304105043e-05,
+    "E5 tails of kappa": 2.5916029699146748e-05,
+    "N1 narrow": 4.2260155690601096,
+    "N2 low mu": 6.718932963494894,
+    "N3 DF region": 2.031073744990863,
+    "N4 on the line": 4.20134526968468,
+    "N5 large kappa": 0.9544289159821346,
+    "F1 corner": 2.5916029699146748e-05
+   }
+  },
+  "uniform mid (lam 0.9) ell=1e+06": {
+   "case": "uniform mid (lam 0.9)",
+   "ell": 1000000.0,
+   "(F^2 - 1) ell at the minimum": 52.25484810032203,
+   "log F": 2.61267414316535e-05,
+   "state": [
+    12.429168956475682,
+    -500002.72292690165,
+    1000005.8968201926,
+    -13.429160598243332,
+    0.0
+   ],
+   "evaluations": 81190,
+   "nan": 0,
+   "family of the lowest walker": "F1 corner",
+   "per family after polishing (log F)": {
+    "F2 global": 1.0131027228781022,
+    "E1 small r, b at the lower end": 12.878971218803333,
+    "E2 b at the lower end": 1.9809732391731814,
+    "E3 large b": 6.942076514809104,
+    "E4 tails of mu": 7.601670222356915e-05,
+    "E5 tails of kappa": 2.61267414316535e-05,
+    "N1 narrow": 4.231654801871628,
+    "N2 low mu": 6.942076514809104,
+    "N3 DF region": 2.031085987109691,
+    "N4 on the line": 4.209596567554399,
+    "N5 large kappa": 1.140751047350932,
+    "F1 corner": 2.61267414316535e-05
+   }
+  },
+  "uniform B (lam 0.8) ell=1e+06": {
+   "case": "uniform B (lam 0.8)",
+   "ell": 1000000.0,
+   "(F^2 - 1) ell at the minimum": 52.7260056377178,
+   "log F": 2.6362307835370302e-05,
+   "state": [
+    12.429168473054304,
+    -500002.7069592654,
+    1000005.9100198353,
+    -13.429143432061775,
+    0.0
+   ],
+   "evaluations": 96240,
+   "nan": 0,
+   "family of the lowest walker": "E5 tails of kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 1.0072571295895614,
+    "E1 small r, b at the lower end": 12.898903060527084,
+    "E2 b at the lower end": 1.9809856198262423,
+    "E3 large b": 7.229758587260885,
+    "E4 tails of mu": 7.818714948371053e-05,
+    "E5 tails of kappa": 2.6362307835370302e-05,
+    "N1 narrow": 4.232170065864921,
+    "N2 low mu": 7.229758587260885,
+    "N3 DF region": 2.031099672894925,
+    "N4 on the line": 4.211652516503818,
+    "N5 large kappa": 1.0122292090090923,
+    "F1 corner": 2.6362482458353043e-05
+   }
+  },
+  "chord A (lam 1, eta 0) ell=1e+06": {
+   "case": "chord A (lam 1, eta 0)",
+   "ell": 1000000.0,
+   "(F^2 - 1) ell at the minimum": 51.83340270269287,
+   "log F": 2.5916029699146748e-05,
+   "state": [
+    12.429169357096525,
+    -500002.70374804776,
+    1000005.921298752,
+    -13.429099921845818,
+    0.0
+   ],
+   "evaluations": 96010,
+   "nan": 0,
+   "family of the lowest walker": "F1 corner",
+   "per family after polishing (log F)": {
+    "F2 global": 0.9308274438953958,
+    "E1 small r, b at the lower end": 12.993263202436392,
+    "E2 b at the lower end": 1.9809621644672006,
+    "E3 large b": 7.085345082597337,
+    "E4 tails of mu": 7.792201358824968e-05,
+    "E5 tails of kappa": 2.5916029699146748e-05,
+    "N1 narrow": 4.2260155690601096,
+    "N2 low mu": 7.085345082597337,
+    "N3 DF region": 2.031004591844976,
+    "N4 on the line": 4.201458857394755,
+    "N5 large kappa": 1.0176003027590923,
+    "F1 corner": 2.5916029699146748e-05
+   }
+  },
+  "chord B (lam 0.8, eta 1/4) ell=1e+06": {
+   "case": "chord B (lam 0.8, eta 1/4)",
+   "ell": 1000000.0,
+   "(F^2 - 1) ell at the minimum": 52.7260056377178,
+   "log F": 2.6362307835370302e-05,
+   "state": [
+    12.429168473054304,
+    -500002.7069592654,
+    1000005.9100198353,
+    -13.429143432061775,
+    0.0
+   ],
+   "evaluations": 96240,
+   "nan": 0,
+   "family of the lowest walker": "E5 tails of kappa",
+   "per family after polishing (log F)": {
+    "F2 global": 1.0072571295895614,
+    "E1 small r, b at the lower end": 12.898903060527084,
+    "E2 b at the lower end": 1.9809856198262423,
+    "E3 large b": 7.169208901590689,
+    "E4 tails of mu": 7.818714948371053e-05,
+    "E5 tails of kappa": 2.6362307835370302e-05,
+    "N1 narrow": 4.232170065864921,
+    "N2 low mu": 7.169208901590689,
+    "N3 DF region": 2.031099672894925,
+    "N4 on the line": 4.211652516503818,
+    "N5 large kappa": 1.0122292090090923,
+    "F1 corner": 2.6362482458353043e-05
+   }
+  }
+ },
+ "power": {
+  "planted dip corner (paper I design, depth 5) uniform B (lam 0.8) ell=55.26": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000000057
+  },
+  "planted dip narrow (paper I design, depth 5) uniform B (lam 0.8) ell=55.26": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000000058
+  },
+  "planted dip low mu (paper I design, depth 5) uniform B (lam 0.8) ell=55.26": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000000555
+  },
+  "drop P2z uniform B (lam 0.8) ell=55.26": {
+   "caught (margin < 10)": true,
+   "margin": -55.25586429930021
+  },
+  "drop hFz uniform B (lam 0.8) ell=55.26": {
+   "caught (margin < 10)": true,
+   "margin": -55.26
+  },
+  "planted dip corner (paper I design, depth 5) chord A (lam 1, eta 0) ell=55.26": {
+   "found (margin <= 5.5)": false,
+   "margin": 22.89100470904822
+  },
+  "planted dip narrow (paper I design, depth 5) chord A (lam 1, eta 0) ell=55.26": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000000014
+  },
+  "planted dip low mu (paper I design, depth 5) chord A (lam 1, eta 0) ell=55.26": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.00000000000002
+  },
+  "drop P2z chord A (lam 1, eta 0) ell=55.26": {
+   "caught (margin < 10)": true,
+   "margin": -55.256796553069194
+  },
+  "drop hFz chord A (lam 1, eta 0) ell=55.26": {
+   "caught (margin < 10)": true,
+   "margin": -55.26
+  },
+  "planted dip corner (paper I design, depth 5) uniform B (lam 0.8) ell=960.8": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000000027
+  },
+  "planted dip narrow (paper I design, depth 5) uniform B (lam 0.8) ell=960.8": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000000046
+  },
+  "planted dip low mu (paper I design, depth 5) uniform B (lam 0.8) ell=960.8": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.0
+  },
+  "drop P2z uniform B (lam 0.8) ell=960.8": {
+   "caught (margin < 10)": true,
+   "margin": -960.8
+  },
+  "drop hFz uniform B (lam 0.8) ell=960.8": {
+   "caught (margin < 10)": true,
+   "margin": -960.8
+  },
+  "planted dip corner (paper I design, depth 5) chord A (lam 1, eta 0) ell=960.8": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000000019
+  },
+  "planted dip narrow (paper I design, depth 5) chord A (lam 1, eta 0) ell=960.8": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000000046
+  },
+  "planted dip low mu (paper I design, depth 5) chord A (lam 1, eta 0) ell=960.8": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.0
+  },
+  "drop P2z chord A (lam 1, eta 0) ell=960.8": {
+   "caught (margin < 10)": true,
+   "margin": -960.8
+  },
+  "drop hFz chord A (lam 1, eta 0) ell=960.8": {
+   "caught (margin < 10)": true,
+   "margin": -960.8
+  }
+ },
+ "diagnostic": {
+  "coefficient 1 at eta = 1/4 (gains 4/5, target not scaled) ell=55.26": -26.530717738359797,
+  "old FrB1 X1 (the table line B1m is smaller: the search sees a larger or equal margin) ell=55.26": 24.543561837942157,
+  "coefficient 1 at eta = 1/4 (gains 4/5, target not scaled) ell=960.8": -604.4146073063176,
+  "old FrB1 X1 (the table line B1m is smaller: the search sees a larger or equal margin) ell=960.8": 29.159424149099507
+ },
+ "power, first design (a dip of widths 0.5 next to the minimiser; too narrow, not counted)": {
+  "planted dip (depth 5) uniform B (lam 0.8) ell=55.26": {
+   "found (margin <= 5.5)": false,
+   "margin": 24.543606303532552
+  },
+  "planted dip (depth 5) chord A (lam 1, eta 0) ell=55.26": {
+   "found (margin <= 5.5)": false,
+   "margin": 22.891005385190116
+  },
+  "planted dip (depth 5) uniform B (lam 0.8) ell=960.8": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000004085
+  },
+  "planted dip (depth 5) chord A (lam 1, eta 0) ell=960.8": {
+   "found (margin <= 5.5)": true,
+   "margin": 5.000000000005444
+  }
+ },
+ "main ok (every minimum >= 10)": true,
+ "power ok": false,
+ "seconds": 1045.5012364387512
+}

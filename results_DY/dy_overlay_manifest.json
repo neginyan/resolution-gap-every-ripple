@@ -1,0 +1,19 @@
+{
+ "note": "the published repository of paper I + DX/src_overlay (stage DX) + DY/src_overlay (this stage) = the work copy of stage DY",
+ "published sha256 of the changed modules": {
+  "src/dl_consts.py": "9a6c775ca1ff4c04024b947c75f3048a8259b3c34bf203fe54198a68784bfc02",
+  "src/dp_room1.py": "6616d5a647fd23675f3fac146bb5ac30f41b6055d14fd99f216a0d109e7501f0",
+  "src/dp_r1.py": "4c19481cb4b1659e2ffe7adbcc7d06a8b2d043cacb87596060815b7818e9e483",
+  "src/dj_lines.py": "f81f4a14b12c024c54ea1cbce1480a35790547ce37295f14355644e5b6f1cbcc",
+  "src/dk_lemma.py": "720aa1d3b050ea0f87c7f0666c01ae0c5e6665483bf3ac5c1c24f2c1d23c008e"
+ },
+ "new modules of DY": [
+  "dy_audits.py",
+  "dy_convex.py",
+  "dy_corner.py",
+  "dy_jsrc.py",
+  "dy_room2_hand.py",
+  "dy_run.py",
+  "dy_tail.py"
+ ]
+}

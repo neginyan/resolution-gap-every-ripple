@@ -1,0 +1,830 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "ell": 55.26,
+ "power, all": {
+  "combination": [
+   "narrow",
+   "Pt",
+   "0.1"
+  ],
+  "true minimum (main search)": 3.4929680066908286,
+  "true value at the minimiser (re-evaluated)": 3.4929680066908286,
+  "drop III: value at the true minimiser": 1.7504220930324574,
+  "drop III: relative difference": 0.4988725663448679,
+  "sign: value at the true minimiser": 3.5181242898370493,
+  "sign: relative difference": 0.007201979261772129,
+  "drop III: search minimum": 5.522410013374676e-15,
+  "(p1) caught": true,
+  "sign: largest relative difference over the minimisers of the narrow room": 0.14634135833393724,
+  "(p2) caught": true,
+  "(p3) planted bowl: bottom (0.3 x true minimum)": 1.0478904020072486,
+  "(p3) planted bowl: search minimum": 1.056586682411197,
+  "(p3) planted bowl: distance of the found point to z* (unit cube)": 0.02087317373025588,
+  "(p3) caught": true,
+  "(p4) sandwich variant at eta = 1/4: search minimum": 2.1054549638793674,
+  "(p4) true minimum at eta = 1/4": 6.678975781473785,
+  "(p4) caught": true
+ },
+ "power, bright": {
+  "combination": [
+   "narrow",
+   "Pt",
+   "1/4"
+  ],
+  "true minimum (main search)": 3.4026459055482263,
+  "true value at the minimiser (re-evaluated)": 3.4026459055482263,
+  "drop III: value at the true minimiser": 1.9396406867637845,
+  "drop III: relative difference": 0.4299610536608939,
+  "sign: value at the true minimiser": 3.4035359644099783,
+  "sign: relative difference": 0.0002615784558424039,
+  "drop III: search minimum": 8.639475785195666e-16,
+  "(p1) caught": true,
+  "sign: largest relative difference over the minimisers of the narrow room": 0.14634135833393724,
+  "(p2) caught": true,
+  "(p3) planted bowl: bottom (0.3 x true minimum)": 1.020793771664468,
+  "(p3) planted bowl: search minimum": 1.028775325305385,
+  "(p3) planted bowl: distance of the found point to z* (unit cube)": 0.02026069618758623,
+  "(p3) caught": true,
+  "(p4) sandwich variant at eta = 1/4: search minimum": 2.1952002112394156,
+  "(p4) true minimum at eta = 1/4": 3.4026459055482263,
+  "(p4) caught": true
+ },
+ "swap of eta at the minimisers": [
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "W1",
+   "eta": "0.1",
+   "Q(eta)": 10.51286925370576,
+   "Q(1/ell) same shape and state": 10.512866826623188,
+   "ratio": 1.0000002308678129
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "W1",
+   "eta": "1/4",
+   "Q(eta)": 10.513124822530369,
+   "Q(1/ell) same shape and state": 10.513126505686527,
+   "ratio": 0.999999839899562
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "W2-3",
+   "eta": "0.1",
+   "Q(eta)": 10.513346986497838,
+   "Q(1/ell) same shape and state": 10.513320666755249,
+   "ratio": 1.0000025034661668
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "W2-3",
+   "eta": "1/4",
+   "Q(eta)": 10.513317003820983,
+   "Q(1/ell) same shape and state": 10.51321751414583,
+   "ratio": 1.0000094632946592
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "W2-21",
+   "eta": "0.1",
+   "Q(eta)": 10.51294237045518,
+   "Q(1/ell) same shape and state": 10.51291498748952,
+   "ratio": 1.0000026046977164
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "W2-21",
+   "eta": "1/4",
+   "Q(eta)": 8.39796784288617,
+   "Q(1/ell) same shape and state": 25.322202719912433,
+   "ratio": 0.3316444440389193
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "W2-61",
+   "eta": "0.1",
+   "Q(eta)": 10.5273065088055,
+   "Q(1/ell) same shape and state": 10.51703127586454,
+   "ratio": 1.0009770088793537
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "W2-61",
+   "eta": "1/4",
+   "Q(eta)": 7.366179207019106,
+   "Q(1/ell) same shape and state": 14.172652475235266,
+   "ratio": 0.5197459840273708
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "S",
+   "eta": "0.1",
+   "Q(eta)": 5.472807096644358,
+   "Q(1/ell) same shape and state": 11.225683588710602,
+   "ratio": 0.48752550821477164
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "S",
+   "eta": "1/4",
+   "Q(eta)": 5.3445162584959816,
+   "Q(1/ell) same shape and state": 15.000449893036121,
+   "ratio": 0.3562903977284804
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "Pt",
+   "eta": "0.1",
+   "Q(eta)": 3.4930068676659203,
+   "Q(1/ell) same shape and state": 6.907936859740647,
+   "ratio": 0.5056512441541138
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "Pt",
+   "eta": "1/4",
+   "Q(eta)": 6.6789757976257835,
+   "Q(1/ell) same shape and state": 9.91930437760045,
+   "ratio": 0.6733310667135183
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "Pc",
+   "eta": "0.1",
+   "Q(eta)": 4.198246141975126,
+   "Q(1/ell) same shape and state": 7.630923717986489,
+   "ratio": 0.5501622473409922
+  },
+  {
+   "mode": "all",
+   "room": "narrow",
+   "family": "Pc",
+   "eta": "1/4",
+   "Q(eta)": 10.42321874651636,
+   "Q(1/ell) same shape and state": 10.528435514162751,
+   "ratio": 0.9900064195193241
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "W1",
+   "eta": "0.1",
+   "Q(eta)": 7.4337103796948,
+   "Q(1/ell) same shape and state": 7.433708893145691,
+   "ratio": 1.0000001999740815
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "W1",
+   "eta": "1/4",
+   "Q(eta)": 7.4336930998821,
+   "Q(1/ell) same shape and state": 7.433725568649503,
+   "ratio": 0.9999956322348594
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "W2-3",
+   "eta": "0.1",
+   "Q(eta)": 7.433710611662584,
+   "Q(1/ell) same shape and state": 7.433708566186907,
+   "ratio": 1.00000027516221
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "W2-3",
+   "eta": "1/4",
+   "Q(eta)": 7.4337661319582065,
+   "Q(1/ell) same shape and state": 7.433752932899711,
+   "ratio": 1.000001775557866
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "W2-21",
+   "eta": "0.1",
+   "Q(eta)": 7.376521204495503,
+   "Q(1/ell) same shape and state": 7.423933983622978,
+   "ratio": 0.993613523607286
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "W2-21",
+   "eta": "1/4",
+   "Q(eta)": 7.434096078844321,
+   "Q(1/ell) same shape and state": 7.434118214787601,
+   "ratio": 0.9999970223848155
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "W2-61",
+   "eta": "0.1",
+   "Q(eta)": 7.4338091261759525,
+   "Q(1/ell) same shape and state": 7.433773849860085,
+   "ratio": 1.0000047454114935
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "W2-61",
+   "eta": "1/4",
+   "Q(eta)": 7.433744471220527,
+   "Q(1/ell) same shape and state": 7.433734605857008,
+   "ratio": 1.0000013271073076
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "S",
+   "eta": "0.1",
+   "Q(eta)": 7.433717312850553,
+   "Q(1/ell) same shape and state": 7.433714923741411,
+   "ratio": 1.0000003213883188
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "S",
+   "eta": "1/4",
+   "Q(eta)": 7.433815441778862,
+   "Q(1/ell) same shape and state": 7.4337814782764005,
+   "ratio": 1.000004568805602
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "Pt",
+   "eta": "0.1",
+   "Q(eta)": 7.433998944341317,
+   "Q(1/ell) same shape and state": 7.433836369447501,
+   "ratio": 1.0000218695819676
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "Pt",
+   "eta": "1/4",
+   "Q(eta)": 7.4350996734736725,
+   "Q(1/ell) same shape and state": 7.4348193515944025,
+   "ratio": 1.0000377039260826
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "Pc",
+   "eta": "0.1",
+   "Q(eta)": 7.433753197947555,
+   "Q(1/ell) same shape and state": 7.4337531514961634,
+   "ratio": 1.000000006248713
+  },
+  {
+   "mode": "all",
+   "room": "resolution",
+   "family": "Pc",
+   "eta": "1/4",
+   "Q(eta)": 7.433768583789285,
+   "Q(1/ell) same shape and state": 7.433768661109824,
+   "ratio": 0.9999999895987429
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "W1",
+   "eta": "0.1",
+   "Q(eta)": 9.94454678158208e+16,
+   "Q(1/ell) same shape and state": 9.944546781582085e+16,
+   "ratio": 0.9999999999999996
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "W1",
+   "eta": "1/4",
+   "Q(eta)": 9.94454678158208e+16,
+   "Q(1/ell) same shape and state": 9.944546781582085e+16,
+   "ratio": 0.9999999999999996
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "W2-3",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582077e+16,
+   "Q(1/ell) same shape and state": 9.944546781582078e+16,
+   "ratio": 0.9999999999999999
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "W2-3",
+   "eta": "1/4",
+   "Q(eta)": 9.94454678158208e+16,
+   "Q(1/ell) same shape and state": 9.944546781582085e+16,
+   "ratio": 0.9999999999999996
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "W2-21",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582082e+16,
+   "Q(1/ell) same shape and state": 9.944546781582085e+16,
+   "ratio": 0.9999999999999997
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "W2-21",
+   "eta": "1/4",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582075e+16,
+   "ratio": 1.0
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "W2-61",
+   "eta": "0.1",
+   "Q(eta)": 9.94454678158208e+16,
+   "Q(1/ell) same shape and state": 9.944546781582083e+16,
+   "ratio": 0.9999999999999997
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "W2-61",
+   "eta": "1/4",
+   "Q(eta)": 9.94454678158208e+16,
+   "Q(1/ell) same shape and state": 9.944546781582083e+16,
+   "ratio": 0.9999999999999997
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "S",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582078e+16,
+   "ratio": 0.9999999999999997
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "S",
+   "eta": "1/4",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582078e+16,
+   "ratio": 0.9999999999999997
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "Pt",
+   "eta": "0.1",
+   "Q(eta)": 9.94454678158208e+16,
+   "Q(1/ell) same shape and state": 9.944546781582083e+16,
+   "ratio": 0.9999999999999997
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "Pt",
+   "eta": "1/4",
+   "Q(eta)": 1000.0,
+   "Q(1/ell) same shape and state": 1.4095997717365857e+25,
+   "ratio": 7.094212272523493e-23
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "Pc",
+   "eta": "0.1",
+   "Q(eta)": 1000.0,
+   "Q(1/ell) same shape and state": 1.5240351387336995e+21,
+   "ratio": 6.561528501441815e-19
+  },
+  {
+   "mode": "all",
+   "room": "wide band",
+   "family": "Pc",
+   "eta": "1/4",
+   "Q(eta)": 1000.0,
+   "Q(1/ell) same shape and state": 2.71315431655065e+19,
+   "ratio": 3.6857468589230236e-17
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "W1",
+   "eta": "0.1",
+   "Q(eta)": 68.21612520522712,
+   "Q(1/ell) same shape and state": 76.14916649091462,
+   "ratio": 0.8958223490649238
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "W1",
+   "eta": "1/4",
+   "Q(eta)": 68.78970874924812,
+   "Q(1/ell) same shape and state": 96.76203261065704,
+   "ratio": 0.7109163263037103
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "W2-3",
+   "eta": "0.1",
+   "Q(eta)": 69.20664087593097,
+   "Q(1/ell) same shape and state": 84.92963171358187,
+   "ratio": 0.8148703753870572
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "W2-3",
+   "eta": "1/4",
+   "Q(eta)": 30.949748388645812,
+   "Q(1/ell) same shape and state": 66.27549940605716,
+   "ratio": 0.46698627194074677
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "W2-21",
+   "eta": "0.1",
+   "Q(eta)": 7.05084635763531,
+   "Q(1/ell) same shape and state": 7.935293411998315,
+   "ratio": 0.8885426148167748
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "W2-21",
+   "eta": "1/4",
+   "Q(eta)": 7.022061184616669,
+   "Q(1/ell) same shape and state": 10.813409929355625,
+   "ratio": 0.649384535543555
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "W2-61",
+   "eta": "0.1",
+   "Q(eta)": 7.297834713167047,
+   "Q(1/ell) same shape and state": 11.785539089799595,
+   "ratio": 0.6192194228504435
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "W2-61",
+   "eta": "1/4",
+   "Q(eta)": 7.838458669225595,
+   "Q(1/ell) same shape and state": 18.820985881369783,
+   "ratio": 0.4164743929267065
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "S",
+   "eta": "0.1",
+   "Q(eta)": 5.471936554881047,
+   "Q(1/ell) same shape and state": 11.318253798330256,
+   "ratio": 0.4834611992609941
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "S",
+   "eta": "1/4",
+   "Q(eta)": 5.3911314772108225,
+   "Q(1/ell) same shape and state": 18.12933259618069,
+   "ratio": 0.2973706532554085
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "Pt",
+   "eta": "0.1",
+   "Q(eta)": 5.376098423537267,
+   "Q(1/ell) same shape and state": 37.38731004673306,
+   "ratio": 0.1437947372201236
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "Pt",
+   "eta": "1/4",
+   "Q(eta)": 3.401199023973085,
+   "Q(1/ell) same shape and state": 8.454415402812561,
+   "ratio": 0.40229854601674714
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "Pc",
+   "eta": "0.1",
+   "Q(eta)": 4.132851697052392,
+   "Q(1/ell) same shape and state": 6.38842197127982,
+   "ratio": 0.6469284145024065
+  },
+  {
+   "mode": "bright",
+   "room": "narrow",
+   "family": "Pc",
+   "eta": "1/4",
+   "Q(eta)": 3.6573859168865277,
+   "Q(1/ell) same shape and state": 11.201394768850184,
+   "ratio": 0.3265116525539574
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "W1",
+   "eta": "0.1",
+   "Q(eta)": 873.2169428652951,
+   "Q(1/ell) same shape and state": 1127.8446986111792,
+   "ratio": 0.7742350910019516
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "W1",
+   "eta": "1/4",
+   "Q(eta)": 735.6183272002129,
+   "Q(1/ell) same shape and state": 1128.9820554156584,
+   "ratio": 0.6515766337219413
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "W2-3",
+   "eta": "0.1",
+   "Q(eta)": 795.8164749191758,
+   "Q(1/ell) same shape and state": 1047.0623348987917,
+   "ratio": 0.7600468934794592
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "W2-3",
+   "eta": "1/4",
+   "Q(eta)": 736.4440577725284,
+   "Q(1/ell) same shape and state": 1129.4105193029882,
+   "ratio": 0.6520605618469202
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "W2-21",
+   "eta": "0.1",
+   "Q(eta)": 639.0682066361054,
+   "Q(1/ell) same shape and state": 891.0723568554231,
+   "ratio": 0.7171900258373681
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "W2-21",
+   "eta": "1/4",
+   "Q(eta)": 505.7653063701053,
+   "Q(1/ell) same shape and state": 924.4508376086458,
+   "ratio": 0.5470981103531808
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "W2-61",
+   "eta": "0.1",
+   "Q(eta)": 638.5726216176373,
+   "Q(1/ell) same shape and state": 890.8900029463002,
+   "ratio": 0.7167805447426581
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "W2-61",
+   "eta": "1/4",
+   "Q(eta)": 547.9545964319101,
+   "Q(1/ell) same shape and state": 980.5609375723765,
+   "ratio": 0.558817484396746
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "S",
+   "eta": "0.1",
+   "Q(eta)": 559.4343520425202,
+   "Q(1/ell) same shape and state": 814.0776859318901,
+   "ratio": 0.6872002042435609
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "S",
+   "eta": "1/4",
+   "Q(eta)": 426.73130982383594,
+   "Q(1/ell) same shape and state": 815.2149843819685,
+   "ratio": 0.5234586188910032
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "Pt",
+   "eta": "0.1",
+   "Q(eta)": 873.773569754733,
+   "Q(1/ell) same shape and state": 1128.8029725919214,
+   "ratio": 0.774070932634419
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "Pt",
+   "eta": "1/4",
+   "Q(eta)": 419.89154888178797,
+   "Q(1/ell) same shape and state": 998.6323936219137,
+   "ratio": 0.4204665816606392
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "Pc",
+   "eta": "0.1",
+   "Q(eta)": 444.00793609214634,
+   "Q(1/ell) same shape and state": 702.7482638580653,
+   "ratio": 0.6318164824122895
+  },
+  {
+   "mode": "bright",
+   "room": "resolution",
+   "family": "Pc",
+   "eta": "1/4",
+   "Q(eta)": 561.8366515606374,
+   "Q(1/ell) same shape and state": 956.4746100280103,
+   "ratio": 0.5874036233373555
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "W1",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582082e+16,
+   "Q(1/ell) same shape and state": 9.944546781582086e+16,
+   "ratio": 0.9999999999999996
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "W1",
+   "eta": "1/4",
+   "Q(eta)": 9.94454678158208e+16,
+   "Q(1/ell) same shape and state": 9.944546781582085e+16,
+   "ratio": 0.9999999999999996
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "W2-3",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582082e+16,
+   "Q(1/ell) same shape and state": 9.944546781582088e+16,
+   "ratio": 0.9999999999999993
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "W2-3",
+   "eta": "1/4",
+   "Q(eta)": 9.944546781582077e+16,
+   "Q(1/ell) same shape and state": 9.944546781582078e+16,
+   "ratio": 0.9999999999999999
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "W2-21",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582075e+16,
+   "ratio": 1.0
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "W2-21",
+   "eta": "1/4",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582075e+16,
+   "ratio": 1.0
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "W2-61",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582075e+16,
+   "ratio": 1.0
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "W2-61",
+   "eta": "1/4",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582075e+16,
+   "ratio": 1.0
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "S",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582077e+16,
+   "ratio": 0.9999999999999999
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "S",
+   "eta": "1/4",
+   "Q(eta)": 9.944546781582074e+16,
+   "Q(1/ell) same shape and state": 9.944546781582074e+16,
+   "ratio": 1.0
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "Pt",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582078e+16,
+   "Q(1/ell) same shape and state": 9.944546781582083e+16,
+   "ratio": 0.9999999999999996
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "Pt",
+   "eta": "1/4",
+   "Q(eta)": 1000.0,
+   "Q(1/ell) same shape and state": 3.869736415145435e+20,
+   "ratio": 2.5841553344206712e-18
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "Pc",
+   "eta": "0.1",
+   "Q(eta)": 9.944546781582075e+16,
+   "Q(1/ell) same shape and state": 9.944546781582078e+16,
+   "ratio": 0.9999999999999997
+  },
+  {
+   "mode": "bright",
+   "room": "wide band",
+   "family": "Pc",
+   "eta": "1/4",
+   "Q(eta)": 1000.0,
+   "Q(1/ell) same shape and state": 3.077344286912885e+20,
+   "ratio": 3.2495551578441523e-18
+  }
+ ],
+ "smallest ratio Q(eta)/Q(1/ell) at the minimisers, all": {
+  "mode": "all",
+  "room": "narrow",
+  "family": "W2-21",
+  "eta": "1/4",
+  "Q(eta)": 8.39796784288617,
+  "Q(1/ell) same shape and state": 25.322202719912433,
+  "ratio": 0.3316444440389193
+ },
+ "smallest ratio Q(eta)/Q(1/ell) at the minimisers, bright": {
+  "mode": "bright",
+  "room": "narrow",
+  "family": "Pt",
+  "eta": "0.1",
+  "Q(eta)": 5.376098423537267,
+  "Q(1/ell) same shape and state": 37.38731004673306,
+  "ratio": 0.1437947372201236
+ },
+ "ok": true,
+ "seconds": 95.75909805297852
+}

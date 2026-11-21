@@ -1,0 +1,59 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "closed forms (60 digits)": {
+  "M1(0) = 2/e": "0.735758882342884643",
+  "u*": "3.561552812808830274",
+  "M2(0) = (4u*+2)e^{-u*/2}": "2.737604646425217275",
+  "u4 = 1+sqrt2": "2.414213562373095048",
+  "M4(0) = (4+2sqrt2)e^{-(1+sqrt2)/2}": "2.042118147269743995"
+ },
+ "identities": {
+  "u*^2 - 3u* - 2": 0.0,
+  "u4^2 - 2u4 - 1": 0.0,
+  "u*(1+u*) - (4u*+2)": 0.0,
+  "f4(u4,0) - M4c": 0.0,
+  "f2(u*,0) - M2c": 0.0,
+  "f1(2,0) - M1c": 1e-60
+ },
+ "claimed upper bounds for y <= 1e-40": {
+  "M1": 0.7357588823428847,
+  "M2": 2.737604646425217,
+  "M4": 2.042118147269744
+ },
+ "Qb(M2/2 + M1) <= (needs <= 1)": 0.5261403013888734,
+ "c2 = 2Qb/e": 0.18393972058572117,
+ "grid maxima at y = 0 (must be <= closed form, within 1e-12)": {
+  "M1": 0.7357588786638449,
+  "M2": 2.73760464603847,
+  "M4": 2.0421181435945996
+ },
+ "largest f(u,y)/f(u,0) - 1 on u in (0, 100] (must be <= 1e-38)": {
+  "1E-40": 5e-39,
+  "1E-49": 5e-48
+ },
+ "tails at u = 100": {
+  "M1 tail u e^{-0.49u} at 100": 5.242885663363464e-20,
+  "M2 tail u(1+u)e^{-0.49u}": 5.295314519997098e-18,
+  "M4 tail ((1+u)^2/2+1)e^{-0.49u}": 2.674658121164871e-18
+ },
+ "power": {
+  "V1 delta = 0 at y = 1e-4: M2(1e-4) grid max > M2(0)": 0.00038066815377924,
+  "V1 delta = 0 at y = 1e-4: M4(1e-4) grid max > M4(0)": 0.00018488769067026567,
+  "V2 factor 1+1e-38 at y = 1e-30: f2(100,y)/f2(100,0) - 1 (must exceed 1e-38)": 4.950495049504951e-29,
+  "V3 u* -> (3+sqrt13)/2: grid max minus the wrong closed value (must be > 0)": 0.012148764707915038,
+  "V3 u = 3.5: grid max minus value (must be > 0)": 0.0006650366939591201,
+  "V3 M4 at 1+sqrt3: grid max minus value (must be > 0)": 0.01032496642867109,
+  "V4 tail without c at y = 1e-4, u = 1e6: log10 of the ratio f2/(u(1+u)e^{-u/2}) (must be > 0)": 4.041914390008854
+ },
+ "checks": {
+  "grid": true,
+  "factor": true,
+  "tail bounds": true,
+  "tail inequality on [100, 2000]": true,
+  "power": true,
+  "Qb(M2/2+M1) <= 1": true,
+  "M4 <= 2.07": true
+ },
+ "ok": true,
+ "seconds": 0.18602871894836426
+}

@@ -1,0 +1,142 @@
+{
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "python": "3.13.18",
+ "Gamma_ell at ell = 55.26 (the coefficient-1 target; Gamma decreases in ell)": 0.14618831291075432,
+ "PART H (hand, exact rationals): gamma = GMAX = 49/100": {
+  "k_E <=": 0.4473,
+  "eps1 <=": 0.201285,
+  "eps_h <=": 0.3882564,
+  "th^2 >=": 0.48860878947258957,
+  "k1 <=": 1.1941282,
+  "k2 =": 0.6666666666666666,
+  "P1 <= (paper I, F1')": 0.8829,
+  "tail <=": 1.4573202028638022e-22,
+  "b = 1: th^2 - (gamma k1 + gamma k2 P1/3 + tail)^2 (must be > 0)": 0.024492487330560416,
+  "b = 1/2: th^2 - 2 (gamma k1/2 + gamma k2 P1/3 + tail)^2 (must be > 0)": 0.18643432835869098,
+  "exact signs": [
+   true,
+   true
+  ],
+  "ok": true
+ },
+ "PART H: gamma = Gamma_55.26 upper bound 0.1462": {
+  "k_E <=": 0.4473,
+  "eps1 <=": 0.201285,
+  "eps_h <=": 0.3882564,
+  "th^2 >=": 0.48860878947258957,
+  "k1 <=": 1.1941282,
+  "k2 =": 0.6666666666666666,
+  "P1 <= (paper I, F1')": 0.8829,
+  "tail <=": 1.4573202028638022e-22,
+  "b = 1: th^2 - (gamma k1 + gamma k2 P1/3 + tail)^2 (must be > 0)": 0.4472917296926784,
+  "b = 1/2: th^2 - 2 (gamma k1/2 + gamma k2 P1/3 + tail)^2 (must be > 0)": 0.46170829014476217,
+  "exact signs": [
+   true,
+   true
+  ],
+  "ok": true
+ },
+ "PART H power: gamma = GMAX + 0.02 (must fail)": {
+  "k_E <=": 0.4473,
+  "eps1 <=": 0.201285,
+  "eps_h <=": 0.3882564,
+  "th^2 >=": 0.48860878947258957,
+  "k1 <=": 1.1941282,
+  "k2 =": 0.6666666666666666,
+  "P1 <= (paper I, F1')": 0.8829,
+  "tail <=": 1.4573202028638022e-22,
+  "b = 1: th^2 - (gamma k1 + gamma k2 P1/3 + tail)^2 (must be > 0)": -0.014167762743744382,
+  "b = 1/2: th^2 - 2 (gamma k1/2 + gamma k2 P1/3 + tail)^2 (must be > 0)": 0.16126361106473858,
+  "exact signs": [
+   false,
+   true
+  ],
+  "ok": false
+ },
+ "PART H power: eta_bar = 0.3 at GMAX (must fail)": {
+  "k_E <=": 0.4473,
+  "eps1 <=": 0.241542,
+  "eps_h <=": 0.4329864,
+  "th^2 >=": 0.43005600102747454,
+  "k1 <=": 1.2164932,
+  "k2 =": 0.7142857142857143,
+  "P1 <= (paper I, F1')": 0.8829,
+  "tail <=": 1.4573202028638022e-22,
+  "b = 1: th^2 - (gamma k1 + gamma k2 P1/3 + tail)^2 (must be > 0)": -0.0586661683478677,
+  "b = 1/2: th^2 - 2 (gamma k1/2 + gamma k2 P1/3 + tail)^2 (must be > 0)": 0.10838047908996341,
+  "exact signs": [
+   false,
+   true
+  ],
+  "ok": false
+ },
+ "PART C (interval, one piece [55.26, inf), DO watch): gamma = GMAX, rule c1 = 0.75": {
+  "e2 - (e_L + e_S) (must be >= 0)": [
+   true,
+   5.822696840068377e-13
+  ],
+  "2 - R4' (must be >= 0)": [
+   true,
+   0.08366481234925717
+  ],
+  "1 - K_F/(ell sigma) (must be >= 0)": [
+   true,
+   0.9318675728818778
+  ],
+  "(d4 + N4G)/P2z / es_sigma (must be <= 1)": [
+   true,
+   0.0001337189854368345
+  ],
+  "Lambda_Fz lower bound at b = 1 (must be >= 0)": [
+   true,
+   0.017832742062060918
+  ],
+  "Lambda_Fz lower bound at b = 1/2 (must be >= 0)": [
+   true,
+   0.10563343852177993
+  ],
+  "Case I: c1 sqrt(1/2)/Gam2 - P1/3 (must be > 0)": [
+   true,
+   6.961167379510209
+  ]
+ },
+ "PART C values": {
+  "e_L": 2.0436274066584058e-14,
+  "e_S": 3.972940419265782e-13,
+  "R4'": 1.9163351876507428,
+  "K_F/(ell sigma)": 0.06813242711812213,
+  "th (lower)": 0.699065434082994,
+  "k1": 1.1940907004469818,
+  "k2": 0.6666666666666666,
+  "eps1": 0.20124611797498107,
+  "eps_h": 0.38818140089396347
+ },
+ "PART C: gamma = 0.1462 >= Gamma_ell (coefficient 1): margins b = 1, 1/2": [
+  0.49580784311674825,
+  0.37834434816963114
+ ],
+ "PART C power (each must be False)": {
+  "gamma = GMAX + 0.02: b = 1 margin >= 0": false,
+  "eta_bar = 0.3: b = 1 margin >= 0": false
+ },
+ "PART C power: eta forgotten (1/55.26 in the remainders): b = 1 margin (larger than the eta = 1/4 value; seen)": [
+  0.29079063842858976,
+  0.017832742062060918
+ ],
+ "paper I (dp_room2.consts, eta = 1/ell): th, k1, k2": {
+  "th": [
+   0.8985018403217734,
+   0.9140160812886062
+  ],
+  "k1": [
+   1.0822873015719923,
+   1.0903802005133596
+  ],
+  "k2": [
+   0.5,
+   0.5092148912642831
+  ]
+ },
+ "ok": true,
+ "seconds": 0.010737895965576172
+}
